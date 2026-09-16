@@ -1,0 +1,20 @@
+{
+  "file_id": "1XXCqQ91rSRR371DbV0Bps-xjd0m2buOvMBFNsIAF54o",
+  "rep": "Bo",
+  "char_count": 7662,
+  "has_transcript": true,
+  "transcript_chars": 2678,
+  "transcript_turns": 48,
+  "transcript_duration": "00:43:41",
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Vijay Shankar", "org": "prospect"},
+    {"name": "Santhosh Kumar S", "org": "prospect"},
+    {"name": "Senthilnathan S", "org": "courserev"}
+  ],
+  "call_type_note": "Internal CourseRev all-hands 'Summit' with the Nanonino engineering partner; ~50 invitees, all @courserev.ai or @nanonino.* - no golf prospect. Session was postponed; only small talk and a project status ask were captured. The two non-CourseRev speakers are partner staff, not a sales prospect (schema has no 'partner' org value).",
+  "is_customer_call": false,
+  "confidence": "medium"
+}
