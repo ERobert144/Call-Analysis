@@ -1,0 +1,19 @@
+{
+  "file_id": "1lbFkWc7gdbKnQ5ygqvARzaKjlGhwJbW-Yd2eQT74RgM",
+  "rep": "Jason",
+  "char_count": 16417,
+  "has_transcript": true,
+  "transcript_chars": 16315,
+  "transcript_turns": 86,
+  "transcript_duration": "00:18:09",
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Elias Gross", "org": "courserev"},
+    {"name": "Jason Doepke", "org": "courserev"}
+  ],
+  "is_customer_call": false,
+  "call_type_note": "Internal CourseRev 1:1 (raw Meet transcript export): debrief on an unnamed prospect course plus pricing/packaging and dynamic-pricing strategy.",
+  "confidence": "high"
+}

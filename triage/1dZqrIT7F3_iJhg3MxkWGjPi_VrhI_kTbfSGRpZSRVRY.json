@@ -1,0 +1,19 @@
+{
+  "file_id": "1dZqrIT7F3_iJhg3MxkWGjPi_VrhI_kTbfSGRpZSRVRY",
+  "rep": "Bo",
+  "char_count": 1785,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 1,
+  "transcript_duration": "00:18:15",
+  "has_screenshots": false,
+  "account_name": "Cedaredge Golf Course",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Bo Ferrando", "org": "courserev"},
+    {"name": "kbrown@cedaredgecolorado.com", "org": "prospect"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Scheduled external call with Cedaredge Golf Course; 18:15 of meeting captured but Gemini produced no summary and only one stray utterance, so no usable dialogue.",
+  "confidence": "medium"
+}

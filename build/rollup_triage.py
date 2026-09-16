@@ -9,7 +9,7 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 inv = {r["file_id"]: r for r in csv.DictReader(open(os.path.join(BASE, "inventory.csv")))}
 
 # External, but not a golf course being sold to.
-NOT_PROSPECT = {"tenfore", "pitch crm", "pitchcrm"}
+NOT_PROSPECT = {"tenfore", "pitch crm", "pitchcrm", "lightspeed", "lightspeedhq"}
 
 recs, bad = [], []
 for p in sorted(glob.glob(os.path.join(BASE, "triage", "*.json"))):
@@ -50,18 +50,40 @@ print(f"\nre-verified {checked}/{len(recs)} against cached text; {len(disagree)}
 for fid, w, p, t in disagree:
     print(f"  {fid}  worker={w} probe={p} turns={t}  {inv.get(fid,{}).get('file_name','')[:44]}")
 
+def usable(r):
+    """Enough dialogue to support objection extraction.
+    The corpus breaks cleanly: two docs have 5-6 turns of stray audio, then
+    the next one up has 96. Anything below the gap cannot evidence what a
+    prospect said next, which is the field the whole analysis rests on."""
+    return (bool(r.get("has_transcript"))
+            and (r.get("transcript_chars") or 0) >= 8000
+            and (r.get("transcript_turns") or 0) >= 30)
+
+def is_stub(r):
+    """Contentless: nothing in it to classify, whatever the worker guessed.
+    Workers split on these - some said true, some false, some null - because
+    the doc carries no evidence either way. Decide it here, once."""
+    return (not r.get("has_transcript")
+            and (r.get("char_count") or 0) < 2500
+            and not (r.get("account_name") or "").strip())
+
 def is_prospect(r):
+    if is_stub(r): return False
     if r.get("is_customer_call") is not True: return False
     return (r.get("account_name") or "").strip().lower() not in NOT_PROSPECT
 
 prospect = [r for r in recs if is_prospect(r)]
-tr = [r for r in prospect if r.get("has_transcript")]
-undecided = [r for r in recs if r.get("is_customer_call") is None]
+tr = [r for r in prospect if usable(r)]
+thin_tr = [r for r in prospect if r.get("has_transcript") and not usable(r)]
+stubs = [r for r in recs if is_stub(r)]
+undecided = [r for r in recs if r.get("is_customer_call") is None and not is_stub(r)]
 
 print(f"\n{'PROSPECT CALLS':<28}{len(prospect)}")
-print(f"{'  with real dialogue':<28}{len(tr)}")
-print(f"{'  summary only':<28}{len(prospect)-len(tr)}")
-print(f"{'internal / vendor / other':<28}{len(recs)-len(prospect)-len(undecided)}")
+print(f"{'  with usable dialogue':<28}{len(tr)}")
+print(f"{'  trace dialogue only':<28}{len(thin_tr)}")
+print(f"{'  summary only':<28}{len(prospect)-len(tr)-len(thin_tr)}")
+print(f"{'internal / vendor / other':<28}{len(recs)-len(prospect)-len(undecided)-len(stubs)}")
+print(f"{'contentless stubs':<28}{len(stubs)}")
 print(f"{'undecided (no evidence)':<28}{len(undecided)}")
 
 print("\ntranscript-bearing prospect calls by rep")
@@ -89,12 +111,13 @@ print(f"\nobjection ceiling: {len(tr)} transcript calls x ~3 = ~{len(tr)*3} obje
 
 with open(os.path.join(BASE, "triage_summary.csv"), "w", newline="") as fh:
     cols = ["file_id","rep","file_name","account_name","account_source","is_customer_call",
-            "is_prospect","has_transcript","probe_transcript","char_count","transcript_chars",
+            "is_prospect","is_stub","usable_dialogue","has_transcript","probe_transcript","char_count","transcript_chars",
             "transcript_turns","transcript_duration","has_screenshots","confidence","call_type_note"]
     w = csv.DictWriter(fh, fieldnames=cols); w.writeheader()
     for r in sorted(recs, key=lambda r: (rep_of(r), -(r.get("char_count") or 0))):
         row = {c: r.get(c, "") for c in cols}
         row.update(rep=rep_of(r), file_name=name_of(r), is_prospect=is_prospect(r),
+                   is_stub=is_stub(r), usable_dialogue=usable(r),
                    probe_transcript=r.get("_probe_transcript", ""))
         w.writerow(row)
 print("\nwrote triage_summary.csv")
