@@ -1,0 +1,223 @@
+{
+ "call_id": "1PLBFE2QjJLNFd_oBuEYgJnDGC57nEuNgcn-l1ZJKnnE",
+ "file_name": "Chat: CourseRev + The Links at Bodega Harbour - 2026/08/19 14:29 PDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/1PLBFE2QjJLNFd_oBuEYgJnDGC57nEuNgcn-l1ZJKnnE/edit",
+ "rep": "Bo",
+ "date": "2026-08-19",
+ "account_name": "The Links at Bodega Harbour",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Bo Ferrando",
+   "org": "courserev",
+   "role": null
+  },
+  {
+   "name": "John Neri",
+   "org": "prospect",
+   "role": "Director of Golf"
+  },
+  {
+   "name": "Jetan Sahni",
+   "org": "prospect",
+   "role": "General Manager, Bodega Harbour HOA"
+  }
+ ],
+ "prospect_seniority": "GM",
+ "meeting_type": "demo",
+ "content_tier": "rich",
+ "pain_points": [
+  "Tee sheet and technology are paid for through trade services with Golf Now and Easy Links rather than cash, and the value of the traded tee times is being weighed against a flat per-booking fee",
+  "Outsourced call-centre agents do not know the property: John said 'no one knows our pro property like we do'",
+  "Pro shop staff get tied up with golfers in person, so inbound calls go unanswered and bookings are lost",
+  "Labour hours spent answering the phone in the pro shop could be diverted to other parts of the operation",
+  "Four rate categories (non-resident, resident, member, member guest) currently have to be vetted manually at the counter"
+ ],
+ "current_solution": "Golf Now and Easy Links trade services for the tee sheet and technology, including their human call centre; Jonas as the payment system; a single advertised non-resident rate with four rate categories verified at the counter. Dynamic pricing is being evaluated (Easy Links and PreSwing) but is not yet in place.",
+ "demo_happened": true,
+ "features_demoed": [
+  "Live outbound AI voice call to an existing client course (The Divide Golf Club) on speaker",
+  "Caller recognition by phone number and recall of the caller's existing tee time",
+  "Knowledge-base question handling (practice facility), including offering to connect to the pro shop when details were not on hand",
+  "Tee time booking for two players with mixed rate types (one regular, one senior), total price and cart inclusion read back",
+  "SMS confirmation containing booking details, price, weather-guarantee link, view-booking link and cancel link, plus reply-to-modify keywords",
+  "CourseRev dashboard channel management with toggles for AI voice, AI chatbot and the web booking portal",
+  "Dashboard call transcription view (described and pointed at, not opened on screen)"
+ ],
+ "prospect_questions": [
+  "Have any clubs dropped Golf Now after adopting CourseRev?",
+  "How much less than the current call centre would this cost?",
+  "What do you think the savings would be?",
+  "Is the $2 preferred rate actually active at any Kemper Sports properties, or is it only to entice new business?",
+  "Who is your contact at Black Gold and how long have they been a client?",
+  "Is this only telephone, or does it cover online bookings too?",
+  "Out of 100 callers, how many do not continue the call because it is AI, and can they press zero for a live attendant?",
+  "Can you give us other client courses to call and test on our own?",
+  "Will it link to our Easy Links tee sheet?",
+  "How does a caller ask what rates are available and book at a specific rate?",
+  "How does it handle a member booking for guests or visitors?",
+  "On a fully prepaid booking, does payment go through your credit card processor or ours?",
+  "Do you have any courses using dynamic pricing on this software?",
+  "If it is Stripe, is there an additional fee to us on top of the $2?",
+  "Can the confirmation text include the price?",
+  "What is your success rate of calls handled by the AI versus callers who go to the pro shop?",
+  "Can the AI voice be programmed or rotated - male, female, tone?",
+  "Can a 24-hour cancellation call be transferred to the golf shop?",
+  "What is involved in setting up a mock-call demo built on Bodega Harbour's own website and FAQ?",
+  "Can we toggle it off and on at any time, with no obligation and month to month?"
+ ],
+ "unanswered_questions": [
+  "Whether CourseRev supports dynamic pricing tools - Bo said 'I to be honest don't have an answer for you right now on that', messaged the head of operations mid-call and no answer arrived before the call ended",
+  "What share of calls the AI completes versus what share is transferred to the pro shop - Bo said 'I don't have that data,' and offered to source it",
+  "What share of callers abandon the call because it is AI (the first half of John's question at 00:18:47)",
+  "Whether any fee is charged on top of the $2 per booking when a prepayment runs through CourseRev's Stripe account - Bo described the payment flow and payout but did not state a fee",
+  "Whether a Bodega Harbour-specific mock-call sandbox can be built - Bo said he would look into it and offered a 30-day free trial instead",
+  "The definitive Black Gold contact and contract length from CourseRev's side (John and Jetan supplied Rich Cessna and roughly 8-10 months themselves)"
+ ],
+ "objections": [
+  {
+   "trigger_quote": "Yeah, I guess the question is how much less?",
+   "category": "price",
+   "rep_response_summary": "Bo framed the saving as recovered revenue from missed and after-hours calls plus pro shop labour redeployed elsewhere, sized it at 'tens of thousands, you know, if not more', then gave the rate: a standard per-successful-booking price against a $2 per booking preferred rate for Kemper Sports properties, charged only on completed bookings.",
+   "response_tactic": "roi_math",
+   "prospect_next_move": "partially_accepted",
+   "resolved_in_call": true,
+   "quote_source": "verbatim_speech"
+  },
+  {
+   "trigger_quote": "out of a 100 callers, how many would you say are um not continuing the call because of AI?",
+   "category": "ai_quality_doubt",
+   "rep_response_summary": "Bo did not give an abandonment figure. He answered the second half, explaining the flow is configurable so callers reach a human by pressing a number for the pro shop, and that the AI is prompted to watch for keywords such as asking for a human, the pro shop, staff or customer service.",
+   "response_tactic": "feature_explanation",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": true,
+   "quote_source": "verbatim_speech"
+  },
+  {
+   "trigger_quote": "There was just like a huge kind of awkward pause in between while we were waiting",
+   "category": "ai_quality_doubt",
+   "rep_response_summary": "Bo answered 'Yeah.' and did not address the latency; John added that he thought the call had dropped. Jetan closed the point himself and moved straight to asking for other client courses he could call and test independently, which Bo agreed to send.",
+   "response_tactic": "acknowledge_only",
+   "prospect_next_move": "went_quiet",
+   "resolved_in_call": false,
+   "quote_source": "verbatim_speech"
+  },
+  {
+   "trigger_quote": "Because we don't want to surprise anyone walking in",
+   "category": "integration",
+   "rep_response_summary": "Bo said he did not have an answer, believed CourseRev did support it, and messaged the head of operations during the call. He said he did not foresee it being an issue and offered dashboard call transcriptions as a way for managers to verify what rate the AI quoted. No answer from operations arrived before the call ended.",
+   "response_tactic": "defer_to_followup",
+   "prospect_next_move": "re_raised_later",
+   "resolved_in_call": false,
+   "quote_source": "verbatim_speech"
+  },
+  {
+   "trigger_quote": "we have to run everything by the board once we kind of talk to our management teams",
+   "category": "approval_authority",
+   "rep_response_summary": "Bo accepted the constraint and reframed the ask to a smaller step: send the agreement for review with no signature expected, plus reference course numbers and the going-live documentation, offer a further call with other HOA or Kemper Sports people, and only then start the 30-day trial. Earlier in the call John had also flagged regional manager Ralph as a person he still needed to brief.",
+   "response_tactic": "reframe",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": false,
+   "quote_source": "verbatim_speech"
+  },
+  {
+   "trigger_quote": "There's no obligation. I mean, we're probably on a monthto month, that kind of thing.",
+   "category": "contract_terms",
+   "rep_response_summary": "Bo confirmed '100%' and pointed to dashboard access where the course can toggle the AI voice and chatbot on or off at any time, with settings under the course's own control and an account manager available for anything unclear.",
+   "response_tactic": "feature_explanation",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": true,
+   "quote_source": "verbatim_speech"
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 4,
+   "evidence": "John was warm and had already tried calling a CourseRev client number unprompted before the meeting. He said there is \"a little bit of a need for the AI\" at the facility, while flagging the reservation \"I just don't want to lose that personal touch\"."
+  },
+  "post_demo": {
+   "score": 3,
+   "evidence": "Jetan's first reaction was a criticism: \"There was just like a huge kind of awkward pause in between while we were waiting\", and John added \"I thought it might have dropped.\" Both then kept engaging, asking detailed questions on rate handling, guests, payments and integration."
+  },
+  "at_pricing": {
+   "score": 4,
+   "evidence": "John called it \"Preferred savings that you mentioned.\" and later recapped the terms to his GM unprompted and favourably: \"they charge uh $250 per successful booking, but we get a preferred rate of $2 per booking if if it's completed\". He did challenge whether the preferred rate was real by asking if any Kemper property was actually active."
+  },
+  "close": {
+   "score": 4,
+   "evidence": "John said \"Okay, cool. Right on.\" after the toggle and month-to-month confirmation, and both John and Jetan gave Bo their mobile numbers when he asked at the end. Against that, John pushed the follow-up out - \"I think maybe two to four weeks is more reasonable\" - citing \"we're just high season right now and lots of meetings and so this is such a new concept\"."
+  },
+  "trajectory": "v_shaped"
+ },
+ "call_path": [
+  "Rapport and personal background (Bay Area, baseball to golf)",
+  "Prior-touch recap: John had already called a client course and reached a live person",
+  "Current state review: Golf Now / Easy Links trade services and the human call centre",
+  "Internal politics: regional manager Ralph, HOA ownership, Presidio Trust parallel",
+  "Value proposition and pricing: recovered revenue, labour savings, $2 per booking Kemper preferred rate",
+  "Reference probe: which Kemper properties are live (Black Gold)",
+  "Product suite overview: AI voice, chatbot, waitlist, online booking bundled as Priority",
+  "Human-escape-hatch and call-deflection questions",
+  "GM Jetan Sahni brought onto the call mid-meeting",
+  "Live demo: dashboard walkthrough plus outbound AI voice call to The Divide Golf Club",
+  "Demo feedback: latency criticism and request for reference courses to test independently",
+  "Technical Q&A: tee sheet API integration, rate types, guests, payments and Stripe, dynamic pricing, transcriptions, cancellation policy, call-deflection rate",
+  "Implementation explanation: website scraping, account manager, knowledge base fortification",
+  "Trial offer: 30-day free trial in place of a bespoke sandbox demo",
+  "Approval path: management team then board; toggle and month-to-month terms confirmed",
+  "Next steps, contact details and a two-to-four-week follow-up window"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "Pricing / reference probe (~00:13-00:17)",
+   "what_changed": "The preferred-rate conversation turned into a reference check when Bo disclosed that only one Kemper Sports property, Black Gold, was live, and John turned out to know its GM.",
+   "caused_by": "John asking whether the $2 rate was active anywhere or just an inducement, then saying 'I actually know the GM over there.'"
+  },
+  {
+   "at_stage": "Before the live demo (~00:19-00:24)",
+   "what_changed": "John pulled the HOA General Manager, Jetan Sahni, onto the call, so the demo was delivered to the person who reports to the board rather than to John alone. Jetan then drove most of the remaining questioning.",
+   "caused_by": "Bo offering a live demo, and John saying 'he's a very very bright guy and and I think with his experience in golf courses, it would be good to showcase this to him'"
+  },
+  {
+   "at_stage": "Trial discussion (~00:46)",
+   "what_changed": "Bo substituted a 30-day free trial for the Bodega-Harbour-specific mock-call demo that John had asked about, and that trial became the proposed commercial next step for the rest of the call.",
+   "caused_by": "John asking 'what's involved in setting up a demo for us', built on their own website and FAQ"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": false,
+ "next_step_description": "Bo to email the service agreement for review (no signature expected), phone numbers for client courses the prospects can call themselves, the five-minute pre-recorded demo video, the going-live documentation, Black Gold leadership contacts and pro-shop call-reduction data, and to confirm dynamic-pricing compatibility with the head of operations. John and Jetan to review internally with the management team and the board, and John to brief regional manager Ralph. Bo to follow up in roughly two to three weeks; John proposed a two-to-four-week window. No specific date was set.",
+ "buying_signals": [
+  "John had already called a CourseRev client course to test the AI before the meeting, on his own initiative",
+  "John interrupted the call to bring the HOA General Manager in specifically to see the demo",
+  "John recapped the pricing to Jetan unprompted and positively while Bo set up the demo",
+  "John asked for the Black Gold contact so he could ask a peer how it is going",
+  "Jetan asked for reference courses he could call and test independently",
+  "John asked what a Bodega Harbour-specific mock-call demo would involve",
+  "John asked about trial mechanics: toggling on and off, no obligation, month to month",
+  "Both John and Jetan gave Bo their mobile numbers at the end of the call",
+  "John committed to telling regional manager Ralph about the meeting on their call the next day"
+ ],
+ "stalls": [
+  "Management team and board approval required before any commitment",
+  "Regional manager Ralph had not yet been briefed",
+  "Follow-up pushed from Bo's suggested one week out to two to four weeks, attributed to high season and the concept being new",
+  "Dynamic-pricing compatibility left unconfirmed, and the prospects are still choosing between Easy Links and PreSwing for dynamic pricing",
+  "Jetan wants to test other client courses himself before going further",
+  "John said they do not want to open a membership purely to enable a personalised demo"
+ ],
+ "rep_commitments": [
+  "Email the service agreement and supporting documentation for internal review",
+  "Send phone numbers for client courses the prospects can call and demo themselves",
+  "Send the five-minute pre-recorded demo video",
+  "Send the going-live / onboarding process documentation",
+  "Confirm with the head of operations whether the system works with dynamic pricing tools and report back",
+  "Provide Black Gold leadership contact details (general manager Rich, or director of golf Joseph Riley)",
+  "Obtain and share data on the reduction in pro-shop calls at existing clients",
+  "Look into whether a Bodega Harbour-specific demo or mock call can be set up",
+  "Hold a further call with additional HOA or Kemper Sports people if wanted",
+  "Follow up in about two to three weeks to check on the internal review"
+ ],
+ "extraction_confidence": "high",
+ "confidence_notes": "Full 51:33 verbatim transcript, 537 turns, no screenshots; account name is unambiguous from the title and confirmed in the body ('Bodega Harbor. HOA'). The Divide Golf Club is the course dialled during the demo, not the prospect. Two judgement calls: (a) prospect_seniority covers two prospect attendees - John Neri is Director of Golf and Jetan Sahni is the HOA General Manager who reports to the board, and the more senior of the two is recorded; (b) sentiment checkpoints are not in call order here - pricing was discussed at ~00:13, before the demo at ~00:25, so the dip recorded at post_demo is chronologically the last of the three before the close. Pricing as transcribed reads 'we're just a straightforward $250. Well, actually, sorry, for you guys, it's $2 being Keer Sports', and John later recaps a standard rate of $250 per successful booking against the $2 preferred rate; the standard figure is reported as transcribed and may be an ASR artefact. Speech-to-text also garbles names throughout (Jetan appears as Jane/Jatain/Jaton, Kemper Sports as Keer/Keerber/CER, Bodega Harbour as Bedga Harbor); attendee names are taken from the invitee list and the triage record."
+}

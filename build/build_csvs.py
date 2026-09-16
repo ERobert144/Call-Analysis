@@ -77,7 +77,7 @@ with open(os.path.join(BASE, "calls.csv"), "w", newline="") as fh:
 # --- objections.csv (long format - one row per objection) ----------------
 OBJ_COLS = ["call_id","rep","account_name","date","meeting_type","content_tier","objection_index",
             "category","response_tactic","prospect_next_move","resolved_in_call",
-            "trigger_quote","rep_response_summary","next_step_secured","extraction_confidence"]
+            "quote_source","trigger_quote","rep_response_summary","next_step_secured","extraction_confidence"]
 nobj = 0
 with open(os.path.join(BASE, "objections.csv"), "w", newline="") as fh:
     w = csv.DictWriter(fh, fieldnames=OBJ_COLS); w.writeheader()
@@ -91,6 +91,7 @@ with open(os.path.join(BASE, "objections.csv"), "w", newline="") as fh:
                         "response_tactic": j(o.get("response_tactic")),
                         "prospect_next_move": j(o.get("prospect_next_move")),
                         "resolved_in_call": j(o.get("resolved_in_call")),
+                        "quote_source": j(o.get("quote_source")),
                         "trigger_quote": j(o.get("trigger_quote")),
                         "rep_response_summary": j(o.get("rep_response_summary")),
                         "next_step_secured": j(c.get("next_step_secured")),

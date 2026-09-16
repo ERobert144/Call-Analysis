@@ -31,6 +31,12 @@ for p in files:
     if src is None:
         W("no cached source text - quotes unverifiable")
 
+    # Speech can only be quoted from a source that actually contains dialogue.
+    has_dialogue_src = False
+    if raw_src:
+        turns = max(len(re.findall(r"\n\*\*([A-Z][^*\n]{1,40}):\*\*", raw_src)),
+                    len(re.findall(r"\n([A-Z][A-Za-z.'\- ]{1,40}):\s", raw_src)))
+        has_dialogue_src = turns >= 30
     tier = d.get("content_tier")
     conf = d.get("extraction_confidence")
     has_dialogue = tier in ("rich", "moderate")
@@ -46,6 +52,11 @@ for p in files:
             E(f"{tag}.category '{o['category']}' not in enum")
         if o.get("response_tactic") and o["response_tactic"] not in TACTICS:
             E(f"{tag}.response_tactic '{o['response_tactic']}' not in enum")
+        qs = o.get("quote_source")
+        if o.get("trigger_quote") and qs not in ("verbatim_speech", "summary_narration"):
+            E(f"{tag}.quote_source must be verbatim_speech or summary_narration, got {qs!r}")
+        if qs == "verbatim_speech" and not has_dialogue_src:
+            E(f"{tag}.quote_source=verbatim_speech but the source has no transcript")
         mv = o.get("prospect_next_move")
         if mv and mv not in MOVES:
             E(f"{tag}.prospect_next_move '{mv}' not in enum")

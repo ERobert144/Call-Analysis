@@ -23,6 +23,7 @@ reconstructing from memory.
   "features_demoed": [], "prospect_questions": [], "unanswered_questions": [],
   "objections": [{
     "trigger_quote": "", "category": "price | integration | staff_adoption | call_volume_doubt | ai_quality_doubt | contract_terms | approval_authority | timing_seasonality | security_privacy | other",
+    "quote_source": "verbatim_speech | summary_narration",
     "rep_response_summary": "",
     "response_tactic": "reference_customer | roi_math | feature_explanation | reframe | concession | pricing_flex | defer_to_followup | acknowledge_only | deflect",
     "prospect_next_move": "accepted | partially_accepted | deflected | re_raised_later | went_quiet | escalated",
@@ -53,8 +54,16 @@ reconstructing from memory.
    observation. A score with empty evidence is invalid. If a checkpoint never
    happened (pricing never came up), the whole checkpoint is null, NOT a
    middle score of 3.
-4. **Quote sparingly and verbatim.** Short quotes, for evidence only. Never
-   paraphrase into quote marks.
+4. **Quote sparingly and verbatim, and say what kind of quote it is.**
+   Short quotes, for evidence only. Never paraphrase into quote marks.
+   `quote_source` distinguishes two very different things:
+   - `verbatim_speech` - the prospect's own words, lifted from a transcript.
+   - `summary_narration` - Gemini's third-person description of the prospect's
+     concern ("Taylor Johnson raised concerns about..."). Real evidence, but it
+     is the notetaker's paraphrase, not speech.
+   A doc with no Transcript section can only ever yield `summary_narration`.
+   The same applies to sentiment evidence. Treating narration as speech would
+   let Phase 4 quote a prospect saying something they never said.
 5. **Zero objections is a real finding.** Do not manufacture one to fill the array.
 6. **Do not editorialise about rep performance.** No "the rep should have...".
    Extraction only; evaluation happens later against actual outcomes.

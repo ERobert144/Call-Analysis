@@ -1,0 +1,201 @@
+{
+ "call_id": "1k5E3asb_5nIleTerjKr8eISR9Fv3LPa9tZ6pDeSa78Q",
+ "file_name": "Meeting started 2026/08/13 10:30 EDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/1k5E3asb_5nIleTerjKr8eISR9Fv3LPa9tZ6pDeSa78Q/edit",
+ "rep": "Jason",
+ "date": "2026-08-13",
+ "account_name": null,
+ "account_source": "unresolved",
+ "attendees": [
+  {
+   "name": "Taylor Johnson",
+   "org": "prospect",
+   "role": "club-side buyer: reviews the AI response template against owner expectations, sets booking restrictions and is to sign and return the agreement"
+  },
+  {
+   "name": "Tyler Smith",
+   "org": null,
+   "role": "asked about other courses in college towns and is actioned to send the response template to the customer; affiliation not stated in the doc"
+  },
+  {
+   "name": "Bill Kelly",
+   "org": null,
+   "role": "vendor-side: explains the month-to-month agreement, system configurability and the booking-fee vs green-fee split; employer (CourseRev or partner Lightseed) not stated in the doc"
+  },
+  {
+   "name": "Jason Doepke",
+   "org": "courserev",
+   "role": "rep leading the call"
+  },
+  {
+   "name": "Elias Gross",
+   "org": "courserev",
+   "role": "billing, knowledgebase and onboarding follow-ups"
+  },
+  {
+   "name": "Evan Denholm",
+   "org": "courserev",
+   "role": "explains booking logic, cancellation parameters and payment flow"
+  }
+ ],
+ "prospect_seniority": "unknown",
+ "meeting_type": "negotiation",
+ "content_tier": "moderate",
+ "pain_points": [
+  "Covering inbound calls at peak times such as busy Saturday mornings without hiring additional staff",
+  "No-shows and abuse on phone bookings; the club requires prepayment on phone bookings as it does online",
+  "Competitors or malicious users potentially using bots or multiple numbers to monopolize the tee sheet",
+  "Golfers arriving for a non-existent tee time and leaving poor reviews"
+ ],
+ "current_solution": "Bookings and green fees run through the Lightseed point of sale and tee sheet (CourseRev's partner); phone calls are handled by pro shop staff. No incumbent call-automation vendor is named.",
+ "demo_happened": false,
+ "features_demoed": [],
+ "prospect_questions": [
+  "Whether the system can move a tee time between price classes without double charging, and how notifications are handled",
+  "What cancellation fees and notice windows (24 or 48 hours) the club can set",
+  "Whether booking fees can be charged per transaction rather than by monthly invoice",
+  "How senior golfers who prefer personal interaction will receive the AI",
+  "Whether staff will neglect calls or lean on the AI too heavily",
+  "Whether competitors could use bots or multiple numbers to game the tee sheet",
+  "How an AI booking appears on the Lightseed tee sheet and how staff confirm it",
+  "Whether CourseRev works with other courses in college towns (asked by Tyler Smith)"
+ ],
+ "unanswered_questions": [
+  "Whether booking fees can be collected per transaction rather than via monthly invoicing - under review by operations for feasibility",
+  "Whether the club's requested payment method is workable - Elias Gross to confirm and provide a status update"
+ ],
+ "objections": [
+  {
+   "trigger_quote": "Taylor Johnson expressed that they expected a demo based on previous discussions",
+   "category": "other",
+   "rep_response_summary": "Jason Doepke apologized for the confusion over the onboarding paperwork and clarified that the process requires an executed agreement with their partner, Lightseed, before a prototype can be built; he acknowledged they had jumped the gun on the process.",
+   "response_tactic": "feature_explanation",
+   "prospect_next_move": null,
+   "resolved_in_call": null,
+   "quote_source": "summary_narration"
+  },
+  {
+   "trigger_quote": "Taylor Johnson raised concerns about the system's ability to handle complex requests, such as moving tee times between price classes, potential double charging, and notification procedures.",
+   "category": "ai_quality_doubt",
+   "rep_response_summary": "Jason Doepke and Evan Denholm explained that the system cancels the existing booking before creating a new one, and that player information is linked to the phone number to minimize errors.",
+   "response_tactic": "feature_explanation",
+   "prospect_next_move": null,
+   "resolved_in_call": null,
+   "quote_source": "summary_narration"
+  },
+  {
+   "trigger_quote": "Taylor Johnson expressed concern about how senior golfers, who generally prefer personal interaction, might perceive the AI.",
+   "category": "ai_quality_doubt",
+   "rep_response_summary": "The group discussed staff training and the caller's ability to press a specific key to transfer to the pro shop, positioning the AI as a supplement to personal service rather than a replacement.",
+   "response_tactic": "reframe",
+   "prospect_next_move": null,
+   "resolved_in_call": null,
+   "quote_source": "summary_narration"
+  },
+  {
+   "trigger_quote": "Taylor Johnson voiced fears that staff might neglect phone calls or rely too heavily on the AI.",
+   "category": "staff_adoption",
+   "rep_response_summary": "Jason Doepke and Elias Gross suggested using designated phones and educating staff that an AI-transferred call signals the AI was bypassed, emphasizing that the goal is to supplement, not replace, staff attention.",
+   "response_tactic": "feature_explanation",
+   "prospect_next_move": null,
+   "resolved_in_call": null,
+   "quote_source": "summary_narration"
+  },
+  {
+   "trigger_quote": "Taylor Johnson raised concerns about the potential for competitors to use bots or multiple numbers to monopolize the tee sheet.",
+   "category": "security_privacy",
+   "rep_response_summary": "Elias Gross said the system is built to detect spam numbers and non-human voices, preventing competitors or malicious users from gaming the tee sheet.",
+   "response_tactic": "feature_explanation",
+   "prospect_next_move": null,
+   "resolved_in_call": null,
+   "quote_source": "summary_narration"
+  },
+  {
+   "trigger_quote": "The team discussed the preference for monthly billing versus transaction-based billing",
+   "category": "contract_terms",
+   "rep_response_summary": "Bill Kelly and Evan Denholm explained that booking fees go directly to Course Rev while green fees run through the Lightseed point of sale; Elias Gross agreed to consult the billing team on whether transaction-level billing is feasible. The doc logs billing frequency under Needs Further Discussion.",
+   "response_tactic": "defer_to_followup",
+   "prospect_next_move": null,
+   "resolved_in_call": false,
+   "quote_source": "summary_narration"
+  },
+  {
+   "trigger_quote": "Taylor Johnson noted the importance of ensuring golfers do not have negative experiences, such as arriving for a non-existent tee time, which could lead to poor reviews.",
+   "category": "ai_quality_doubt",
+   "rep_response_summary": "Elias Gross and Jason Doepke described using the system to clarify bookings and ensure tee sheet visibility - each booking carries a note with the booking channel, the total, players and a unique booking ID so staff can confirm reservations.",
+   "response_tactic": "feature_explanation",
+   "prospect_next_move": null,
+   "resolved_in_call": null,
+   "quote_source": "summary_narration"
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 2,
+   "evidence": "Opens on process friction over the onboarding paperwork: \"Taylor Johnson expressed that they expected a demo based on previous discussions\", and Jason Doepke acknowledged they had jumped the gun on the process."
+  },
+  "post_demo": null,
+  "at_pricing": {
+   "score": 4,
+   "evidence": "On the billing model: \"Taylor Johnson agreed to this model, acknowledging that requiring prepayment helps protect the club\" - accepted billing on checked-in bookings, with only per-transaction vs monthly invoicing left open."
+  },
+  "close": {
+   "score": 4,
+   "evidence": "\"Taylor Johnson concluded that while there were concerns, the system serves as a cost-effective way to manage calls during peak times\"; \"The team agreed to move forward once the onboarding form is reviewed and the Lightseed agreement is executed\"."
+  },
+  "trajectory": "rising"
+ },
+ "call_path": [
+  "onboarding paperwork and process expectations",
+  "contract terms, month-to-month and trial period",
+  "operational configuration (ring delay, FAQ answers)",
+  "booking logic, identity verification and notifications",
+  "cancellation and fee parameters",
+  "billing and payment workflow",
+  "customer demographics and staff adoption concerns",
+  "security, spam and fraud protection",
+  "tee sheet visibility and revenue reconciliation",
+  "agreement to move forward pending onboarding form and signature"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "billing and revenue reconciliation",
+   "what_changed": "Taylor Johnson accepted the billing structure based on checked-in bookings rather than reservation volume",
+   "caused_by": "confirmation that the club can require full prepayment on AI bookings, which protects club revenue"
+  },
+  {
+   "at_stage": "close",
+   "what_changed": "the club moved from listing concerns to agreeing to proceed once the onboarding form is reviewed and the Lightseed agreement is executed",
+   "caused_by": "the AI positioned as a cost-effective way to cover peak-time calls without hiring, plus waitlist functionality included at no extra cost"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": false,
+ "next_step_description": "Jason Doepke to send the onboarding form; Elias Gross to send the knowledgebase file, a screenshot of how a booking appears on the Lightseed tee sheet, and to investigate per-transaction billing; Tyler Smith to send the response template; Taylor Johnson to review the template against owner expectations, decide AI booking timing restrictions, brief course staff and execute the Lightseed agreement. The trial period runs to the end of the month following execution. No calendar dates are given.",
+ "buying_signals": [
+  "Adopted the billing model based on checked-in bookings",
+  "Agreed a trial period running to the end of the month following execution of the agreement",
+  "Set a 24 to 48 hour cancellation notice window for phone-booked tee times",
+  "Configured AI reservations to require full prepayment at time of booking",
+  "Defined a delayed call-forwarding strategy so the AI answers after a set number of rings",
+  "Taylor Johnson owns the action to sign and return the formal agreement",
+  "Team agreed to move forward once the onboarding form is reviewed and the Lightseed agreement is executed"
+ ],
+ "stalls": [
+  "Per-transaction versus monthly invoicing is under review by operations; unresolved in the call",
+  "The Lightseed agreement is unexecuted and a prototype cannot be built before execution",
+  "The AI response template still has to be checked against owner expectations",
+  "Timing restrictions for AI bookings still to be decided by the club",
+  "Course staff still to be briefed on the new AI booking setup"
+ ],
+ "rep_commitments": [
+  "Jason Doepke: send the onboarding form",
+  "Elias Gross: consult the billing team on per-transaction billing and report back on the requested payment method",
+  "Elias Gross: provide the full knowledgebase file and onboarding form so the club can edit the AI's responses",
+  "Elias Gross: send a screenshot showing how a booking appears on the Lightseed tee sheet",
+  "Tyler Smith: send the response template to the customer (affiliation not stated in the doc)",
+  "Jason Doepke: waitlist functionality included at no extra cost"
+ ],
+ "extraction_confidence": "low",
+ "confidence_notes": "Summary-only Gemini notes: no Transcript section, 0 dialogue turns (triage char_count 10,377 -> content_tier moderate). No verbatim speech exists in the source, so every trigger_quote and sentiment quote is a verbatim span of Gemini's summary prose, not a spoken line. prospect_next_move is null on all seven objections because the doc never records what the prospect said after a rep response; only the global close is recorded. Account is unresolved: the title carries no account, there are no attendee emails and no golf course is named anywhere in the body (Course Rev is the vendor and Lightseed its POS/tee sheet partner, neither is the prospect); no demo-target course is dialled in this doc. Bill Kelly and Tyler Smith cannot be placed on either side from the text - Bill Kelly explains the product and Tyler Smith is actioned to send a template 'to the customer', yet Tyler Smith also asks the reference-customer question - so their org is null rather than guessed (triage had all three as prospect). prospect_seniority is the enum's 'unknown': Taylor Johnson signs the agreement but reviews the template against owner expectations, so the title is undeterminable. meeting_type 'negotiation' is a judgement call - the call is terms, billing and onboarding with the agreement pending and no demo; 'follow_up' would also fit. demo_happened false is from the doc stating the client expected a demo and that a prototype follows execution, not from an explicit 'no demo' statement. Objection categories are best fits from the enum: the demo-expectation complaint is 'other', and the senior-golfer reception concern is filed as ai_quality_doubt for want of a customer-acceptance category. call_path order follows Gemini's Details section, the only available proxy for call sequence."
+}
