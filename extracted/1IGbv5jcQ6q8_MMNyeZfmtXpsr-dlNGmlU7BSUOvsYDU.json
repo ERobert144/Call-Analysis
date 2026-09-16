@@ -1,0 +1,122 @@
+{
+ "call_id": "1IGbv5jcQ6q8_MMNyeZfmtXpsr-dlNGmlU7BSUOvsYDU",
+ "file_name": "Meeting Notes with Deerhurst",
+ "doc_url": "https://docs.google.com/document/d/1IGbv5jcQ6q8_MMNyeZfmtXpsr-dlNGmlU7BSUOvsYDU/edit",
+ "rep": "Jason",
+ "date": "2026-07-02",
+ "account_name": "Deerhurst",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Jason Doepke",
+   "org": "courserev",
+   "role": null
+  },
+  {
+   "name": "Taylor Ophelders",
+   "org": "prospect",
+   "role": null
+  }
+ ],
+ "prospect_seniority": null,
+ "meeting_type": "demo",
+ "content_tier": "moderate",
+ "pain_points": [
+  "Single-operator staffing: the facility 'relies on a single staff member per shift, leading to missed calls as a natural consequence of their business environment'",
+  "Missed calls translate into lost revenue, per the summary's framing of the operational challenge",
+  "Past operational problems with no-shows and last-minute cancellations, which drove a recent Notifi contract",
+  "Fragmented phone infrastructure: a main resort line with a phone tree plus direct lines to the 18-hole and 9-hole courses",
+  "An electrical fire destroyed the Highlands Pro Shop and Clubhouse, so the facility is running out of a temporary shop on multiple phone lines it wants to consolidate back to one",
+  "No visibility into inbound call analytics - call volume, missed opportunities and call outcomes (raised by the rep as a general gap in golf operations)"
+ ],
+ "current_solution": "A recently signed Notifi contract covering no-shows and last-minute cancellations, with the Notifi AI assistant already deployed on the facility's website; Lightspeed as the golf management system (David Hexom is the facility's Lightspeed contact); a main resort phone line with a phone tree plus direct lines to the 18-hole and 9-hole courses, temporarily split across multiple lines since the pro shop fire.",
+ "demo_happened": true,
+ "features_demoed": [
+  "Live demonstration of the AI voice concierge simulating a booking inquiry for four players",
+  "AI answers on availability, pricing, restaurant amenities and practice facilities during that simulated call",
+  "Confirmation text message delivered to the caller after the booking",
+  "Operator dashboard: real-time management of notices, review of call transcriptions, tracking of booking outcomes",
+  "Waitlist that texts potential guests when a tee time opens, with a 10-minute window to confirm",
+  "Delayed call forward - calls route to the AI concierge only if the shop has not answered within a set number of rings (explained, part of the proposed configuration)",
+  "Operator toggle to switch the system on or off at will"
+ ],
+ "prospect_questions": [
+  "A PDF breakdown of the offering, pricing and analytics data, to share with the General Manager (recorded as a request rather than a question)"
+ ],
+ "unanswered_questions": [],
+ "objections": [
+  {
+   "trigger_quote": "Taylor Ophelders requested an email containing a PDF breakdown of the offering, pricing, and analytics data to share with their General Manager.",
+   "quote_source": "summary_narration",
+   "category": "approval_authority",
+   "rep_response_summary": "Jason Doepke agreed to supply the material - a standard agreement and an owner brief - and to coordinate with the facility's Lightspeed contact, David Hexom, to facilitate the paperwork. He also lowered the effort of adoption, describing setup as a 15-minute form plus website links with no additional staff training. The follow-up was scheduled around the General Manager's return.",
+   "response_tactic": "defer_to_followup",
+   "prospect_next_move": null,
+   "resolved_in_call": false
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 3,
+   "evidence": "Cordial small talk with no stated position either way: \"Jason Doepke and Taylor Ophelders opened the meeting with pleasantries, discussing the weather and acknowledging significant regional heat.\"",
+   "evidence_source": "summary_narration"
+  },
+  "post_demo": null,
+  "at_pricing": {
+   "score": 4,
+   "evidence": "The summary ties the decision directly to the pricing model: \"The facility decided to move forward with the artificial intelligence solution, which utilizes a flat fee per booked round.\" The rate given in the details is \"a flat fee of $2.50 per booked and played round, with no charges for cancellations, no-shows, or the use of the built-in waitlist feature\". No prospect reaction to the number is recorded in the doc.",
+   "evidence_source": "summary_narration"
+  },
+  "close": {
+   "score": 4,
+   "evidence": "\"Taylor Ophelders requested an email containing a PDF breakdown of the offering, pricing, and analytics data to share with their General Manager.\" and \"The parties agreed to follow up on July 8th, once the General Manager has returned to the office.\"",
+   "evidence_source": "summary_narration"
+  },
+  "trajectory": "rising"
+ },
+ "call_path": [
+  "Introduction and casual check-in about the weather and regional heat",
+  "Rep background: CourseRev role across three North American territories and consulting with golf courses",
+  "Prospect background: recently signed Notifi contract covering no-shows and last-minute cancellations",
+  "Discovery on phone coverage: single staff member per shift and missed calls, backed by the rep's 70%-of-operators research",
+  "CourseRev philosophy: automate repetitive tasks so staff can focus on hospitality",
+  "Inbound call analytics as a visibility gap",
+  "Current phone infrastructure: resort phone tree, direct course lines, temporary shop after the pro-shop fire",
+  "Proposed delayed call forward and AI concierge, integrated with Lightspeed, with a customised knowledge base and operator notices",
+  "Pricing: flat $2.50 per booked and played round, nothing for cancellations, no-shows or the waitlist",
+  "Live AI voice concierge demonstration - a four-player booking inquiry ending in a confirmation text",
+  "Operator dashboard walkthrough: notices, call transcriptions, booking outcomes and the 10-minute waitlist confirmation window",
+  "System control and website strategy, including not stacking a second AI agent alongside the existing Notifi assistant",
+  "Next steps: materials for the General Manager, Lightspeed paperwork coordination, and a July 8 follow-up"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "Website integration discussion",
+   "what_changed": "The website chatbot was taken off the table for this deal, narrowing the offer to the phone channel, because the facility already runs the Notifi AI assistant on its site.",
+   "caused_by": "The rep's own recommendation: 'Jason Doepke recommended against deploying multiple AI agents simultaneously to avoid a cluttered user experience, especially since the facility already utilizes the Notifi AI assistant'"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": true,
+ "next_step_description": "Jason Doepke to email Taylor Ophelders the owner brief and the standard agreement, together with a PDF breakdown of the offering, pricing and analytics data for the General Manager, and to coordinate with the facility's Lightspeed contact David Hexom on the paperwork. Jason to follow up with Taylor on July 8 to check the status of the agreement, once the General Manager is back in the office.",
+ "buying_signals": [
+  "The summary records that the facility decided to move forward with the AI solution",
+  "Taylor asked for a PDF breakdown of offering, pricing and analytics to take to the General Manager",
+  "A dated follow-up was agreed for July 8, timed to the General Manager's return",
+  "The rep was given the facility's Lightspeed contact, David Hexom, to coordinate the paperwork",
+  "Taylor volunteered detailed phone-infrastructure information, including plans to consolidate back to a single line"
+ ],
+ "stalls": [
+  "The General Manager has to see the offering before anything is signed, and was out of the office until around July 8",
+  "The recently signed Notifi contract already covers the waitlist/no-show use case and keeps a second AI agent off the website",
+  "The facility is still operating from a temporary pro shop on multiple phone lines after the fire, with consolidation to a single line only planned"
+ ],
+ "rep_commitments": [
+  "Send the owner brief and the standard agreement by email to Taylor",
+  "Send a PDF breakdown of the offering, pricing and analytics data for the General Manager",
+  "Coordinate with the facility's Lightspeed contact, David Hexom, to facilitate the paperwork",
+  "Follow up with Taylor on July 8 to check the status of the agreement"
+ ],
+ "extraction_confidence": "low",
+ "confidence_notes": "Summary-only Gemini notes with no Transcript section and zero dialogue turns (triage char_count 6,241 -> content_tier moderate). The doc was not in the cache and was fetched from Drive for this extraction and saved to cache/1IGbv5jcQ6q8_MMNyeZfmtXpsr-dlNGmlU7BSUOvsYDU.txt; the fetched text ends mid-word in the trailing feedback boilerplate ('...how helpful the notes were for your need'), which is footer only and carries no meeting content. Because there is no speech anywhere in the source, every quote here is a verbatim span of Gemini's narration, marked summary_narration, and prospect_next_move is null on the single objection. Judgement calls: (a) one objection, not zero and not several - the only recorded prospect-side constraint is that the decision has to go to the General Manager, which reads equally as a buying signal; it is recorded because it is the thing gating the agreement, and its resolution is left open. The Notifi overlap is not recorded as an objection because the doc attributes that concern to the rep, not to Taylor. (b) post_demo is null: the doc describes what was demonstrated but records no prospect reaction to it. (c) at_pricing is scored from the summary's own linking of the decision to the flat per-round fee, which sits in tension with the Details section, where nothing is signed and the July 8 follow-up is about 'the status of the agreement' - the 'decided to move forward' line is Gemini's synthesis, not a recorded commitment. (d) prospect_seniority is null: Taylor Ophelders reports to a General Manager but no title is given. No demo course was dialled - the demonstration was a simulated booking inquiry - so rule 8 does not apply. Spelling in the source: CourseRev appears once as 'CORERV', and the vendor is written 'Notifi'."
+}

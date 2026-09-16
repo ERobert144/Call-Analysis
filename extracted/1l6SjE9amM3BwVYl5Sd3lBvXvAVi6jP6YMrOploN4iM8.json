@@ -1,0 +1,186 @@
+{
+ "call_id": "1l6SjE9amM3BwVYl5Sd3lBvXvAVi6jP6YMrOploN4iM8",
+ "file_name": "CourseRev + Pine Springs - Chat - 2026/08/12 12:00 PDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/1l6SjE9amM3BwVYl5Sd3lBvXvAVi6jP6YMrOploN4iM8/edit",
+ "rep": "Bo",
+ "date": "2026-08-12",
+ "account_name": "Pine Springs",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Claire Davis",
+   "org": "prospect",
+   "role": "Manager of the course for nine months, six years at Pine Springs, previously pro shop attendant; refers the decision to the owner"
+  },
+  {
+   "name": "Bo Ferrando",
+   "org": "courserev",
+   "role": "rep running the pitch, live demo, pricing and next steps"
+  }
+ ],
+ "prospect_seniority": "GM",
+ "meeting_type": "demo",
+ "content_tier": "rich",
+ "pain_points": [
+  "High and rising inbound call volume driven by a busy course - the prospect ties the two together herself, \"hence a lot of phone calls\"",
+  "Weekend peak load forces a dedicated phone shift: \"I have to schedule a second person to work just for the phone pretty much\" Friday through Sunday",
+  "Repetitive weather and forecast questions absorb staff time - the prospect says working at a golf course makes you a meteorologist as well",
+  "Tuesday night scramble sign-ups are handled on paper, generating repeat Monday and Tuesday calls asking whether the scramble is full",
+  "Pro shop closes at six, so calls after that are not answered"
+ ],
+ "current_solution": "Inbound calls are taken by pro shop staff, with a second person scheduled onto the phone Friday through Sunday. The pro shop closes at six. Tuesday night scramble sign-ups are taken on paper - \"We just do it on paper. It's pretty old school\". Cart GPS was recently installed.",
+ "demo_happened": true,
+ "features_demoed": [
+  "CourseRev dashboard: dashboard, analytics, bookings and notice board views",
+  "Channel management toggle between the AI voice and an optional chatbot widget, shown live on client Genoa Golf Club's site",
+  "Live inbound AI voice booking call placed by the rep to the Divide Golf Club (the demo target course, not the prospect)",
+  "Caller recognition by name on the inbound call",
+  "Practice-facility question answering (Top Tracer range, hitting areas, bucket prices, hours)",
+  "Tee sheet availability lookup with alternative times offered when the requested slot was gone",
+  "Rate quote, per-player and total pricing, and pay-at-the-pro-shop-counter handling",
+  "Confirmation text with confirm/cancel link and a weather-guarantee add-on link",
+  "Call log with full call transcription viewable in the dashboard",
+  "Notice board for proactively weaving course notices and pro shop promotions into AI conversations",
+  "Knowledge base that can be manually updated with frequently asked questions",
+  "Routing to a human in the pro shop by keypress or keyword recognition",
+  "Call-forwarding deployment options: 24/7, after-hours only, or delayed forward after three or four rings"
+ ],
+ "prospect_questions": [
+  "Whether a course closure for rain or greens punching could be told to callers - \"I was curious like if we're closed for rain or punching the greens\"",
+  "Whether Tuesday night scramble sign-ups, kept on paper, would have to be directed to the pro shop",
+  "Whether a caller on the course could get past the AI to reach a person - \"can you send the marshall out here or something?\"",
+  "Whether bookings often take a long time on CourseRev - \"Do you often see that taking a long time for people to get a tea time\"",
+  "Whether AI coverage on peak days plus after hours every day is feasible - \"could I set it to where it's like we use the AI on our busy days\"",
+  "Pricing - \"the most important is like pricing and all that\""
+ ],
+ "unanswered_questions": [
+  "Whether the AI she used at Point Royale in Branson, Missouri was CourseRev or a competitor - she said \"I don't know if if that was y'all or another platform\" and the doc records no answer either way"
+ ],
+ "objections": [
+  {
+   "trigger_quote": "I do remember it being like very repetitive. It It took like 10 minutes to make a tea time at 11:30 for two players.",
+   "category": "ai_quality_doubt",
+   "quote_source": "verbatim_speech",
+   "rep_response_summary": "Bo said he would not claim the system is absolutely perfect or 100% dialed in all the time, positioned CourseRev as the leader in the space on funding and course count, cited close to 100% uptime, an engineering team that proactively monitors accounts and resolves issues, plus a customer success team and account manager access, and pointed back to the call she had just heard as representative of the speed to expect.",
+   "response_tactic": "feature_explanation",
+   "prospect_next_move": null,
+   "resolved_in_call": null
+  },
+  {
+   "trigger_quote": "I'd have to run through the owner because he's the one signing the checks and stuff",
+   "category": "approval_authority",
+   "quote_source": "verbatim_speech",
+   "rep_response_summary": "Bo did not contest the constraint. He asked her to have the conversation with the owner as soon as possible, offered to join a call with the owner directly, and framed the slower season as the moment to stand up a working prototype so it is refined before peak. He later asked whether she thought the owner would be open to it, and confirmed that the owner and his father-in-law hold the final say under Final Fairway LLC.",
+   "response_tactic": "defer_to_followup",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "that might be like the only holdback is the price",
+   "category": "price",
+   "quote_source": "verbatim_speech",
+   "rep_response_summary": "Bo proposed offsetting the cost by adding a $2.50 booking fee charged to the golfer, offering it as a way to counter the owner's argument, and compared it to the $2 to $5 booking fees he sees on Golf Now without blinking twice.",
+   "response_tactic": "reframe",
+   "prospect_next_move": "partially_accepted",
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "I'm just worried about the old heads",
+   "category": "other",
+   "quote_source": "verbatim_speech",
+   "rep_response_summary": "Bo acknowledged the concern and said some of those callers accept the AI after a few calls once they find it answers their questions well. He then reframed the comparison, noting that the human touch is not always better because people make mistakes and sometimes have attitude with callers, while the AI does not.",
+   "response_tactic": "reframe",
+   "prospect_next_move": "partially_accepted",
+   "resolved_in_call": false
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 4,
+   "evidence": "Arrived a little late but engaged straight away and volunteered the pain herself - \"hence a lot of phone calls\" - having already looked the company up before the call: \"I did watch like the little video on I looked up y'all's website\".",
+   "evidence_source": "verbatim_speech"
+  },
+  "post_demo": {
+   "score": 4,
+   "evidence": "After the live AI call she compared it favourably with a competitor AI she had used at another course - \"that seemed a lot quicker\" - and began mapping it onto her own operation, asking whether closures could be announced to callers: \"I was curious like if we're closed for rain or punching the greens\".",
+   "evidence_source": "verbatim_speech"
+  },
+  "at_pricing": {
+   "score": 3,
+   "evidence": "Stated interest and prior intent - \"I'm interested. I was honestly thinking about this before you even called.\" - then in the same turn flagged budget and authority: \"we just got GPS installed on our carts, so that's a pretty big hit\" and \"that might be like the only holdback is the price\".",
+   "evidence_source": "verbatim_speech"
+  },
+  "close": {
+   "score": 4,
+   "evidence": "Committed to raising it with the owner immediately - \"I'll talk to him really right after this\" - gave her work cell, accepted the agreement for review (\"it'd be good to look at for sure\") and set a 2:30 Central follow-up, while hedging on the decision-maker: \"He's kind of hard to read, but like I I think so.\"",
+   "evidence_source": "verbatim_speech"
+  },
+  "trajectory": "v_shaped"
+ },
+ "call_path": [
+  "rapport and course conditions",
+  "prospect background and role",
+  "value pitch and company credibility",
+  "dashboard and channel overview",
+  "live AI booking demo call to the Divide Golf Club",
+  "call log and transcription review",
+  "notice board and knowledge base",
+  "complex-request routing to the pro shop",
+  "prior-AI speed doubt, reliability and support",
+  "call-forwarding deployment options",
+  "pricing",
+  "budget and owner approval",
+  "implementation timing ahead of peak season",
+  "next steps, agreement and sister-course lead",
+  "older-golfer acceptance concern",
+  "contact exchange and follow-up scheduling"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "call-forwarding deployment options",
+   "what_changed": "Scope moved from an all-or-nothing rollout to a hybrid: delayed call forward Monday through Thursday, AI coverage on the packed Friday-to-Sunday days, and after hours every day",
+   "caused_by": "Claire describing that Monday to Thursday is tame but Friday through Sunday she schedules a second person just for the phone, and Bo laying out 24/7, after-hours and delayed-forward options"
+  },
+  {
+   "at_stage": "pricing",
+   "what_changed": "The conversation moved from capability evaluation to the conditions on a decision - the owner signs the checks and the course has just absorbed cart GPS spend",
+   "caused_by": "Bo quoting $2.50 per player per booking, charged only on bookings that show and play, invoiced in arrears with no commitment"
+  },
+  {
+   "at_stage": "budget and owner approval",
+   "what_changed": "Claire moved from naming price as the holdback to naming a start window, tying a possible go-live to the rate increase planned for around September",
+   "caused_by": "Bo proposing a $2.50 golfer-paid booking fee to offset the cost, which she agreed golfers do not think about"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": true,
+ "next_step_description": "Bo to send a comprehensive email with CourseRev's value propositions and a go-live document, plus the service agreement for review; Claire to take the proposal to the owner and his father-in-law, who co-own under Final Fairway LLC, straight after the call; Bo to text or call Claire at 2:30 p.m. Central the next day to hear the outcome, and to meet the owner directly if wanted.",
+ "buying_signals": [
+  "Had watched CourseRev's about-us video on the website before the call",
+  "Said she had been thinking about this before the rep called: \"I'm interested. I was honestly thinking about this before you even called.\"",
+  "Asked for pricing herself, calling it the most important item",
+  "Asked whether a hybrid peak-days plus after-hours configuration was feasible",
+  "Agreed with the golfer-paid booking fee offset: \"no one thinks about that\"",
+  "Named a natural start window - \"we do plan on raising our rates here soon, probably in like September\"",
+  "Accepted the service agreement for review: \"it'd be good to look at for sure\"",
+  "Endorsed the product twice - \"I think it's cool. It'd be helpful.\" and \"That phone rings a lot.\"",
+  "Gave her work cell number and agreed to a 2:30 p.m. Central follow-up the next day",
+  "Volunteered a sister course under the same LLC, Lake Fork, as a lead"
+ ],
+ "stalls": [
+  "The decision requires the owner and his father-in-law; Claire cannot approve it",
+  "Recent cart-GPS spend has the budget stretched, which she names as the likely holdback",
+  "A possible start was tied to the September rate increase rather than to now",
+  "The owner's position is uncertain - \"He's kind of hard to read, but like I I think so.\"",
+  "Tournament and Tuesday-scramble bookings are outside what the AI handles, so those calls route to the pro shop and scramble sign-ups stay on paper"
+ ],
+ "rep_commitments": [
+  "Send an email with CourseRev's value propositions and a go-live document laying out the post-signature steps",
+  "Send the service agreement for review, with no expectation of signing it that day",
+  "Text or call Claire at 2:30 p.m. Central the next day",
+  "Be available to meet or speak with the owner directly in any capacity",
+  "Hold the Lake Fork conversation until after Pine Springs is working"
+ ],
+ "extraction_confidence": "high",
+ "confidence_notes": "Full verbatim transcript of a 34:31 call, 362 turns, 48,395 characters (triage record), so account, demo, pricing, objections and next steps are all directly evidenced. Rule 8: the Divide Golf Club is the course the rep dialled to demonstrate the AI and is not the prospect; Genoa Golf Club is an existing client whose chatbot widget was shown; Lake Fork is a sister course under the same LLC mentioned as a future lead. None of these is the account. Like other Gemini transcripts in this corpus, the two speakers are interleaved mid-sentence, so short backchannels ('Okay.', 'Mhm.', 'Yeah.') cannot be reliably attached to the rep utterance they follow; the AI's side of the demo call is also transcribed under Bo Ferrando's speaker label, so the 00:09:07-00:12:22 range alternates between rep and AI under one name. prospect_next_move on the ai_quality_doubt objection is null for that reason: the only thing recorded after the rep's reliability answer is backchannel, and rule 2 forbids reading a move off it; she did not re-raise speed later, but silence is not a move in the enum. The old-heads objection is category 'other' rather than 'staff_adoption': the concern is about older regular golfers, who are customers, not staff, and the enum has no customer-acceptance category. Its prospect_next_move is 'partially_accepted' rather than 'accepted' - after the rep's reframe she joked that golfers would blame her for the AI's attitude, then set the worry aside with 'but yeah, I think it's cool' without the specific concern being settled. Price and approval_authority are modelled as two objections because she raised both in the same turn and the rep answered them separately, price with a golfer-paid booking fee offset and authority by routing to a follow-up with the owner. trajectory is v_shaped on a one-point dip: 4 at the open, 4 post-demo, 3 at pricing where budget and authority surfaced, 4 at the close where she committed to the owner conversation and a dated follow-up. current_solution omits a tee sheet vendor: the rep said a chatbot booking would land 'right into Tesnap for you' while showing another client's widget, and the prospect never names her tee sheet, so Tesnap is not recorded as an established fact. The National Weather Service integration is described but explicitly not exercised during the demo call, so it is not in features_demoed. prospect_seniority is GM on the prospect's own account of taking over as manager and the rep's reference to her position before being GM; her formal title is never stated. next_step_has_date is true on an agreed 2:30 p.m. Central slot the following day, though no calendar date is spoken."
+}

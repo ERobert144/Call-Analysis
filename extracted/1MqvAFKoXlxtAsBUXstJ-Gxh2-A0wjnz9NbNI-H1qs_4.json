@@ -1,0 +1,106 @@
+{
+  "call_id": "1MqvAFKoXlxtAsBUXstJ-Gxh2-A0wjnz9NbNI-H1qs_4",
+  "file_name": "Meeting started 2026/07/17 13:00 EDT - Notes by Gemini",
+  "doc_url": "https://docs.google.com/document/d/1MqvAFKoXlxtAsBUXstJ-Gxh2-A0wjnz9NbNI-H1qs_4/edit",
+  "rep": "Jason",
+  "date": "2026-07-17",
+  "account_name": "Bristol Ridge",
+  "account_source": "cross_doc_inference",
+  "attendees": [
+    {"name": "Sam Strachan", "org": "prospect", "role": null},
+    {"name": "Jason Doepke", "org": "courserev", "role": "rep"},
+    {"name": "Evan Denholm", "org": "courserev", "role": "lead for the onboarding team"}
+  ],
+  "prospect_seniority": "unknown",
+  "meeting_type": "other",
+  "content_tier": "moderate",
+  "pain_points": [
+    "Existing Verizon phone system has a phone tree that is underutilized",
+    "Staff want first opportunity to answer during slower times, so an immediate forward would take calls away from the shop",
+    "The course operates simulators five days a week during the winter, which the system does not currently book",
+    "The service agreement named the wrong integration partner, listing Club Profit as the API instead of Club Caddy"
+  ],
+  "current_solution": "Verizon phone system with a main line and an underutilized phone tree; Club Caddy as the integrated booking software provider. The course also runs simulators five days a week through the winter.",
+  "demo_happened": true,
+  "features_demoed": [
+    "Course dashboard walkthrough",
+    "Emergency failsafe button that deactivates the system so incoming calls route straight to the pro shop after three rings",
+    "Notice board for temporary announcements such as cart path policies, event schedules and dining specials, prepopulatable for a full year",
+    "Analytics dashboard tracking total revenue, conversion rates and call volumes",
+    "Waitlist feature that tracks interest in fully booked tee times",
+    "AI voice section giving access to call transcripts for resolving pricing or booking disputes",
+    "Knowledge base for uploading documents such as menus and rate sheets"
+  ],
+  "prospect_questions": [
+    "How call forwarding is configured against their existing Verizon phone system",
+    "Whether the system can wait three or four rings before picking up, so staff can answer during slower times",
+    "Whether simulator bookings can be handled - raised by noting that the course runs simulators five days a week during the winter"
+  ],
+  "unanswered_questions": [
+    "When simulator booking support would actually arrive - the answer given was that the development team is working on integrations with software modules that manage such activities, which may allow for future functionality, with no timeline attached",
+    "What the referral program will pay - Gemini records it only as being formalized, with account credits as a possibility and updates promised later"
+  ],
+  "objections": [],
+  "sentiment": {
+    "open": {
+      "score": 4,
+      "evidence": "Gemini records Sam Strachan joining the opening small talk about high heat and air quality in Wisconsin and then confirming that the onboarding form had been submitted earlier that day, before any walkthrough began - cooperative and already acting on his side of the implementation.",
+      "evidence_source": "summary_narration"
+    },
+    "post_demo": null,
+    "at_pricing": null,
+    "close": {
+      "score": 4,
+      "evidence": "Gemini's Next steps section assigns Sam Strachan two actions of his own - Email Jason to confirm that the updated agreement has been electronically signed and submitted, and coordinating with Verizon to establish call forwarding for the pro shop phone line - which he is recorded as taking on.",
+      "evidence_source": "summary_narration"
+    },
+    "trajectory": "insufficient_data"
+  },
+  "call_path": [
+    "small_talk",
+    "onboarding_introductions",
+    "phone_system_and_call_forwarding_setup",
+    "delayed_forward_strategy",
+    "winter_simulator_scope",
+    "dashboard_and_failsafe_walkthrough",
+    "notice_board_and_knowledge_base",
+    "analytics_and_waitlist",
+    "onboarding_timeline",
+    "service_agreement_correction",
+    "referral_program_mention"
+  ],
+  "pivot_points": [
+    {
+      "at_stage": "delayed_forward_strategy",
+      "what_changed": "Forwarding moved from immediate pickup to a three-ring delay so in-shop staff answer first, recorded by Gemini as an aligned decision",
+      "caused_by": "Sam Strachan requesting a delayed call forwarding setup where the system waits three or four rings, allowing staff to answer during slower times"
+    },
+    {
+      "at_stage": "service_agreement_correction",
+      "what_changed": "The service agreement's named integration was corrected from Club Profit to Club Caddy and a new version was to be issued for electronic signature",
+      "caused_by": "Jason Doepke and Sam Strachan reviewing the agreement together and identifying the error"
+    }
+  ],
+  "next_step_secured": true,
+  "next_step_has_date": false,
+  "next_step_description": "Four actions recorded by Gemini: Evan Denholm to contact Sam over the next few days to gather player types and tax rates for the configuration; Sam Strachan to email Jason confirming the updated agreement has been electronically signed and submitted; Evan Denholm to provide Sam a testing phone line next week for initial system verification; Sam Strachan to coordinate with Verizon to establish call forwarding for the pro shop phone line. All timings are relative - no calendar date was set.",
+  "buying_signals": [
+    "Onboarding form already submitted earlier the same day",
+    "Agreed to have the corrected agreement issued and to confirm electronic signature by email",
+    "Took on the Verizon call-forwarding setup himself",
+    "Asked forward-looking scope questions about winter simulator bookings"
+  ],
+  "stalls": [
+    "Signature still outstanding at the end of the call - the corrected Club Caddy version had yet to be issued and e-signed",
+    "Initial system verification gated on a testing phone line that would not be available until the following week",
+    "Configuration blocked pending player types and tax rates that Sam had still to supply"
+  ],
+  "rep_commitments": [
+    "Jason Doepke to send a corrected service agreement naming Club Caddy for electronic signature",
+    "Evan Denholm to contact Sam over the next few days for player types and tax rates",
+    "Evan Denholm to provide a testing phone line the following week",
+    "Jason Doepke to provide updates on the referral program being formalized, which could provide account credits for recommending other courses"
+  ],
+  "extraction_confidence": "low",
+  "confidence_notes": "Summary-only document: Summary, Decisions, Next steps and Details sections totalling 7,129 characters, with no Transcript section and no dialogue anywhere. Per rule 1 that caps confidence at low and forces every provenance value to summary_narration; no field here rests on anyone's actual words. The document names no golf course at all - its own title is only 'Meeting Jul 17, 2026 at 13:00 EDT'. account_name comes from outside this document, via the triage record's cross-doc match on attendee Sam Strachan, the Club Caddy integration and Wisconsin against the Bristol Ridge call of the same rep (file 17RObnNsUkUX3XVM0DCJWXCTLvCbIg1SFPTUfD96reZU, titled with the account). account_source is recorded as cross_doc_inference rather than the spec's title/body/unresolved, because the batch record and build/rollup_triage.py both already carry that value and 'unresolved' beside a populated name would misstate what is known. meeting_type is 'other': this is a post-sale onboarding and kickoff session, not a sales meeting - the agreement is already in hand and being corrected for signature, so discovery/demo/pricing/follow_up/negotiation all misdescribe it. Zero objections is the finding, not an omission. Three items were considered and rejected: (a) the winter simulator gap, which Gemini narrates as Sam noting a fact and Jason explaining current limits, with no concern language and no resistance; (b) the Club Profit to Club Caddy contract error, which the narration attributes to Jason and Sam jointly identifying it during review, not to the prospect challenging terms; (c) the three-ring delayed forward, which Sam requested and Evan immediately supported, and which Gemini files under Decisions/Aligned. None shows a prospect concern the rep had to overcome. prospect_next_move would be null throughout in any case, as the source carries no dialogue. post_demo sentiment is null because the dashboard walkthrough is narrated entirely from Evan Denholm's side with no recorded reaction from Sam; at_pricing is null because pricing never came up on this call. trajectory is insufficient_data: only two of four checkpoints are evidenced, both from third-person activity narration rather than speech, which is not enough to see an arc. prospect_seniority is unknown - no title for Sam Strachan appears anywhere in the document; the Summary's 'Leadership' and 'Staff' are Gemini's generic section language, not a role attribution."
+}

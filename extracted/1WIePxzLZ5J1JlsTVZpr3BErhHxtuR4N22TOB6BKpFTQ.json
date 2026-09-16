@@ -1,0 +1,129 @@
+{
+ "call_id": "1WIePxzLZ5J1JlsTVZpr3BErhHxtuR4N22TOB6BKpFTQ",
+ "file_name": "Meeting started 2026/08/10 15:10 EDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/1WIePxzLZ5J1JlsTVZpr3BErhHxtuR4N22TOB6BKpFTQ/edit",
+ "rep": "Jason",
+ "date": "2026-08-10",
+ "account_name": null,
+ "account_source": "unresolved",
+ "attendees": [
+  {
+   "name": "Jason Doepke",
+   "org": "courserev",
+   "role": "rep"
+  },
+  {
+   "name": "Mark Tannenbaum",
+   "org": "prospect",
+   "role": null
+  }
+ ],
+ "prospect_seniority": "unknown",
+ "meeting_type": "demo",
+ "content_tier": "moderate",
+ "pain_points": [
+  "Prospect acknowledged the current inefficiency of their phone system, which relies on a standard press-one or press-two menu structure",
+  "Prospect noted that even when they eventually return calls, the initial missed connection is an ongoing operational frustration",
+  "Prospect expressed frustration with current GolfNow support, saying they often have to deal with offshore call centers that lack specific knowledge about the course",
+  "Prospect raised cart damage and vandalism as an operational problem, and the difficulty of holding players accountable without well-written disclaimers and signed agreements"
+ ],
+ "current_solution": "GolfNow as the existing tee sheet software, fronted by a standard press-one or press-two phone menu, with vendor support routed to offshore call centers that the prospect says lack course-specific knowledge. Tag Marshall for pace-of-play and cart management was discussed by both participants, but the notes do not say whether this facility uses it.",
+ "demo_happened": true,
+ "features_demoed": [
+  "Live demonstration of the voice concierge placed to Highland Creek Golf Club (the demo target course, not the prospect)",
+  "AI confirming a specific tee time, reciting details and processing a booking",
+  "AI answering restaurant menu questions and describing facility amenities including the driving range and putting green",
+  "Delayed call forward: the concierge picks up if staff cannot answer within three rings, with the existing course number unchanged",
+  "Direct integration with the existing tee sheet software, specifically GolfNow, for booking capture and a customised FAQ knowledge base",
+  "Automated wait list that texts interested players on a cancellation, with a 10-minute confirmation window before moving to the next player",
+  "Returning-caller recognition by cell phone number, referencing the player's history such as regular tee times",
+  "Web dashboard: toggle the AI voice line on or off, review full call transcripts for dispute resolution, manage promo codes",
+  "Notice board for events, maintenance alerts and course conditions such as cart-path-only, which the AI communicates to callers",
+  "Settings for operating hours, payment configuration and player-type access, including restricting public play in member-only slots",
+  "Stripe payment integration supporting prepayments or credit card holds, with the option to pass the $2.50 fee to the golfer in the green fee"
+ ],
+ "prospect_questions": null,
+ "unanswered_questions": [
+  "Whether GolfNow would push back on the proposed AI integration - carried out of the meeting as a research item for the rep, with no answer in the document",
+  "Whether the course needs an additional phone line to support the delayed call forward - carried as an action item for the prospect to check with the telecommunications provider, alongside identifying the current phone provider"
+ ],
+ "objections": [
+  {
+   "trigger_quote": "help Mark Tannenbaum present the proposal to the owner",
+   "category": "approval_authority",
+   "quote_source": "summary_narration",
+   "rep_response_summary": "Jason agreed to prepare an owner's briefing summary compiling the meeting notes for the golf course owner, committed to a project summary email detailing the proposed AI integration and project benefits plus a pamphlet covering the implementation and cost structure, and promised a follow-up meeting the following week.",
+   "response_tactic": "defer_to_followup",
+   "prospect_next_move": null,
+   "resolved_in_call": null
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 3,
+   "evidence": "Gemini narrates the prospect as agreeing with the premise rather than reacting either way: presented with NGF survey statistics on pro shop phone load, he \"acknowledged the current inefficiency of their phone system\". Engaged and aligned on the problem, with no recorded enthusiasm or resistance.",
+   "evidence_source": "summary_narration"
+  },
+  "post_demo": null,
+  "at_pricing": {
+   "score": 4,
+   "evidence": "Pricing appears in the Decisions section under Aligned rather than as a point of contention - $2.50 per booked and played round \"with no monthly subscription fees and no charges for cancellations or no-shows\" - and no pushback on rate, fees or terms is recorded anywhere in the notes.",
+   "evidence_source": "summary_narration"
+  },
+  "close": {
+   "score": 4,
+   "evidence": "The prospect leaves with his own action items rather than a hedge - to \"Consult with the telecommunications provider to determine if an additional phone line is required\" and to identify the current phone provider - while the rep is to send the standard agreement with an electronic signature link and follow up the next week.",
+   "evidence_source": "summary_narration"
+  },
+  "trajectory": "rising"
+ },
+ "call_path": [
+  "phone_operations_problem_framing_with_ngf_stats",
+  "delayed_call_forward_proposal",
+  "pricing_model",
+  "waitlist_and_caller_recognition",
+  "future_kiosk_and_data_discussion",
+  "live_ai_booking_demo_call",
+  "operational_setup_requirements",
+  "dashboard_notice_board_and_settings",
+  "payment_integration",
+  "onboarding_process",
+  "market_context_and_owner_briefing",
+  "implementation_timeline",
+  "adjacent_tech_discussion",
+  "next_steps"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "market_context_and_owner_briefing",
+   "what_changed": "The engagement moved from evaluating the product with the person on the call to packaging it for an absent decision-maker: the rep took on an owner's briefing summary, a project summary email and a proposal pamphlet, all aimed at the owner, and a follow-up meeting was set for the next week",
+   "caused_by": "the decision sitting with the golf course owner, who was not on the call, so the prospect needs material to present"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": false,
+ "next_step_description": "Rep to compile the meeting notes into an owner briefing, email the project details, standard agreement and electronic signature link, prepare a proposal pamphlet on implementation and cost, research whether GolfNow would push back on the integration, and follow up next week; prospect to check with the telecommunications provider on whether an extra line is needed and identify the current phone provider. Timing is 'next week' throughout - no specific date or time is recorded.",
+ "buying_signals": [
+  "Took two action items of his own, to consult the telecom provider about an additional line and to identify the current phone provider",
+  "Pricing recorded in the Decisions section as aligned, at $2.50 per booked and played round with no subscription",
+  "Onboarding recorded as aligned, defined as a 15-minute call and an electronic form authorising tee sheet access",
+  "Accepted the standard agreement and electronic signature link being sent",
+  "Asked for material to take to the owner, and the rep committed to an owner briefing and pamphlet",
+  "A prototype within one week was discussed as the implementation path"
+ ],
+ "stalls": [
+  "The decision routes to a golf course owner who was not on the call, and the meeting ended with material being prepared for that person rather than a commitment",
+  "Follow-up is scoped only to 'next week' with no date or time",
+  "Whether GolfNow would resist the integration was left open as a research item"
+ ],
+ "rep_commitments": [
+  "Compile the meeting notes into a summary document for the golf course owner",
+  "Email the project details, the standard agreement and the electronic signature link",
+  "Send a summary email detailing the proposed AI integration and project benefits",
+  "Create a proposal pamphlet summarising the discussed implementation and cost structure",
+  "Research whether GolfNow would push back on the proposed AI integration",
+  "Contact the prospect next week to discuss the proposal further and follow up on project status"
+ ],
+ "extraction_confidence": "low",
+ "confidence_notes": "Summary-only document: no Transcript section and no dialogue anywhere, so every field here rests on Gemini's third-person narration and all provenance is summary_narration. Not one prospect utterance is recorded, which is why prospect_next_move on the only objection is null (rule 2) and why prospect_questions is null rather than an empty array - a live demo of this length certainly drew questions, but none are attributed in the notes, so zero cannot be asserted. The account is never named: Highland Creek Golf Club is only the course the rep dialled for the demo (rule 8), so account_name is null and account_source is unresolved. The notes refer to both a 'golf course owner' and a 'restaurant owner' in the next steps, which may be the same person at a course with a restaurant, but the facility is not identified either way. The single objection needs a caveat: the notes establish that the decision sits with an absent owner and that the rep built material for that person, but they never record the prospect raising it as a concern, so this is an approval-authority constraint evidenced by narration rather than a voiced objection. Two other candidates were deliberately not coded as objections: whether GolfNow would push back on the integration appears only as a rep research item with the concern attributed to no one, and the roughly $5 per month extra phone line appears as a rep clarification, not as prospect resistance - both are recorded under unanswered_questions instead. post_demo sentiment is null because no reaction to the demonstration is recorded; the Details bullets are topical rather than reliably chronological, so nothing following the demo bullet can be read as a response to it, and call_path follows that same bullet order and should be treated as approximate."
+}

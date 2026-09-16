@@ -1,0 +1,48 @@
+{
+ "call_id": "12PrhDp57Dar0ivoMFZZF_QF4Q5llTa2hCIAKi9yzZBk",
+ "doc_url": "https://docs.google.com/document/d/12PrhDp57Dar0ivoMFZZF_QF4Q5llTa2hCIAKi9yzZBk/edit",
+ "prospect_seniority": "unknown",
+ "content_tier": "stub",
+ "pain_points": null,
+ "current_solution": null,
+ "demo_happened": null,
+ "features_demoed": null,
+ "prospect_questions": null,
+ "unanswered_questions": null,
+ "objections": null,
+ "sentiment": {
+  "open": null,
+  "post_demo": null,
+  "at_pricing": null,
+  "close": null,
+  "trajectory": "insufficient_data"
+ },
+ "call_path": null,
+ "pivot_points": null,
+ "next_step_secured": null,
+ "next_step_has_date": null,
+ "next_step_description": null,
+ "buying_signals": null,
+ "stalls": null,
+ "rep_commitments": null,
+ "extraction_confidence": "low",
+ "file_name": "Courserev & Dacotah Ridge GC exploratory call - 2026/06/23 10:58 EDT - Notes by Gemini",
+ "rep": "Jason",
+ "date": "2026-06-23",
+ "account_name": "Dacotah Ridge GC",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Jason Doepke",
+   "org": "courserev",
+   "role": "rep; the only person with any recorded speech in the document, a single one-word line"
+  },
+  {
+   "name": "tyler.pendleton@jackpotjunction.com",
+   "org": "prospect",
+   "role": "calendar invitee only; no name, title or speech appears anywhere in the document"
+  }
+ ],
+ "meeting_type": "discovery",
+ "confidence_notes": "Near-empty record, 1,760 characters (triage record), content_tier stub. Gemini produced no summary ('A summary wasn't produced for this meeting because there wasn't enough conversation in a supported language') and no details ('Details weren't produced for this meeting'); the document has no Next steps section. The Transcript section holds exactly one turn across a 6:20 transcription window, 'Jason Doepke: Why?', and that speaker is the CourseRev rep, so the source contains zero words of prospect speech and verbatim_speech is impossible here by definition. Every content field is null rather than empty: the file cannot establish that a demo, questions or objections did not occur, only that none were captured, so objections is null rather than an empty array, and demo_happened is null. This is not the rule 10 no-show pattern - there is no recorded dialogue showing who was actually present, so no claim is made either way about whether the prospect joined. account_name comes from the document title. The prospect attendee is recorded as the invitee email address because the document names no person; the invitee domain is jackpotjunction.com rather than a Dacotah Ridge domain, and the document does not state the relationship between the two. meeting_type is discovery on the title phrase 'exploratory call', the only signal of call purpose in the file. All four sentiment checkpoints are null rather than a middle score of 3, per rule 3, and trajectory is insufficient_data."
+}

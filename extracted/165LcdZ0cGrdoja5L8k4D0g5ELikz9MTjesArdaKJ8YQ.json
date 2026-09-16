@@ -1,0 +1,181 @@
+{
+ "call_id": "165LcdZ0cGrdoja5L8k4D0g5ELikz9MTjesArdaKJ8YQ",
+ "file_name": "Emerald Isle & CourseRev - Quick Chat - 2026/08/06 12:29 PDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/165LcdZ0cGrdoja5L8k4D0g5ELikz9MTjesArdaKJ8YQ/edit",
+ "rep": "Bo",
+ "date": "2026-08-06",
+ "account_name": "Emerald Isle",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Bo Ferrando",
+   "org": "courserev",
+   "role": null
+  },
+  {
+   "name": "Curtis Baker",
+   "org": "prospect",
+   "role": "Twenty years at Emerald Isle, running the facility day to day and in the process of taking over ownership within about two years; owners John and Holly are above him"
+  }
+ ],
+ "prospect_seniority": "unknown",
+ "meeting_type": "discovery",
+ "content_tier": "rich",
+ "pain_points": [
+  "Their ForeUp POS has stagnated - Curtis said it has not changed its look or added functionality while they have had to build backend workarounds for things like tournament signups, which is driving the switch to TenFore (transcribed as '104') on September 1",
+  "Low green fees ('we're only like a 20, 30, you know, at most $40 green fee') leave little room to absorb a per-booking cost",
+  "A 55-and-up, price-sensitive clientele that reacts to even a one-dollar rate increase, so any added booking fee has to be handled carefully",
+  "Risk that a phone booking fee pushes callers to book on the website instead",
+  "After-hours and unanswered calls currently land on a voicemail that is not reliably checked - Curtis said it would be better than 'uh going to a voicemail that probably isn't getting checked on a regular basis'",
+  "Past experience that discount promotions get found by regulars who already pay full rate, cancelling out the benefit"
+ ],
+ "current_solution": "ForeUp POS and tee sheet, being replaced by TenFore ('104') with a September 1 go-live; hardware already in place and staff training under way. Yealink / RingCentral phone system with calls answered by pro shop staff and no AI vendor evaluated before this ('Um we haven't'). Gallas Golf supplies the Emerald Isle mobile app, with in-house staff for social and graphics, and a self-built Lovable ticketing platform for Curtis's event business. Waitlist will be the native TenFore feature. Tee times are currently booked only a week out.",
+ "demo_happened": false,
+ "features_demoed": [],
+ "prospect_questions": [
+  "How does the AI connect to our current Yealink / RingCentral phone system - do you have your own phone system?",
+  "Do you know which provider the Colorado course (Eagle Vail) is moving to?",
+  "Do you have a phone vendor you partner with or work well with, or is this completely separate?",
+  "How many courses are you at currently, and are you golf only or other types of businesses too?",
+  "Is there a point where the caller can get through to a real person?",
+  "Does an AI booking show up in a different colour or with a notification that it was booked through the phone service?",
+  "Does it book under the caller's existing member account and pull up their information, in real time, with access to the tee sheet?",
+  "Do you need access to our ForeUp login to set up the backend?",
+  "Is there any flexibility on the $2.50 per booking, or a straight monthly cost, or other ways it can work?",
+  "Contract-wise, is it a yearly situation or month to month?"
+ ],
+ "unanswered_questions": [
+  "When the official CourseRev-TenFore ('104') integration will actually be ready - Bo said 'I'm not sure exactly exactly on the timeline for the official integration with them', hoping for the end of August and no later than the end of September",
+  "How the phone-system connection works technically - Bo said 'um the technical specifics I don't know exactly'",
+  "How CourseRev gets backend access to the POS - Bo said 'technical specifics. I don't know exactly how we get it set up' and guessed at admin credentials",
+  "Which phone provider the Eagle Vail course is switching to - Bo said 'I'm not 100% sure'",
+  "The exact number of signed courses - Bo said 'I forget the exact figure' before giving at least 200 signed and roughly 100 live",
+  "Exactly how an AI booking will be labelled inside TenFore specifically - Bo said every integration shows in the tee sheet a little differently"
+ ],
+ "objections": [
+  {
+   "trigger_quote": "is there any flexibility on that or just a straight monthly cost or, you know, any other ways that that works",
+   "quote_source": "verbatim_speech",
+   "category": "price",
+   "rep_response_summary": "Bo held the volume-based per-booking model, said CourseRev's pricing is reasonable and that competitors on cheap monthly or yearly subscriptions have AI that does not work well, then proposed that Emerald Isle add the $2.50 to the golfer as a booking fee, saying he does not think twice about a $2-$4 booking fee himself.",
+   "response_tactic": "reframe",
+   "prospect_next_move": "partially_accepted",
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "if it was $2 more to book over the phone that they would then they would just go to the website and book it",
+   "quote_source": "verbatim_speech",
+   "category": "price",
+   "rep_response_summary": "Bo dropped the recommendation of 24/7 coverage and offered a lower-friction entry instead: start on a delayed call forward or after-hours only, and treat the $2.50 as the cost of recovering a $35 booking that would otherwise be missed. He did not return to whether the fee would be passed on to golfers.",
+   "response_tactic": "roi_math",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": true
+  },
+  {
+   "trigger_quote": "that's all things that I I'll I'll chat with the team",
+   "quote_source": "verbatim_speech",
+   "category": "approval_authority",
+   "rep_response_summary": "Bo accepted the team review and shaped the next steps around it: send the four-to-five minute pre-recorded demo link for Curtis to play at the team meeting the following day, send the agreement for review without expecting a signature, check in by call or text at 2:00 p.m. the next day, and call again the following Monday to see whether a decision had been reached. Curtis's team meeting includes owners John and Holly.",
+   "response_tactic": "defer_to_followup",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "I don't know if it's worth it to put in the time to set it up for 104 knowing that we're going to switch",
+   "quote_source": "verbatim_speech",
+   "category": "timing_seasonality",
+   "rep_response_summary": "Bo had offered two contract routes - start now against the existing POS and re-paper for TenFore later, or one agreement naming TenFore with a September 1 effective date. After Curtis said his team would likely want it done in one swoop at the new system, Bo dropped the early-start route himself, saying the extra work was unnecessary and they might as well wait until September 1, and committed to send a single agreement with a September 1 effective date that he would update if the go-live moved.",
+   "response_tactic": "concession",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": true
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 4,
+   "evidence": "Curtis was warm and volunteered his own AI enthusiasm - \"I'm a big AI guy myself.\" - describing a ticketing platform he built with Lovable, and said he had already prepared his team for the conversation: \"I already kind of planted the seed uh after we chatted\".",
+   "evidence_source": "verbatim_speech"
+  },
+  "post_demo": null,
+  "at_pricing": {
+   "score": 3,
+   "evidence": "Curtis questioned the $2.50 per booking against a low green fee and a price-sensitive membership - \"we're in a 55 and up community\" - but did not reject it: \"So, I don't think it's out of the question.\" and \"I don't think it's a a make it or break it.\" He handed the decision to his team rather than settling it.",
+   "evidence_source": "verbatim_speech"
+  },
+  "close": {
+   "score": 4,
+   "evidence": "Curtis called the no-commitment terms \"a great selling point\", accepted the September 1 agreement plan, gave Bo his personal mobile number when asked, and finished with \"I think I got enough info um, you know, to to bring it to the table\".",
+   "evidence_source": "verbatim_speech"
+  },
+  "trajectory": "v_shaped"
+ },
+ "call_path": [
+  "Rapport: San Diego and Bay Area weather, Curtis's Oceanside background",
+  "Discovery: 20 years at Emerald Isle, his event company, and the two-year path to taking over ownership",
+  "Course positioning: 'a golf course for everyone', anti-country-club, casual merchandise",
+  "Current stack: ForeUp being dropped for TenFore ('104') on September 1, no AI vendor evaluated before",
+  "Curtis's own AI use: Lovable-built ticketing platform, Gallas Golf app, in-house social team",
+  "CourseRev's TenFore partnership and the integration timeline as the stated hurdle to a deal",
+  "Demo offer declined in favour of a pre-recorded link for the next day's team meeting",
+  "Product explanation: knowledge base, tee time booking, notice board, human transfer",
+  "Phone-system compatibility (Yealink / RingCentral) and the two routing options",
+  "Deployment options: 24/7, delayed call forward during open hours, or after hours only",
+  "Onboarding mechanics: agreement, 10-15 minute form, prototype in a few days, client testing",
+  "Waitlist: deferred to the native TenFore feature, CourseRev's kept as a backup",
+  "Company standing: golf-exclusive, 200 signed and roughly 100 live courses",
+  "Booking visibility in the tee sheet, free website chatbot, member recognition by phone number and backend API access",
+  "Pricing: $2.50 per booking challenged, pass-through fee proposed, low-friction after-hours start offered",
+  "Contract terms: no subscription, no commitment, dashboard toggle, $1,500 onboarding fee eliminated",
+  "Next steps: team meeting the next day, 2:00 p.m. check-in, Monday call, agreement with a September 1 effective date, onboarding form on decision"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "Demo offer (~00:14:29)",
+   "what_changed": "The call stopped being a demo and became a briefing pack for Curtis's team meeting the next day. No live demo took place and the pre-recorded video became the artefact the decision would be made on.",
+   "caused_by": "Curtis saying he was meeting the team the next day and could 'just mix that into the meeting', so 'having something to actually see would be perfect'"
+  },
+  {
+   "at_stage": "Pricing (~00:35:20)",
+   "what_changed": "Bo moved off his recommendation of 24/7 coverage and proposed an after-hours or delayed-call-forward start as the least-friction entry, which then became the shape of the proposed deal.",
+   "caused_by": "Curtis flagging that a 55-and-up, price-sensitive clientele might move to the website over a $2 phone booking fee, and saying he would take the $2.50 to his team"
+  },
+  {
+   "at_stage": "Contract options (~00:42:45-00:43:33)",
+   "what_changed": "Bo withdrew the option of starting the integration immediately on the existing POS and settled on a single agreement naming TenFore with a September 1 effective date, tying the deal to the POS go-live.",
+   "caused_by": "Curtis doubting it was worth setting up for a system they were about to leave and expecting his team to want it 'all in one fail swoop when we go to the new system'"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": true,
+ "next_step_description": "Bo to email the four-to-five minute pre-recorded demo link and text his mobile number; Curtis to present it at the team meeting the next day around noon with owners John and Holly and to raise the $2.50 booking fee there; Bo to check in by call or text at 2:00 p.m. the next day and call again the following Monday for a decision; Bo to send the agreement naming the TenFore ('104') integration with a September 1 effective date for review, with no signature expected and redlines welcome; onboarding form to follow if they decide to move forward.",
+ "buying_signals": [
+  "Curtis had already primed his team about CourseRev before the call - 'I already kind of planted the seed uh after we chatted'",
+  "He asked for the recorded demo specifically so he could put it in front of the team the next day",
+  "He asked contract-structure questions (yearly versus month to month) unprompted",
+  "He asked operational integration questions about member recognition, tee sheet writes and booking labelling",
+  "He called the no-commitment, toggle-on-and-off terms 'a great selling point'",
+  "He said the $2.50 is not a make-or-break item",
+  "He gave Bo his personal mobile number when asked",
+  "He accepted an agreement being sent for review with a September 1 effective date",
+  "He described himself as 'a big AI guy' and had built his own AI tooling for his event business"
+ ],
+ "stalls": [
+  "Decision deferred to a team meeting the next day that includes owners John and Holly; Curtis did not commit for himself",
+  "The CourseRev-TenFore integration does not exist yet - Bo called it 'the only thing that is uh a small small hurdle here to us doing a deal together' and could only promise one to two months",
+  "Effective date pushed out to September 1 to coincide with the POS go-live rather than starting on the existing system",
+  "The $2.50 per booking is unresolved and goes to the team, against a $20-$40 green fee and a price-sensitive 55-and-up clientele",
+  "No signature sought or given in the call; the agreement was sent for review only"
+ ],
+ "rep_commitments": [
+  "Email the four-to-five minute pre-recorded demo link",
+  "Text Curtis his personal mobile number so there is an open line",
+  "Call or text to check in around 2:00 p.m. the following day after the team meeting",
+  "Call again the following Monday to see whether a decision had been reached",
+  "Send an agreement naming the TenFore ('104') integration with a September 1 effective date, not expecting a signature",
+  "Accept redlines or wording changes to the agreement",
+  "Update the agreement if the go-live date shifts from September 1",
+  "Send an onboarding form to complete if they decide to move forward"
+ ],
+ "extraction_confidence": "high",
+ "confidence_notes": "Full 45:48 verbatim transcript, 398 turns, no screenshots; the account is named in the title and confirmed in the body ('I've been at Emerald actually for I hit 20 years next year'). No demo course was dialled in this call, so rule 8 does not bite; Eagle Vail and the Torrey Pines / Mission Bay / Balboa group are named as other courses, not as the prospect. Judgement calls: (a) prospect_seniority is 'unknown' because no title is stated anywhere - Curtis has run the facility for 20 years and is buying it within about two years, but owners John and Holly are still above him and he cannot decide alone; (b) meeting_type is 'discovery' although this was the second touch (a phone call the prior week already raised price) and the call also covered pricing and contract terms - no demo was given, so demo_happened is false and features_demoed is empty even though Bo described the product verbally; (c) post_demo sentiment is null for the same reason; (d) the September 1 sequencing objection is coded timing_seasonality but could equally be coded integration, since the timing is driven entirely by the POS migration; (e) the team-approval objection and the second price objection sit inside the same pricing exchange - Curtis's 'that's all things that I I'll I'll chat with the team' was said before Bo's low-friction counter, and the two are modelled separately because Bo answered each with a different move. Speech-to-text artefacts: TenFore appears as '104', 'Tenor', 'Tent for' and 'Tenfor'; ForeUp as 'forup', 'four up', 'FourUp' and 'POSOS'; $2.50 as '250' and '$2.50 50 cent'; Eagle Vail as 'Eagle Veil'; waitlist as 'weight list'; tee time as 'tea time'. In the quoted objection 'set it up for 104 knowing that we're going to switch' the '104' is almost certainly ForeUp misheard, since they are switching to TenFore, not away from it - the quote is reproduced exactly as transcribed. Curtis's personal mobile number appears in the transcript and is deliberately not carried into this record."
+}

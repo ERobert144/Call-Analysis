@@ -1,0 +1,183 @@
+{
+ "call_id": "17M0p28AyMf3YDcrbnzdM59JXDQK8QwGgr2plcovw9iU",
+ "file_name": "CourseRev + Desert Princess CC - Quick Chat - 2026/06/22 12:29 PDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/17M0p28AyMf3YDcrbnzdM59JXDQK8QwGgr2plcovw9iU/edit",
+ "rep": "Bo",
+ "date": "2026-06-22",
+ "account_name": "Desert Princess CC",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Bo Ferrando",
+   "org": "courserev",
+   "role": null
+  },
+  {
+   "name": "Rodney Young",
+   "org": "prospect",
+   "role": "Club Manager"
+  }
+ ],
+ "prospect_seniority": "GM",
+ "meeting_type": "demo",
+ "content_tier": "rich",
+ "pain_points": [
+  "Dissatisfaction with the incumbent Golf Now system, specifically food and beverage: Rodney said 'we're not super happy with golf now' and 'their food and beverage system is terrible'",
+  "Currently pays $5,000 a year for Notify for waitlist functionality",
+  "Switching golf management systems drags the website and other systems with it, and the accounting office may resist: 'I'm not sure my accounting office is going to be up for making a change.'",
+  "Locked into a three-year agreement with Golf Now, though Rodney said getting out of it would not be hard",
+  "Highly diverse property - 1,206 homes with HOA accounts and billing privileges, a hotel, 300 short- and long-term rental homes, public play and golf members - so any system has to work for every user type",
+  "Five player types on the current booking site, each with different booking privileges and rules",
+  "Prior experience of a vendor's chatbot that 'just seemed overwhelming' and looked likely to produce mistakes or misinformation",
+  "Strong seasonality: closed to overseed in October, season runs November to March, shoulder April and May, slow June to September"
+ ],
+ "current_solution": "Golf Now as the golf management system, identified from the tee sheet as 'golf 365 premiere' and settled in the call as Golf Now Premiere, under a three-year agreement; Notify for the waitlist at $5,000 a year. Lightspeed is being evaluated as a replacement GMS with a call planned for early July, and a neighbouring course's Quick 18 / Sagacity plus Toast stack was raised as a comparison.",
+ "demo_happened": true,
+ "features_demoed": [
+  "CourseRev dashboard with the voice concierge toggle shown switched on for a client course",
+  "Live outbound call to an existing client course (Tradition Golf Club) with the AI voice concierge answering on speaker",
+  "Caller recognition by phone number, with the AI referencing the caller's previous booking",
+  "Tee time search and booking for four players on a specific date, with alternative times offered when 8 a.m. was unavailable",
+  "Price read-back and booking confirmation, plus an offer to join the waitlist for the unavailable slot",
+  "Text confirmation containing a link to view, cancel and upload card details for the booking",
+  "Weather lookup during the call via a National Weather Service integration",
+  "Waitlist with confirmations and reminders, described as included free",
+  "Website chatbot on a live client site ('powered by course rev'), capturing phone number and feeding into the GMS",
+  "Player-type recognition (member vs public) and knowledge-base answers about restaurant, grill and pricing (described, not exercised on the call)"
+ ],
+ "prospect_questions": [
+  "You looked and you currently do not have that integration with them.",
+  "Are you in talks or have you talked with uh Quick 18 at all?",
+  "What if they answer or they don't answer? They never answer, right?",
+  "So, their phone really never rings in that in the golf shop.",
+  "If a first-time caller has no card on file, does the AI collect credit card information to guarantee the tee time?",
+  "Does it tell the caller that a text is coming to collect their credit card information?",
+  "And then do you provide the weight list or is that through another different service?",
+  "Which Tradition Golf Club is it, and is it semi-private or public?",
+  "So what if a member calls, can they book a tea time as well?",
+  "Would a zero-rate golf member be recognised in the system and booked automatically?",
+  "Where does the knowledge base information come from - do we load it or does it pull automatically?",
+  "Would the website chatbot eliminate the need for Notify, and would it become the only reservation route on the website or sit alongside the current one?",
+  "Can you show me what it looks like on someone's website?",
+  "With five player types on the site, would yours probably just replace the public one?",
+  "If you click book a tee time at that golf club, does it still go to their own booking engine?"
+ ],
+ "unanswered_questions": [
+  "Whether CourseRev has or is pursuing an integration with Quick 18 - Bo said 'I'd have to get back to you on that.' and took it as an action item",
+  "Whether CourseRev integrates with the prospect's specific Golf Now product - Bo could not confirm and made the whole opportunity contingent on verifying it",
+  "Whether 'Premier 365' / 'Golf 365 Premiere' is the same product as Golf Now Pro - neither party could resolve the naming and Bo said he would dig further",
+  "CourseRev's own pricing was never raised by either party, so no cost for the voice concierge was quoted or asked for"
+ ],
+ "objections": [
+  {
+   "trigger_quote": "You looked and you currently do not have that integration with them.",
+   "quote_source": "verbatim_speech",
+   "category": "integration",
+   "rep_response_summary": "Bo conceded the gap directly - 'We we officially don't at this point, but we are in talks with them' - and said a plan was being rolled out over the summer to decide which products in the Golf Now/NBC Sports Next suite would be integrated, without committing to a date. He had already framed the integration as the precondition for the whole conversation.",
+   "response_tactic": "feature_explanation",
+   "prospect_next_move": "re_raised_later",
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "It just seemed like there was going to be a lot of mistakes or misinformation being given out.",
+   "quote_source": "verbatim_speech",
+   "category": "ai_quality_doubt",
+   "rep_response_summary": "Rodney was describing a chatbot pitched to him previously, then asked directly whether CourseRev could work around that. Bo answered 'Yeah, certainly. I'm I'm very confident of that.' and claimed the underlying AI framework is best in the market with teams in Spain and India working on it constantly, while conceding the AI is not perfect.",
+   "response_tactic": "reframe",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": true
+  },
+  {
+   "trigger_quote": "I'm sure we're going to be not changing systems this year.",
+   "quote_source": "verbatim_speech",
+   "category": "timing_seasonality",
+   "rep_response_summary": "Bo did not counter the timing. He restated the position back as a question - that Rodney was leaning towards not changing systems but would consider Lightspeed if that call went well - and Rodney confirmed it. Bo had earlier offered a staged path in which the free chatbot goes in now and the voice concierge is switched on when peak season starts in October or November.",
+   "response_tactic": "acknowledge_only",
+   "prospect_next_move": "re_raised_later",
+   "resolved_in_call": false
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 3,
+   "evidence": "Cooperative but transactional and time-boxed: Rodney was mid-budget, described himself as \"busy. I mean, golf course isn't busy, but I've got a lot going on this this early part of this week, so I'll be good.\", and his first substantive move was to test the premise of the meeting with \"You looked and you currently do not have that integration with them.\"",
+   "evidence_source": "verbatim_speech"
+  },
+  "post_demo": {
+   "score": 4,
+   "evidence": "After the live call and the chatbot walkthrough Rodney said \"Okay. Well, I I love it.\" and immediately \"So, let's continue the conversation.\" He had asked a continuous run of operational questions through the demo - card capture, member booking, player types, knowledge base - rather than disengaging.",
+   "evidence_source": "verbatim_speech"
+  },
+  "at_pricing": null,
+  "close": {
+   "score": 4,
+   "evidence": "Rodney cleared the approval path himself - \"there's a board, but this really wouldn't affect the board because it's not really even a budget thing\" and \"So, I recommend it.\" followed by \"They'll do\" \"it.\" - and gave his cell number. Against that he declined both forward steps on offer, saying \"Um no, not at this point. No, I think we're fine.\" to a recorded demo and gating everything on \"Let's find out if we're going to be able to do it.\"",
+   "evidence_source": "verbatim_speech"
+  },
+  "trajectory": "rising"
+ },
+ "call_path": [
+  "Greeting and seasonality recap: closed for overseed in October, season November to March, slow summer",
+  "Framing: assess fit now, ahead of peak, with integration into the golf management system as the precondition",
+  "Integration gap disclosed - no official Golf Now integration yet, talks ongoing, summer roadmap",
+  "Prospect probes Quick 18 / Sagacity / Toast and a neighbouring course that switched",
+  "Incumbent review: unhappiness with Golf Now food and beverage, three-year agreement, accounting-office resistance to change",
+  "GMS alternatives: Bo names Lightspeed as CourseRev's strongest integration; Rodney has a Lightspeed call planned for early July",
+  "Product naming puzzle: Premier 365 vs Golf 365 Premiere vs Golf Now Pro, left unresolved",
+  "Interruption - a member walks into the shop and Rodney shortens the call",
+  "Live demo: dashboard toggle, then an outbound AI call to client course Tradition Golf Club booking four players",
+  "Follow-up questions on card capture and security, waitlist, member and player-type handling, knowledge base sourcing",
+  "Waitlist economics: CourseRev waitlist free against $5,000 a year for Notify",
+  "Website chatbot walkthrough on a live client site, and the constraint that it can only book if the voice concierge is in use",
+  "Staged-adoption offer: free chatbot now, voice concierge switched on for peak season",
+  "Prospect's prior chatbot doubt aired and answered",
+  "Positive summation, decision structure, and next steps gated on integration verification",
+  "Contact details exchanged"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "Opening / integration check (~00:08:55)",
+   "what_changed": "The call turned from a fit assessment into a conditional one. Bo had just said that without the GMS integration there is no point to the conversation, then had to concede CourseRev does not have the Golf Now integration, which made every later step contingent.",
+   "caused_by": "Rodney asking directly: 'You looked and you currently do not have that integration with them.'"
+  },
+  {
+   "at_stage": "Before the demo (~00:13:38)",
+   "what_changed": "The remaining agenda was compressed. Rodney stepped away to a member in the shop, came back saying he would shorten, and Bo moved straight to placing the demo call instead of taking more questions first.",
+   "caused_by": "Rodney: 'I got a member walking in. One second.' followed by a member needing ten to fifteen minutes of his time"
+  },
+  {
+   "at_stage": "Next steps (~00:32:43)",
+   "what_changed": "Both offered next steps - a recorded five-minute demo and a meeting with the HOA General Manager - were declined, leaving the integration check as the only live action and removing any prospect-side commitment from the call.",
+   "caused_by": "Rodney: 'Let's find out if we're going to be able to do it.' and 'If it's going to be physically possible first.'"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": false,
+ "next_step_description": "Bo to verify whether CourseRev integrates with the prospect's Golf Now product (recorded variously as Golf Now Premiere and Golf 365 Premiere), check internal status on Quick 18, and brief CourseRev's head of operations on the call. If compatibility is confirmed, Bo to send the agreement for review only, not for signature. Rodney to take his planned early-July call with Lightspeed. No date was set for the integration answer, and Rodney declined both a pre-recorded demo and a meeting with the HOA General Manager.",
+ "buying_signals": [
+  "Rodney said 'Okay. Well, I I love it.' after the demo and chatbot walkthrough",
+  "He asked Bo to continue the conversation and to report back on Golf Now compatibility by fall",
+  "He volunteered that the purchase would not need board involvement and said 'So, I recommend it.' followed by 'They'll do' 'it.'",
+  "He described the spend as easily paid for and minimal, and said it could eventually eliminate a little payroll",
+  "He put his $5,000-a-year Notify waitlist contract in play, saying he would switch if CourseRev's free waitlist works as well or better",
+  "He asked to see the chatbot running on a live client website",
+  "He gave his cell number when asked, describing it as both personal and work"
+ ],
+ "stalls": [
+  "No Golf Now integration exists today; everything is contingent on Bo verifying compatibility",
+  "Rodney said he is sure they will not be changing systems this year",
+  "A competing evaluation is live - a Lightspeed call is planned for early July, and the neighbouring course's Quick 18 / Toast stack was raised",
+  "Three-year Golf Now agreement still running, with the accounting office seen as resistant to a change",
+  "Rodney declined a pre-recorded five-minute demo and declined bringing the HOA General Manager onto a future call",
+  "Property complexity - 1,206 homes, hotel, rentals, member billing privileges, five player types - sets a high bar for any new system"
+ ],
+ "rep_commitments": [
+  "Verify whether CourseRev integrates with the prospect's specific Golf Now product before anything else proceeds",
+  "Research and report back on whether CourseRev is in talks with Quick 18",
+  "Do further digging on the Premier 365 / Golf 365 Premiere / Golf Now Pro naming and check integration against the version actually in use",
+  "Brief CourseRev's head of operations on the result of the call",
+  "Send the agreement for review, not signature, once compatibility is confirmed"
+ ],
+ "extraction_confidence": "high",
+ "confidence_notes": "Full verbatim transcript of a 33:59 call, 289 turns, so the integration gate, the demo, the objections and the next steps are all directly evidenced. Account name is unambiguous: the title, the invitee ryoung@desertprincesscc.com and Rodney Young's own description of the property all agree. Tradition Golf Club is the existing client course Bo dialled during the demo and is not the prospect (rule 8). Judgement calls: (a) prospect_seniority is recorded as GM because Rodney is the club manager with sole decision authority here, but his stated title is 'club manager' and he reports to a separate HOA GM - the enum has no exact match; (b) at_pricing is null rather than scored because CourseRev's own pricing never came up in this call at all - no rate was quoted and none was asked for. The only cost discussion is Rodney weighing CourseRev's free waitlist against the $5,000 a year he pays Notify ('Yours yours is free.' / 'Others is $5,000. So, as long as it as long as it works the same as well or or better,'), which is a competitor's price, not CourseRev's, so it is recorded as a buying signal instead; (c) three objections is the count the transcript supports - Rodney's decline of the recorded demo and the GM meeting is recorded under stalls rather than manufactured into a fourth objection. Transcription artefacts: the ASR interleaves the two speakers mid-sentence throughout (Rodney's sentences are frequently split across two turns with a Bo interjection between), so every quote here is a contiguous span within a single speaker turn; '1,26 homes' is transcribed that way and is read as 1,206 homes elsewhere in the notes; Lightspeed appears as 'Lightseed'/'light speeded', CourseRev as 'course rev', and Notifi as 'Notify'."
+}

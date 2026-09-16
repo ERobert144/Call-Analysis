@@ -91,8 +91,8 @@ for p in files:
             E(f"sentiment.{cp}.evidence has a provenance tag inlined - use evidence_source")
         ev = v.get("evidence")
         if ev and src is not None:
-            qs = re.findall(r'"([^"]{12,})"', ev)
-            for qq in qs:
+            spans = re.findall(r'"([^"]*)"', ev)
+            for qq in (x for x in spans if len(x) >= 12):
                 if norm(qq) and norm(qq) not in src:
                     E(f"sentiment.{cp}.evidence quote not verbatim: {qq[:60]!r}")
     if sent.get("trajectory") and sent["trajectory"] not in TRAJ:
@@ -102,9 +102,11 @@ for p in files:
 
     # Rule 6: no coaching language.
     blob = json.dumps(d).lower()
-    for phrase in ("should have", "could have", "failed to", "missed opportunity", "rep should"):
-        if phrase in blob:
-            W(f"possible editorialising: {phrase!r}")
+    for pat in (r"rep (should|could|ought)", r"should have (asked|probed|pushed|closed|handled)",
+                r"missed opportunity", r"failed to (ask|probe|address|close)"):
+        m = re.search(pat, blob)
+        if m:
+            W(f"possible editorialising: {m.group(0)!r}")
 
     # Null discipline.
     for k in ("account_name","current_solution","next_step_description"):

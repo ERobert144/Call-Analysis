@@ -1,0 +1,48 @@
+{
+ "call_id": "1lh718a6-SEz3M0xIoA3RugMV5XGUbKORbMooYTbsCM0",
+ "doc_url": "https://docs.google.com/document/d/1lh718a6-SEz3M0xIoA3RugMV5XGUbKORbMooYTbsCM0/edit",
+ "prospect_seniority": "unknown",
+ "content_tier": "stub",
+ "pain_points": null,
+ "current_solution": null,
+ "demo_happened": null,
+ "features_demoed": null,
+ "prospect_questions": null,
+ "unanswered_questions": null,
+ "objections": null,
+ "sentiment": {
+  "open": null,
+  "post_demo": null,
+  "at_pricing": null,
+  "close": null,
+  "trajectory": "insufficient_data"
+ },
+ "call_path": null,
+ "pivot_points": null,
+ "next_step_secured": null,
+ "next_step_has_date": null,
+ "next_step_description": null,
+ "buying_signals": null,
+ "stalls": null,
+ "rep_commitments": null,
+ "extraction_confidence": "low",
+ "file_name": "CourseRev + Laughlin Ranch - Chat - 2026/08/12 09:59 PDT - Notes by Gemini",
+ "rep": "Bo",
+ "date": "2026-08-12",
+ "account_name": "Laughlin Ranch",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "mjackson@laughlinranch.com",
+   "org": "prospect",
+   "role": "calendar invitee only; no name, title or speech appears anywhere in the document"
+  },
+  {
+   "name": "Bo Ferrando",
+   "org": "courserev",
+   "role": "calendar invitee, rep on whose account the meeting sits; no speech recorded"
+  }
+ ],
+ "meeting_type": null,
+ "confidence_notes": "Near-empty record, 1,793 characters (triage record), content_tier stub. Gemini produced no summary ('A summary wasn't produced for this meeting because there wasn't enough conversation in a supported language'), no details ('Details weren't produced for this meeting') and no next steps ('No suggested next steps were found for this meeting'). The Transcript section contains only the line 'Transcription ended after 00:26:12' with zero dialogue turns, so there is no speech of any kind in the source and quote_source verbatim_speech is impossible here by definition. Every content field is null rather than empty: with no record of the conversation, the document cannot establish that pain points, a demo, questions, objections or next steps did not occur, only that none were captured. In particular objections is null, not an empty array - an empty array would assert an objection-free call, which this source cannot support. demo_happened is null on the same basis; the 26:12 transcription window shows a meeting of real length took place, but nothing about what happened in it. account_name comes from the document title and is corroborated by the invitee domain laughlinranch.com. The prospect attendee is recorded as the invitee email address because the document names no person; both attendees are calendar invitees and attendance is not confirmed by anything in the file. meeting_type is null: the title word 'Chat' does not map onto the enum. All four sentiment checkpoints are null rather than a middle score of 3, per rule 3, and trajectory is insufficient_data. Note for deduplication: a separate Laughlin Ranch document exists for the same day at 11:00; this file is the 09:59 record and was extracted on its own contents only."
+}

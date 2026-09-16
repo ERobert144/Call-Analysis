@@ -1,0 +1,48 @@
+{
+ "call_id": "1dZqrIT7F3_iJhg3MxkWGjPi_VrhI_kTbfSGRpZSRVRY",
+ "file_name": "Chat: CourseRev + Cedaredge Golf Course - 2026/09/01 10:00 PDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/1dZqrIT7F3_iJhg3MxkWGjPi_VrhI_kTbfSGRpZSRVRY/edit",
+ "rep": "Bo",
+ "date": "2026-09-01",
+ "account_name": "Cedaredge Golf Course",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Bo Ferrando",
+   "org": "courserev",
+   "role": "rep"
+  },
+  {
+   "name": "kbrown@cedaredgecolorado.com",
+   "org": "prospect",
+   "role": null
+  }
+ ],
+ "prospect_seniority": "unknown",
+ "meeting_type": null,
+ "content_tier": "stub",
+ "pain_points": [],
+ "current_solution": null,
+ "demo_happened": null,
+ "features_demoed": [],
+ "prospect_questions": null,
+ "unanswered_questions": null,
+ "objections": [],
+ "sentiment": {
+  "open": null,
+  "post_demo": null,
+  "at_pricing": null,
+  "close": null,
+  "trajectory": "insufficient_data"
+ },
+ "call_path": [],
+ "pivot_points": [],
+ "next_step_secured": null,
+ "next_step_has_date": null,
+ "next_step_description": null,
+ "buying_signals": [],
+ "stalls": [],
+ "rep_commitments": [],
+ "extraction_confidence": "low",
+ "confidence_notes": "Effectively empty document. Gemini produced no summary and no details, stating a summary wasn't produced because there wasn't enough conversation in a supported language, and the Details section says details weren't produced for this meeting. The transcript section holds exactly one utterance - Bo Ferrando at 00:01:43, a broken-off half sentence - before 'Transcription ended after 00:18:15'. So 18 minutes of meeting were recorded with one transcribed line, and that line is the rep's. Nothing in the document supports any content field: no prospect utterance exists, so no sentiment checkpoint, objection, feature, question or next step can be recorded, and zero objections here reflects an empty source rather than an objection-free call. The account name comes from the document title and the invitee address kbrown@cedaredgecolorado.com corroborates it, but the document shows that address only as invited - it gives no evidence the invitee joined or spoke, so whether a call was actually held with the prospect is undecidable and demo_happened is null rather than false. meeting_type is null for the same reason: the title says 'Chat' but nothing records what took place."
+}

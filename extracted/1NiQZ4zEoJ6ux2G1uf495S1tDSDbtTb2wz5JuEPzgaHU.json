@@ -1,0 +1,150 @@
+{
+ "call_id": "1NiQZ4zEoJ6ux2G1uf495S1tDSDbtTb2wz5JuEPzgaHU",
+ "file_name": "Meeting started 2026/06/30 13:59 EDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/1NiQZ4zEoJ6ux2G1uf495S1tDSDbtTb2wz5JuEPzgaHU/edit",
+ "rep": "Jason",
+ "date": "2026-06-30",
+ "account_name": "Tunica National",
+ "account_source": "body",
+ "attendees": [
+  {
+   "name": "Jason Doepke",
+   "org": "courserev",
+   "role": "rep"
+  },
+  {
+   "name": "David Cage",
+   "org": "prospect",
+   "role": null
+  }
+ ],
+ "prospect_seniority": "unknown",
+ "meeting_type": "demo",
+ "content_tier": "rich",
+ "pain_points": [
+  "The golf shop has a single incoming line, so calls back up during busy periods - the prospect said things can get hectic on busy days, particularly Saturday mornings",
+  "Weekday staffing in the shop is usually one person, with two attempted only at peak times",
+  "Calls are demonstrably missed: the prospect regularly sees two lines lit at once, either one holding while another is answered or both ringing simultaneously",
+  "The prospect knows missed calls are happening but has no visibility into what they cost, since nothing has surfaced in guest surveys"
+ ],
+ "current_solution": "A multi-department IVR: callers pick prompts for the golf shop, food and beverage, general managers, or tennis and marketing, and the golf shop side runs on one incoming line. The prospect did not name the facility's tee sheet; the rep answered the data-capture question by describing CourseRev's Lightspeed integration (transcribed throughout as 'Lightseed') and referred to turning 'lighteed courses' on within a week, which implies but does not state that this facility runs it. The rep also referred to an existing waitlist tool at the facility in a garbled line, 'I see you guys have no T5'.",
+ "demo_happened": true,
+ "features_demoed": [
+  "Live inbound AI booking call placed by the rep to Tradition Golf Club (the demo target course, not the prospect)",
+  "Returning-caller recognition by cell phone number, with the AI greeting the rep by name and referencing the earlier call",
+  "Tee sheet availability lookup, rate quote and hold - a 2 p.m. slot for three players at $177, with 1:50 and 2:10 alternatives",
+  "Mid-call modification from three to four players, re-quoted at $236 total at $59 each",
+  "FAQ answering during the booking - practice facility detail and the pub and grill, including a call-ahead number",
+  "Real-time text confirmation with a weather guarantee link, and pay-at-the-pro-shop handling",
+  "Dashboard: sales by channel including chatbot and web bookings",
+  "Call log with real-time transcription of every AI call, positioned as dispute evidence on price or booking details",
+  "Backline prompt to reach a human when the AI cannot resolve an issue",
+  "Waitlist with a 10-minute text confirmation window before the slot passes to the next player",
+  "Notice board for conditions such as punched greens, construction or cart-path-only, which the AI works into booking conversations",
+  "24/7 book, cancel, confirm and change handling outside business hours"
+ ],
+ "prospect_questions": [
+  "Whether the system captures email address and zip code as well as the existing player profile, because the course does a lot of tracking that way",
+  "What happens for a brand new golfer with no profile",
+  "Whether the system can take a credit card to hold tee times",
+  "Whether there is a prompt to speak to a human",
+  "Whether a twosome booking near an existing twosome gets paired into that tee time or booked as a separate one",
+  "Whether a guest can leave a note such as needing a rental set and have it show up in the notes",
+  "Whether the system can cancel a tee time after hours",
+  "Whether there is any upfront cost or only the $2 per booking"
+ ],
+ "unanswered_questions": [
+  "Whether the system pairs a twosome with an existing twosome in the same time window or creates a separate tee time - the rep said he did not know off the top of his head, messaged his boss mid-call, reported back that his boss was in a meeting, and no answer arrived before the call ended"
+ ],
+ "objections": [
+  {
+   "trigger_quote": "I guess it's not really upsetting anybody",
+   "category": "call_volume_doubt",
+   "quote_source": "verbatim_speech",
+   "rep_response_summary": "Jason reframed the absence of complaints as invisible loss: he cited an NGF study that a decent chunk of golfers call out of habit and move on to the next course when they do not get through, then positioned the delayed call forward as the way to capture those rounds.",
+   "response_tactic": "reframe",
+   "prospect_next_move": "partially_accepted",
+   "resolved_in_call": true
+  },
+  {
+   "trigger_quote": "I would if if you are working with them and they give us a green light, yeah, I'd be willing to, you know, look into it a little bit further for sure",
+   "category": "approval_authority",
+   "quote_source": "verbatim_speech",
+   "rep_response_summary": "Jason said CourseRev already has a handful of Keer courses, then applied the Keer rate of $2.00 per booked and completed round against a standard $2.50, with no charge for no-shows or cancellations, and framed the delayed call forward as hard to see a downside to because the fee only lands on a round the shop would otherwise have missed.",
+   "response_tactic": "reference_customer",
+   "prospect_next_move": "re_raised_later",
+   "resolved_in_call": false
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 3,
+   "evidence": "Cooperative and forthcoming but not enthusiastic: after a calendar mix-up over the start time he agreed to the agenda with a one-word yeah, then described the phone setup in detail and volunteered that with one line into the shop, \"things can get hectic\" during busy periods.",
+   "evidence_source": "verbatim_speech"
+  },
+  "post_demo": {
+   "score": 4,
+   "evidence": "Immediately after the live booking call he moved into operational due diligence rather than comment, asking whether the system captures data beyond the profile - \"does it capture email address and zip code\" - then following up on new golfers, credit card holds and reaching a human.",
+   "evidence_source": "verbatim_speech"
+  },
+  "at_pricing": {
+   "score": 3,
+   "evidence": "No resistance and no enthusiasm at either pricing moment. His only recorded reaction to the $2.00 Keer rate was a one-word okay; he later probed for a setup fee - \"Is there any upfront cost to this\" - and on hearing the $1,500 fee was waived made no comment on price at all, moving straight to asking for the material in writing.",
+   "evidence_source": "verbatim_speech"
+  },
+  "close": {
+   "score": 3,
+   "evidence": "Warm but non-committal and handing the decision on: he asked for everything by email and said he would \"speak to my regional guide and see what what they all think\" about it and go from there; asked for further questions at close he had none.",
+   "evidence_source": "verbatim_speech"
+  },
+  "trajectory": "flat"
+ },
+ "call_path": [
+  "intro_and_agenda",
+  "current_phone_operations_discovery",
+  "missed_call_impact_probe",
+  "delayed_call_forward_pitch",
+  "keer_golf_affiliation_and_discounted_rate",
+  "live_ai_booking_demo_call",
+  "data_payment_and_human_handoff_questions",
+  "dashboard_walkthrough",
+  "waitlist_and_tee_pairing_question",
+  "implementation_process",
+  "setup_fee_and_pricing_terms",
+  "next_step_materials_request"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "keer_golf_affiliation_and_discounted_rate",
+   "what_changed": "The prospect disclosed the facility is part of Keer Golf and made further interest conditional on Keer giving a green light; the quoted rate dropped from $2.50 to $2.00 per booked and completed round in the same exchange",
+   "caused_by": "the prospect naming his management group when asked what he was looking for before the demo call"
+  },
+  {
+   "at_stage": "live_ai_booking_demo_call",
+   "what_changed": "The prospect shifted from short acknowledgements to running his own operational checklist - data capture, new-golfer flow, credit card holds, human handoff, tee pairing, notes, after-hours cancellation",
+   "caused_by": "the live AI call to Tradition Golf Club booking a tee time, answering two FAQs and handling a change from three to four players end to end"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": false,
+ "next_step_description": "Jason to send, by the end of the day, an AI-summarised owner brief covering cost and capabilities, the standard agreement and a link to the onboarding form; David to take it to his regional guide and go from there. Only the rep's send carries a time; no return date or follow-up meeting was agreed.",
+ "buying_signals": [
+  "Said he would be willing to look into it further if Keer Golf gave a green light",
+  "Ran a detailed operational checklist after the demo rather than ending the call",
+  "Asked whether tee times can be cancelled after hours, a use-case question about his own operation",
+  "Asked for the cost and capability material to be sent by email so he could have it",
+  "Said he would take it to his regional guide"
+ ],
+ "stalls": [
+  "No decision or commitment at close; the prospect routed the proposal to his regional guide with no date for coming back",
+  "The tee-pairing question went unanswered during the call because the rep's boss was in a meeting"
+ ],
+ "rep_commitments": [
+  "Find out whether the system pairs a twosome with an existing booking or creates a separate tee time, and get back to the prospect",
+  "Email a summary of the meeting as an owner brief covering the relevant cost questions, by the end of the day",
+  "Send the standard agreement",
+  "Send a link to the onboarding form so the prospect can see what setup involves"
+ ],
+ "extraction_confidence": "high",
+ "confidence_notes": "Full 27:36 verbatim transcript plus a Gemini summary, decisions and timestamped details section, so account, demo, pricing, objections and next steps are all directly evidenced. Account name comes from the document body heading 'Tunica National - 6/30/26', not the file title. Tradition Golf Club is the course the rep dialled for the demo, not the prospect (rule 8). Caveats: (a) the ASR garbles proper nouns - 'Lightseed' for Lightspeed, 'weightless' for waitlist, 'no T5' for what is probably a waitlist product name, 'regional guide' for what is most likely 'regional guy' - so none of these are recorded as facts about the prospect's stack; (b) speakers interleave mid-sentence, so isolated backchannels cannot be reliably attached to the rep line they follow; (c) on the call_volume_doubt objection, prospect_next_move='partially_accepted' rests on the prospect conceding within the same exchange that missed callers 'could have moved on to another golf course after us' while leaving his own 'not really upsetting anybody' unretracted - that concession came immediately before, not after, the rep's NGF reframe, and what followed the reframe was only 'Yeah.' and 'Yep.', so Phase 4 should treat this coding as weaker than a clean post-response statement; (d) prospect_next_move='re_raised_later' on the approval_authority objection is solid - he returned to needing sign-off at close, saying he would speak to his regional guide; (e) the prospect's question about upfront cost is recorded as a question rather than a price objection, since he probed for a setup fee and made no complaint about the rate once it was waived."
+}

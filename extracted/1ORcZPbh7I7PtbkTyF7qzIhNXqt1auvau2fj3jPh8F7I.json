@@ -1,0 +1,43 @@
+{
+ "call_id": "1ORcZPbh7I7PtbkTyF7qzIhNXqt1auvau2fj3jPh8F7I",
+ "file_name": "Chat: CourseRev + Cedaredge Golf Course - 2026/09/04 12:01 PDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/1ORcZPbh7I7PtbkTyF7qzIhNXqt1auvau2fj3jPh8F7I/edit",
+ "rep": "Bo",
+ "date": "2026-09-04",
+ "account_name": "Cedaredge Golf Course",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Bo Ferrando",
+   "org": "courserev",
+   "role": null
+  }
+ ],
+ "prospect_seniority": null,
+ "meeting_type": null,
+ "content_tier": "stub",
+ "pain_points": [],
+ "current_solution": null,
+ "demo_happened": null,
+ "features_demoed": [],
+ "prospect_questions": [],
+ "unanswered_questions": [],
+ "objections": [],
+ "sentiment": {
+  "open": null,
+  "post_demo": null,
+  "at_pricing": null,
+  "close": null,
+  "trajectory": "insufficient_data"
+ },
+ "call_path": [],
+ "pivot_points": [],
+ "next_step_secured": null,
+ "next_step_has_date": null,
+ "next_step_description": null,
+ "buying_signals": [],
+ "stalls": [],
+ "rep_commitments": [],
+ "extraction_confidence": "low",
+ "confidence_notes": "Stub document with no extractable meeting content. Gemini produced no summary and no details, stating only that 'A summary wasn't produced for this meeting because there wasn't enough conversation in a supported language' and 'Details weren't produced for this meeting.' The Transcript section holds exactly one turn across a recording that ran to 00:19:44 - Bo Ferrando at 00:01:16 saying 'Thank you. Shoot. Uhoh.' - and no prospect speech appears anywhere in the source. Consequently every content field is empty or null, zero objections is the finding rather than an omission, all four sentiment checkpoints are null with trajectory insufficient_data, and extraction_confidence is low. demo_happened, next_step_secured and next_step_has_date are null rather than false: unlike the rule 10 no-show pattern, this document gives no positive evidence either way - it does not show a demo, a prospect, or an absent prospect, only that the transcriber captured almost nothing across roughly twenty minutes. account_name is taken from the title, corroborated by the invitee kbrown@cedaredgecolorado.com; no course is dialled anywhere in the doc, so rule 8 does not apply. The invitee is not listed under attendees because nothing in the source shows they joined. Same rep and same date as the Tilden Park call in this batch (file_id 18Hy9dQodkUWl4qvQUMRiNTr9LmxYX_vGUdLCnSCsNGg, 10:00 PDT); this one is scheduled for 12:01 PDT."
+}

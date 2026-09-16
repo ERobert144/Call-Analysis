@@ -34,7 +34,7 @@ def j(v):
 # --- calls.csv -----------------------------------------------------------
 CALL_COLS = ["call_id","rep","date","account_name","account_source","meeting_type",
              "content_tier","prospect_seniority","attendee_count","demo_happened",
-             "features_demoed","pain_points","current_solution","objection_count",
+             "features_demoed","pain_points","current_solution","objection_count","objections_determinable",
              "objection_categories","objections_resolved","sentiment_open","sentiment_post_demo",
              "sentiment_at_pricing","sentiment_close","sentiment_trajectory","call_path_norm","call_path_len","call_path",
              "pivot_point_count","next_step_secured","next_step_has_date","next_step_description",
@@ -48,7 +48,8 @@ def sent(c, cp):
 with open(os.path.join(BASE, "calls.csv"), "w", newline="") as fh:
     w = csv.DictWriter(fh, fieldnames=CALL_COLS); w.writeheader()
     for c in calls:
-        objs = c.get("objections") or []
+        raw_objs = c.get("objections")
+        objs = raw_objs or []
         w.writerow({
             "call_id": c.get("call_id"), "rep": j(c.get("rep")), "date": j(c.get("date")),
             "account_name": j(c.get("account_name")), "account_source": j(c.get("account_source")),
@@ -58,7 +59,8 @@ with open(os.path.join(BASE, "calls.csv"), "w", newline="") as fh:
             "demo_happened": j(c.get("demo_happened")),
             "features_demoed": j(c.get("features_demoed")), "pain_points": j(c.get("pain_points")),
             "current_solution": j(c.get("current_solution")),
-            "objection_count": len(objs),
+            "objection_count": len(objs) if raw_objs is not None else "",
+            "objections_determinable": raw_objs is not None,
             "objection_categories": "|".join(sorted({o.get("category") for o in objs if o.get("category")})),
             "objections_resolved": sum(1 for o in objs if o.get("resolved_in_call") is True),
             "sentiment_open": sent(c,"open"), "sentiment_post_demo": sent(c,"post_demo"),

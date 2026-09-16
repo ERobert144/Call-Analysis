@@ -1,0 +1,48 @@
+{
+ "call_id": "155XNHSs1CdNjb36xslmbxSDEyO8p3L67SXifzeZ4LWI",
+ "doc_url": "https://docs.google.com/document/d/155XNHSs1CdNjb36xslmbxSDEyO8p3L67SXifzeZ4LWI/edit",
+ "prospect_seniority": "unknown",
+ "content_tier": "stub",
+ "pain_points": null,
+ "current_solution": null,
+ "demo_happened": null,
+ "features_demoed": null,
+ "prospect_questions": null,
+ "unanswered_questions": null,
+ "objections": null,
+ "sentiment": {
+  "open": null,
+  "post_demo": null,
+  "at_pricing": null,
+  "close": null,
+  "trajectory": "insufficient_data"
+ },
+ "call_path": null,
+ "pivot_points": null,
+ "next_step_secured": null,
+ "next_step_has_date": null,
+ "next_step_description": null,
+ "buying_signals": null,
+ "stalls": null,
+ "rep_commitments": null,
+ "extraction_confidence": "low",
+ "file_name": "CourseRev + Presidio - Touchbase - 2026/05/21 13:31 PDT - Notes by Gemini",
+ "rep": "Bo",
+ "date": "2026-05-21",
+ "account_name": "Presidio Golf Course",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "bwilcox@presidiogolf.com",
+   "org": "prospect",
+   "role": "calendar invitee only; no name, title or speech appears anywhere in the document"
+  },
+  {
+   "name": "Bo Ferrando",
+   "org": "courserev",
+   "role": "calendar invitee, rep on whose account the meeting sits; no speech recorded"
+  }
+ ],
+ "meeting_type": "follow_up",
+ "confidence_notes": "Near-empty record, 1,865 characters (triage record), content_tier stub. Gemini produced no summary ('A summary wasn't produced for this meeting because there wasn't enough conversation in a supported language') and no details ('Details weren't produced for this meeting'); the document has no Next steps section at all. The Transcript section contains only 'Transcription ended after 00:00:44' - a 44-second transcription window with zero dialogue turns - so there is no speech in the source and verbatim_speech is impossible here by definition. Every content field is null rather than empty: nothing in the file establishes that a demo, questions or objections did not occur, only that none were captured, so objections is null rather than an empty array. demo_happened is likewise null; the 44-second window makes it unlikely that anything substantive took place, but the document does not evidence that either way and rule 1 forbids inferring it. The title says only 'Presidio'; account_name is written out as Presidio Golf Course on the strength of the invitee domain presidiogolf.com, and account_source stays 'title'. The prospect attendee is recorded as the invitee email address because the document names no person; attendance by either invitee is not confirmed by anything in the file. meeting_type is follow_up on the title word 'Touchbase', which is the only signal of call purpose in the document. All four sentiment checkpoints are null rather than a middle score of 3, per rule 3, and trajectory is insufficient_data."
+}

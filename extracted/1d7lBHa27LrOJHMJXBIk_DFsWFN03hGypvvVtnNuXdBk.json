@@ -1,0 +1,40 @@
+{
+  "call_id": "1d7lBHa27LrOJHMJXBIk_DFsWFN03hGypvvVtnNuXdBk",
+  "file_name": "Dacotah Ridge & Courserev Discussion - 2026/07/13 10:59 EDT - Notes by Gemini",
+  "doc_url": "https://docs.google.com/document/d/1d7lBHa27LrOJHMJXBIk_DFsWFN03hGypvvVtnNuXdBk/edit",
+  "rep": "Jason",
+  "date": "2026-07-13",
+  "account_name": "Dacotah Ridge",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Tyler Pendleton", "org": "prospect", "role": null},
+    {"name": "Jason Doepke", "org": "courserev", "role": "rep"}
+  ],
+  "prospect_seniority": "unknown",
+  "meeting_type": null,
+  "content_tier": "stub",
+  "pain_points": [],
+  "current_solution": null,
+  "demo_happened": false,
+  "features_demoed": [],
+  "prospect_questions": [],
+  "unanswered_questions": [],
+  "objections": [],
+  "sentiment": {
+    "open": null,
+    "post_demo": null,
+    "at_pricing": null,
+    "close": null,
+    "trajectory": "insufficient_data"
+  },
+  "call_path": [],
+  "pivot_points": [],
+  "next_step_secured": false,
+  "next_step_has_date": false,
+  "next_step_description": null,
+  "buying_signals": [],
+  "stalls": [],
+  "rep_commitments": [],
+  "extraction_confidence": "low",
+  "confidence_notes": "Contentless stub, 1,793 characters. Gemini produced no summary, no details and no next steps: the Summary section reads 'A summary wasn't produced for this meeting because there wasn't enough conversation in a supported language.', Details reads 'Details weren't produced for this meeting.' and Next steps reads 'No suggested next steps were found for this meeting.' The Transcript section contains a single line, 'Transcription ended after 00:01:27', and no speaker turns at all. Nothing about the call's content is recoverable, so every substantive field is null or empty. demo_happened is false rather than null because the recording is bounded at 87 seconds with no transcribed conversation, which cannot contain a demo; next_step_secured is false on the strength of Gemini's explicit 'No suggested next steps were found' line. The attendee list is the calendar Invited line, not confirmed attendance - the doc names Jason Doepke (jason@courserev.ai) and the address tyler.pendleton@jackpotjunction.com, and the prospect's personal name is taken from that address rather than from any text in the document. account_name is from the document title, 'Dacotah Ridge & Courserev Discussion'. meeting_type is null because the title word 'Discussion' is the only hint and the source shows nothing about what kind of meeting this was or whether a substantive conversation happened at all."
+}

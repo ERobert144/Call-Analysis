@@ -1,0 +1,153 @@
+{
+  "call_id": "1cXcSfltz6gT_UWO2kS9tOreSJ53PG1aboPost3IWfLc",
+  "file_name": "New Albany Links GC & Courserev Exploratory Discussion - 2026/06/22 10:00 EDT - Notes by Gemini",
+  "doc_url": "https://docs.google.com/document/d/1cXcSfltz6gT_UWO2kS9tOreSJ53PG1aboPost3IWfLc/edit",
+  "rep": "Jason",
+  "date": "2026-06-22",
+  "account_name": "New Albany Links GC",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Luke Bowersock", "org": "prospect", "role": null},
+    {"name": "Jason Doepke", "org": "courserev", "role": "rep"},
+    {"name": "Elias Gross", "org": "courserev", "role": "head of operations"}
+  ],
+  "prospect_seniority": "unknown",
+  "meeting_type": "discovery",
+  "content_tier": "rich",
+  "pain_points": [
+    "Golf shop staff do not answer the phone while helping a customer at the counter - \"they typically won't answer the phone if they're helping someone\" - and a lot of them just let the phone ring",
+    "Staff capability is uneven: a handful can multitask between the counter and the phone, but many of the retired staff in the shop cannot",
+    "Unanswered calls fall to a voicemail that staff check later; there is no overflow handling",
+    "After-hours callers typically do not leave a message at all, so that demand is invisible",
+    "Each of the six Columbus-area properties has its own phone number; extension one on the New Albany main line reaches only the New Albany shop, so a caller cannot be moved to a sister course by phone",
+    "New ownership since February is rebranding and building a public restaurant, and no reservation system has been chosen for it yet"
+  ],
+  "current_solution": "A main line with a greeter and a seven-extension phone tree - one for the golf shop, two for Luke Bowersock, three for the pub. Tee times are taken by whoever is behind the golf shop counter; unanswered calls go to a voicemail the staff check later. Online booking runs through a third-party booking page linked from the website, with a facility dropdown covering the group's courses. No after-hours or overflow handling beyond voicemail.",
+  "demo_happened": true,
+  "features_demoed": [
+    "Live outbound call to the AI concierge at Arizona Biltmore Golf Club - the demo target course, not the prospect - booking a tee time for four players",
+    "Availability search across two courses at one property (Estates and Links), with per-player and total rate quotes",
+    "Caller recognition by phone number, booking under an existing customer profile without creating duplicates",
+    "Email confirmation and a texted secure link to add card details on file",
+    "Cross-course referral to a sister course when the called course is fully booked (described, not exercised - the demo found availability)",
+    "Customer dashboard call log with a per-call transcription viewer",
+    "Notice board for temporary announcements such as cart-path-only, lunch specials and maintenance or aeration schedules",
+    "Waitlist feature (mentioned during pricing as included at no charge, not shown)"
+  ],
+  "prospect_questions": [
+    "Where the phone number sits on the group's online booking page",
+    "Whether CourseRev could take restaurant reservations if the course has a restaurant next year, and specifically a dinner reservation for 7 o'clock on a Tuesday",
+    "What the cost is per month",
+    "What happens when a caller is not booking a tee time - his example was a caller who lost their rangefinder",
+    "Where a call goes when it kicks back to the shop and the shop staff do not answer - whether it reaches their voicemail or returns to CourseRev",
+    "Whether he would be able to see the dashboard end of the system",
+    "Whether Jason could email him a link covering what had just been shown and what it costs"
+  ],
+  "unanswered_questions": [
+    "Which reservation system the new restaurant will use - Elias Gross put this back to Luke as step one for any restaurant integration and Luke did not answer it",
+    "What the MCO rate actually is - Elias Gross said the price comes down slightly at four or more courses but quoted no figure, and Luke did not press for one",
+    "What share of New Albany's tee-time bookings arrive by phone - Luke said he did not know the percentage, and the volume was never established"
+  ],
+  "objections": [
+    {
+      "trigger_quote": "but we get a few phone calls, but not too many for booking tea times",
+      "category": "call_volume_doubt",
+      "quote_source": "verbatim_speech",
+      "rep_response_summary": "Jason Doepke did not contest the volume figure. He moved the value case off booking volume twice: first by introducing the delayed call forward as a risk-free arrangement in which the AI picks up only when the shop cannot get to the phone and also covers after hours, and later by citing that he had called nearly 500 golf courses over six weeks and found a crazy number of voicemails. Elias Gross added the busy-times framing - that the real problem is a staff member choosing between a tee time on the phone and the customer in front of them - and said a good chunk of CourseRev courses run that delayed forward sequence for exactly that reason.",
+      "response_tactic": "reframe",
+      "prospect_next_move": null,
+      "resolved_in_call": null
+    },
+    {
+      "trigger_quote": "If next year we have a restaurant, can you take restaurant reservations also?",
+      "category": "other",
+      "quote_source": "verbatim_speech",
+      "rep_response_summary": "Jason Doepke handed the question to Elias Gross, who said probably not at this stage because a restaurant booking system is a completely different interface. He listed what the system can do around food - forward callers to the restaurant, leave notes on customer profiles, set up player types that include food - but not take food orders. When Luke restated it as a dinner reservation for the new public restaurant, Elias asked which reservation system they planned to use, said integration with it would be step one, and stated that it is something CourseRev would need to build and is not something available now.",
+      "response_tactic": "feature_explanation",
+      "prospect_next_move": "partially_accepted",
+      "resolved_in_call": false
+    }
+  ],
+  "sentiment": {
+    "open": {
+      "score": 3,
+      "evidence": "Cooperative and candid on discovery after a late, tech-troubled start: he mapped out the phone tree unprompted and volunteered that shop staff often do not pick up - \"a lot of them just let the phone ring\" - while in the same breath minimising the opportunity, saying \"a lot of people book online\" and \"I don't know the percentage of it\". Helpful, no enthusiasm and no resistance.",
+      "evidence_source": "verbatim_speech"
+    },
+    "post_demo": {
+      "score": 4,
+      "evidence": "His first substantive move after the live AI booking call was to probe for more scope rather than to question what he had seen: \"If next year we have a restaurant, can you take restaurant reservations also?\"",
+      "evidence_source": "verbatim_speech"
+    },
+    "at_pricing": {
+      "score": 3,
+      "evidence": "He asked for the cost unprompted, then made no recorded comment of any kind on the $2.50-per-completed-round model - no pushback and no approval. His next utterance moved straight to an unrelated operational scenario: \"What about what if they're not looking to book a tea time and they lost their rangefinder and it goes to you guys?\"",
+      "evidence_source": "verbatim_speech"
+    },
+    "close": {
+      "score": 4,
+      "evidence": "After the implementation walkthrough he said \"I like it.\", asked for the materials, and volunteered to champion it internally: \"I talk to these guys every week, so I'll put it in front of them and see what they think\", adding that the new owners are \"big into AI\" and \"into the techy stuff\". Asked twice whether he had questions, he answered \"No, all good.\"",
+      "evidence_source": "verbatim_speech"
+    },
+    "trajectory": "rising"
+  },
+  "call_path": [
+    "late_start_and_tech_trouble",
+    "intro_and_participant_roles",
+    "discovery_current_phone_operations",
+    "discovery_missed_calls_and_voicemail",
+    "customer_data_and_booking_configuration",
+    "live_ai_booking_demo_call",
+    "restaurant_scope_limits",
+    "pricing",
+    "fallback_and_human_handoff",
+    "dashboard_and_notice_board_walkthrough",
+    "multi_course_mco_rate",
+    "implementation_process",
+    "next_step_materials"
+  ],
+  "pivot_points": [
+    {
+      "at_stage": "discovery_missed_calls_and_voicemail",
+      "what_changed": "The value case moved off phone booking volume, which the prospect had just minimised, and onto calls missed while staff are busy in the shop plus after-hours coverage",
+      "caused_by": "Luke Bowersock saying most people book online and that they get a few phone calls but not too many for booking tee times, immediately after saying a lot of his staff just let the phone ring"
+    },
+    {
+      "at_stage": "restaurant_scope_limits",
+      "what_changed": "Scope narrowed to the golf shop; restaurant reservations were placed outside current capability, conditional on a build and on an integration with a reservation system the prospect has not yet selected",
+      "caused_by": "Elias Gross stating that a restaurant booking system is a completely different interface and that it is not something available now"
+    },
+    {
+      "at_stage": "multi_course_mco_rate",
+      "what_changed": "The opportunity was resized from the six Columbus-area courses to the two under the new ownership group, with more possible as that group acquires further facilities",
+      "caused_by": "Elias Gross raising the MCO rate for four or more courses, prompting Luke to explain that the six properties are managed by one operator but sit under different ownerships"
+    }
+  ],
+  "next_step_secured": true,
+  "next_step_has_date": false,
+  "next_step_description": "Jason Doepke to send, the same day, a one-to-two-minute Loom video walking through the dashboard, a sample agreement and a link to the onboarding Google form; Luke Bowersock to forward that material to the Good Lag Partners ownership group, who he speaks with weekly and has a call with on the Wednesday, conditional on it not being cancelled; Jason to reach out early the following week. No specific date or time was fixed for that follow-up conversation.",
+  "buying_signals": [
+    "Asked for pricing unprompted",
+    "Asked Jason to send a link covering the demo and the cost so he could forward it on",
+    "Said \"I like it.\" after hearing that setup is a call forward requiring no staff training",
+    "Committed to put the material in front of the ownership group he speaks with weekly, and flagged an existing call with them on the Wednesday",
+    "Said the new ownership group are \"big into AI\" and \"into the techy stuff\"",
+    "Volunteered that the ownership group is looking to purchase more golf facilities across the country",
+    "Engaged with the multi-course question, clarifying which two of the six properties share the new ownership"
+  ],
+  "stalls": [
+    "The decision sits with the new ownership group, Good Lag Partners; Luke presents rather than decides",
+    "Minimised the opportunity early - most customers book online, phone bookings are mostly older midweek players, and after-hours callers rarely leave a message",
+    "No follow-up meeting was booked; the next contact was left as Jason reaching out early the following week"
+  ],
+  "rep_commitments": [
+    "Create and send a one-to-two-minute Loom video walking through the dashboard, the same day",
+    "Send a sample agreement for review, the same day",
+    "Send a link to the onboarding Google form, described as 10 to 15 minutes to fill out",
+    "Provide references or other courses to speak to if wanted",
+    "Reach out early the following week",
+    "Elias Gross to be copied on the email thread as a standing resource"
+  ],
+  "extraction_confidence": "high",
+  "confidence_notes": "Full 30-minute verbatim transcript, 264 turns, 37,457 characters, with clean speaker attribution for the substantive exchanges, so account, discovery, demo, pricing, objections and next steps are all directly evidenced. Arizona Biltmore Golf Club is the course Jason dialled to demonstrate the AI, not the prospect (rule 8); the prospect is New Albany Links GC, named in the document title and confirmed by Luke Bowersock's kempersports.com invite address. During the demo the AI's speech is transcribed under Jason Doepke's speaker label, so the 00:13:06-00:17:28 stretch alternates between rep and AI under one name. Transcription is lossy on numbers and names - the AI's quoted totals appear as $5346 and $18329 for $53.46 and $183.29, the booking platform is rendered as 'four up', KemperSports as 'Keer', and Good Lag Partners is spelled several ways by the prospect himself - so no figure or vendor name from the demo segment is treated as exact. Turns interleave: several of Luke's are split across a speaker change mid-sentence, for example his pricing question, which lands as 'what is the cost of this per' and 'month?' either side of Jason's interjection. That is why prospect_next_move on the call-volume objection is null: Jason's and Elias's reframes drew no reply from Luke at all, his next utterances being a backchannel 'Okay.' addressed to a different speaker's new question and, later, an unrelated question about lost property. Coding that as acceptance would be reading tone, which rule 2 forbids. On the restaurant objection prospect_next_move is partially_accepted, and it rests on his own explicit words - he said he likes the option for the golf shop while restating the restaurant need - not on the trailing 'Okay.', which is itself a backchannel interleaved mid-sentence into Elias's turn. resolved_in_call is false there because the capability was stated as not available and needing to be built, and the follow-on question of which reservation system they will use went unanswered. Two further items were considered as objections and rejected. Approval authority: Luke is not the decision maker and said he would put it in front of the ownership group, but he framed that as a positive process step and no objection-handling exchange followed, so it is recorded under stalls and buying_signals instead. Price: he asked the cost and made no recorded reaction whatever to $2.50 per completed round, which is an absence of objection, not an objection. prospect_seniority is unknown - no title for Luke is stated anywhere in the document; he has his own phone-tree extension, directs golf shop staffing and speaks with ownership weekly, but none of that is a stated role. next_step_has_date is false because the agreed follow-up conversation is only 'early part of next week'; the same-day sends are rep deliverables, and Luke's Wednesday ownership call is his own internal meeting and was flagged as possibly cancelled. Trajectory rising is read from a cooperative but opportunity-minimising open at 3 to an explicit 'I like it.' plus an internal-champion commitment at close at 4; the at_pricing 3 is an absence of any recorded reaction rather than a dip."
+}
