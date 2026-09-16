@@ -103,6 +103,20 @@ with open(os.path.join(BASE, "objections.csv"), "w", newline="") as fh:
                         "next_step_secured": j(c.get("next_step_secured")),
                         "extraction_confidence": j(c.get("extraction_confidence"))})
 
+# --- unanswered_questions.csv (long format) ------------------------------
+nq = 0
+with open(os.path.join(BASE, "unanswered_questions.csv"), "w", newline="") as fh:
+    w = csv.DictWriter(fh, fieldnames=["call_id","rep","account_name","date","meeting_type",
+                                       "content_tier","question","extraction_confidence"])
+    w.writeheader()
+    for c in calls:
+        for q in (c.get("unanswered_questions") or []):
+            nq += 1
+            w.writerow({"call_id": c.get("call_id"), "rep": j(c.get("rep")),
+                        "account_name": j(c.get("account_name")), "date": j(c.get("date")),
+                        "meeting_type": j(c.get("meeting_type")), "content_tier": j(c.get("content_tier")),
+                        "question": q, "extraction_confidence": j(c.get("extraction_confidence"))})
+
 # --- gaps.md -------------------------------------------------------------
 done = {c.get("call_id") for c in calls}
 lines = ["# Gaps", "",
@@ -184,6 +198,7 @@ if not any_lead:
 open(os.path.join(BASE, "gaps.md"), "w").write("\n".join(lines))
 print(f"\ncalls.csv: {len(calls)} rows")
 print(f"objections.csv: {nobj} rows")
+print(f"unanswered_questions.csv: {nq} rows")
 print(f"gaps.md: {len(vids)} video_only, {len(shorts)} shortcut, {len(stubs)} stub, "
       f"{len(unres)} unresolved-account, {len(lowc)} low-confidence, {len(notdone)} unextracted")
 if calls:
