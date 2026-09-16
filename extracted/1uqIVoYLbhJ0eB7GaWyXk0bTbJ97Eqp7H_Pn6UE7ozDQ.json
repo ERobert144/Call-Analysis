@@ -1,0 +1,48 @@
+{
+ "call_id": "1uqIVoYLbhJ0eB7GaWyXk0bTbJ97Eqp7H_Pn6UE7ozDQ",
+ "file_name": "CourseRev + Dave White Muni - Quick Chat - 2026/06/24 14:01 PDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/1uqIVoYLbhJ0eB7GaWyXk0bTbJ97Eqp7H_Pn6UE7ozDQ/edit",
+ "rep": "Bo",
+ "date": "2026-06-24",
+ "account_name": "Dave White Muni",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Jennifer Thornton",
+   "org": "prospect",
+   "role": "listed on the invite line as jennifer_thornton@casagrandeaz.gov (City of Casa Grande, AZ); the document records no speech from her and does not state her title"
+  },
+  {
+   "name": "Bo Ferrando",
+   "org": "courserev",
+   "role": "rep; listed on the invite line, no speech recorded in the document"
+  }
+ ],
+ "prospect_seniority": "unknown",
+ "meeting_type": null,
+ "content_tier": "stub",
+ "pain_points": null,
+ "current_solution": null,
+ "demo_happened": null,
+ "features_demoed": null,
+ "prospect_questions": null,
+ "unanswered_questions": null,
+ "objections": null,
+ "sentiment": {
+  "open": null,
+  "post_demo": null,
+  "at_pricing": null,
+  "close": null,
+  "trajectory": "insufficient_data"
+ },
+ "call_path": null,
+ "pivot_points": null,
+ "next_step_secured": null,
+ "next_step_has_date": null,
+ "next_step_description": null,
+ "buying_signals": null,
+ "stalls": null,
+ "rep_commitments": null,
+ "extraction_confidence": "low",
+ "confidence_notes": "Content-free stub: 1,742 characters, no Summary, no Decisions, no Details and no transcript body. Gemini states \"A summary wasn't produced for this meeting because there wasn't enough conversation in a supported language.\" and \"Details weren't produced for this meeting.\" The only evidence a meeting occurred at all is the line \"Transcription ended after 00:07:10\" under the Transcript heading, with zero dialogue turns following it. Because the notetaker recorded nothing about what was said, content fields are null (unknown) rather than empty arrays: the source cannot establish that pain points, questions or objections did not occur, only that none were captured. This is deliberately NOT treated as the rule 10 no-show case - unlike that doc, there is no captured audio to show who was or was not on the call, so demo_happened is null rather than false. objections is null for the same reason and should not be read as a zero-objection finding. next_step_secured is null even though the doc says \"No suggested next steps were found for this meeting.\", because that line comes from the same failed summarisation pass that produced no summary and is not evidence that no next step was agreed. account_name comes from the Drive/doc title \"CourseRev + Dave White Muni - Quick Chat\" and is corroborated by the invitee's casagrandeaz.gov municipal domain (Dave White Municipal Golf Course, Casa Grande, Arizona); it is not a demo-target course. Both attendees are taken from the \"Invited\" header line only - attendance is not evidenced anywhere in the text. meeting_type is null: the title says \"Quick Chat\" but the document supplies no basis for choosing a category from the enum. All four sentiment checkpoints are null and trajectory is insufficient_data."
+}
