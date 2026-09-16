@@ -1,0 +1,19 @@
+{
+  "file_id": "15sp-84F0PjwhlsKPG6TsLag6C3qv6_L7CRqeRLCyFOk",
+  "rep": "Jason",
+  "char_count": 23274,
+  "has_transcript": true,
+  "transcript_chars": 23165,
+  "transcript_turns": 219,
+  "transcript_duration": "00:22:34",
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Jason Doepke", "org": "courserev"},
+    {"name": "Jackson Sassanella", "org": "courserev"}
+  ],
+  "is_customer_call": false,
+  "call_type_note": "Internal CourseRev sync: competitive positioning vs Notify, HubSpot email deliverability, referral program and onboarding process changes.",
+  "confidence": "high"
+}

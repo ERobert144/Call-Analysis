@@ -1,20 +1,29 @@
 {
-  "file_id": "1MqvAFKoXlxtAsBUXstJ-Gxh2-A0wjnz9NbNI-H1qs_4",
-  "rep": "Jason",
-  "char_count": 7129,
-  "has_transcript": false,
-  "transcript_chars": 0,
-  "transcript_turns": 0,
-  "transcript_duration": null,
-  "has_screenshots": false,
-  "account_name": "Bristol Ridge",
-  "account_source": "body",
-  "attendees": [
-    {"name": "Sam Strachan", "org": "prospect"},
-    {"name": "Jason Doepke", "org": "courserev"},
-    {"name": "Evan Denholm", "org": "courserev"}
-  ],
-  "is_customer_call": true,
-  "call_type_note": "Post-sale onboarding/kickoff call (summary and details only, no transcript): call-forwarding setup, dashboard walkthrough and a Club Profit to Club Caddy contract fix. Untitled doc; account inferred from attendee Sam Strachan, Club Caddy and Wisconsin, matching the Bristol Ridge call in this batch.",
-  "confidence": "medium"
+ "file_id": "1MqvAFKoXlxtAsBUXstJ-Gxh2-A0wjnz9NbNI-H1qs_4",
+ "rep": "Jason",
+ "char_count": 7129,
+ "has_transcript": false,
+ "transcript_chars": 0,
+ "transcript_turns": 0,
+ "transcript_duration": null,
+ "has_screenshots": false,
+ "account_name": "Bristol Ridge",
+ "account_source": "cross_doc_inference",
+ "attendees": [
+  {
+   "name": "Sam Strachan",
+   "org": "prospect"
+  },
+  {
+   "name": "Jason Doepke",
+   "org": "courserev"
+  },
+  {
+   "name": "Evan Denholm",
+   "org": "courserev"
+  }
+ ],
+ "is_customer_call": true,
+ "call_type_note": "Post-sale onboarding/kickoff call (summary and details only, no transcript): call-forwarding setup, dashboard walkthrough and a Club Profit to Club Caddy contract fix. Untitled doc; account inferred from attendee Sam Strachan, Club Caddy and Wisconsin, matching the Bristol Ridge call in this batch.",
+ "confidence": "medium"
 }

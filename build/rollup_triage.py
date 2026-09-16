@@ -96,6 +96,12 @@ for a, v in sorted(acc.items(), key=lambda kv: (-len(kv[1]), kv[0])):
     ch = sum(x.get("transcript_chars") or 0 for x in v)
     print(f"  {a:32} {len(v)} call(s)  {ch:>7} transcript chars")
 
+inferred = [r for r in recs if r.get("account_source") == "cross_doc_inference"]
+if inferred:
+    print(f"\naccounts inferred across documents (audit these): {len(inferred)}")
+    for r in inferred:
+        print(f"  {rep_of(r):6} {(r.get('account_name') or '?'):24} {name_of(r)[:44]}")
+
 promoted = [r for r in prospect if inv.get(r["file_id"], {}).get("classification") == "unknown"]
 demoted  = [r for r in recs if inv.get(r["file_id"], {}).get("classification") == "customer_call"
             and not is_prospect(r)]
