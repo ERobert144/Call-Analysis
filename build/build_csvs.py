@@ -137,7 +137,11 @@ section("Unresolvable shortcuts", shorts, "Drive shortcuts in Bo's folder. `read
 section("Contentless stubs", stubs, "Gemini produced no summary and no dialogue - typically 'not enough conversation in a supported language'. A meeting happened; nothing was captured.")
 section("Account unresolved", unres, "A real prospect call, but nothing in the doc names the course - no title, no invitee emails. Resolvable only from HubSpot or the calendar. Blocks the HubSpot join.")
 section("Low extraction confidence", lowc, "Extracted, but the source was too thin to support most fields.")
-section("Customer calls not extracted", notdone, "In scope but no extraction record present.")
+section("Deliberately excluded from extraction", notdone,
+        "Triage marked these is_customer_call, but they are out of scope for "
+        "prospect analysis: partner/vendor calls (TenFore, Lightspeed, Pitch CRM) "
+        "and contentless stubs where the flag was a low-confidence default over "
+        "no evidence. Not failures - exclusions.")
 
 # An unresolved account is often resolvable by the people on the call: the same
 # prospect shows up on another call that IS named, or on a second unnamed one.

@@ -1,0 +1,168 @@
+{
+  "call_id": "1TkBlhJYHKPHgpX7Q6FpLHzeWiiLyPRtnbW6wk4DFUP4",
+  "file_name": "CourseRev + Presidio - Quick Chat - 2026/05/20 09:31 PDT - Notes by Gemini",
+  "doc_url": "https://docs.google.com/document/d/1TkBlhJYHKPHgpX7Q6FpLHzeWiiLyPRtnbW6wk4DFUP4/edit",
+  "rep": "Bo",
+  "date": "2026-05-20",
+  "account_name": "Presidio Golf Course",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Brian Wilcox", "org": "prospect", "role": "general manager"},
+    {"name": "Bo Ferrando", "org": "courserev", "role": "rep"}
+  ],
+  "prospect_seniority": "GM",
+  "meeting_type": "discovery",
+  "content_tier": "rich",
+  "pain_points": [
+    "Staff are pulled between the counter and the phones - \"as soon as two people are in front of you, then you got two lines lit up\"",
+    "Calls are put on hold or left to ring during busy periods, which the prospect frames as lost money: \"the phone ringing is dollars um potential dollars\"",
+    "Walking callers through lesson programmes takes a long time while several people wait in the shop, adding stress to the staff",
+    "The course cannot quantify its own call volume - \"I don't I don't really have a way to quantify it right now\" - though the prospect agreed it is easily at least 50 calls a day",
+    "A previous outsourced call centre at another course left callers speaking to people who did not work at the course, and cost trade tee times the prospect would rather have sold",
+    "The pro shop runs thin: two staff on the counter plus a floating manager on duty who is regularly pulled onto the course or into back-of-house tasks",
+    "The prospect is one month into the role and does not yet know the cost base, the client's appetite, or how next year's budget will be built"
+  ],
+  "current_solution": "Calls answered in-house by pro shop staff - two on the counter plus a floating manager on duty - alongside serving customers in person, with calls held or left to ring at busy times. Club Profit is the backend golf management system and the prospect believes it also provides the front-end online booking. No AI, overflow or after-hours answering. He had previously worked with Easy Links and its Chicago call centre at Crystal Springs and had rejected that model.",
+  "demo_happened": true,
+  "features_demoed": [
+    "Live outbound call to the AI concierge at Highland Creek Golf Club - the demo target course, not the prospect - booking a Saturday tee time for two players",
+    "Proactive opening announcement about newly renovated greens",
+    "Caller recognition from records held on the course's side, greeting the caller by name with player type and contact details already on file",
+    "Real-time tee sheet availability check against Club Profit, with alternative times offered (12:30, 12:40, 12:50) and a Sunday morning alternative",
+    "Weekend rate quote per player and total, with payment due at the pro shop on arrival",
+    "Text confirmation carrying a weather-guarantee add-on link",
+    "24/7 operation with a manual toggle to switch the voice concierge off from the dashboard",
+    "Complex-query fallback - leave a message, press through, or be transferred straight to the pro shop",
+    "Dashboard: revenue figures, sales by channel across voice concierge, chatbot and web, and a call log showing the booking just made logged against the caller",
+    "Website chatbot shown live on Genova Golf Club's site - an existing CourseRev client, not the prospect - which can complete a booking inside the chat"
+  ],
+  "prospect_questions": [
+    "Whether CourseRev has integrated with Club Profit before",
+    "Whether there are courses already working with CourseRev that have it",
+    "Whether the industry pushes back on voice, given a marketing team's view that phone interactions will be obsolete once callers just tell an AI assistant on their phone to do it",
+    "Whether callers can bypass the AI to reach a person at some point",
+    "Whether the website chatbot pops up and asks if you have questions",
+    "How pricing works",
+    "How CourseRev demonstrates it is adding value - what the volume figures look like in a case study, and whether the argument is cost savings from needing fewer pro shop staff",
+    "Whether Keer Sports already has any CourseRev clients"
+  ],
+  "unanswered_questions": [
+    "What the ROI for a course like Presidio actually is - Bo Ferrando gave qualitative drivers (after-hours capture, operational efficiency, staff time freed for promotions, memberships and lessons) and committed to produce a hypothetical ROI report after speaking to his head of operations; no figure was produced in the call",
+    "Whether any labour saving can be demonstrated - the prospect said the case only closes if a correlation can be shown to scheduling one person or half a person less, and neither side could evidence that",
+    "Presidio's own unit economics - the prospect could not give hard costs or a per-round margin, offering only an average rate of about $80 for easy math, so the reverse-engineering attempt stalled",
+    "Whether CourseRev has any clients within Keer Sports - the prospect raised it and Bo Ferrando moved to the Touchstone acquisition question without answering",
+    "Presidio's actual daily call volume, which the prospect said he would have to research"
+  ],
+  "objections": [
+    {
+      "trigger_quote": "So I don't know if the Prescidio hospitality client is like um you know would entertain something like this or how they feel about the pricing.",
+      "category": "approval_authority",
+      "quote_source": "verbatim_speech",
+      "rep_response_summary": "Bo Ferrando did not contest the point. He offered to send an agreement for review, said he could follow up with something that speaks to the value question, and gave the qualitative ROI drivers in the meantime - capturing bookings 24/7 including after close, operational efficiency from not having to work the phones, and pro shop time freed for promotions, memberships, lessons and packages. He then offered a hypothetical worked example, and at the close asked directly whether they should bring in a higher up from Keer Sports or whether he should just send the agreement with pricing.",
+      "response_tactic": "defer_to_followup",
+      "prospect_next_move": "escalated",
+      "resolved_in_call": false
+    },
+    {
+      "trigger_quote": "it's a lot easier for me to budget for the website fee because I know exactly what that is",
+      "category": "price",
+      "quote_source": "verbatim_speech",
+      "rep_response_summary": "Bo Ferrando acknowledged the concern and tried to reverse-engineer the unit economics live - asking what costs come out of a roughly $100 tee time and what Presidio is left with, then asking for the average rate collected and what is taken out as expense. He also committed to prepare a hypothetical ROI report and to discuss it with CourseRev's head of operations within the hour.",
+      "response_tactic": "roi_math",
+      "prospect_next_move": "partially_accepted",
+      "resolved_in_call": false
+    }
+  ],
+  "sentiment": {
+    "open": {
+      "score": 4,
+      "evidence": "Warm and expansive - the prospect drove a long stretch on golf course architecture and his own move from Crystal Springs, and volunteered the problem himself before any pitch, saying golfers wish it were \"Maybe wish it was less expensive or easier to get a tea time or maybe even easier to reach somebody in the golf shop on a busy day.\"",
+      "evidence_source": "verbatim_speech"
+    },
+    "post_demo": {
+      "score": 4,
+      "evidence": "He worked out the mechanism unprompted rather than questioning it - \"And it knew it was you because you've already golfed there.\" - and then engaged with the fallback design and the dashboard's value as an internal justification tool.",
+      "evidence_source": "verbatim_speech"
+    },
+    "at_pricing": {
+      "score": 2,
+      "evidence": "Immediately after the $2.50-per-booking figure he moved off the product and onto whether it could be bought at all - \"it's a good conversation\" followed by \"I'm not really sure um how it fits with you know certain I'm starting to work on next year's budget\" - and then spent the rest of the call challenging a variable expense line he could not forecast.",
+      "evidence_source": "verbatim_speech"
+    },
+    "close": {
+      "score": 3,
+      "evidence": "Took a dated next step and gave his cell number, asking for the paperwork - \"I think the agreement with the pricing is fine\" - while withholding sponsorship: he declined to broker the meeting Bo offered, saying \"I don't really feel comfortable right now like trying to coordinate that communication\", and framed the boss conversation as a soft float that might come back as a no.",
+      "evidence_source": "verbatim_speech"
+    },
+    "trajectory": "v_shaped"
+  },
+  "call_path": [
+    "rapport_and_local_golf_history",
+    "prospect_background_and_tenure",
+    "discovery_operations_and_call_handling",
+    "third_party_call_center_experience",
+    "call_volume_probe",
+    "ai_value_framing",
+    "club_profit_integration_check",
+    "industry_view_on_voice_vs_online",
+    "live_ai_booking_demo_call",
+    "human_fallback_and_after_hours_settings",
+    "dashboard_and_channel_tracking",
+    "pricing",
+    "roi_and_budget_challenge",
+    "management_company_context",
+    "labor_savings_test",
+    "next_step_scheduling"
+  ],
+  "pivot_points": [
+    {
+      "at_stage": "pricing",
+      "what_changed": "The call turned from product fit, which the prospect had been endorsing, to whether a variable per-booking expense can be budgeted for at all",
+      "caused_by": "Bo Ferrando quoting $2.50 per booking charged only when the golfer shows up, after which Brian Wilcox went straight to next year's budget and the unknown appetite of the Presidio hospitality client"
+    },
+    {
+      "at_stage": "labor_savings_test",
+      "what_changed": "The bar for justification moved from incremental revenue to a demonstrable labour saving - the prospect said a correlation would have to be shown to scheduling one person or half a person less, otherwise it is just another cost",
+      "caused_by": "Bo Ferrando attempting to reverse-engineer the economics of a round and Brian Wilcox being unable to supply hard costs or a per-round margin"
+    },
+    {
+      "at_stage": "next_step_scheduling",
+      "what_changed": "The route to the decision maker narrowed from a joint meeting with a Keer Sports higher up to the prospect floating it with Mark Luthman alone the next morning, with Bo kept out of that conversation",
+      "caused_by": "Bo Ferrando asking whether they should bring in a higher up from Keer, and Brian Wilcox declining to coordinate that communication"
+    }
+  ],
+  "next_step_secured": true,
+  "next_step_has_date": true,
+  "next_step_description": "Bo Ferrando to speak with CourseRev's head of operations within the hour, then send a hypothetical ROI report explaining the value plus a first-draft agreement including pricing, and to text the cell number the prospect gave. Brian Wilcox to float it with his boss Mark Luthman, executive vice president of Keer Sports, at their 8:30 a.m. meeting the next morning, and to accept a Google Meet invite for a short check-in with Bo at 1:30 p.m. that same day, 2026-05-21. Brian also to supply the course's phone carrier and current pro shop line details.",
+  "buying_signals": [
+    "Volunteered the pain before any pitch, including that people wish it were easier to reach the golf shop on a busy day",
+    "Said of the outsourced call centre model \"I'd rather just pay for the service than give give tea times away essentially\"",
+    "Argued CourseRev's own case on the voice channel, saying his golfers \"they're still more comfortable like people like myself are like want to pick up the phone and like talk to someone\"",
+    "Confirmed Club Profit as the backend and asked whether CourseRev had integrated with it before",
+    "Asked for existing client references and engaged with the 400-course figure",
+    "Asked for pricing unprompted, before Bo raised it",
+    "Recognised the dashboard's internal justification value himself - that tracked sales let the course show what CourseRev brought in",
+    "Raised Keer Sports's roughly 240 courses and his boss Mark Luthman as a scale path if they like it, and named Corsco's 45 to 50 courses at his former employer",
+    "Asked for the agreement with pricing to be sent",
+    "Agreed to a dated follow-up and said \"I'll actually accept this one.\" about the calendar invite",
+    "Gave his cell phone number so Bo could text"
+  ],
+  "stalls": [
+    "Could not quantify call volume, per-round margin or hard costs, so no ROI case could be built inside the call",
+    "Declined to coordinate a meeting between Bo and the Keer Sports higher up, keeping the boss conversation to himself for now",
+    "Framed the outcome of that conversation as genuinely open, including that Keer might already know about CourseRev and have decided it is not for them right now",
+    "Conditioned the business case on a labour saving that would have to be correlated to cutting a person or half a person from the shop",
+    "One month into the role, with next year's budget not yet built and the client's appetite unknown"
+  ],
+  "rep_commitments": [
+    "Discuss the call with CourseRev's head of operations within the hour, in an already-scheduled one-on-one",
+    "Prepare and send a hypothetical ROI report explaining CourseRev's value",
+    "Send a first draft of the agreement including pricing",
+    "Follow up with case-study style material on volume and value",
+    "Send a Google Meet invite for the 1:30 p.m. check-in the next day",
+    "Send an initial text message to the cell number provided",
+    "Reach out to courses managed by Corsco"
+  ],
+  "extraction_confidence": "high",
+  "confidence_notes": "Rich source: 58,571 characters with a 50-minute, 439-turn verbatim transcript plus Gemini summary, next steps and details, so account, discovery, demo, pricing, both objections and the next step are directly evidenced. Rule 8 applies twice: Highland Creek Golf Club is the course Bo dialled to demonstrate the AI and Genova Golf Club is an existing client whose website chatbot was shown - neither is the prospect, which is Presidio Golf Course, named in the title and corroborated by the invitee address bwilcox@presidiogolf.com. The transcript has a roughly fourteen-minute hole: the first section runs from 00:00:00 for about a minute and the next begins at 00:15:58 mid-conversation, and Gemini's own Details cite nothing between those points, so any content in that window is unrecoverable and the early part of discovery may be incomplete. During 00:30:15 to 00:32:13 the demo AI's speech is transcribed under Bo Ferrando's speaker label, so rep and AI alternate under one name there. Proper nouns are transcribed unreliably - KemperSports appears throughout as 'Keer Sports', Presidio as 'Prescidio', and the management company at the prospect's former course as 'Corsco' in both the transcript and Gemini's next steps - so no company name from this document is treated as exact spelling. Numbers from the demo are likewise unreliable: the AI quoted $80 per player for a $160 total and then confirmed the same booking at $90 per player for a total of $180, and the prospect made no recorded comment on the discrepancy, which is why no ai_quality_doubt objection is recorded - the doubt was never raised. Turns interleave throughout, so short backchannels are not attached to specific rep utterances; both prospect_next_move codings rest on substantive prospect turns instead. On the approval_authority objection, 'escalated' means he took it up the chain: he introduced his boss Mark Luthman, executive vice president of Keer Sports, as the layer that decides and would scale it, and committed to raise it with him the next morning while explicitly declining to let Bo into that conversation. On the price objection, 'partially_accepted' rests on his own words immediately after Bo's reverse-engineering attempt - that it is a nice feature and might pick up some incremental revenue, but would be hard to quantify unless a labour saving could be shown - granting the value while withholding the justification. Both are resolved_in_call false: the ROI answer was deferred to a report that did not exist yet. Three further items were considered as objections and rejected. His critique of outsourced call centres - that the people do not work at the course and do not have the information, and that trade times cost real revenue - targets an alternative to CourseRev, not CourseRev, and he closed it by saying he would rather pay for the service. The AI-obsolescence argument at 00:26:51 is pushback he received from a marketing team and then argued against himself on the grounds that his golfers still want to talk to someone; he was seeking Bo's read on the industry, not objecting. His question about whether callers can bypass the AI, with the East Coast anecdote about a course where you could not reach anyone in the golf shop, is recorded as a prospect question - it presupposes a yes and Bo's safety-valve answer drew only acknowledgement. prospect_seniority is GM on converging evidence rather than a stated title: Bo asked whether he had been a GM at Crystal Springs and Brian did not correct it, Brian refers to a visitor as 'another GM', and he owns next year's budget, pro shop staffing and course operations while reporting to an executive vice president. meeting_type is discovery: a live demo, dashboard walkthrough and pricing all happened, but roughly the first twenty-eight minutes are rapport and discovery and the meeting was convened as a first 'Quick Chat'. One inconsistency in the source: Gemini's Next steps record a 1 PM check in while the transcript settles explicitly on 1:30 after the prospect said he was busy at 11 and free after 1; Gemini's own Details also say 1:30 p.m., so 1:30 is used here."
+}

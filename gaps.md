@@ -116,14 +116,13 @@ Extracted, but the source was too thin to support most fields.
 | Bo | 2026-06-24 | Dave White Muni | CourseRev + Dave White Muni - Quick Chat - 2026/06/24 14:01 PDT - Notes by Gemini |
 | Bo | 2026-06-11 | Indian Canyons | CourseRev + Indian Canyons - Quick Chat - 2026/06/11 14:00 PDT - Notes by Gemini |
 
-## Customer calls not extracted (4)
+## Deliberately excluded from extraction (3)
 
-In scope but no extraction record present.
+Triage marked these is_customer_call, but they are out of scope for prospect analysis: partner/vendor calls (TenFore, Lightspeed, Pitch CRM) and contentless stubs where the flag was a low-confidence default over no evidence. Not failures - exclusions.
 
 | rep | date | account | file |
 |---|---|---|---|
 | Jason | 2026-09-01 | - | Meeting started 2026/09/01 09:05 EDT - Notes by Gemini |
-| Bo | 2026-05-20 | Presidio Golf Course | CourseRev + Presidio - Quick Chat - 2026/05/20 09:31 PDT - Notes by Gemini |
 | Bo | 2026-08-13 | TenFore | TenFore<>CourseRev info sesh - 2026/08/13 12:59 EDT - Notes by Gemini |
 | Jason | 2026-07-21 | - | Meeting started 2026/07/21 10:00 EDT - Notes by Gemini |
 
