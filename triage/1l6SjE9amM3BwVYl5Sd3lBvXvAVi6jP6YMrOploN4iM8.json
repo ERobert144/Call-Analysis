@@ -1,0 +1,19 @@
+{
+  "file_id": "1l6SjE9amM3BwVYl5Sd3lBvXvAVi6jP6YMrOploN4iM8",
+  "rep": "Bo",
+  "char_count": 48395,
+  "has_transcript": true,
+  "transcript_chars": 39807,
+  "transcript_turns": 362,
+  "transcript_duration": "00:34:31",
+  "has_screenshots": false,
+  "account_name": "Pine Springs",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Claire Davis", "org": "prospect"},
+    {"name": "Bo Ferrando", "org": "courserev"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Discovery/demo call with the Pine Springs GM; live AI-voice demo, pricing, agreement to be reviewed by the owner.",
+  "confidence": "high"
+}

@@ -1,0 +1,19 @@
+{
+  "file_id": "1ORcZPbh7I7PtbkTyF7qzIhNXqt1auvau2fj3jPh8F7I",
+  "rep": "Bo",
+  "char_count": 1896,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 1,
+  "transcript_duration": "00:19:44",
+  "has_screenshots": false,
+  "account_name": "Cedaredge Golf Course",
+  "account_source": "title",
+  "attendees": [
+    {"name": "kbrown@cedaredgecolorado.com", "org": "prospect"},
+    {"name": "Bo Ferrando", "org": "courserev"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Scheduled prospect chat that produced almost nothing: Gemini made no summary or details, and the transcript section holds a single 5-word Bo line over a 19:44 recording.",
+  "confidence": "low"
+}

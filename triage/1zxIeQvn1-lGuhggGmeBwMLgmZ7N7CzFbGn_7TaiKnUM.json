@@ -1,0 +1,16 @@
+{
+  "file_id": "1zxIeQvn1-lGuhggGmeBwMLgmZ7N7CzFbGn_7TaiKnUM",
+  "rep": "Jason",
+  "char_count": 1064,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": null,
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [],
+  "is_customer_call": null,
+  "call_type_note": "Contentless stub: no invitee list, no summary, no details, no transcript section - only Gemini's 'not enough conversation in a supported language' boilerplate. Drive permissions show jason@courserev.ai as sole owner with no sharing, so no attendee evidence either.",
+  "confidence": "low"
+}

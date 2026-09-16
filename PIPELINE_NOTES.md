@@ -157,3 +157,18 @@ Survives at this N: objection frequency (descriptive), call_path shapes,
 unanswered-question collation, and a collapsed
 top-3-categories x resolved-in-call table (~15 obs/category).
 Does not survive: tactic-to-outcome correlation, sentiment-trajectory patterns.
+
+## Character counts are rendering-dependent (about 3%)
+
+The same document measures differently depending on how it is exported:
+
+| rendering | Laughlin Ranch |
+|---|---|
+| HTML export, tags stripped (Phase 0) | 29,125 |
+| HTML export via probe.py | 31,744 |
+| Docs markdown export (`read_file_content`) | 32,655 |
+
+Markdown escapes and expanded mailto/anchor URLs account for the spread; the
+content is identical. All `triage/*.json` counts come from the markdown export,
+so they are internally consistent and comparable to each other. Do not mix them
+with the Phase 0 HTML figure.

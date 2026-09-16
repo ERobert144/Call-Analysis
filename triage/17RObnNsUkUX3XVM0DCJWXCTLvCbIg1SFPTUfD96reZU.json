@@ -1,0 +1,19 @@
+{
+  "file_id": "17RObnNsUkUX3XVM0DCJWXCTLvCbIg1SFPTUfD96reZU",
+  "rep": "Jason",
+  "char_count": 29418,
+  "has_transcript": true,
+  "transcript_chars": 19606,
+  "transcript_turns": 174,
+  "transcript_duration": "00:22:21",
+  "has_screenshots": false,
+  "account_name": "Bristol Ridge",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Sam Strachan", "org": "prospect"},
+    {"name": "Jason Doepke", "org": "courserev"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "First exploratory/discovery call with live AI demo, Club Caddy integration, $2.50-per-round pricing; prospect takes it to the owners' board meeting.",
+  "confidence": "high"
+}
