@@ -172,3 +172,26 @@ Markdown escapes and expanded mailto/anchor URLs account for the spread; the
 content is identical. All `triage/*.json` counts come from the markdown export,
 so they are internally consistent and comparable to each other. Do not mix them
 with the Phase 0 HTML figure.
+
+## Zero-context route to exact document text
+
+`read_file_content` spills to disk only above roughly 50-60K chars. Mid-size
+docs land in the agent's context instead, where they cannot be measured or
+processed without paying for them twice.
+
+`download_file_content` with an `exportMimeType` always spills (HTML reliably,
+markdown for anything non-trivial), so it is a zero-context route to exact text
+for any doc. Phase 2 extraction workers should prefer it.
+
+**The renderings are not interchangeable.** For the same document:
+
+| route | Tilden Park |
+|---|---|
+| `read_file_content` (connector markdown) | 66,297 |
+| `download_file_content` markdown export | 62,307 (~6% low) |
+| `download_file_content` HTML export | different again |
+
+The connector preserves empty paragraphs as two-space lines and uses different
+bullet, escape and mailto forms. All `triage/*.json` counts are on the
+connector-markdown basis. Use one basis throughout or the numbers stop
+comparing.
