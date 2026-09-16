@@ -1,0 +1,20 @@
+{
+  "file_id": "1PLBFE2QjJLNFd_oBuEYgJnDGC57nEuNgcn-l1ZJKnnE",
+  "rep": "Bo",
+  "char_count": 69604,
+  "has_transcript": true,
+  "transcript_chars": 57717,
+  "transcript_turns": 537,
+  "transcript_duration": "00:51:33",
+  "has_screenshots": false,
+  "account_name": "The Links at Bodega Harbour",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Bo Ferrando", "org": "courserev"},
+    {"name": "John Neri", "org": "prospect"},
+    {"name": "Jetan Sahni", "org": "prospect"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "AI voice product demo and pricing discussion with golf course management; 30-day trial proposed.",
+  "confidence": "high"
+}

@@ -1,0 +1,19 @@
+{
+  "file_id": "19pxZ917FAcSkUJOTQUgg2Hg-FP5_A6lEAALhGFsF0cc",
+  "rep": "Jason",
+  "char_count": 5959,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": null,
+  "has_screenshots": true,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Dave Scott", "org": "prospect"},
+    {"name": "Jason Doepke", "org": "courserev"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Live product demo for a prospect golf course owner, covering features, $2.50 fee structure and onboarding; decision pending.",
+  "confidence": "medium"
+}

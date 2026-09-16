@@ -1,0 +1,19 @@
+{
+  "file_id": "1DrGySddRu7gjo_SRFL0x7jhDRmAwx1n1_iW8aBe-4D8",
+  "rep": "Jason",
+  "char_count": 8871,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": null,
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Jason Doepke", "org": "courserev"},
+    {"name": "Tim Crawford", "org": "courserev"}
+  ],
+  "is_customer_call": false,
+  "call_type_note": "Internal CourseRev catch-up: football banter, referral-program and B2C app strategy, Golf Inc. conference and booth logistics. No prospect present.",
+  "confidence": "high"
+}

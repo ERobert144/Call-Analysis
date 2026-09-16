@@ -1,0 +1,23 @@
+{
+  "file_id": "1k5E3asb_5nIleTerjKr8eISR9Fv3LPa9tZ6pDeSa78Q",
+  "rep": "Jason",
+  "char_count": 10377,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": null,
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Taylor Johnson", "org": "prospect"},
+    {"name": "Tyler Smith", "org": "prospect"},
+    {"name": "Bill Kelly", "org": "prospect"},
+    {"name": "Jason Doepke", "org": "courserev"},
+    {"name": "Elias Gross", "org": "courserev"},
+    {"name": "Evan Denholm", "org": "courserev"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Late-stage customer call (onboarding/contract terms, billing, cancellation and prepayment policy) with a club buyer plus the Lightspeed partner rep; doc has no invitee list or transcript so the course is unnamed.",
+  "confidence": "medium"
+}

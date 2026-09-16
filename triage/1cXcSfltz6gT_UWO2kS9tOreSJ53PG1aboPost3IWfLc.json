@@ -1,0 +1,20 @@
+{
+  "file_id": "1cXcSfltz6gT_UWO2kS9tOreSJ53PG1aboPost3IWfLc",
+  "rep": "Jason",
+  "char_count": 37457,
+  "has_transcript": true,
+  "transcript_chars": 30927,
+  "transcript_turns": 264,
+  "transcript_duration": "00:30:29",
+  "has_screenshots": false,
+  "account_name": "New Albany Links GC",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Luke Bowersock", "org": "prospect"},
+    {"name": "Jason Doepke", "org": "courserev"},
+    {"name": "Elias Gross", "org": "courserev"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Exploratory discovery call with a KemperSports manager covering six Columbus-area courses.",
+  "confidence": "high"
+}

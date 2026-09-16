@@ -1,0 +1,16 @@
+{
+  "file_id": "1iyWzZrCJeqTM1q5Jx5G76zBqJeKyMx2fW53xbu7AUVc",
+  "rep": "Jason",
+  "char_count": 1022,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": null,
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [],
+  "is_customer_call": false,
+  "call_type_note": "Empty Gemini stub: no summary, no invitee list, no transcript section. Nothing identifies the meeting; defaulted to non-customer on no evidence.",
+  "confidence": "low"
+}

@@ -1,0 +1,19 @@
+{
+  "file_id": "1BPJko8wI1WqBvBHy9SAXMRRCM-VGk8f7_D0MPgntmpc",
+  "rep": "Bo",
+  "char_count": 32655,
+  "has_transcript": true,
+  "transcript_chars": 25386,
+  "transcript_turns": 291,
+  "transcript_duration": "00:20:42",
+  "has_screenshots": true,
+  "account_name": "Laughlin Ranch",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Megan Jackson", "org": "prospect"},
+    {"name": "Bo Ferrando", "org": "courserev"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Discovery/demo call with the Laughlin Ranch GM; AI voice pitch, pricing, live demo.",
+  "confidence": "high"
+}

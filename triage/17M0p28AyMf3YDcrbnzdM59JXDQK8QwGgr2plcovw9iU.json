@@ -1,0 +1,19 @@
+{
+  "file_id": "17M0p28AyMf3YDcrbnzdM59JXDQK8QwGgr2plcovw9iU",
+  "rep": "Bo",
+  "char_count": 42526,
+  "has_transcript": true,
+  "transcript_chars": 31063,
+  "transcript_turns": 289,
+  "transcript_duration": "00:33:59",
+  "has_screenshots": false,
+  "account_name": "Desert Princess CC",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Bo Ferrando", "org": "courserev"},
+    {"name": "Rodney Young", "org": "prospect"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Demo/discovery call with the club manager; deal gated on GolfNow Premier tee-sheet integration.",
+  "confidence": "high"
+}

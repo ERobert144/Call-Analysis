@@ -1,0 +1,19 @@
+{
+  "file_id": "1l0Iq_O1cJQ2mhj3ukRfmIXwgtYHeUpuhGhUZVZTxOMI",
+  "rep": "Jason",
+  "char_count": 7579,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": null,
+  "has_screenshots": false,
+  "account_name": "Stonebridge Meadows",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Jason Doepke", "org": "courserev"},
+    {"name": "Tyler Smith", "org": "prospect"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Demo plus onboarding kickoff with Stonebridge Meadows (Fayetteville, AR); pricing agreed, LightSpeed setup details collected. Summary only, no verbatim transcript.",
+  "confidence": "high"
+}

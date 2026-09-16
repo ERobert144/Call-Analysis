@@ -1,0 +1,19 @@
+{
+  "file_id": "1uqIVoYLbhJ0eB7GaWyXk0bTbJ97Eqp7H_Pn6UE7ozDQ",
+  "rep": "Bo",
+  "char_count": 1742,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": "00:07:10",
+  "has_screenshots": false,
+  "account_name": "Dave White Muni",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Jennifer Thornton", "org": "prospect"},
+    {"name": "Bo Ferrando", "org": "courserev"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Scheduled quick chat with a municipal course; Gemini produced no summary or dialogue (not enough conversation), only a 00:07:10 transcription marker.",
+  "confidence": "low"
+}

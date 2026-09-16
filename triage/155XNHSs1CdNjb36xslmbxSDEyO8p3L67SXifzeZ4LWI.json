@@ -1,0 +1,25 @@
+{
+  "file_id": "155XNHSs1CdNjb36xslmbxSDEyO8p3L67SXifzeZ4LWI",
+  "rep": "Bo",
+  "char_count": 1865,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": "00:00:44",
+  "has_screenshots": false,
+  "account_name": "Presidio Golf Course",
+  "account_source": "title",
+  "attendees": [
+    {
+      "name": "Brian Wilcox",
+      "org": "prospect"
+    },
+    {
+      "name": "Bo Ferrando",
+      "org": "courserev"
+    }
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Scheduled Presidio follow-up touchbase that produced no usable content: Gemini made no summary/details and the transcript section holds only 'Transcription ended after 00:00:44'.",
+  "confidence": "medium"
+}

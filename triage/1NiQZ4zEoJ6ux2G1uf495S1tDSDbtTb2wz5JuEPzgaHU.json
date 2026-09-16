@@ -1,0 +1,19 @@
+{
+  "file_id": "1NiQZ4zEoJ6ux2G1uf495S1tDSDbtTb2wz5JuEPzgaHU",
+  "rep": "Jason",
+  "char_count": 31192,
+  "has_transcript": true,
+  "transcript_chars": 20757,
+  "transcript_turns": 146,
+  "transcript_duration": "00:27:36",
+  "has_screenshots": false,
+  "account_name": "Tunica National",
+  "account_source": "body",
+  "attendees": [
+    {"name": "Jason Doepke", "org": "courserev"},
+    {"name": "David Cage", "org": "prospect"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Discovery plus live AI voice demo with the pro shop; pricing and onboarding covered, follow-up materials promised.",
+  "confidence": "high"
+}

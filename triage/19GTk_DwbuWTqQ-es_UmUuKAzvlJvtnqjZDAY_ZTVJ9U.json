@@ -1,0 +1,20 @@
+{
+  "file_id": "19GTk_DwbuWTqQ-es_UmUuKAzvlJvtnqjZDAY_ZTVJ9U",
+  "rep": "Jason",
+  "char_count": 1752,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": "00:04:40",
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Bo Ferrando", "org": "courserev"},
+    {"name": "Elias Gross", "org": "courserev"},
+    {"name": "Jason Doepke", "org": "courserev"}
+  ],
+  "is_customer_call": false,
+  "call_type_note": "Internal CourseRev live-demo session; all three invitees are @courserev.ai. Gemini produced no summary or dialogue - stub doc, 4:40 of audio.",
+  "confidence": "low"
+}

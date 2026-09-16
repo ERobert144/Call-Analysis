@@ -1,0 +1,19 @@
+{
+  "file_id": "1dZnTGi1KFwrhg1p_vQOt23GVJTTPittmrcwIXU4c5hM",
+  "rep": "Jason",
+  "char_count": 9742,
+  "has_transcript": true,
+  "transcript_chars": 9640,
+  "transcript_turns": 96,
+  "transcript_duration": "00:09:17",
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Elias Gross", "org": "courserev"},
+    {"name": "Jason Doepke", "org": "courserev"}
+  ],
+  "is_customer_call": false,
+  "call_type_note": "Internal 1:1 with the founder: offsite travel logistics, expense policy and a referral-program idea. No prospect present.",
+  "confidence": "high"
+}

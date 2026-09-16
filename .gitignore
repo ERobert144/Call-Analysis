@@ -1,5 +1,3 @@
 cache/
 *.pyc
 __pycache__/
-triage/
-triage_summary.csv

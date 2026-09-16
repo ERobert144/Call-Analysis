@@ -1,0 +1,19 @@
+{
+  "file_id": "1WIePxzLZ5J1JlsTVZpr3BErhHxtuR4N22TOB6BKpFTQ",
+  "rep": "Jason",
+  "char_count": 10276,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": null,
+  "has_screenshots": true,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Jason Doepke", "org": "courserev"},
+    {"name": "Mark Tannenbaum", "org": "prospect"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Discovery/demo pitch of the voice concierge to an external prospect; course never named (Highland Creek is only the live-demo target).",
+  "confidence": "medium"
+}

@@ -1,0 +1,19 @@
+{
+  "file_id": "1_0dAza6evR4hNMBY547jvGTEJl-Ti0lyJQsw_Zcm76Q",
+  "rep": "Jason",
+  "char_count": 4548,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": null,
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Dave Scott", "org": "prospect"},
+    {"name": "Jason Doepke", "org": "courserev"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Demo and pricing call with a prospect using GolfNow; summary only, no attendee emails or course name given.",
+  "confidence": "medium"
+}

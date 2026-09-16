@@ -1,0 +1,20 @@
+{
+  "file_id": "1SDiawkSCZ4i29jkWGtqG12ZXmn1KtN3AGuoXFe2oSDo",
+  "rep": "Jason",
+  "char_count": 32824,
+  "has_transcript": true,
+  "transcript_chars": 23789,
+  "transcript_turns": 368,
+  "transcript_duration": "00:21:58",
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Jason Doepke", "org": "courserev"},
+    {"name": "Chris Hill", "org": "courserev"},
+    {"name": "Matt Wade", "org": "prospect"}
+  ],
+  "is_customer_call": false,
+  "call_type_note": "Internal tooling/ops session with Pitch CRM vendor rep: email alias, sender address and campaign suppression setup. No golf prospect present.",
+  "confidence": "high"
+}

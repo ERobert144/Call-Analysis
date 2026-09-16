@@ -1,0 +1,21 @@
+{
+  "file_id": "17Kdv4-QBw51qfiyqRJUH5QDaCDZzvCG4NvbLIOWALq0",
+  "rep": "Jason",
+  "char_count": 54924,
+  "has_transcript": true,
+  "transcript_chars": 44827,
+  "transcript_turns": 557,
+  "transcript_duration": "00:40:57",
+  "has_screenshots": false,
+  "account_name": "Scott Lake",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Scott Lake", "org": "prospect"},
+    {"name": "Jason Doepke", "org": "courserev"},
+    {"name": "Evan Denholm", "org": "courserev"},
+    {"name": "Sidney Overman", "org": "courserev"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Sales presentation and live demo to a West Michigan golf course; prospect to consult owner on onboarding form.",
+  "confidence": "medium"
+}

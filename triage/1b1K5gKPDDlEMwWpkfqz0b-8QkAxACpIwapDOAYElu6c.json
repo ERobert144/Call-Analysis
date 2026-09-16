@@ -1,0 +1,25 @@
+{
+  "file_id": "1b1K5gKPDDlEMwWpkfqz0b-8QkAxACpIwapDOAYElu6c",
+  "rep": "Jason",
+  "char_count": 6269,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": null,
+  "has_screenshots": true,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {
+      "name": "Jason Doepke",
+      "org": "courserev"
+    },
+    {
+      "name": "Jake Cassesse",
+      "org": "courserev"
+    }
+  ],
+  "is_customer_call": false,
+  "call_type_note": "Internal CourseRev competitive-intel working session on rival 'Notify'; they place live probe calls to Palm Beach courses. Notes + screenshots only, no verbatim transcript.",
+  "confidence": "medium"
+}

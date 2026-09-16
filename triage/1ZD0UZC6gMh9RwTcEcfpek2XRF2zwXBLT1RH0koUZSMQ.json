@@ -1,0 +1,19 @@
+{
+  "file_id": "1ZD0UZC6gMh9RwTcEcfpek2XRF2zwXBLT1RH0koUZSMQ",
+  "rep": "Jason",
+  "char_count": 1985,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": "00:00:42",
+  "has_screenshots": false,
+  "account_name": "Dacotah Ridge",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Jason Doepke", "org": "courserev"},
+    {"name": "Tyler Pendleton", "org": "prospect"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Scheduled prospect call that never happened: 42s of audio, Gemini produced no summary/details and the Transcript heading has zero speaker turns.",
+  "confidence": "medium"
+}

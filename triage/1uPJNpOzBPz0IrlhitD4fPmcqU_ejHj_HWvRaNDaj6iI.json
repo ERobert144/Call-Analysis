@@ -1,0 +1,18 @@
+{
+  "file_id": "1uPJNpOzBPz0IrlhitD4fPmcqU_ejHj_HWvRaNDaj6iI",
+  "rep": "Jason",
+  "char_count": 34293,
+  "has_transcript": true,
+  "transcript_chars": 18851,
+  "transcript_turns": 46,
+  "transcript_duration": "00:38:22",
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Jason Doepke", "org": "courserev"}
+  ],
+  "is_customer_call": false,
+  "call_type_note": "Solo recorded marketing/demo walkthrough of the voice concierge (NGF stats, live call to Greenway Pines, dashboard tour); no prospect attendee present.",
+  "confidence": "medium"
+}

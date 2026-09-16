@@ -1,0 +1,18 @@
+{
+  "file_id": "1cXeN334LeUKTxvaKUMOMK99Qn7z4urG6tUcuqrFs1dk",
+  "rep": "Jason",
+  "char_count": 277,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": "00:00:28",
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Jason Doepke", "org": "courserev"}
+  ],
+  "is_customer_call": false,
+  "call_type_note": "Stub transcript doc only (no Gemini notes): 28-second meeting with Jason Doepke as sole listed attendee and no dialogue captured.",
+  "confidence": "low"
+}

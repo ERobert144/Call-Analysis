@@ -1,0 +1,19 @@
+{
+  "file_id": "1Xp_cxjF_LEgL00_troe40SERwVpEhRXDgLAkfwmnkTE",
+  "rep": "Jason",
+  "char_count": 6914,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": null,
+  "has_screenshots": true,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Jason Doepke", "org": "courserev"},
+    {"name": "Doug Temple", "org": "prospect"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Discovery plus live product demo with a golf facility; pricing, references and GM/COO review as next steps.",
+  "confidence": "medium"
+}

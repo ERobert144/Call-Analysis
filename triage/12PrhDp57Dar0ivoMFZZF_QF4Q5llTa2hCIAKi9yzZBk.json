@@ -1,0 +1,19 @@
+{
+  "file_id": "12PrhDp57Dar0ivoMFZZF_QF4Q5llTa2hCIAKi9yzZBk",
+  "rep": "Jason",
+  "char_count": 1760,
+  "has_transcript": true,
+  "transcript_chars": 319,
+  "transcript_turns": 1,
+  "transcript_duration": "00:06:20",
+  "has_screenshots": false,
+  "account_name": "Dacotah Ridge GC",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Tyler Pendleton", "org": "prospect"},
+    {"name": "Jason Doepke", "org": "courserev"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Exploratory call with a prospect course (Jackpot Junction domain), but Gemini captured no real conversation: one transcript line over 6:20 and no summary or details.",
+  "confidence": "medium"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "1FHdLXlSzSoSl-R5CCv8jA7NO8C_and1oKAC1Z3pI0oM",
+  "rep": "Jason",
+  "char_count": 1110,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": null,
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [],
+  "is_customer_call": false,
+  "call_type_note": "Empty stub: no summary, no details, no attendee/invite line, no Transcript section at all - only Gemini's 'not enough conversation in a supported language' boilerplate. Nothing identifies the meeting type; false is a conservative default, not evidence.",
+  "confidence": "low"
+}

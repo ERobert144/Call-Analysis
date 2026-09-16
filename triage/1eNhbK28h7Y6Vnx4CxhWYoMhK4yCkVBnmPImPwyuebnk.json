@@ -1,0 +1,19 @@
+{
+  "file_id": "1eNhbK28h7Y6Vnx4CxhWYoMhK4yCkVBnmPImPwyuebnk",
+  "rep": "Bo",
+  "char_count": 7073,
+  "has_transcript": true,
+  "transcript_chars": 2818,
+  "transcript_turns": 6,
+  "transcript_duration": "00:10:09",
+  "has_screenshots": false,
+  "account_name": "The Links at Bodega Harbour",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Bo Ferrando", "org": "courserev"},
+    {"name": "jneri@kempersports.com", "org": "prospect"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Scheduled prospect chat (KemperSports course) but the recording captures only Bo's side - stray audio/monologue, no prospect dialogue and no sales content.",
+  "confidence": "low"
+}

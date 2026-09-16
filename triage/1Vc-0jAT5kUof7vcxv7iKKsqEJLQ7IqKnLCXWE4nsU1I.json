@@ -1,0 +1,19 @@
+{
+  "file_id": "1Vc-0jAT5kUof7vcxv7iKKsqEJLQ7IqKnLCXWE4nsU1I",
+  "rep": "Jason",
+  "char_count": 36370,
+  "has_transcript": true,
+  "transcript_chars": 36268,
+  "transcript_turns": 330,
+  "transcript_duration": "00:40:42",
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Bo Ferrando", "org": "courserev"},
+    {"name": "Jason Doepke", "org": "courserev"}
+  ],
+  "is_customer_call": false,
+  "call_type_note": "Internal rep-to-rep sync: pipeline, prospecting process, HubSpot workflow and competitive positioning vs Notifi. No prospect present.",
+  "confidence": "high"
+}

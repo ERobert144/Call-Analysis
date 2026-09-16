@@ -1,0 +1,32 @@
+{
+  "file_id": "1H_esx8wuc--fG5PZ4Wupgtkkrdj2oI1oyacPyRUhHR8",
+  "rep": "Bo",
+  "char_count": 74736,
+  "has_transcript": true,
+  "transcript_chars": 58308,
+  "transcript_turns": 353,
+  "transcript_duration": "00:51:58",
+  "has_screenshots": false,
+  "account_name": "TenFore",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Jonathan Wride", "org": "prospect"},
+    {"name": "Austin Wride", "org": "prospect"},
+    {"name": "Kyler Brooksby", "org": "prospect"},
+    {"name": "Conor O'Gorman", "org": "prospect"},
+    {"name": "Peter Winter", "org": "prospect"},
+    {"name": "Weston Farnsworth", "org": "prospect"},
+    {"name": "Elias Gross", "org": "courserev"},
+    {"name": "Manna Justin", "org": "courserev"},
+    {"name": "Evan Denholm", "org": "courserev"},
+    {"name": "Tim Crawford", "org": "courserev"},
+    {"name": "Jason Doepke", "org": "courserev"},
+    {"name": "Andrew Hall", "org": "courserev"},
+    {"name": "Jake Cassesse", "org": "courserev"},
+    {"name": "Jackson Sassanella", "org": "courserev"},
+    {"name": "Sidney Overman", "org": "courserev"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "External partner/reseller info session and product demo with TenFore (golf software vendor), not a single golf course prospect.",
+  "confidence": "medium"
+}

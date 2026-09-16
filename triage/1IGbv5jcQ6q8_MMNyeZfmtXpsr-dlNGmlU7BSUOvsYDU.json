@@ -1,0 +1,19 @@
+{
+  "file_id": "1IGbv5jcQ6q8_MMNyeZfmtXpsr-dlNGmlU7BSUOvsYDU",
+  "rep": "Jason",
+  "char_count": 6241,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": null,
+  "has_screenshots": false,
+  "account_name": "Deerhurst",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Jason Doepke", "org": "courserev"},
+    {"name": "Taylor Ophelders", "org": "prospect"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Discovery plus live demo and pricing walkthrough with Deerhurst Resort golf; Gemini summary only, no verbatim transcript.",
+  "confidence": "high"
+}

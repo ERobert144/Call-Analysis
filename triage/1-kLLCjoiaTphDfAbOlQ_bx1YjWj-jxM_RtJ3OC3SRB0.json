@@ -1,0 +1,19 @@
+{
+  "file_id": "1-kLLCjoiaTphDfAbOlQ_bx1YjWj-jxM_RtJ3OC3SRB0",
+  "rep": "Bo",
+  "char_count": 35323,
+  "has_transcript": true,
+  "transcript_chars": 26294,
+  "transcript_turns": 362,
+  "transcript_duration": "00:27:23",
+  "has_screenshots": false,
+  "account_name": "Presidio Golf Course",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Bo Ferrando", "org": "courserev"},
+    {"name": "Manna Justin", "org": "courserev"}
+  ],
+  "is_customer_call": false,
+  "call_type_note": "Prospect no-show: Brian Wilcox (bwilcox@presidiogolf.com) was invited but never joined; Bo and Manna spent the slot on Presidio pricing strategy (Kemper $2 rate) and small talk.",
+  "confidence": "high"
+}

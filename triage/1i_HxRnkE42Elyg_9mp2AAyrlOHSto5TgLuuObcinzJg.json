@@ -1,0 +1,19 @@
+{
+  "file_id": "1i_HxRnkE42Elyg_9mp2AAyrlOHSto5TgLuuObcinzJg",
+  "rep": "Jason",
+  "char_count": 11574,
+  "has_transcript": true,
+  "transcript_chars": 11470,
+  "transcript_turns": 113,
+  "transcript_duration": "00:11:13",
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Jake Cassesse", "org": "courserev"},
+    {"name": "Jason Doepke", "org": "courserev"}
+  ],
+  "is_customer_call": false,
+  "call_type_note": "Internal rep-to-rep call: Ramp expense reimbursement setup, competitive positioning vs Notify/Speak Sport, referral program and no-show demos. Raw Meet transcript export - speaker lines are plain 'Name:' not bold, so probe.py counts 0 turns; 113 counted with the plain-text pattern. Duration from 'Meeting ended after'.",
+  "confidence": "high"
+}

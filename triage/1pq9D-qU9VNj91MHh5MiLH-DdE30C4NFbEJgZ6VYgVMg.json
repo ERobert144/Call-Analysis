@@ -1,0 +1,19 @@
+{
+  "file_id": "1pq9D-qU9VNj91MHh5MiLH-DdE30C4NFbEJgZ6VYgVMg",
+  "rep": "Jason",
+  "char_count": 29077,
+  "has_transcript": true,
+  "transcript_chars": 28975,
+  "transcript_turns": 235,
+  "transcript_duration": "00:29:35",
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Elias Gross", "org": "courserev"},
+    {"name": "Jason Doepke", "org": "courserev"}
+  ],
+  "is_customer_call": false,
+  "call_type_note": "Internal CourseRev 1:1 between Jason and Elias on field prospecting, the ForeUp partnership and competitive strategy.",
+  "confidence": "high"
+}

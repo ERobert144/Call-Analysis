@@ -1,0 +1,19 @@
+{
+  "file_id": "13e3k4raIeOaIi09eQf5vwKslwoojCqoJubwSnzAbtv4",
+  "rep": "Jason",
+  "char_count": 34110,
+  "has_transcript": true,
+  "transcript_chars": 23883,
+  "transcript_turns": 266,
+  "transcript_duration": "00:22:27",
+  "has_screenshots": false,
+  "account_name": "Lightspeed",
+  "account_source": "body",
+  "attendees": [
+    {"name": "Bill Kelly", "org": "prospect"},
+    {"name": "Jason Doepke", "org": "courserev"}
+  ],
+  "is_customer_call": false,
+  "call_type_note": "Channel-partner intro/alignment call with a Lightspeed new-business rep (billing, MCO pricing, re-engaging stalled deals) - not a prospect golf course.",
+  "confidence": "medium"
+}

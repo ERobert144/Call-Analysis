@@ -1,0 +1,19 @@
+{
+  "file_id": "1lh718a6-SEz3M0xIoA3RugMV5XGUbKORbMooYTbsCM0",
+  "rep": "Bo",
+  "char_count": 1793,
+  "has_transcript": false,
+  "transcript_chars": 270,
+  "transcript_turns": 0,
+  "transcript_duration": "00:26:12",
+  "has_screenshots": false,
+  "account_name": "Laughlin Ranch",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Bo Ferrando", "org": "courserev"},
+    {"name": "mjackson@laughlinranch.com", "org": "prospect"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Near-empty record: Gemini produced no summary or details ('not enough conversation in a supported language') and the Transcript section holds only 'Transcription ended after 00:26:12' with zero dialogue lines.",
+  "confidence": "low"
+}

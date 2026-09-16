@@ -1,0 +1,19 @@
+{
+  "file_id": "1NErdrdlxiNuIqbxxcJayg3hCf6YFacXlwq-sGecFwNo",
+  "rep": "Bo",
+  "char_count": 55382,
+  "has_transcript": true,
+  "transcript_chars": 43507,
+  "transcript_turns": 322,
+  "transcript_duration": "00:49:40",
+  "has_screenshots": false,
+  "account_name": "Old Greenwood",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Bo Ferrando", "org": "courserev"},
+    {"name": "Ian Winters", "org": "prospect"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Discovery/demo call with Tahoe Mountain Club's Old Greenwood about replacing ForeUp-era phone handling with the AI voice concierge.",
+  "confidence": "high"
+}

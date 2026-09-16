@@ -1,0 +1,18 @@
+{
+  "file_id": "1NH_eoqJ_3IY1IKgNOq1l0YsW5MlzRUYHJRxYsELV5wI",
+  "rep": "Jason",
+  "char_count": 277,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 0,
+  "transcript_duration": null,
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Jason Doepke", "org": "courserev"}
+  ],
+  "is_customer_call": false,
+  "call_type_note": "Stub transcript doc for a 43-second Meet session (code ahg-tqfw-umm); Jason is the only listed attendee and no dialogue was captured.",
+  "confidence": "low"
+}

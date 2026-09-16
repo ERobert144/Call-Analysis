@@ -1,0 +1,19 @@
+{
+  "file_id": "191j7yg4_5hb22wYe1KCnEuRwaYXQpZB7YJnFEfiCQ1Y",
+  "rep": "Jason",
+  "char_count": 693,
+  "has_transcript": true,
+  "transcript_chars": 591,
+  "transcript_turns": 5,
+  "transcript_duration": "00:01:42",
+  "has_screenshots": false,
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {"name": "Elias Gross", "org": "courserev"},
+    {"name": "Jason Doepke", "org": "courserev"}
+  ],
+  "is_customer_call": false,
+  "call_type_note": "Internal CourseRev check-in between Elias and Jason that aborted after 1:42 due to audio/Google Chat trouble.",
+  "confidence": "high"
+}

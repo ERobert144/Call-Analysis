@@ -1,0 +1,21 @@
+{
+  "file_id": "1XJPIqjinc22NKTuQ5M32NepFwaC7KN3blQFAJbWR-VU",
+  "rep": "Bo",
+  "char_count": 71643,
+  "has_transcript": true,
+  "transcript_chars": 52664,
+  "transcript_turns": 436,
+  "transcript_duration": "00:56:27",
+  "has_screenshots": false,
+  "account_name": "Ocean Course Hokuala",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Tom Freestone", "org": "prospect"},
+    {"name": "Juan Gonzalez", "org": "prospect"},
+    {"name": "Bo Ferrando", "org": "courserev"},
+    {"name": "Elias Gross", "org": "courserev"}
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Sales discovery/solution call with golf course on AI phone booking, moving to agreement and onboarding.",
+  "confidence": "high"
+}
