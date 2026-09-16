@@ -73,3 +73,48 @@ context window. Preferred approach: one subagent per call, writing
 - `extracted/` — one JSON per call (Phase 2/3), idempotent by `file_id`
 - `cache/` — local copies of fetched docs (gitignored)
 - `logs/` — run logs
+
+## Phase 1 results
+
+129 rows in `inventory.csv` = 85 readable docs + 9 recordings + 35 unreadable
+shortcuts. Built from Drive metadata only; no documents were opened.
+
+| rep | classification | stub | thin | moderate | rich | total |
+|---|---|---|---|---|---|---|
+| Bo | customer_call | 0 | 7 | 9 | 3 | 19 |
+| Bo | unknown | 0 | 1 | 1 | 0 | 2 |
+| Bo | internal | - | - | - | - | 0 (35 shortcuts) |
+| Jason | customer_call | 0 | 5 | 4 | 0 | 9 |
+| Jason | unknown | 13 | 10 | 7 | 5 | 35 |
+| Jason | internal | 0 | 2 | 14 | 4 | 20 |
+
+28 customer calls across 20 accounts. 37 readable docs remain `unknown`.
+
+### Further gotchas found in Phase 1
+
+6. **Bo's recurring internal meetings are Drive shortcuts, not files.**
+   All 35 return `{}` from `read_file_content` and carry no `fileSize`.
+   Tiering them is impossible, hence `content_tier = shortcut_unreadable`
+   (an addition to the spec's enum). The underlying docs ARE recoverable by
+   title search - they live in other users' folders - as confirmed for
+   TenFore (`1H_esx8w...`) and the Summit doc (`1XXCqQ91...`).
+
+7. **`- Transcript` is not reliably a 1,024-byte stub.** Only 3 of 9 are.
+   The other 6 run 7,639-22,920 bytes and carry real content. Tier on size,
+   never on the title.
+
+8. **No video-only gaps.** Every one of the 9 recordings has a notes doc from
+   the same rep on the same day. Two of those pairings are inferred rather
+   than certain: "Stonebridge Meadows Meeting Notes" and "Meeting Notes with
+   Deerhurst" carry no date in the title and were matched to the recordings
+   of 2026-08-06 and 2026-07-02 via Drive `createdTime`.
+
+9. **Three docs carry no date in the title** and were backfilled from
+   `createdTime` (see `DATE_BACKFILL` in `build/build_inventory.py`):
+   Stonebridge Meadows, Deerhurst, Scott Lake.
+
+10. **The data's centre of mass is in `unknown`, not `customer_call`.**
+    The five largest readable docs in the corpus are all Jason files titled
+    "Meeting started ..." or "Live Demo ..." (112 KB - 285 KB). Named
+    customer calls skew thin/moderate. Resolving the unknowns is where the
+    transcript volume actually is.
