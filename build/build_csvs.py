@@ -139,6 +139,44 @@ section("Account unresolved", unres, "A real prospect call, but nothing in the d
 section("Low extraction confidence", lowc, "Extracted, but the source was too thin to support most fields.")
 section("Customer calls not extracted", notdone, "In scope but no extraction record present.")
 
+# An unresolved account is often resolvable by the people on the call: the same
+# prospect shows up on another call that IS named, or on a second unnamed one.
+# These are leads for a HubSpot/calendar lookup, NOT merges - the identification
+# lives across documents, not inside either of them.
+by_person = {}
+for c in calls:
+    for a in (c.get("attendees") or []):
+        if a.get("org") != "courserev" and a.get("name"):
+            by_person.setdefault(a["name"].strip().lower(), []).append(c)
+lines += ["## Resolution leads for unresolved accounts", "",
+          "Each unnamed call, with every other call sharing a prospect attendee.",
+          "Inference across documents - confirm against HubSpot or the calendar",
+          "before treating any of it as the account.", ""]
+any_lead = False
+for c in calls:
+    if (c.get("account_name") or "").strip():
+        continue
+    names = [a["name"] for a in (c.get("attendees") or [])
+             if a.get("org") != "courserev" and a.get("name")]
+    leads = []
+    for n in names:
+        for o in by_person.get(n.strip().lower(), []):
+            if o.get("call_id") == c.get("call_id"):
+                continue
+            leads.append(f"{n} also on {o.get('date')} "
+                         f"({o.get('account_name') or 'also unnamed'})")
+    r = inv.get(c.get("call_id"), {})
+    lines.append(f"- **{c.get('date')}** {r.get('file_name','')[:44]} - prospect(s): "
+                 f"{', '.join(names) or 'none recorded'}")
+    for l in dict.fromkeys(leads):
+        lines.append(f"  - {l}"); any_lead = True
+    if not leads:
+        lines.append("  - no shared attendee elsewhere in the corpus")
+lines.append("")
+if not any_lead:
+    lines.append("No cross-call attendee overlap found.")
+    lines.append("")
+
 open(os.path.join(BASE, "gaps.md"), "w").write("\n".join(lines))
 print(f"\ncalls.csv: {len(calls)} rows")
 print(f"objections.csv: {nobj} rows")

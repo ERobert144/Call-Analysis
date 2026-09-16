@@ -91,7 +91,7 @@ A real prospect call, but nothing in the doc names the course - no title, no inv
 | Jason | 2026-08-10 | - | Meeting started 2026/08/10 15:10 EDT - Notes by Gemini |
 | Jason | 2026-08-17 | - | Meeting started 2026/08/17 09:59 EDT - Notes by Gemini |
 
-## Low extraction confidence (12)
+## Low extraction confidence (18)
 
 Extracted, but the source was too thin to support most fields.
 
@@ -99,37 +99,47 @@ Extracted, but the source was too thin to support most fields.
 |---|---|---|---|
 | Jason | 2026-06-23 | Dacotah Ridge GC | Courserev & Dacotah Ridge GC exploratory call - 2026/06/23 10:58 EDT - Notes by Gemini |
 | Bo | 2026-05-21 | Presidio Golf Course | CourseRev + Presidio - Touchbase - 2026/05/21 13:31 PDT - Notes by Gemini |
+| Jason | 2026-08-17 | - | Meeting started 2026/08/17 09:59 EDT - Notes by Gemini |
 | Jason | 2026-07-02 | Deerhurst | Meeting Notes with Deerhurst |
 | Jason | 2026-07-17 | Bristol Ridge | Meeting started 2026/07/17 13:00 EDT - Notes by Gemini |
 | Bo | 2026-09-04 | Cedaredge Golf Course | Chat: CourseRev + Cedaredge Golf Course - 2026/09/04 12:01 PDT - Notes by Gemini |
 | Jason | 2026-08-10 | - | Meeting started 2026/08/10 15:10 EDT - Notes by Gemini |
+| Jason | 2026-08-11 | - | Meeting started 2026/08/11 09:31 EDT - Notes by Gemini |
+| Jason | 2026-07-20 | Dacotah Ridge | Dacotah Ridge & Courserev Discussion - 2026/07/20 11:01 EDT - Notes by Gemini |
 | Jason | 2026-07-08 | - | Meeting started 2026/07/08 13:00 EDT - Notes by Gemini |
 | Jason | 2026-07-13 | Dacotah Ridge | Dacotah Ridge & Courserev Discussion - 2026/07/13 10:59 EDT - Notes by Gemini |
 | Bo | 2026-09-01 | Cedaredge Golf Course | Chat: CourseRev + Cedaredge Golf Course - 2026/09/01 10:00 PDT - Notes by Gemini |
 | Bo | 2026-08-18 | The Links at Bodega Harbour | Chat: CourseRev + The Links at Bodega Harbour - 2026/08/18 14:30 PDT - Notes by Gemini |
 | Jason | 2026-08-13 | - | Meeting started 2026/08/13 10:30 EDT - Notes by Gemini |
+| Jason | 2026-08-06 | Stonebridge Meadows | Stonebridge Meadows Meeting Notes |
 | Bo | 2026-08-12 | Laughlin Ranch | CourseRev + Laughlin Ranch - Chat - 2026/08/12 09:59 PDT - Notes by Gemini |
+| Bo | 2026-06-24 | Dave White Muni | CourseRev + Dave White Muni - Quick Chat - 2026/06/24 14:01 PDT - Notes by Gemini |
+| Bo | 2026-06-11 | Indian Canyons | CourseRev + Indian Canyons - Quick Chat - 2026/06/11 14:00 PDT - Notes by Gemini |
 
-## Customer calls not extracted (17)
+## Customer calls not extracted (4)
 
 In scope but no extraction record present.
 
 | rep | date | account | file |
 |---|---|---|---|
-| Bo | 2026-06-11 | Indian Canyons | CourseRev + Indian Canyons - Quick Chat - 2026/06/11 14:23 PDT - Notes by Gemini |
-| Jason | 2026-07-20 | Dacotah Ridge | Dacotah Ridge & Courserev Discussion - 2026/07/20 11:01 EDT - Notes by Gemini |
-| Jason | 2026-06-19 | Bristol Ridge | Bristol Ridge & Courserev exploratory discussion - 2026/06/19 12:30 EDT - Notes by Gemini |
 | Jason | 2026-09-01 | - | Meeting started 2026/09/01 09:05 EDT - Notes by Gemini |
-| Bo | 2026-06-24 | Dave White Muni | CourseRev + Dave White Muni - Quick Chat - 2026/06/24 14:01 PDT - Notes by Gemini |
-| Bo | 2026-08-12 | Laughlin Ranch | CourseRev + Laughlin Ranch - Chat - 2026/08/12 11:00 PDT - Notes by Gemini |
 | Bo | 2026-05-20 | Presidio Golf Course | CourseRev + Presidio - Quick Chat - 2026/05/20 09:31 PDT - Notes by Gemini |
-| Bo | 2026-09-04 | Tilden Park Golf Course | Chat: CourseRev + Tilden Park Golf Course - 2026/09/04 10:00 PDT - Notes by Gemini |
-| Jason | 2026-06-11 | Scott Lake | Scott Lake Meeting - Notes by Gemini |
 | Bo | 2026-08-13 | TenFore | TenFore<>CourseRev info sesh - 2026/08/13 12:59 EDT - Notes by Gemini |
-| Bo | 2026-06-11 | Indian Canyons | CourseRev + Indian Canyons - Quick Chat - 2026/06/11 14:00 PDT - Notes by Gemini |
-| Jason | 2026-08-11 | - | Meeting started 2026/08/11 09:31 EDT - Notes by Gemini |
 | Jason | 2026-07-21 | - | Meeting started 2026/07/21 10:00 EDT - Notes by Gemini |
-| Jason | 2026-07-06 | Lida Greens Golf Course | Lida Greens onboarding w/ Courserev - 2026/07/06 11:56 EDT - Notes by Gemini |
-| Bo | 2026-08-18 | Old Greenwood | Chat: CourseRev + Old Greenwood  - 2026/08/18 10:00 PDT - Notes by Gemini |
-| Jason | 2026-08-06 | Stonebridge Meadows | Stonebridge Meadows Meeting Notes |
-| Jason | 2026-08-17 | - | Meeting started 2026/08/17 09:59 EDT - Notes by Gemini |
+
+## Resolution leads for unresolved accounts
+
+Each unnamed call, with every other call sharing a prospect attendee.
+Inference across documents - confirm against HubSpot or the calendar
+before treating any of it as the account.
+
+- **2026-08-17** Meeting started 2026/08/17 09:59 EDT - Notes - prospect(s): Dave Scott
+  - Dave Scott also on 2026-07-08 (also unnamed)
+- **2026-08-10** Meeting started 2026/08/10 15:10 EDT - Notes - prospect(s): Mark Tannenbaum
+  - no shared attendee elsewhere in the corpus
+- **2026-08-11** Meeting started 2026/08/11 09:31 EDT - Notes - prospect(s): Doug Temple
+  - no shared attendee elsewhere in the corpus
+- **2026-07-08** Meeting started 2026/07/08 13:00 EDT - Notes - prospect(s): Dave Scott
+  - Dave Scott also on 2026-08-17 (also unnamed)
+- **2026-08-13** Meeting started 2026/08/13 10:30 EDT - Notes - prospect(s): Taylor Johnson, Tyler Smith, Bill Kelly
+  - Tyler Smith also on 2026-08-06 (Stonebridge Meadows)
