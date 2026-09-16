@@ -5,6 +5,8 @@ Refuses to run if validate_extraction.py reports errors - a clean-looking CSV
 built over invented fields is worse than no CSV.
 """
 import json, glob, csv, os, sys, subprocess
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from callpath import normalise
 from collections import Counter
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -34,7 +36,7 @@ CALL_COLS = ["call_id","rep","date","account_name","account_source","meeting_typ
              "content_tier","prospect_seniority","attendee_count","demo_happened",
              "features_demoed","pain_points","current_solution","objection_count",
              "objection_categories","objections_resolved","sentiment_open","sentiment_post_demo",
-             "sentiment_at_pricing","sentiment_close","sentiment_trajectory","call_path",
+             "sentiment_at_pricing","sentiment_close","sentiment_trajectory","call_path_norm","call_path_len","call_path",
              "pivot_point_count","next_step_secured","next_step_has_date","next_step_description",
              "buying_signal_count","stall_count","rep_commitment_count","unanswered_question_count",
              "extraction_confidence","doc_url"]
@@ -62,6 +64,8 @@ with open(os.path.join(BASE, "calls.csv"), "w", newline="") as fh:
             "sentiment_open": sent(c,"open"), "sentiment_post_demo": sent(c,"post_demo"),
             "sentiment_at_pricing": sent(c,"at_pricing"), "sentiment_close": sent(c,"close"),
             "sentiment_trajectory": j((c.get("sentiment") or {}).get("trajectory")),
+            "call_path_norm": ">".join(normalise(c.get("call_path"))),
+            "call_path_len": len(c.get("call_path") or []),
             "call_path": j(c.get("call_path")),
             "pivot_point_count": len(c.get("pivot_points") or []),
             "next_step_secured": j(c.get("next_step_secured")),

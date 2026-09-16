@@ -36,7 +36,7 @@ reconstructing from memory.
     "close":      {"score": 3, "evidence": "", "evidence_source": "verbatim_speech | summary_narration"},
     "trajectory": "rising | flat | declining | v_shaped | insufficient_data"
   },
-  "call_path": [], "pivot_points": [{"at_stage": "", "what_changed": "", "caused_by": ""}],
+  "call_path": ["controlled tokens, in the order hit"], "pivot_points": [{"at_stage": "", "what_changed": "", "caused_by": ""}],
   "next_step_secured": true, "next_step_has_date": false, "next_step_description": "",
   "buying_signals": [], "stalls": [], "rep_commitments": [],
   "extraction_confidence": "high | medium | low", "confidence_notes": ""
@@ -83,7 +83,14 @@ reconstructing from memory.
    CRM are external but are not golf courses being sold to. Set
    `meeting_type: "other"` and say so in `confidence_notes`; do not model them as
    prospect calls.
-10. **A scheduled call is not a held call.** At least one doc is a prospect
+10. **`call_path` uses a controlled vocabulary, in the order stages were hit:**
+   `rapport`, `discovery`, `demo`, `integration`, `pricing`, `objection`,
+   `onboarding`, `next_step`, `other`. Repeat a token if the call genuinely
+   returns to that stage; do not collapse a return visit. Write prose stage
+   descriptions in `confidence_notes` if they are worth keeping - not in
+   `call_path`. Free-text stages make every call's path unique, which is the
+   same as having no path data at all.
+11. **A scheduled call is not a held call.** At least one doc is a prospect
    no-show where the recorded audio is two CourseRev people talking. The title
    names an account; the call never happened. `demo_happened: false`, zero
    objections, and say so in `confidence_notes`.
