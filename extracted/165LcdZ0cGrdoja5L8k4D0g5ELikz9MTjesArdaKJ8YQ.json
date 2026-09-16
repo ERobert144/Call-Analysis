@@ -142,7 +142,7 @@
   {
    "at_stage": "Contract options (~00:42:45-00:43:33)",
    "what_changed": "Bo withdrew the option of starting the integration immediately on the existing POS and settled on a single agreement naming TenFore with a September 1 effective date, tying the deal to the POS go-live.",
-   "caused_by": "Curtis doubting it was worth setting up for a system they were about to leave and expecting his team to want it 'all in one fail swoop when we go to the new system'"
+   "caused_by": "Curtis doubting it was worth setting up for a system they were about to leave and expecting his team to want it done in 'one fail swoop when we go to the new system'"
   }
  ],
  "next_step_secured": true,

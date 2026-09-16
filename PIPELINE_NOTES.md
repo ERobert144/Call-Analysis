@@ -195,3 +195,18 @@ The connector preserves empty paragraphs as two-space lines and uses different
 bullet, escape and mailto forms. All `triage/*.json` counts are on the
 connector-markdown basis. Use one basis throughout or the numbers stop
 comparing.
+
+## Gemini's Summary can contradict its own Details
+
+On the Deerhurst call the Summary asserts "The facility decided to move
+forward", while the Details section of the same document shows nothing signed
+and a follow-up scheduled to discuss "the status of the agreement". The
+extraction records the tension in `confidence_notes` rather than silently
+picking one.
+
+This matters disproportionately because 18 of the 34 prospect calls are
+summary-only: for those there is no transcript to adjudicate against, so an
+over-stated Summary is indistinguishable from a real outcome. Treat
+`next_step_secured` and any close-stage sentiment on a summary-only call as
+the notetaker's reading, not the prospect's commitment. The HubSpot join is
+what will settle these.

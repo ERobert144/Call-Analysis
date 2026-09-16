@@ -1,0 +1,140 @@
+{
+ "call_id": "1BPJko8wI1WqBvBHy9SAXMRRCM-VGk8f7_D0MPgntmpc",
+ "file_name": "CourseRev + Laughlin Ranch - Chat - 2026/08/12 11:00 PDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/1BPJko8wI1WqBvBHy9SAXMRRCM-VGk8f7_D0MPgntmpc/edit",
+ "rep": "Bo",
+ "date": "2026-08-12",
+ "account_name": "Laughlin Ranch",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Megan Jackson",
+   "org": "prospect",
+   "role": "General Manager; came from the medical field four and a half years ago, started as assistant general manager and has held the GM role about four years"
+  },
+  {
+   "name": "Bo Ferrando",
+   "org": "courserev",
+   "role": "rep; ran the whole call, shared the website and dashboard and placed the live demo call"
+  }
+ ],
+ "prospect_seniority": "GM",
+ "meeting_type": "demo",
+ "content_tier": "rich",
+ "pain_points": [
+  "Public awareness: golfers in the area still assume the course is private, which Megan Jackson raises as a growth observation rather than as a problem to solve",
+  "Staff being tied up in the pro shop while calls come in - raised by the rep as the delayed call-forward scenario, not stated as a problem by the prospect"
+ ],
+ "current_solution": "LightSpeed (rendered LightSpeed/Light Speed/Lightseed in the transcript) for the tee sheet, plus an existing online booking system on the course website; the pro shop line is answered by staff. No incumbent call-handling or AI vendor is named.",
+ "demo_happened": true,
+ "features_demoed": [
+  "Live inbound AI voice call placed to Highland Creek Golf Course, a CourseRev client in Charlotte, North Carolina, used as the demo target",
+  "AI answering FAQs on the call: practice facility detail (driving range, 12,000 square foot putting green, chipping green, practice bunker, lessons) and dining (beer garden and tap room menu and hours)",
+  "Checking tee time availability against the tee sheet and offering nearby alternative morning times",
+  "Offering a waitlist slot when the requested 9:00 a.m. time was unavailable",
+  "Proactively announcing an inter-club event happening that afternoon",
+  "Reading the booking back with players, holes, rate and total before locking it in - the booking did not complete in the demo",
+  "Dashboard channel management: toggling the AI voice and chatbot channels on and off by hours",
+  "Dashboard notice board for proactive announcements such as cart path only, event schedules and promotions",
+  "Call logging with full transcript in the dashboard for resolving pricing or tee time discrepancies",
+  "AI chatbot website widget, shown on the CourseRev site with Genoa Golf Club named as a live client",
+  "Confirmation text with a link to confirm or cancel, described rather than delivered because the booking did not complete",
+  "National Weather Service forecast integration - described by the rep after the demo; the AI did not return a forecast when asked during the call"
+ ],
+ "prospect_questions": [
+  "Whether the AI chatbot is included in the package price or costs extra",
+  "Whether the AI can be limited to the hours when the course is not open",
+  "Confirmation that there are no monthly or yearly fees and the charge is only per tee time booked and played"
+ ],
+ "unanswered_questions": [
+  "Why the live demo booking did not complete - Bo Ferrando said he would find out, suggesting something on the LightSpeed side"
+ ],
+ "objections": [
+  {
+   "trigger_quote": "Um, no, we'll hold off on that end.",
+   "category": "approval_authority",
+   "quote_source": "verbatim_speech",
+   "rep_response_summary": "Bo Ferrando had offered to have the LightSpeed rep send the agreement over for review, since with LightSpeed courses the partner rep sends the paperwork rather than the CourseRev rep. He accepted the deferral without countering, confirmed he would instead compose a follow-up email with all the information, and checked that the decision sits with Megan Jackson and the managing partner.",
+   "response_tactic": "acknowledge_only",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": false
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 4,
+   "evidence": "Warm, unhurried rapport on the season, the local market and family, and she asks for the full pitch: \"Yeah, if you can go ahead and share all of the uh information.\" Tempered by \"I did not have time to look it up\" - she had done no prep on CourseRev.",
+   "evidence_source": "verbatim_speech"
+  },
+  "post_demo": {
+   "score": 4,
+   "evidence": "Asked how it sounded after the live demo, in which the AI did not complete the booking and she was audibly attending to someone else in her office: \"No, I feel like it sounds good.\"",
+   "evidence_source": "verbatim_speech"
+  },
+  "at_pricing": {
+   "score": 4,
+   "evidence": "She restated the commercial model back unprompted - \"But the charge only, there's no monthly fees, no yearly fees.\" - and after Bo Ferrando corrected it upward from per booking to per player, making a foursome $10, her replies were \"Okay.\" and \"Perfect.\" with no pushback.",
+   "evidence_source": "verbatim_speech"
+  },
+  "close": {
+   "score": 2,
+   "evidence": "Declined the agreement outright - \"Um, no, we'll hold off on that end.\" - and then declined a scheduled decision call: \"do you mind if I just go off of like our email and then see how that is and let you know from there?\"",
+   "evidence_source": "verbatim_speech"
+  },
+  "trajectory": "declining"
+ },
+ "call_path": [
+  "rapport: season, Bullhead City and Laughlin, her route into golf, families",
+  "framing the meeting and confirming she had not researched CourseRev",
+  "website walkthrough and the AI voice concierge core product",
+  "how setup works: a CourseRev number and forwarding the pro shop line",
+  "AI chatbot as an extra channel, and whether it costs extra",
+  "pricing: $2.50 per player per booking, charged only on booked and played rounds",
+  "knowledge base building from manual entries and from calls",
+  "coverage configuration: 24/7, delayed call forward during open hours, or after hours only",
+  "dashboard: channel toggles and the notice board",
+  "live demo call to Highland Creek Golf Course - the booking did not complete",
+  "post-demo recap: confirmation text, call logging and transcripts for dispute resolution",
+  "pricing reconfirmed and corrected to per player",
+  "agreement offered via the LightSpeed rep and declined",
+  "follow-up email agreed, decision routed to the managing partner, 5 to 7 day check-in"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "close",
+   "what_changed": "the call turned from a positive product reaction into a deferred decision when Megan Jackson declined to have the LightSpeed rep send an agreement and routed the decision to the managing partner",
+   "caused_by": "Bo Ferrando asking directly whether she wanted the agreement sent for review"
+  },
+  {
+   "at_stage": "follow-up scheduling",
+   "what_changed": "no decision call was set; the next contact became a passive 5 to 7 day check-in if she does not reply to the email",
+   "caused_by": "Megan Jackson asking to respond off the email rather than commit to a timeline"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": false,
+ "next_step_description": "Bo Ferrando to send a follow-up email with the product details and the website link; Megan Jackson to forward the materials to the managing partner to gauge interest and reply off the email; Bo Ferrando to follow up in 5 to 7 days if he has not heard back. No calendar date was set.",
+ "buying_signals": [
+  "Said the product sounds good when asked directly after the demo",
+  "Asked whether the chatbot was included in the package price rather than whether she needed it",
+  "Asked whether the AI could be restricted to the hours the course is closed - engaging with deployment specifics",
+  "Restated the pricing model back correctly and accepted the upward correction to per player without pushback",
+  "Agreed to forward the information to the managing partner",
+  "Confirmed the course runs on LightSpeed, for which CourseRev has an integration"
+ ],
+ "stalls": [
+  "Declined to have the LightSpeed rep send the agreement for review",
+  "The decision requires the managing partner; the course is individually owned and operated",
+  "Declined a scheduled follow-up call, asking to respond off the email instead",
+  "Had not researched CourseRev before the call and asked for the full pitch cold",
+  "The live demo booking did not complete, and the cause was left open"
+ ],
+ "rep_commitments": [
+  "Bo Ferrando: compose a follow-up email with all the possible information",
+  "Bo Ferrando: send the CourseRev website link so she can try the AI voice concierge herself",
+  "Bo Ferrando: follow up in 5 to 7 days if he has not heard back",
+  "Bo Ferrando: find out why the demo booking did not complete on the LightSpeed side"
+ ],
+ "extraction_confidence": "high",
+ "confidence_notes": "Full Gemini notes plus a complete verbatim transcript: 291 turns, 00:20:42, clean start and a clean \"Transcription ended after 00:20:42\". account_name is from the title and independently confirmed by the invitee domain mjackson@laughlinranch.com. Rule 8 applies and is handled: Highland Creek Golf Course is the client Bo Ferrando dials during the live demo, not the prospect. Zero-versus-one objection is the main judgement call in this record. Only one item is recorded as an objection - the refusal of the agreement, which is verbatim and unambiguous. Two other moments were considered and deliberately left out of the array: her question about whether the AI could be limited to the hours the course is closed, which is phrased as a capability question and was handled as one, and her question about whether the chatbot costs extra; both are recorded under prospect_questions instead, and a reviewer taking the scope-limiting reading would count two or three objections here. No price objection exists: pricing was corrected upward mid-call, from her understanding of a per-booking charge to $2.50 per player, and she accepted it. Transcript quality caveats, none of which affect the fields above: the whole demo call is attributed to Bo Ferrando, so the AI concierge's speech carries his speaker label; and through the demo Megan Jackson's turns interleave with fragments of a separate conversation happening in her office (lines such as the door lock and someone working longer), so short utterances in that stretch are not reliable as responses to the demo. The demo itself did not finish - the AI looped on locking in the tee time and Bo Ferrando ended the call - which is recorded in features_demoed, stalls and unanswered_questions but not as a pivot point, since the doc shows no change in her posture from it. prospect_seniority GM is from her own account of moving from assistant general manager into the GM role about four years ago. next_step_secured is true on an agreed email and forward, not on a booked meeting; next_step_has_date is false because 5 to 7 days is not a date. Sentiment trajectory is declining: warm open, positive through demo and pricing, then a hard turn at the close where she declined both the agreement and a scheduled decision call."
+}

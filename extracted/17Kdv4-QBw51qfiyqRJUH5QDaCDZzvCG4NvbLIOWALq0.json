@@ -1,0 +1,221 @@
+{
+ "call_id": "17Kdv4-QBw51qfiyqRJUH5QDaCDZzvCG4NvbLIOWALq0",
+ "file_name": "Scott Lake Meeting - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/17Kdv4-QBw51qfiyqRJUH5QDaCDZzvCG4NvbLIOWALq0/edit",
+ "rep": "Jason",
+ "date": "2026-06-11",
+ "account_name": "Scott Lake",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Jared",
+   "org": "prospect",
+   "role": "course-side decision gatherer who escalates to ownership; sets tee sheet rates and the two-week booking window, describes the pro shop staffing and the group-booking script. Surname not stated in the doc; the Meet display name on his turns is the course name, Scott Lake, not his own"
+  },
+  {
+   "name": "Jason Doepke",
+   "org": "courserev",
+   "role": "rep leading the call; covers central North America, ran the live demo and the dashboard walkthrough, quoted pricing and owns the follow-up"
+  },
+  {
+   "name": "Evan Denholm",
+   "org": "courserev",
+   "role": "onboarding team; answered the phone-system, knowledge base, group-booking, 9-hole rules and waitlist questions"
+  },
+  {
+   "name": "Sidney Overman",
+   "org": "courserev",
+   "role": "onboarding team, introduced as new to the team; spoke only in the pre-meeting before the prospect joined and was named by the prospect as a possible contact"
+  }
+ ],
+ "prospect_seniority": "unknown",
+ "meeting_type": "demo",
+ "content_tier": "rich",
+ "pain_points": [
+  "High inbound call volume in the West Michigan market - \"we get so many phone calls. We get a lot of phone calls\"",
+  "With two to three people in the pro shop, back-to-back calls mean putting callers on hold for a minute or two",
+  "Calls arriving after the pro shop has closed go unanswered, which he names as where he sees immediate value",
+  "Groups of 16 need a manual script covering extra rules, the liquor policy and pace of play, so they cannot simply self-book",
+  "18-hole play after 3:00 PM on Friday to Sunday needs a manual tee sheet workaround, booking a second slot roughly two hours and eight minutes later",
+  "Already on the CourseRev chat widget but with no voice coverage, which is what prompted the call"
+ ],
+ "current_solution": "Club Profit for the tee sheet and booking, with no other third-party online booking tool; Nextiva as the phone system; two to three pro shop staff answering calls; the CourseRev course agent chat widget already live on the website. Speak Sport was evaluated for voice last winter and not taken up. No prepayment except for leagues and outings.",
+ "demo_happened": true,
+ "features_demoed": [
+  "Live inbound AI voice call placed to Highland Creek, an existing CourseRev client used as the demo target",
+  "IVR-style greeting with press one to book a tee time and press two for the grill",
+  "Recognising a returning golfer by phone number and asking him to confirm an existing tee time",
+  "Searching afternoon availability for four players and offering nearby times",
+  "Quoting the public rate per player and the total, reading the booking back and locking it in",
+  "Answering FAQs mid-booking on the on-site dining option and on the practice facility, including range hours and ball sales cut-off",
+  "Offering a weather guarantee at confirmation",
+  "SMS text confirmation, shown on screen after the call",
+  "Dashboard notice board for real-time operational announcements such as cart path only on a named hole or a liquor law change",
+  "Built-in waitlist that offers to add a caller when their slot is taken and notifies them by call, text or email when it frees up",
+  "Call logs updated in real time with transcripts, used to fact-check pricing disputes"
+ ],
+ "prospect_questions": [
+  "Whether the system integrates with Nextiva, their phone provider",
+  "Whether callers can get an automated greeting with press one to book and press two for a human",
+  "How the AI learns - whether it scrapes the website or learns from each phone call",
+  "How long the onboarding process normally takes",
+  "Whether there are any courses in Michigan currently running the phone system, so he can call a semi-local reference",
+  "Whether CourseRev knows anything about the Mines Golf Club, a nearby course he heard might be signing",
+  "How AI bookings are identified in the tee sheet so he could run a report on tee times booked through CourseRev",
+  "What the pricing is and whether it is annual, monthly or per converted tee time",
+  "How the AI handles a 16-player group booking that needs the liquor and pace-of-play script",
+  "How the system handles 9-hole-only tee times after 3:00 PM when a golfer wants 18 holes",
+  "How a customer joins the waitlist and whether there is an app",
+  "Who he should contact with follow-up questions"
+ ],
+ "unanswered_questions": [
+  "The engagement status of the Mines Golf Club - Evan Denholm said he would check and come back on it",
+  "Which Michigan courses are live on the voice product - neither rep could name any from memory and only Bella Vista Golf Course in Coldwater was found by looking at the website"
+ ],
+ "objections": [
+  {
+   "trigger_quote": "our course still feels like that human touch is still really important",
+   "category": "ai_quality_doubt",
+   "quote_source": "verbatim_speech",
+   "rep_response_summary": "Jason Doepke said the system can be toggled on and off as the course sees fit and that courses often start with after-hours only, then reframed the trade-off: the cost of the personal touch can be a busy signal when a golfer is trying to book, and CourseRev can answer up to 50 concurrent calls.",
+   "response_tactic": "reframe",
+   "prospect_next_move": "re_raised_later",
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "that senior market, that's what I'm kind of hesitant about",
+   "category": "ai_quality_doubt",
+   "quote_source": "verbatim_speech",
+   "rep_response_summary": "Jason Doepke offered to run a live call so he could hear how the AI engages, said he would be willing to say half the senior crowd would not know it is an AI, and pointed to the dashboard call logs, citing a course where a caller tried to ask the AI out on a date.",
+   "response_tactic": "reframe",
+   "prospect_next_move": "deflected",
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "we're in the middle of our season now, so we're not going to switch over middle of a season",
+   "category": "timing_seasonality",
+   "quote_source": "verbatim_speech",
+   "rep_response_summary": "The doc records no response to the seasonal timing point itself. The reply that followed addressed the human-touch half of the same answer - toggling on and off, starting after hours, and the busy-signal reframe. Later, at pricing, Jason Doepke proposed after-hours only as a starting point to build the business case and ramp from there.",
+   "response_tactic": null,
+   "prospect_next_move": null,
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "we would have to seriously think about maybe trying to transition one of our staff members",
+   "category": "staff_adoption",
+   "quote_source": "verbatim_speech",
+   "rep_response_summary": "Jason Doepke said a lot of their customers are not reducing staff but repurposing them onto hospitality in the pro shop, and that they have coaches who have been through the same transition.",
+   "response_tactic": "reference_customer",
+   "prospect_next_move": "deflected",
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "no guarantees that I'll sign it right away",
+   "category": "approval_authority",
+   "quote_source": "verbatim_speech",
+   "rep_response_summary": "Jason Doepke asked how the decision gets made at the course and, on hearing that it sits with ownership, offered to jump on a quick call with the owner to walk them through it and answer questions.",
+   "response_tactic": "defer_to_followup",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": false
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 3,
+   "evidence": "Joined late but warm, recalling having seen Evan Denholm speak at the Glen Club near Chicago; then answered the opening question with the reasons they had not taken voice - the Speak Sport evaluation, mid-season timing, and \"our course still feels like that human touch is still really important\".",
+   "evidence_source": "verbatim_speech"
+  },
+  "post_demo": {
+   "score": 4,
+   "evidence": "After the live call, the dashboard walkthrough and the group-booking and 9-hole answers: \"Okay. All right. That sounds cool. Um, I think I got what I needed. Good information.\" Just before the demo he had said \"No, I mean I like I kind of like that idea.\"",
+   "evidence_source": "verbatim_speech"
+  },
+  "at_pricing": {
+   "score": 3,
+   "evidence": "No pushback and no enthusiasm on the $2.50 per booked and completed round model with no monthly or annual fee; his reply was \"Okay. Yeah. So, um that just sparked my memory.\" and he moved straight to asking about a nearby course he had heard might be signing.",
+   "evidence_source": "verbatim_speech"
+  },
+  "close": {
+   "score": 4,
+   "evidence": "Asked for the paperwork - \"That's That sounds good. You can send it over.\" - while capping expectations with \"no guarantees that I'll sign it right away\" and \"I'm definitely we're interested in it\", and took the shorter of the two follow-up options offered: \"you can follow up next week. That's fine.\"",
+   "evidence_source": "verbatim_speech"
+  },
+  "trajectory": "rising"
+ },
+ "call_path": [
+  "internal pre-meeting while waiting for the prospect: ISP trouble, recent sales calls and a Columbus Municipal RFP",
+  "prospect joins; rapport over a prior CourseRev presentation at the Glen Club near Chicago",
+  "why voice was not taken up when the chat widget was: Speak Sport, mid-season timing and human touch",
+  "flexibility answer - toggle on and off, after-hours-only start, up to 50 concurrent calls",
+  "phone system integration: call forwarding rather than a Nextiva integration, with a back line to the pro shop",
+  "how the AI learns: website scrape plus two weeks of call analysis for local lingo",
+  "onboarding timeline and the Club Profit integration",
+  "reference customers: a Michigan reference request, Bella Vista, 200+ courses, Founders Group, Pinnacle, Walden Group",
+  "senior-golfer adaptation concern",
+  "discovery on where the operation bottlenecks, and the staffing implication",
+  "pricing: $2.50 per booked and completed round, no monthly or annual, invoiced the following month",
+  "the Mines Golf Club as a nearby peer reference",
+  "attribution and reporting of AI bookings via the CR logo in the tee sheet",
+  "live AI voice demo call to Highland Creek, then the SMS confirmation",
+  "group bookings of 16 and routing them to the pro shop or group sales",
+  "9-hole-after-3pm tee sheet rules and whether the AI should be given that range",
+  "dashboard: notice board, waitlist and call logs",
+  "prepayment and the Profit Pay integration",
+  "onboarding form and agreement offered; decision routed to ownership",
+  "follow-up agreed for towards the end of next week"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "opening discovery",
+   "what_changed": "his stated blocker moved from a flat preference for a human on the phone to scoped implementation questions - Nextiva, call forwarding and a press-two route to the pro shop",
+   "caused_by": "the on/off toggle and after-hours-only framing plus the busy-signal reframe, and the rep confirming a back line into the pro shop is kept"
+  },
+  {
+   "at_stage": "learning and differentiation",
+   "what_changed": "he volunteered a point of preference for CourseRev over the vendor he had previously evaluated",
+   "caused_by": "the explanation that the system analyses two weeks of real calls rather than only scraping the website, which he said Speak Sport did not do"
+  },
+  {
+   "at_stage": "post-demo",
+   "what_changed": "he stopped raising hesitations and switched to operational edge cases - 16-player groups and 9-hole-after-3pm rules - then said he had what he needed",
+   "caused_by": "hearing the live AI call confirm an existing booking, answer FAQs and complete a new booking end to end"
+  },
+  {
+   "at_stage": "close",
+   "what_changed": "he asked for the onboarding form and agreement while explicitly withholding any commitment to sign",
+   "caused_by": "the decision sitting with course ownership rather than with him"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": false,
+ "next_step_description": "Jason Doepke to send the onboarding form and the agreement, and to follow up towards the end of next week; he is also the single point of contact for questions and offered to join a call with the owner. Jared to review the information, chat with the owner and come up with a plan. Evan Denholm to check the engagement status of the Mines Golf Club. No calendar date was set.",
+ "buying_signals": [
+  "Stated interest directly - \"I'm definitely we're interested in it\"",
+  "Asked for the onboarding form and agreement to be sent",
+  "Chose the shorter follow-up window when offered next week or a couple of weeks",
+  "Asked for a semi-local reference course he could call about their experience",
+  "Asked specifically about the Mines Golf Club nearby, which he had heard might be signing, and offered to go down there or call them",
+  "Volunteered that learning from call data differentiates CourseRev from the vendor he evaluated last winter",
+  "Called the group-booking transfer setup another bonus that would need doing",
+  "Named after-hours coverage as where he sees value right away",
+  "Already a CourseRev customer on the chat widget"
+ ],
+ "stalls": [
+  "The decision rests with course ownership; he only gathers information and then chats with the owner",
+  "Explicitly declined to commit to signing",
+  "Stated practice of revisiting this category in the fall or early winter rather than mid-season",
+  "Wants to speak to a semi-local reference before deciding, and no Michigan voice reference was available on the call beyond a course that went live a couple of weeks earlier",
+  "The status of the Mines Golf Club was unknown to both reps and left with Evan Denholm to check",
+  "The senior-golfer acceptance concern was never revisited after the demo"
+ ],
+ "rep_commitments": [
+  "Jason Doepke: send the onboarding form, which is a Google form, and the agreement covering terms, the charge and invoicing",
+  "Jason Doepke: follow up towards the end of next week",
+  "Jason Doepke: act as the first point of contact for any questions",
+  "Jason Doepke: join a quick call with the owner to walk them through it if needed",
+  "Jason Doepke and Evan Denholm: facilitate reference calls with existing customers",
+  "Evan Denholm: check the engagement status of the Mines Golf Club and come back on it"
+ ],
+ "extraction_confidence": "high",
+ "confidence_notes": "Full Gemini notes plus a complete verbatim transcript: 557 turns, 00:40:57, 54,924 characters (content_tier rich), cached from the connector markdown export and matching the triage char_count exactly. Identity is the important finding in this record and it is resolved from the text, not guessed: Scott Lake is the GOLF COURSE, not a person. The Meet display name on every prospect turn is Scott Lake, and Gemini's summary therefore writes sentences like Scott Lake questioned and Scott Lake expressed concern as if that were a human being. The prospect's own name is Jared - Jason Doepke addresses him as such three times, once with Evan Denholm asking Jared? back - and the prospect himself uses the course name when scripting a greeting: \"Hey, thank you for calling Scott Lake. This is our virtual assistant.\" His surname never appears, so attendees carries the given name alone. Anything downstream that reads Gemini's summary literally will attribute the prospect's words to a person called Scott Lake. Rule 8 also applies and is handled: Highland Creek is the existing client Jason Doepke dials for the demo, not the prospect. This is an upsell, not a cold prospect: the course already runs the CourseRev chat widget and the opening question is why they did not take voice at the same time. The first roughly seven minutes of the transcript are a CourseRev-internal pre-meeting - ISP trouble, other sales calls and a Columbus Municipal RFP - and are excluded from call_path content other than being named as the pre-meeting; Sidney Overman speaks only there. Judgement calls worth knowing about. prospect_next_move on objection 1 is re_raised_later on the reading that the senior-demographic objection nine minutes later is the same underlying doubt about whether their callers will accept an AI, narrowed to the segment he says matters most to the business; a reviewer could instead score it partially_accepted and treat the two as independent. prospect_next_move is deflected on objections 2 and 4 on a consistent rule: his next coherent utterance changes topic without engaging the rep's answer - after the senior reframe he says he is reading his computer looking for more questions, and after the staffing reframe he goes straight to billing. The short fragments interleaved through the rep's turns in both stretches are overlap artifacts and were not read as responses. Objection 3 carries a null response_tactic and a null prospect_next_move because the doc shows no reply aimed at the seasonal timing point, so there is nothing for the prospect to have responded to. prospect_seniority is the enum's unknown: his title is never stated, though he sets tee sheet rates and the booking window and, asked whether he would need to talk to a GM, answered ownership. Sentiment checkpoints are stored in schema order, but the call order was open, pricing at 00:22, demo at 00:25, close at 00:38, so the 3, 3, 4, 4 chronological sequence is what makes the trajectory rising."
+}

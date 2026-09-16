@@ -1,0 +1,45 @@
+{
+  "call_id": "1xhOBR9R92eEy7LXwUxShOj7Euz7bSpqCyhQUEUSw5IE",
+  "file_name": "CourseRev + Indian Canyons - Quick Chat - 2026/06/11 14:00 PDT - Notes by Gemini",
+  "doc_url": "https://docs.google.com/document/d/1xhOBR9R92eEy7LXwUxShOj7Euz7bSpqCyhQUEUSw5IE/edit",
+  "rep": "Bo",
+  "date": "2026-06-11",
+  "account_name": "Indian Canyons",
+  "account_source": "title",
+  "attendees": [
+    {
+      "name": "Bo Ferrando",
+      "org": "courserev",
+      "role": "rep; the only speaker label in the recording"
+    }
+  ],
+  "prospect_seniority": null,
+  "meeting_type": "other",
+  "content_tier": "thin",
+  "pain_points": [],
+  "current_solution": "Indian Canyons Golf Resort answers its main line with a recorded phone menu covering the North and South Courses in Palm Springs: press one for the South Course Golf Shop, two for the North Course Golf Shop, three for South Course Food and Beverage, four for North Course Food and Beverage, plus a spoken marketing option with no key assigned to it.",
+  "demo_happened": false,
+  "features_demoed": [],
+  "prospect_questions": [],
+  "unanswered_questions": [],
+  "objections": [],
+  "sentiment": {
+    "open": null,
+    "post_demo": null,
+    "at_pricing": null,
+    "close": null,
+    "trajectory": "insufficient_data"
+  },
+  "call_path": [
+    "Single captured segment at 00:05:08: the Indian Canyons phone menu playing on the line, with no two-way conversation anywhere in the recording"
+  ],
+  "pivot_points": [],
+  "next_step_secured": false,
+  "next_step_has_date": false,
+  "next_step_description": null,
+  "buying_signals": [],
+  "stalls": [],
+  "rep_commitments": [],
+  "extraction_confidence": "low",
+  "confidence_notes": "Scheduled prospect chat that is not a held sales conversation. The 00:15:31 recording yields exactly one transcript turn, at 00:05:08, and its content is the Indian Canyons Golf Resort phone menu itself (\"For the South Course Golf Shop, press one.\"), captured under Bo Ferrando's speaker label because it came down his line. There is no prospect speech, no CourseRev pitch, no demo and no next step, so demo_happened is false, objections are empty, all four sentiment checkpoints are null and trajectory is insufficient_data. Gemini's Summary and Details describe only that menu audio, so they carry no meeting content; the only substantive extractable fact is the course's existing phone routing, recorded under current_solution. Rule 8 was considered and does not apply: the dialled course and the prospect are the same party here - Indian Canyons is the titled account and ggriffin@indiancanyonsgolf.com is the invitee, so this is the rep phoning the prospect's own main line rather than a live client being dialled to demonstrate the product; account_name is therefore kept from the title. The invitee is not listed under attendees because no prospect speech appears in the source. Cross-reference: this doc is the Notes by Gemini file attached to the same calendar event as file_id 1_cUB0ZFNgd6TpD_bnKTo8ta7v2uNeyG7EdgdlLB0bOQ, the 14:23 PDT record of the same day, which holds the actual 00:34:25 conversation with Greg Griffin; in that transcript Greg observes that Bo called in on the property's main number, which is consistent with the menu audio captured here."
+}

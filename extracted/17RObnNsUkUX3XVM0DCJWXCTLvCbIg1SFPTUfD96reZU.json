@@ -1,0 +1,135 @@
+{
+  "call_id": "17RObnNsUkUX3XVM0DCJWXCTLvCbIg1SFPTUfD96reZU",
+  "file_name": "Bristol Ridge & Courserev exploratory discussion - 2026/06/19 12:30 EDT - Notes by Gemini",
+  "doc_url": "https://docs.google.com/document/d/17RObnNsUkUX3XVM0DCJWXCTLvCbIg1SFPTUfD96reZU/edit",
+  "rep": "Jason",
+  "date": "2026-06-19",
+  "account_name": "Bristol Ridge",
+  "account_source": "title",
+  "attendees": [
+    {
+      "name": "Sam Strachan",
+      "org": "prospect",
+      "role": "facility-side contact who describes the phone routing and tee sheet and takes proposals to the owners' weekly board meeting; title not stated in the doc"
+    },
+    {
+      "name": "Jason Doepke",
+      "org": "courserev",
+      "role": "rep running discovery, the live demo and pricing"
+    }
+  ],
+  "prospect_seniority": "unknown",
+  "meeting_type": "discovery",
+  "content_tier": "rich",
+  "pain_points": [
+    "Calls are missed on busy weekend mornings when the tee sheet is packed and there is a line in the pro shop, forcing staff to choose between the people in the shop and the caller",
+    "After 6:00 the pro shop line forwards to the restaurant and unanswered calls ring at the bar after about six rings, so after-hours booking calls are handled by whoever is at the bar",
+    "No visibility into after-hours call volume - Sam could not give numbers, only that they get quite a few"
+  ],
+  "current_solution": "Phone tree with options for the pro shop and the restaurant; the pro shop line forwards automatically to the restaurant at 6:00, and an unanswered pro shop line rings at the bar after about six rings. Club Caddy holds the tee sheet, applying member rates automatically from purchased passes, with bookings taken 14 days out for members and public alike.",
+  "demo_happened": true,
+  "features_demoed": [
+    "Live AI voice concierge call placed to Tradition Golf Club (the demo target, not the prospect)",
+    "Returning-caller recognition and greeting by name",
+    "Tee-time search for a foursome with alternative times offered and a total price quoted",
+    "Read-back and confirmation of the booking, with text confirmation and pay-at-the-pro-shop",
+    "Weather guarantee link offered in the confirmation text",
+    "Clubhouse restaurant information answer",
+    "Practice facility answer, with lesson pricing deferred to a pro shop transfer",
+    "Dashboard call list with recording and full transcript of every call",
+    "Built-in waitlist with a text notification and a 10-minute window to confirm",
+    "Notice board for daily items such as cart path only, woven into the conversation by the AI",
+    "Delayed call forwarding configuration and an on/off toggle in the dashboard"
+  ],
+  "prospect_questions": [
+    "Their tee sheet requires an email address to hold a customer in the database - can the system capture that through a phone call?"
+  ],
+  "unanswered_questions": [
+    "Whether the voice agent collects an email address on the call for a first-time booker. Sam noted Club Caddy asks for first name, last name, email and phone number; the answer given was that CourseRev keys on the phone number, stores the email, and prompts new players for the information the course collects, without confirming email capture on the call."
+  ],
+  "objections": [
+    {
+      "trigger_quote": "Uh yeah, because obviously this is something that I got to run through the owners at our board meeting.",
+      "category": "approval_authority",
+      "quote_source": "verbatim_speech",
+      "rep_response_summary": "Jason agreed immediately, offered to produce high-level owner notes from the call recording covering what owners care about and how the system works with the pro shop, restated that there is no operational disruption because it runs as a call forward the course can toggle on and off, and proposed following up at the end of the following week. He also offered to send the standard terms and the onboarding form for review in the meantime.",
+      "response_tactic": "defer_to_followup",
+      "prospect_next_move": "accepted",
+      "resolved_in_call": false
+    }
+  ],
+  "sentiment": {
+    "open": {
+      "score": 3,
+      "evidence": "Cordial but flat and unprepared - he had not looked into CourseRev before the call and answered the operations questions in one- and two-word replies, opening up only on the missed-call problem: \"we probably miss more in the morning than we do, especially weekend mornings when it's t-shirts packed and there's a line out the door in the pro shop\".",
+      "evidence_source": "verbatim_speech"
+    },
+    "post_demo": {
+      "score": 3,
+      "evidence": "Reaction to the live booking demo and the dashboard walkthrough was limited to short acknowledgements - \"Yep.\", \"Sure.\", \"Okay.\" - with no questions asked; when invited to ask questions just before the demo his answer was \"Uh, not\" \"yet.\"",
+      "evidence_source": "verbatim_speech"
+    },
+    "at_pricing": {
+      "score": 3,
+      "evidence": "The $2.50-per-round-played model, with no charge for no-shows or cancellations, drew \"Okay.\" and \"Sure.\" and no questions about cost at any point in the call.",
+      "evidence_source": "verbatim_speech"
+    },
+    "close": {
+      "score": 4,
+      "evidence": "Volunteered the internal route himself and committed to it - \"we meet every Wednesday\" - then accepted the plan to receive the terms, onboarding form and owner notes: \"If you want to do that and then I'll till Wednesday and then we can go from\" there.",
+      "evidence_source": "verbatim_speech"
+    },
+    "trajectory": "rising"
+  },
+  "call_path": [
+    "Rapport: locations and weather, storm cleanup at southern courses",
+    "Discovery: no prior awareness of CourseRev",
+    "Discovery: current phone routing, 6:00 forward to the restaurant, ring-to-bar fallback, after-hours call volume",
+    "Discovery: Club Caddy tee sheet, member passes and rates, 14-day booking window",
+    "Discovery: missed calls on packed weekend mornings",
+    "CourseRev overview - 200+ courses, Club Caddy integration - and the delayed call forward use case",
+    "Live AI booking demo dialled into Tradition Golf Club",
+    "Dashboard: call recordings and transcripts, waitlist, notice board, prepayment options",
+    "Pricing: $2.50 per round booked and played, no charge for no-shows or cancellations",
+    "Implementation strategy: start after hours, then extend to delayed forwarding once staff have confidence",
+    "Club Caddy player data: phone-number matching, email capture question, multi-course routing, outbound texts",
+    "Onboarding: standard agreement, 99.9% uptime, 10-15 minute form, voice customisation",
+    "Next steps: owner notes for the Wednesday board meeting and a follow-up at the end of the next week"
+  ],
+  "pivot_points": [
+    {
+      "at_stage": "Discovery",
+      "what_changed": "The call turned from how the phones are wired today to the problem the product is sold against, and Jason began pitching from the prospect's own framing",
+      "caused_by": "Sam describing weekend mornings where staff must choose between the line in the pro shop and the caller on the phone"
+    },
+    {
+      "at_stage": "Next steps",
+      "what_changed": "The path to a decision moved from Sam reviewing the terms himself to an owners' board review, and the deliverable changed from an agreement to owner-facing notes",
+      "caused_by": "Sam disclosing that he has to run it through the owners at their weekly Wednesday board meeting"
+    }
+  ],
+  "next_step_secured": true,
+  "next_step_has_date": false,
+  "next_step_description": "Jason to email the standard terms and the onboarding form, plus high-level owner notes drawn from the call recording for Sam to present. Sam to take the AI voice concierge to the owners at their board meeting, which is held every Wednesday. Jason to follow up at the end of the following week; no calendar date or time was fixed.",
+  "buying_signals": [
+    "Agreed to take the proposal to the owners at the Wednesday board meeting and asked for material to present",
+    "Accepted the standard terms and onboarding form being sent for review",
+    "Asked a fit-level integration question about email capture for the Club Caddy customer database",
+    "Confirmed Club Caddy as the tee sheet, for which Jason said a native integration and other Club Caddy customers exist",
+    "Acknowledged the missed-call problem in his own words rather than being told it",
+    "No price pushback after the $2.50-per-round figure"
+  ],
+  "stalls": [
+    "Decision sits with the owners at the weekly Wednesday board meeting; Sam gave no view of his own on whether to proceed",
+    "Follow-up left as end of next week with no date or time fixed",
+    "Sam had not looked into CourseRev before the call and had no questions when first invited to ask"
+  ],
+  "rep_commitments": [
+    "Send the standard terms",
+    "Send the onboarding form",
+    "Compile high-level owner notes from the call recording for the board discussion",
+    "Follow up at the end of the following week"
+  ],
+  "extraction_confidence": "high",
+  "confidence_notes": "Full 174-turn verbatim transcript (00:22:21) plus a complete Gemini summary, decisions and next steps, so the single objection, the pricing reaction and the next step are directly evidenced. Rule 8: Tradition Golf Club is the live client course Jason dialled for the demo, not the prospect; the prospect is Bristol Ridge (title and invitee brgc.samstrachan@gmail.com). One objection only. Staff adoption is deliberately not recorded as an objection: the hesitation about taking the phones out of staff hands was raised by Jason pre-emptively (\"if there is hesitation about taking the phones out of your that your um your staff's hands because there is\"), and Sam never voiced it. Sam's title is not stated anywhere in the doc; he speaks of \"the owners\" as separate from himself but attends the weekly board meeting, so prospect_seniority is unknown. meeting_type is discovery on the strength of the doc title (\"exploratory discussion\"), Sam's lack of prior awareness and the opening discovery block, although a full live demo, pricing and onboarding were all covered in the same call. The transcript interleaves the two speakers mid-sentence, so several of Sam's lines are split across turns; every quote recorded here is a contiguous span from a single turn. During the demo the AI's speech is transcribed under Jason Doepke's speaker label, so the 00:08:15-00:12:00 range alternates between rep and AI under one name. next_step_has_date is false: the board meets Wednesdays and the follow-up was set for \"end of next week\", but no specific date or time was agreed."
+}

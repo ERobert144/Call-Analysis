@@ -1,0 +1,182 @@
+{
+ "call_id": "1NErdrdlxiNuIqbxxcJayg3hCf6YFacXlwq-sGecFwNo",
+ "file_name": "Chat: CourseRev + Old Greenwood  - 2026/08/18 10:00 PDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/1NErdrdlxiNuIqbxxcJayg3hCf6YFacXlwq-sGecFwNo/edit",
+ "rep": "Bo",
+ "date": "2026-08-18",
+ "account_name": "Old Greenwood",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Bo Ferrando",
+   "org": "courserev",
+   "role": "rep"
+  },
+  {
+   "name": "Ian Winters",
+   "org": "prospect",
+   "role": null
+  }
+ ],
+ "prospect_seniority": "unknown",
+ "meeting_type": "demo",
+ "content_tier": "rich",
+ "pain_points": [
+  "High volume of repetitive inquiry calls to the golf shop, especially about weather - the prospect described people ten minutes away in town calling to ask what the weather is like, and said avoiding those would save a lot of time and some headaches",
+  "Phones are described as non-stop all the time",
+  "In earlier years the club ran a large phone tree directory that took a minute to get through, with heavy shop call volume and transfers on to other facilities",
+  "Dynamic pricing makes accurate rate quotes over the phone impractical - rates move by demand and booking lead time, and staff would have to click in and out of every tee time to check, so they push callers to book online instead",
+  "Systems are fragmented across the club: golf, restaurant bookings, member charging and athletic facility bookings do not sit on one platform, and a switch to Toast at some restaurants broke long-standing member charging",
+  "A complex rate structure - weekday and weekend bands, after 2 o'clock and after 3:30, member and public rates, a two-course rate, resort-stay rates - which the prospect sees as a manual data problem for any new system"
+ ],
+ "current_solution": "ForeUp (transcribed throughout as 'Forup' / 'four up') as the tee sheet, adopted a handful of years ago after a long period on Jonas. A phone tree fronts inbound calls and routes callers to the pro shop. Sister course Gray's Crossing (transcribed 'Grace Crossing') shares tee sheet visibility with Old Greenwood. Some restaurants moved to Toast, which broke member charging. The club is actively comparing options - Club Caddy (transcribed 'bub caddy'), EZLinks ('easy links'), staying on ForeUp, or returning to Jonas - looking for one platform across golf, restaurant, member charging and athletic bookings.",
+ "demo_happened": true,
+ "features_demoed": [
+  "Live inbound AI booking call placed by the rep to The Divide Golf Club in North Carolina (the demo target course, not the prospect)",
+  "Weather forecast answered inside the booking conversation via the National Weather Service integration",
+  "Availability search for two players, one regular and one senior, around 8 a.m., returning five nearby tee times when the exact slot was unavailable",
+  "Full read-back of the booking - date, time, players, holes, player types and total - then confirmation, with a cart included",
+  "Practice facility and range ball pricing answered as a follow-on FAQ, including a maintenance closure caveat",
+  "Confirmation text with booking link, cancel option and a weather guarantee offer, which the rep tried to show on screen",
+  "Caller ID recognition, so the AI addresses the caller and knows whether a payment card is already on file",
+  "Described, not shown: knowledge base built by scraping the course website plus uploaded documents and dashboard factoids",
+  "Described, not shown: notice board for proactive messages such as aeration, cart-path-only or a pro shop sale",
+  "Described, not shown: smart routing between sister courses, offering Gray's Crossing when Old Greenwood is full",
+  "Described, not shown: flexible deployment - 24/7, after-hours only, delayed call forward during open hours, or both",
+  "Described, not shown: optional CourseRev chatbot as an additional booking channel, quoted at 3 to 5% of bookings",
+  "Described, not shown: Stripe text link for first-time callers to enter card details, since PCI rules stop the AI taking card numbers by phone"
+ ],
+ "prospect_questions": [
+  "Whether the product is essentially voicemail-related programming that ties into whatever system they end up using",
+  "Who enters the knowledge base parameters, discussion points and responses",
+  "What information is most useful for the knowledge base, given they do not post any of their rates online",
+  "What the cost is",
+  "How long the product has been around and how many courses are actively using it",
+  "What the future plans are for the product and where CourseRev wants to take it",
+  "Whether CourseRev is golf-specific or serves other sectors",
+  "How a new customer profile with first and last name, phone number and credit card gets created, given they need a card on file for every reservation for no-show and cancellation purposes",
+  "What the cost is to get the setup going, or whether the only charge is when the AI actually confirms and books a tee time"
+ ],
+ "unanswered_questions": [
+  "When the ForeUp contract expires - the prospect did not know and estimated a year or two, saying he did not know what their contract is; the rep asked twice and left it there"
+ ],
+ "objections": [
+  {
+   "trigger_quote": "So we're essentially adding all our own info so this system can you know populate answers",
+   "category": "staff_adoption",
+   "quote_source": "verbatim_speech",
+   "rep_response_summary": "Bo answered yes and no: CourseRev builds the foundational knowledge base by scraping the website and other sources, the course can upload documents or add factoids in the dashboard, and the account manager can add knowledge on request, leaving only basic test work with the course. When the prospect returned to it after the demo, arguing that accuracy across their many rate types would come down to human entry, Bo said they would not be left alone, that a working iteration appears within days of signing followed by a couple of weeks of back and forth, and that dynamic rates come across from ForeUp rather than being typed in, with documents only filling gaps.",
+   "response_tactic": "feature_explanation",
+   "prospect_next_move": "re_raised_later",
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "It would probably start in Novemberish",
+   "category": "timing_seasonality",
+   "quote_source": "verbatim_speech",
+   "rep_response_summary": "Bo argued for starting immediately rather than waiting for the wider software search: zero setup cost, no commitment, a working system within a couple of days of signing, and a two-month window while the season is still open to get it polished before the mid-May reopening.",
+   "response_tactic": "reframe",
+   "prospect_next_move": "deflected",
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "I'll just uh take it to a few other powers at B and see where everyone's kind of thought is",
+   "category": "approval_authority",
+   "quote_source": "verbatim_speech",
+   "rep_response_summary": "Bo accepted the internal route rather than pressing: he offered to meet the Tahoe Mountain Club stakeholders directly, alone or alongside Ian, asked what information Ian needed for the internal discussion, committed to a comprehensive pack to circulate - phone tree example, going-live document, FAQs, the list of active courses and the agreement - and set his own check-in for one to two weeks.",
+   "response_tactic": "defer_to_followup",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": false
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 2,
+   "evidence": "Distracted and low-engagement start: headphone and audio trouble, he was running around between tasks, and he opened with \"I definitely need to probably look into it more and see what it's about\" before characterising the product as \"it's just kind of voicemail related programming\", which the rep then had to correct.",
+   "evidence_source": "verbatim_speech"
+  },
+  "post_demo": {
+   "score": 3,
+   "evidence": "No reaction to the demo itself - he called it straightforward and moved directly to a gap, asking how a new customer profile with a card on file gets created, and then to whether accuracy depends on their own data entry: \"got to be the best, you know, kind of human entry as possible\". Engaged and evaluating, neither impressed nor resistant.",
+   "evidence_source": "verbatim_speech"
+  },
+  "at_pricing": {
+   "score": 3,
+   "evidence": "He raised cost himself twice, first the per-booking charge and later \"And what's the cost to like get the setup going\", and on hearing $2.50 per player booking with no charge for questions, no-shows or cancellations, and zero setup cost, he acknowledged briefly and moved on. No pushback on price at any point and no enthusiasm either.",
+   "evidence_source": "verbatim_speech"
+  },
+  "close": {
+   "score": 4,
+   "evidence": "Noticeably warmer than the open: he asked for the email pack because \"That'll help push the other discussions along\", accepted the agreement for an initial look, volunteered his work cell for direct contact, and said \"I like the idea and the concept\" - while still stating nothing would move for the rest of the month.",
+   "evidence_source": "verbatim_speech"
+  },
+  "trajectory": "rising"
+ },
+ "call_path": [
+  "reconnect_and_context_setting",
+  "product_framing_against_answering_service",
+  "integration_list_and_call_forwarding_setup",
+  "knowledge_base_build_and_ownership",
+  "notice_board",
+  "pricing",
+  "deployment_options",
+  "traction_and_nearby_reference_courses",
+  "product_roadmap",
+  "operations_discovery_resort_and_membership",
+  "software_search_timeline",
+  "incumbent_contract_status",
+  "live_ai_booking_demo_call",
+  "payment_profile_and_pci_handling",
+  "knowledge_entry_burden_re_raised",
+  "setup_cost",
+  "start_now_proposal",
+  "internal_stakeholder_routing",
+  "dynamic_pricing_and_online_booking",
+  "follow_up_materials_and_contact_exchange"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "operations_discovery_resort_and_membership",
+   "what_changed": "Scope widened from an AI phone concierge to the club's whole-platform search - restaurant bookings, member charging and athletic facility bookings alongside golf - so CourseRev became one input into a much larger system decision rather than a standalone purchase",
+   "caused_by": "the prospect describing a public resort course with over a thousand members and facilities spread around town, and the search for one system that can encompass all of it"
+  },
+  {
+   "at_stage": "software_search_timeline",
+   "what_changed": "A concrete decision window replaced the open-ended 'at some point' framing: search starting in November, something solidified in stone by February or March, managers and directors trained and rates loaded before a mid-May opening",
+   "caused_by": "the rep asking whether there was a real timeline and guessing it would start early next year or around May"
+  },
+  {
+   "at_stage": "start_now_proposal",
+   "what_changed": "The call converted from a decision conversation into a materials-and-circulation plan - the rep stopped pressing for a start and took on an email pack for the prospect to pass around, with a self-assigned check-in",
+   "caused_by": "the prospect deflecting the no-cost, no-commitment start-now pitch to internal stakeholders and saying nothing would happen for the rest of the month"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": false,
+ "next_step_description": "Bo to send a comprehensive email the team can pass around - a visual phone tree example, the going-live document, FAQs and general info, and the list of golf courses using CourseRev - plus the agreement for an initial look. Ian to start internal discussions with the wider Tahoe Mountain Club leadership and keep Bo posted; Bo to check in if he has not heard back within one or two weeks, by email or to the work cell Ian gave him. No date, no meeting and no decision point were set, and Ian said nothing would move for the rest of the month.",
+ "buying_signals": [
+  "Asked for the email pack himself and said it would help push the other discussions along",
+  "Agreed the service agreement could be sent so he and the team could take an initial look",
+  "Volunteered his work cell number so the rep could text him directly",
+  "Said he liked the idea and the concept",
+  "Volunteered that their phones are non-stop and that taking repetitive weather calls off staff would save a lot of time and some headaches",
+  "Confirmed that all golf bookings route through his shop, so the line CourseRev would sit behind is under his control",
+  "Named an active software search with a defined window rather than deflecting the topic",
+  "Said the initial talks about changing systems already involved the GM and a parent-company senior VP"
+ ],
+ "stalls": [
+  "No decision expected for the rest of the month, with internal conversations not yet started and people scattered",
+  "The AI concierge is entangled with a larger platform decision spanning restaurant bookings, member charging and athletic facility bookings, which will be settled between November and March",
+  "The ForeUp contract expiry is unknown - the prospect estimated a year or two and did not know the terms",
+  "The people who decide - the wider Tahoe Mountain Club leadership, the GM and a parent-company senior VP - were not on the call"
+ ],
+ "rep_commitments": [
+  "Compose and send a comprehensive email for the team with a visual phone tree example, the going-live document, FAQs and general info, and the list of golf courses using CourseRev",
+  "Send the service agreement for an initial look",
+  "Send a link to the CourseRev website page listing the courses using the product, including the nearby Genoa Golf Club and Wild Horse",
+  "Meet the wider Tahoe Mountain Club stakeholders directly, alone or with Ian, if anyone wants to talk",
+  "Check in if there is no response within one to two weeks"
+ ],
+ "extraction_confidence": "high",
+ "confidence_notes": "Full 49:40 verbatim transcript with 322 turns plus a timestamped Gemini summary and details section, so operations, timeline, demo, pricing, all three objections and the next steps are directly evidenced. The Divide Golf Club is the course the rep dialled for the demo, not the prospect (rule 8); the prospect is Old Greenwood, part of Tahoe Mountain Club, confirmed by the title, the invitee address and the body. Caveats on the source: (a) the demo AI's speech is transcribed under the Bo Ferrando speaker label, so from 00:32:06 to 00:35:54 lines alternate between rep and AI under one name; (b) the ASR garbles proper nouns - 'Forup' and 'four up' for ForeUp, 'Grace Crossing' for Gray's Crossing, 'Truckucky' for Truckee, 'bub caddy' for Club Caddy, 'easy links' for EZLinks, 'powers at B' for powers that be, 't-shirt' for tee sheet, 'forsome' for foursome - and the partner named as '104' could not be resolved, so all of these are recorded as transcribed rather than corrected into claims; (c) the demo AI quoted $74.54 each for two players and then a total of '$1498', which cannot both be right, and Gemini's summary repeats the $1,498 figure - the prospect made no comment on it, so no corrected number is recorded; (d) the digits of the work cell the prospect read out do not match the rep's read-back or Gemini's version, so no number is recorded here. On coding choices: the third objection's trigger is also the second objection's outcome - the prospect deflected the start-now pitch by routing it to the powers that be - so the two entries are sequential rather than independent and should not be double-counted as separate resistance events. The prospect's credit-card question is recorded as a question rather than a security_privacy objection: Gemini's summary calls it 'Addressing Ian's concerns about payment security', but the transcript shows him asking how a customer profile with a card on file gets created, which is a requirement check rather than resistance, and that gap between narration and speech is exactly what the provenance fields exist to preserve. His opening characterisation of the product as voicemail-related programming is treated the same way - a misconception the rep corrected, recorded in prospect_questions and as open-sentiment evidence rather than manufactured into an ai_quality_doubt objection. Pricing drew no objection at all: he asked the cost twice and pushed back on neither the $2.50 per player booking nor anything else. prospect_seniority is unknown because no title is ever stated - he says he has been at Old Greenwood in various roles for almost 18 years and refers to the GM and a parent-company senior VP as other people."
+}

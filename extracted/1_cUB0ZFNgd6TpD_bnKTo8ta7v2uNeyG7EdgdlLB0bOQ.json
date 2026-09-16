@@ -1,0 +1,157 @@
+{
+  "call_id": "1_cUB0ZFNgd6TpD_bnKTo8ta7v2uNeyG7EdgdlLB0bOQ",
+  "file_name": "CourseRev + Indian Canyons - Quick Chat - 2026/06/11 14:23 PDT - Notes by Gemini",
+  "doc_url": "https://docs.google.com/document/d/1_cUB0ZFNgd6TpD_bnKTo8ta7v2uNeyG7EdgdlLB0bOQ/edit",
+  "rep": "Bo",
+  "date": "2026-06-11",
+  "account_name": "Indian Canyons",
+  "account_source": "title",
+  "attendees": [
+    {
+      "name": "Greg Griffin",
+      "org": "prospect",
+      "role": "runs the two Indian Canyons courses day to day: owns the budget, is interviewing POS vendors, directs the golf shop and reports into the Agua Caliente tribal administration; no job title stated in the doc"
+    },
+    {
+      "name": "Bo Ferrando",
+      "org": "courserev",
+      "role": "rep running discovery, the live demo and pricing"
+    }
+  ],
+  "prospect_seniority": "unknown",
+  "meeting_type": "demo",
+  "content_tier": "rich",
+  "pain_points": [
+    "Golf shop is short-staffed in summer - about 40 to 50 rounds a day on a skeleton crew, so the shop is understaffed and Greg jumps in on the counter",
+    "Setting up a new customer profile over the phone bogs the golf shop down: the caller has to be walked through name, contact details, credit card and rules acknowledgement before a first tee time can be booked",
+    "Enforcement of the $75 no-show fee depends on the customer having a profile with a card on file and having acknowledged the rules, so any booking channel that skips profile creation weakens the policy",
+    "Repetitive inbound questions and bookings occupy shop staff who are serving players in person",
+    "April revenue missed budget because the local music festivals absorb area hotel rooms, which pushed the course to GolfNow trade times for May and June"
+  ],
+  "current_solution": "Club Profit on both courses, with a POS/tee-sheet switch to Lightspeed or Club Caddy planned (vendor chosen by mid-July, transition first week of August). GolfNow supplies one trade time per day on the South Course; Notifi sends confirmation and cancellation reminders that support the $75 no-show policy; inbound calls land on a staffed phone tree with options for booking, golf shop, restaurant, GM and sales/marketing; new customers create a profile with a credit card on the website.",
+  "demo_happened": true,
+  "features_demoed": [
+    "Live AI voice concierge call placed to Highland Creek Golf Club (the demo target, not the prospect)",
+    "Tee-time search and booking for two players with price quoted per player and in total",
+    "Name capture with spelling confirmation and read-back before locking the booking",
+    "Text confirmation with pay-at-the-pro-shop instruction",
+    "Weather forecast answer for the day of play",
+    "On-property dining / restaurant information answer",
+    "Dashboard view the course would get access to",
+    "Notice board where the course posts items such as cart path only, which the concierge weaves into calls"
+  ],
+  "prospect_questions": [
+    "Whether CourseRev works off their existing phone tree or needs a dedicated booking line",
+    "Whether the voice concierge can create a customer profile for a first-time caller",
+    "Whether the demo booking required a customer profile, credit card or deposit",
+    "What the onboarding buildout covers (pro shop, driving range, restaurant information) and how scripts are recorded into the system",
+    "Whether pricing is per player booked through the system",
+    "How billing and accounting work - monthly invoice in arrears against booking volume, and whether an auto-pay arrangement can be set up"
+  ],
+  "unanswered_questions": [
+    "Whether the voice concierge can create a new customer profile in the tee sheet during the call - capturing name, contact details, credit card and rules acknowledgement - or whether it can only send a text message for the caller to self-enter. Bo said he wanted to say it was possible and committed to a definitive answer plus a Loom recording after the call."
+  ],
+  "objections": [
+    {
+      "trigger_quote": "a big piece of it for me is them creating that customer profile",
+      "category": "integration",
+      "quote_source": "verbatim_speech",
+      "rep_response_summary": "Bo called it a very good question and said he wanted to say it was possible, then described a fallback: if the concierge does not recognise the caller it can send a text message for the caller to enter details and card information, which CourseRev would then push into Lightspeed to create the profile. He committed to getting a definitive answer from his team and to recording a Loom video of the profile-creation workflow, and accepted Greg's offer to walk the course's own website signup flow to see what the buildout has to match.",
+      "response_tactic": "defer_to_followup",
+      "prospect_next_move": "re_raised_later",
+      "resolved_in_call": false
+    },
+    {
+      "trigger_quote": "it's not as easy as Greg says yes and we're going tomorrow",
+      "category": "approval_authority",
+      "quote_source": "verbatim_speech",
+      "rep_response_summary": "Bo acknowledged the structure (\"Absolutely.\") after Greg laid out that the Agua Caliente tribal council and administration hold IT, legal and accounting, that legal marks up contracts and that IT authorises interfaces. He then asked whether he should proactively send an agreement, framed explicitly as not for signature but for Greg and the team to review, so the paperwork cycle could start in parallel with the outstanding profile question.",
+      "response_tactic": "acknowledge_only",
+      "prospect_next_move": "accepted",
+      "resolved_in_call": false
+    }
+  ],
+  "sentiment": {
+    "open": {
+      "score": 4,
+      "evidence": "Warm and apologetic about the rescheduled slot - \"Thanks for the time. I appreciate it.\" - and immediately volunteered a detailed operating profile (rounds, seasons, rack rates, booking windows, tech stack) without being pressed.",
+      "evidence_source": "verbatim_speech"
+    },
+    "post_demo": {
+      "score": 3,
+      "evidence": "No reaction to the demo itself; he tested it against his own requirement straight away, reading back what the booking had skipped: \"There is no customer profile needed.\" and that no credit card or deposit was taken.",
+      "evidence_source": "verbatim_speech"
+    },
+    "at_pricing": {
+      "score": 4,
+      "evidence": "No resistance to the $2.50 per player figure; he confirmed the per-player basis and moved directly to mechanics - \"talk to me about the accounting of this\" - then described a month-end invoice and auto-pay arrangement himself, which Bo confirmed.",
+      "evidence_source": "verbatim_speech"
+    },
+    "close": {
+      "score": 4,
+      "evidence": "Asked for the draft agreement to start the internal cycle - \"send that over and at least I can send that up and we can go back and forth on that\" - gave his work cell and direct line, and set out the internal path (IT interfacing, legal review) and a November go-live window, while keeping the next step gated on the profile answer.",
+      "evidence_source": "verbatim_speech"
+    },
+    "trajectory": "flat"
+  },
+  "call_path": [
+    "Rapport and apology for the rescheduled slot; summer skeleton-crew context",
+    "Discovery: two seasonal courses, 60-62k rounds, rack rates, 30/20-day booking windows, occupancy",
+    "Discovery: current tech stack - Club Profit, planned Lightspeed/Club Caddy switch, GolfNow trade times, Notifi reminders",
+    "Product framing: voice concierge plus website chatbot and a knowledge base that feeds both",
+    "Phone tree / IVR routing options - full fallback or pro-shop-option handoff",
+    "Customer profile creation and $75 no-show enforcement requirement",
+    "Live AI booking demo dialled into Highland Creek Golf Club",
+    "Onboarding form, knowledge base and notice board walkthrough on the dashboard",
+    "Pricing: $2.50 per player booked and played, no charge for information calls",
+    "Billing: month-end invoice in arrears on booking volume",
+    "Procurement path: tribal council and administration, legal contract review, IT interface authorisation",
+    "Next steps: definitive profile answer plus Loom video, draft agreement, contact numbers",
+    "Implementation timeline to a first-week-of-November go-live"
+  ],
+  "pivot_points": [
+    {
+      "at_stage": "Customer profile creation and no-show enforcement",
+      "what_changed": "The call's decision criterion narrowed from general product fit to one capability: whether the concierge can create a new customer profile with card details and rules acknowledgement",
+      "caused_by": "Greg walking through the first-time-caller scenario, the golf shop bogging down on manual profile setup, and the $75 no-show policy that depends on the profile"
+    },
+    {
+      "at_stage": "Live demo",
+      "what_changed": "The demo confirmed booking capability but showed a booking completing with no profile and no card, which sent the conversation straight back to the profile gap rather than to next steps",
+      "caused_by": "The Highland Creek booking completing on caller ID alone with payment at the pro shop"
+    },
+    {
+      "at_stage": "Next steps",
+      "what_changed": "Introduction to the IT group and tee-sheet interfacing was made conditional on the profile answer coming back satisfactory, and the draft agreement was repositioned as a parallel legal-review track rather than a signature step",
+      "caused_by": "Bo being unable to confirm profile creation on the call, and Greg's description of the tribal legal and IT approval chain"
+    }
+  ],
+  "next_step_secured": true,
+  "next_step_has_date": false,
+  "next_step_description": "Bo to get a definitive answer from his team on automated customer-profile creation and to record a Loom video of it, review the Indian Canyons website signup flow, and proactively send a draft agreement for Greg and his team (and tribal legal) to review rather than sign. A follow-up call was agreed but not dated - Bo said he would come back by end of day or the next day and Greg said the first part of the following week was fine. If the profile answer satisfies Greg, he will connect Bo with the tribal administration's IT group about tee-sheet and website interfacing.",
+  "buying_signals": [
+    "Asked for the draft agreement to be sent so the legal back-and-forth could start early, saying that even if they do not reach the endgame the process is already moving",
+    "Gave his work cell number and his direct line and said Bo could call or text at any time",
+    "Set out the internal route to a decision - IT interfacing and legal review - conditional on the profile answer",
+    "Volunteered a concrete implementation window: both courses closed 19-30 November, 11 days available to implement and test before season",
+    "Asked how invoicing works and proposed an auto-pay arrangement against the monthly invoice",
+    "Invited Bo to walk the course's own website profile-creation flow so the buildout can match it",
+    "No pushback on the $2.50 per player price at any point"
+  ],
+  "stalls": [
+    "The next step is gated on a capability answer Bo did not have on the call (automated profile creation)",
+    "POS migration in flight: Club Profit today, vendor (Lightspeed, Club Caddy or another) chosen by mid-July and transitioned the first week of August, so the integration target is not yet selected",
+    "Go-live not before November - hardware in August, staff training in September, both courses closed 19-30 November for testing",
+    "Contracts go to tribal legal for markup and IT must authorise any interface; Greg cannot approve alone",
+    "Greg set a relaxed pace for the follow-up - \"no hurry on this\" - and said the first part of next week would do"
+  ],
+  "rep_commitments": [
+    "Get a definitive answer from the CourseRev team on whether the voice concierge can create a customer profile and write it into the POS",
+    "Record a Loom video demonstrating the profile-creation workflow and send it to Greg",
+    "Review the Indian Canyons website profile-creation flow to see what information and steps the buildout must cover",
+    "Proactively send a draft agreement for Greg and the team to review, not to sign",
+    "Come back with the answer by end of that day or the next"
+  ],
+  "extraction_confidence": "high",
+  "confidence_notes": "Full 349-turn verbatim transcript (00:34:25) plus a complete Gemini summary, so account, pains, demo, pricing, procurement path, objections and next steps are directly evidenced. Rule 8: Highland Creek Golf Club is the live client course Bo dialled to demonstrate, not the prospect; the prospect is Indian Canyons (title, invitee ggriffin@indiancanyonsgolf.com, and Greg Griffin's description of the two courses). Near-miss on price: Greg says \"I can't afford that\" about a competitor's build (\"Speak Sport BK's thing\") whose in-conversation profile creation he admires - it is not a reaction to CourseRev's $2.50 per player, which drew no objection at all, so no price objection is recorded. Greg's job title is never stated; he exercises GM-level authority (budget ownership, POS vendor selection, staffing, direct line, reports into tribal administration) but he also refers to \"the GM\" in the third person when describing a missed April budget, so prospect_seniority is left unknown. The profile-creation objection is categorised integration because the requirement is that the profile be created and pushed into their tee sheet/POS (Lightspeed or Club Caddy); an ai_quality_doubt reading is defensible since Greg contrasts a competitor that does the intake conversationally. The November implementation timeline and the in-flight POS migration are recorded as stalls rather than a timing_seasonality objection: Greg offered them as a roadmap (\"you got a good timeline on that\"), not as resistance. During the demo the AI's speech is transcribed under Bo Ferrando's speaker label, so the 00:18:30-00:21:41 range alternates between rep and AI under one name; within it the AI quoted $80 per player / \"$160 total\" and then confirmed the same booking \"at $180 total\", and Greg made no recorded comment on the discrepancy. Bo refers to a previous conversation with Greg, so this is not a first touch; meeting_type is demo because the live demo, pricing and billing carried the call. Cross-reference: file_id 1xhOBR9R92eEy7LXwUxShOj7Euz7bSpqCyhQUEUSw5IE is the Gemini notes doc attached to the same calendar event, dated 14:00 the same day; it contains only the Indian Canyons phone-menu audio and no conversation - consistent with this transcript, where Greg notes Bo called in on the property's main line."
+}

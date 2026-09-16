@@ -1,0 +1,195 @@
+{
+ "call_id": "18Hy9dQodkUWl4qvQUMRiNTr9LmxYX_vGUdLCnSCsNGg",
+ "file_name": "Chat: CourseRev + Tilden Park Golf Course - 2026/09/04 10:00 PDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/18Hy9dQodkUWl4qvQUMRiNTr9LmxYX_vGUdLCnSCsNGg/edit",
+ "rep": "Bo",
+ "date": "2026-09-04",
+ "account_name": "Tilden Park Golf Course",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Bo Ferrando",
+   "org": "courserev",
+   "role": null
+  },
+  {
+   "name": "Christopher Bowman",
+   "org": "prospect",
+   "role": "General Manager, Tilden Park (KemperSports)"
+  }
+ ],
+ "prospect_seniority": "GM",
+ "meeting_type": "demo",
+ "content_tier": "rich",
+ "pain_points": [
+  "Inbound callers who do not know the course ask everything and tie up counter staff: 'it can bog down the uh the, uh, the counter folks'",
+  "Phone time competes with in-person service - 'phone conversations, even the short ones, tend to be a little bit longer than you'd like' while golfers are checking in at the counter",
+  "Queue management in the pro shop: 'keeping the line down in in golf shops is always critical'",
+  "No one is dedicated to answering phones; the shop runs one to three people depending on season, day and time of day",
+  "The operation runs lean, so any new cost has to be defended against profitability",
+  "2027 rack rates were already sent to the East Bay Regional Park District in July and approved, so the rates cannot be moved to absorb a new per-booking cost",
+  "Christopher is mid-budget-season with a final presentation about a month out and no certainty of room in the technology bucket"
+ ],
+ "current_solution": "Lightspeed as the tee sheet and payments platform (CourseRev's preferred partner), Chronogolf as the online booking engine, Notifi for the waitlist, and a third-party dynamic pricing company that changes rates. Phones are answered by whichever of the one to three pro shop staff are on, with no dedicated phone role. Staff are supposed to collect a credit card on file in advance, charged on the day of play, to support cancellation windows. Tilden Park is leased from the East Bay Regional Park District, which approves rack rates each July.",
+ "demo_happened": true,
+ "features_demoed": [
+  "CourseRev dashboard shown live on an existing client account (The Divide Golf Club): dashboard, analytics, bookings and channels tabs",
+  "Live outbound AI voice call to The Divide Golf Club on speaker",
+  "Knowledge-base gap handling - the AI said it did not have driving range information and offered to check with the pro shop",
+  "Weather forecast during the call, sourced from the National Weather Service",
+  "Tee sheet availability check and a proactive greens/top-dressing notice delivered unprompted",
+  "Price read-back with per-player rate, cart fee inclusion and total, then booking confirmation",
+  "Text confirmation with links to view the booking, cancel it, and add a weather guarantee",
+  "Notice board ('today's notices' with greens messaging) shown in the dashboard as the source of the proactive notice",
+  "Settings area pointed at on screen: course details, operating hours, payment configuration, player types",
+  "Knowledge base management - duplicating the knowledge base and uploading documents",
+  "Caller recognition from tee sheet customer profiles, including refusing a rate the caller is not entitled to (described, not exercised)",
+  "AI chatbot and the online booking engine / web portal (described as channels the demo course uses, not demonstrated)"
+ ],
+ "prospect_questions": [
+  "What's your guys' plan on on private? Same kind of business model but scaled down or",
+  "Anyone who books through your chatbot, is that that's the same pricing as the call center be $2 per booking?",
+  "where does it where does it pull the the course maintenance information from?",
+  "I'm assuming like it it pulls your name from the customer database.",
+  "How would it handle multiple player types or multiple prices, given the course uses a dynamic pricing company - does it pull straight off the tee sheet?",
+  "For player types - senior, junior, public, and the players club - would it pull that information from their customer profile?",
+  "How would it work for a new customer who is not in the database and wants, say, senior rates?",
+  "How about for cart versus walking - would it ask automatically or could the person update it during booking?",
+  "If someone does not provide a credit card, is there a way to cancel the round, or would the reservation stay in the system or be deleted at a certain point?",
+  "Where does the weather come from - NOAA or another website?",
+  "How deep does it go - could it answer something like drive time or average time to get to the course?",
+  "Do you have a percentage from the courses using your product of the rounds that come in through it?"
+ ],
+ "unanswered_questions": [
+  "What happens to a booking when the credit card is never supplied - Bo said 'I would believe it's customizable based on whatever you guys want. Um, I I'll get you a clear-cut answer' and sketched two possible configurations without confirming either",
+  "Whether the AI can answer drive-time or traffic-condition questions - Bo said 'I actually don't know if it can go that advanced' and offered to find out",
+  "What share of rounds across CourseRev's customer base comes through the product - Bo gave a single 97% figure, was unsure which course it belonged to ('It might have been Highland Creek over in North Carolina'), and said he would have to get back with more numbers",
+  "Tilden Park's own bookings per month and the phone-versus-online split - Christopher said 'I don't I don't know really I mean I guess that's the end of the sentence. I I don't know if I can find that information or not.'",
+  "Whether the multi-course KemperSports discount Bo floated is real or what it would be - he said 'we might be able to give you more of a discount is what I'm trying to say' and deferred it as a future discussion"
+ ],
+ "objections": [
+  {
+   "trigger_quote": "I honestly don't know if I can get it in this year for 2020. Sorry, this year for 2027, I don't know if I can get it in or not.",
+   "quote_source": "verbatim_speech",
+   "category": "timing_seasonality",
+   "rep_response_summary": "Bo did not push against the budget calendar. He proposed a smaller step - send the agreement over for review rather than signature - offered to sketch a best case of signing in late November or early December for a start-of-year go-live, and accepted 2028 as an acceptable outcome, saying he would not be pushy and there would be no hard feelings if 2027 did not work.",
+   "response_tactic": "defer_to_followup",
+   "prospect_next_move": "partially_accepted",
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "that's where I don't know if there's an appetite there to kind of reduce the",
+   "quote_source": "verbatim_speech",
+   "category": "price",
+   "rep_response_summary": "Bo agreed the cost digs into margins, then offered a workaround: 'the only workaround so it doesn't eat into uh the profitability would be setting up a booking fee of like $2 just to offset the cost', while noting that fee would itself need approval and might draw push back. He then moved to the demo.",
+   "response_tactic": "reframe",
+   "prospect_next_move": "re_raised_later",
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "that's where I'd have to to run some numbers.",
+   "quote_source": "verbatim_speech",
+   "category": "approval_authority",
+   "rep_response_summary": "Bo offered to arm the internal case rather than close: a rough-draft ROI calculator, usage figures including the 97% booking share and the 50 to 55% call-reduction quote from Highland Creek's general manager, customer testimonials, the 17-slide executive deck and a summary email, all timed for the budget presentation the following month. He also offered a framing that does not depend on cutting headcount, describing the benefit as staff efficiency and job cost savings.",
+   "response_tactic": "roi_math",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": false
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 4,
+   "evidence": "Warm and unhurried - roughly twelve minutes of unprompted personal and career background, and when asked about a hard stop Christopher said \"No. Yeah, we've got plenty of time.\" He named the pain himself, that callers who do not know the course ask everything and \"it can bog down the uh the, uh, the counter folks\", while hedging early that \"I don't know if it makes sense or full transparency if we can do it next year or not\".",
+   "evidence_source": "verbatim_speech"
+  },
+  "post_demo": {
+   "score": 4,
+   "evidence": "\"That's pretty good. Um, a few questions I have for you.\" followed by a sustained run of operationally specific questions - notice board sourcing, customer profile lookup, player types and dynamic pricing, new customers, cart versus walking, the credit card on file requirement and the weather source. He had said \"Sorry, I was multitasking.\" when the screen share started, but was fully engaged from the live call onward.",
+   "evidence_source": "verbatim_speech"
+  },
+  "at_pricing": {
+   "score": 3,
+   "evidence": "Christopher took the $2 per player booking rate without challenging the number, confirming only the scope - whether chatbot bookings cost the same as voice - and answering \"Okay. Got it.\" His reservation was about the container, not the rate: \"that's where I don't know if there's an appetite there to kind of reduce the\" \"overall um profitability.\"",
+   "evidence_source": "verbatim_speech"
+  },
+  "close": {
+   "score": 3,
+   "evidence": "Cooperative but uncommitted. He asked for everything to be sent - \"Yeah, that would be No, I think that's if you can send me all that information, that would be great.\" - and had earlier asked to \"see the agreement and at least review it so that I can understand it\". Against that he restated the constraint, \"Um, we run pretty lean out here. So, that's where I I don't know this year if I can get it in or not.\" and \"we might be looking at at trying to do something in 2028.\", and closed with \"I don't think so. I think that's that's everything.\"",
+   "evidence_source": "verbatim_speech"
+  },
+  "trajectory": "flat"
+ },
+ "call_path": [
+  "Rapport and background: Christopher's April start as GM, the predecessor moving to a regional role, the Napa-to-Berkeley commute",
+  "Career history: fifteen years at Silverado running golf operations, the PGA Tour event, membership and concerts, then the move to KemperSports and daily fee",
+  "CourseRev's market focus and its unbuilt private-club model, including a floated $2,000 a month flat fee",
+  "Discovery: high call volume bogging down counter staff, keeping the line down in the golf shop",
+  "Product framing: AI voice plus AI chatbot, knowledge base, and the free waitlist against the incumbent Notifi",
+  "Pricing: $2 per player booking for KemperSports against a $2.50 standard, nothing for questions, cancellations or no-shows, and a hint at a multi-course discount",
+  "Budget reality: budget season now, final presentation about a month out, 2027 uncertain and 2028 floated",
+  "Ownership constraint: East Bay Regional Park District approves rack rates each July, so 2027 rates are locked and margin is the sticking point",
+  "Booking-fee workaround proposed to offset the cost, and an implementation timeline of a late November or early December signature for a start-of-year go-live",
+  "Live demo: dashboard on The Divide Golf Club's account, then an outbound AI voice call booking two players",
+  "Technical Q&A: notice board versus knowledge base, caller recognition, player types with dynamic pricing, new customers and PCI, cart versus walking, credit card on file, weather source, depth of knowledge",
+  "Mid-demo discovery that Tilden is on Lightspeed, replacing the Stripe explanation with native Lightspeed Payments",
+  "Settings and knowledge base walkthrough",
+  "Budget mechanics: existing bucket rather than a new line item, no spend authority, profitability the hard part",
+  "ROI data exchange: Christopher cannot supply his own booking split, asks for cross-customer figures, and Bo gives the 97% and 50 to 55% numbers",
+  "Staffing: one to three in the pro shop, currently one to two, and the efficiency-not-headcount framing",
+  "Next steps, materials list and close"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "Budget discussion (~00:19:36-00:20:28)",
+   "what_changed": "The blocker moved from 'is there budget room' to a fixed external constraint. Once Christopher explained that the East Bay Regional Park District owns the property and approved the 2027 rack rates back in July, the deal's realistic target shifted to 2028 and the conversation became about equipping an internal case rather than closing one.",
+   "caused_by": "Christopher explaining the lease and approval structure, and that rates were sent for approval in July, so 'that's where I don't know if there's an appetite there to kind of reduce the' 'overall um profitability.'"
+  },
+  {
+   "at_stage": "Mid-demo, payments question (~00:35:28)",
+   "what_changed": "Bo discovered while answering that Tilden is on Lightspeed rather than Golf Now, which removed the Stripe workaround he had just described and turned payments into a native-integration answer.",
+   "caused_by": "Bo catching his own error: 'Oh, wait. And you guys are lighteed.' then 'Good news because you guys are light speeded. And by the way, they are our preferred partnership.'"
+  },
+  {
+   "at_stage": "ROI discussion (~00:46:58-00:48:17)",
+   "what_changed": "The ROI request reversed direction. Bo asked Christopher for his own bookings-per-month and phone-versus-online split to build a calculator; Christopher did not have it and asked Bo instead for cross-customer percentages, which put the burden of proof on CourseRev and produced the 97% and 50 to 55% figures plus a commitment to build the calculator and gather testimonials.",
+   "caused_by": "Christopher: 'I don't I don't know really I mean I guess that's the end of the sentence. I I don't know if I can find that information or not.'"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": false,
+ "next_step_description": "Bo to send a summary email containing the 17-slide executive deck, dashboard documentation, a draft agreement for review only, a rough-draft ROI calculator, usage figures and customer testimonials, plus clear-cut answers on the missing-credit-card workflow. Christopher to review the material, run the numbers against his technology budget and decide whether the product can be presented for 2027 or held for 2028. Bo to follow up in about a month to a month and a half. No date was set; the only fixed reference is Christopher's final budget presentation roughly a month out, which Bo guessed at 'October 4th 5th something like that' without confirmation.",
+ "buying_signals": [
+  "Christopher had no hard stop and gave the call nearly 54 minutes",
+  "He named the phone-volume pain himself when asked what prompted the call",
+  "He asked for the agreement so he could read and understand it, without being pushed to sign",
+  "He asked a long run of fit-specific questions - players club and player types, dynamic pricing, credit card on file, cancellation windows, cart versus walking",
+  "He asked Bo for cross-customer performance percentages, the evidence he would need for an internal case",
+  "He asked to be sent all the material for the budget presentation",
+  "He volunteered that he would like to continue the conversations even if 2027 does not work, and would look at 2028",
+  "He asked about CourseRev's private-club plans, beyond the scope of his own deal"
+ ],
+ "stalls": [
+  "Budget season is underway with the final presentation about a month out, and Christopher does not know if 2027 has room",
+  "2027 rack rates were approved by the East Bay Regional Park District in July, so a new per-booking cost cannot be offset by a rate change",
+  "No spend authority - the cost has to go into an existing budget bucket and be defended on profitability",
+  "2028 raised twice by Christopher as the realistic alternative",
+  "Christopher cannot supply bookings-per-month or the phone-versus-online split, which weakens the ROI case he has to make",
+  "Two rep answers deferred to follow-up: the missing-credit-card workflow and the depth of the AI's location knowledge",
+  "The incumbent Notifi waitlist stays in place unless the course chooses to switch; no decision was taken on it"
+ ],
+ "rep_commitments": [
+  "Send a robust summary email covering every point discussed",
+  "Send the 17-slide executive deck / slide presentation for the budget meeting",
+  "Send dashboard documentation",
+  "Send a draft agreement for review, explicitly not for signature",
+  "Build a rough-draft ROI calculator",
+  "Gather and send usage figures, including the 97% booking-share figure and the 50 to 55% call-reduction quote",
+  "Gather customer testimonials and package them together",
+  "Get a clear-cut answer on what the system does when a booking's credit card details are never supplied",
+  "Find out whether the AI can handle drive-time and traffic-condition questions if Christopher wants that",
+  "Follow up in about a month to a month and a half about approval",
+  "Hold further meetings if Christopher or anyone else has questions"
+ ],
+ "extraction_confidence": "high",
+ "confidence_notes": "Full verbatim transcript of a 53:31 call, 355 turns, plus both a Quick notes and a Full notes section, so pricing, the budget constraint, the demo, the objections and the next steps are all directly evidenced. Account name is unambiguous: the title, the invitee cbowman@kempersports.com, and Christopher Bowman describing himself as the GM at the Berkeley course all agree. Rule 8 applies twice: The Divide Golf Club is the existing client course dialled during the demo, and Highland Creek is named only as a reference customer supplying the 97% and 50 to 55% figures - neither is the prospect. Judgement calls: (a) three objections, and the two budget-flavoured ones overlap - the timing objection is 'can I get it into the 2027 cycle at all', the approval_authority one is 'I have to build and defend the line inside a bucket I already own'; they are kept separate because the rep answered them differently, with a review-only agreement and a 2028 fallback for the first and an ROI calculator plus testimonials for the second. (b) The credit-card-on-file question is recorded as a prospect question and an unanswered question, not as an objection - Christopher raised it as a requirement check and voiced no doubt about the product. (c) Checkpoint order is not call order: pricing landed at about 00:16 and the budget constraint at about 00:20, both before the demo at 00:22, so at_pricing chronologically precedes post_demo. Trajectory is recorded as flat because the scores run 4 at the open, 3 at pricing, 4 after the demo and 3 at the close, and the budget constraint that holds the close down was already on the table at 00:13:50, before any of the product was shown. Transcription artefacts: KemperSports is rendered throughout as 'Keer Sports'/'Keer', Lightspeed as 'Lightseed', 'light speeded' and 'lighteed', Chronogolf as 'chronog', Troon as 'Trun'/'Trune', Vallejo as 'Bllejo', PGA as 'PJ', caller ID as 'recoger ID', tee times as 'G times', aeration as 'aation', and the $2.50 standard rate appears in the transcript as 'be$ 250' - the $2.50 figure is taken from the Quick notes and Details sections, which both state it plainly. Christopher's own slip 'this year for 2020' is transcribed as spoken and self-corrected to 2027 in the same breath. The two note sections disagree slightly on pro shop staffing (Quick notes says 1 to 3 employees, Details says one to two answering phones); the transcript has both, one to three generally and one to two right now off peak staffing."
+}

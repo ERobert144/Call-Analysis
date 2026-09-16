@@ -1,0 +1,152 @@
+{
+ "call_id": "1l0Iq_O1cJQ2mhj3ukRfmIXwgtYHeUpuhGhUZVZTxOMI",
+ "file_name": "Stonebridge Meadows Meeting Notes",
+ "doc_url": "https://docs.google.com/document/d/1l0Iq_O1cJQ2mhj3ukRfmIXwgtYHeUpuhGhUZVZTxOMI/edit",
+ "rep": "Jason",
+ "date": "2026-08-06",
+ "account_name": "Stonebridge Meadows",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Jason Doepke",
+   "org": "courserev",
+   "role": "rep; presented the AI voice concierge, ran the live demonstration, set pricing and started onboarding"
+  },
+  {
+   "name": "Tyler Smith",
+   "org": "prospect",
+   "role": "course-side contact; gave the phone-system and booking-mix detail, the LightSpeed course ID and tax rate, asked for the fee to be passed to customers, and owns the onboarding form, competitor research and signature actions - title not stated"
+  }
+ ],
+ "prospect_seniority": "unknown",
+ "meeting_type": "demo",
+ "content_tier": "moderate",
+ "pain_points": [
+  "Manual booking processes and limited phone capacity hold back efficiency",
+  "The pro shop runs two phone lines and frequently misses calls when staff are busy or the shop is closed",
+  "Only about 30% of tee times come through online booking; the other 70% are handled manually by staff, leading to uncaptured opportunities",
+  "Demand peaks that the current setup cannot absorb, on a course whose terrain (144/139 slope rating) already demands staff attention"
+ ],
+ "current_solution": "LightSpeed tee sheet and point of sale (course ID 313340) with an online booking channel carrying roughly 30% of tee times; the remaining 70% taken manually by pro shop staff over two phone lines. No incumbent AI or call-handling vendor is named.",
+ "demo_happened": true,
+ "features_demoed": [
+  "Live demonstration that booked a four-player tee time for August 14th, 2026 at a simulated course",
+  "Offering alternative tee times when the requested slot is unavailable",
+  "Answering questions about practice facilities",
+  "Automated confirmation texts to the golfer",
+  "FAQ handling for the driving range, lesson availability and snack bar amenities",
+  "LightSpeed integration recognising member versus public player types and enforcing booking rules",
+  "Automated waitlist that texts queued players on a cancellation, with a 10-minute SMS confirmation window",
+  "Customisable voice profiles, tone adjustments and knowledge base updates, including cart path only notices"
+ ],
+ "prospect_questions": [
+  "What competitor services exist and how a usage-based model compares with a subscription model",
+  "Whether the $2.50 per round fee can be passed on to the customer as a booking convenience charge",
+  "How the automated waitlist handles cancellations"
+ ],
+ "unanswered_questions": [],
+ "objections": [
+  {
+   "trigger_quote": "Tyler Smith inquired about competitor services and the benefits of a usage-based model versus a subscription model.",
+   "category": "price",
+   "quote_source": "summary_narration",
+   "rep_response_summary": "Jason Doepke argued that the usage-based model mitigates risk for the course because it only charges when revenue is generated, and that subscription models can become costly and often fail to integrate properly with existing tee sheets.",
+   "response_tactic": "reframe",
+   "prospect_next_move": null,
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "Tyler Smith requesting that the $2.50 per round fee be passed on to the customer as a booking convenience charge",
+   "category": "price",
+   "quote_source": "summary_narration",
+   "rep_response_summary": "Jason Doepke confirmed this is a common practice at other courses and that it allows the operation to maintain profitability while covering the service costs.",
+   "response_tactic": "reference_customer",
+   "prospect_next_move": null,
+   "resolved_in_call": true
+  },
+  {
+   "trigger_quote": "Discuss the artificial intelligence solution and proposed pricing model with Taylor to determine if the golf club will proceed with the service.",
+   "category": "approval_authority",
+   "quote_source": "summary_narration",
+   "rep_response_summary": null,
+   "response_tactic": null,
+   "prospect_next_move": null,
+   "resolved_in_call": false
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 4,
+   "evidence": "Opened on backgrounds and course context, with Tyler Smith laying out the operational problem himself - he described the terrain and \"emphasized the need for better efficiency during high-demand times\", then detailed the two-line phone setup and the 30/70 online-to-manual booking split.",
+   "evidence_source": "summary_narration"
+  },
+  "post_demo": {
+   "score": 5,
+   "evidence": "Immediately after the live demonstration the prospect moved into setup: \"Tyler Smith provided specific operational data, including the LightSpeed course ID (313340) and the local sales tax rate of 9.75%, to facilitate the setup process.\"",
+   "evidence_source": "summary_narration"
+  },
+  "at_pricing": {
+   "score": 4,
+   "evidence": "Logged under Decisions as Aligned: \"The parties agreed to the pricing model consisting of a $2.50 fee per round of golf that is booked, completed, and paid\" - accepted, but conditioned on passing the fee to customers and with competitor research and a GM conversation still outstanding.",
+   "evidence_source": "summary_narration"
+  },
+  "close": {
+   "score": 5,
+   "evidence": "\"The parties agreed to initiate the onboarding process immediately via a data collection form to facilitate the development of an AI prototype within one week.\" and a follow-up set for Thursday at 9:30 AM with a September 1st go-live target.",
+   "evidence_source": "summary_narration"
+  },
+  "trajectory": "rising"
+ },
+ "call_path": [
+  "introductions, professional backgrounds and course context at Stonebridge Meadows in Fayetteville, Arkansas",
+  "current phone system limitations and the online versus manual booking split",
+  "AI voice concierge value proposition and the $2.50 per played round pricing model",
+  "AI customisation: FAQs, voice profiles, tone and knowledge base updates",
+  "live system demonstration booking a four-player tee time",
+  "LightSpeed integration, player types and booking rules; course ID and tax rate collected",
+  "fee structure and passing the convenience charge to the customer",
+  "automated waitlist functionality",
+  "competitor landscape and usage-based versus subscription models",
+  "onboarding kickoff, contact and facility details, and scheduling the follow-up"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "fee structure",
+   "what_changed": "the pricing model was settled once the $2.50 per round fee could be passed on to the golfer as a booking convenience charge",
+   "caused_by": "Jason Doepke confirming that other courses do this and that it keeps the operation profitable while covering the service cost"
+  },
+  {
+   "at_stage": "onboarding and next steps",
+   "what_changed": "the conversation moved from evaluation to setup - contact information, facility address and operational details were handed over and a go-live target was set",
+   "caused_by": "agreement on pricing plus the live demonstration and the LightSpeed integration detail"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": true,
+ "next_step_description": "Tyler Smith to complete the Google onboarding form, discuss the solution and pricing with the General Manager (Taylor), research AI voice concierge competitors, and execute the service agreement electronically. Jason Doepke to schedule an onboarding call with the onboarding team, provide references and introductory resources, and send a recap plus the standard service agreement. The group to attend a follow-up next Thursday at 9:30 AM, at which Evan is to be introduced, and to coordinate with the phone provider on an extra line to prevent call-forwarding loops. Target go-live is September 1st. The follow-up carries a day and time but no calendar date.",
+ "buying_signals": [
+  "Pricing structure accepted and logged under Decisions as Aligned",
+  "Agreed to initiate onboarding immediately via the data collection form, targeting an AI prototype within one week",
+  "Handed over the LightSpeed course ID (313340) and the local 9.75% sales tax rate for setup",
+  "Provided contact information, the facility address and operational details during the call",
+  "A follow-up meeting was scheduled for Thursday at 9:30 AM",
+  "A September 1st go-live date was targeted",
+  "Tyler Smith owns the action to execute the service agreement electronically"
+ ],
+ "stalls": [
+  "The decision to proceed still requires a conversation with the General Manager, Taylor",
+  "Tyler Smith is to research AI voice concierge competitors and market alternatives before deciding",
+  "Jason Doepke still to provide references for due diligence",
+  "The service agreement is unsigned and the standard agreement is still to be sent for internal review",
+  "Phone-line configuration with the provider is still to be coordinated to prevent call-forwarding loops"
+ ],
+ "rep_commitments": [
+  "Jason Doepke: schedule an onboarding call with the onboarding team once initial course information is collected",
+  "Jason Doepke: provide project references and introductory resources for due diligence",
+  "Jason Doepke: send a comprehensive recap of the discussion and a copy of the standard service agreement for internal review",
+  "Jason Doepke: introduce Evan at the follow-up meeting",
+  "Deliver an AI prototype within one week of onboarding starting"
+ ],
+ "extraction_confidence": "low",
+ "confidence_notes": "Summary-only Gemini notes: Summary, Decisions, Next steps and Details but no Transcript section and zero dialogue turns (triage char_count 7,579 -> content_tier moderate). Every trigger_quote and every sentiment quote is therefore a verbatim span of Gemini's third-person prose, not spoken words - quote_source and evidence_source are summary_narration throughout, and no line in this file may be attributed to the prospect as speech. Confidence is low under rule 1 despite an unusually detailed Details section, because nothing can be checked against dialogue. prospect_next_move is null on all three objections: the doc records outcomes for the call as a whole but never what Tyler Smith said after any individual rep response. The third objection is a judgement call - approval authority appears only as the next-step action \"Consult General Manager\", never as a concern raised in conversation, so it is recorded with a null rep_response_summary and null response_tactic rather than being given a response the doc does not show. The first two objections are both filed as price for want of a closer category: one is a commercial-model challenge (usage-based versus subscription, bundled with competitor research), the other a request to shift the fee onto the golfer. account_name comes from the Drive file name \"Stonebridge Meadows Meeting Notes\" and is independently confirmed in the body (\"operational challenges at Stonebridge Meadows in Fayetteville, Arkansas\"); the doc's own internal heading is only \"Meeting Aug 6, 2026 at 10:31 EDT\". The demo was run against \"a simulated course\", so no live demo-target client is named and rule 8 does not bite here. prospect_seniority is unknown: Tyler Smith supplies operational data and owns the signature action but must consult the General Manager, Taylor, so he is below GM and his own title is never stated. Taylor (GM) and Evan are named in next steps but are not recorded as attendees of this call. next_step_has_date is true on a relative day and time (\"next Thursday at 9:30 AM\") plus a September 1st go-live target; no explicit calendar date is given. Cross-reference: Tyler Smith and a Taylor also appear in the separately extracted 1k5E3asb_5nIleTerjKr8eISR9Fv3LPa9tZ6pDeSa78Q, whose account was left unresolved - not merged here, since that identification is inference across documents rather than evidence inside this one."
+}

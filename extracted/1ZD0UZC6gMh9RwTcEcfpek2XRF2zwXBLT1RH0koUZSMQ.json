@@ -1,0 +1,48 @@
+{
+ "call_id": "1ZD0UZC6gMh9RwTcEcfpek2XRF2zwXBLT1RH0koUZSMQ",
+ "file_name": "Dacotah Ridge & Courserev Discussion - 2026/07/20 11:01 EDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/1ZD0UZC6gMh9RwTcEcfpek2XRF2zwXBLT1RH0koUZSMQ/edit",
+ "rep": "Jason",
+ "date": "2026-07-20",
+ "account_name": "Dacotah Ridge",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Jason Doepke",
+   "org": "courserev",
+   "role": null
+  },
+  {
+   "name": "Tyler Pendleton",
+   "org": "prospect",
+   "role": null
+  }
+ ],
+ "prospect_seniority": "unknown",
+ "meeting_type": null,
+ "content_tier": "stub",
+ "pain_points": [],
+ "current_solution": null,
+ "demo_happened": false,
+ "features_demoed": [],
+ "prospect_questions": [],
+ "unanswered_questions": [],
+ "objections": [],
+ "sentiment": {
+  "open": null,
+  "post_demo": null,
+  "at_pricing": null,
+  "close": null,
+  "trajectory": "insufficient_data"
+ },
+ "call_path": [],
+ "pivot_points": [],
+ "next_step_secured": false,
+ "next_step_has_date": false,
+ "next_step_description": null,
+ "buying_signals": [],
+ "stalls": [],
+ "rep_commitments": [],
+ "extraction_confidence": "low",
+ "confidence_notes": "No conversation took place on this recording. The document is 1,985 characters of Gemini boilerplate: the Summary section reads \"A summary wasn't produced for this meeting because there wasn't enough conversation in a supported language.\", the Next steps section reads \"No suggested next steps were found for this meeting.\", the Details section reads \"Details weren't produced for this meeting.\", and the Transcript section contains a heading and then \"Transcription ended after 00:00:42\" with zero speaker turns. Every substantive field is therefore null or empty and extraction_confidence is low. meeting_type is null because the title, 'Dacotah Ridge & Courserev Discussion', names an account but the document gives no evidence of what kind of meeting was intended or whether it was held at all. demo_happened is false and objections is empty as a matter of record, not of judgement. The two attendees are taken from the calendar Invited line - Jason Doepke and Tyler Pendleton, whose invite carries two addresses, tyler.pendleton@dacotahridge.com and tyler.pendleton@jackpotjunction.com - and nobody is confirmed to have spoken, since there is no transcript. next_step_secured is false on the strength of Gemini's explicit 'no suggested next steps' line. Undecidable from this document alone: whether the prospect no-showed, whether the meeting was cut short, or whether only 42 seconds of audio were captured."
+}

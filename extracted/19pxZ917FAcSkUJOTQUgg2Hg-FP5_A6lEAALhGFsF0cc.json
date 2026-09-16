@@ -1,0 +1,102 @@
+{
+  "call_id": "19pxZ917FAcSkUJOTQUgg2Hg-FP5_A6lEAALhGFsF0cc",
+  "file_name": "Meeting started 2026/08/17 09:59 EDT - Notes by Gemini",
+  "doc_url": "https://docs.google.com/document/d/19pxZ917FAcSkUJOTQUgg2Hg-FP5_A6lEAALhGFsF0cc/edit",
+  "rep": "Jason",
+  "date": "2026-08-17",
+  "account_name": null,
+  "account_source": "unresolved",
+  "attendees": [
+    {
+      "name": "Dave Scott",
+      "org": "prospect",
+      "role": "prospect-side decision participant; consults his brother on whether to implement, and owns the Golf Now follow-up. No title and no course named in the doc"
+    },
+    {
+      "name": "Jason Doepke",
+      "org": "courserev",
+      "role": "rep running the demo, fee structure and onboarding"
+    }
+  ],
+  "prospect_seniority": "unknown",
+  "meeting_type": "demo",
+  "content_tier": "thin",
+  "pain_points": [],
+  "current_solution": null,
+  "demo_happened": true,
+  "features_demoed": [
+    "Dashboard with automatic transcription of every inbound call, used as a reference for disputes over quoted versus charged pricing",
+    "Notice board for real-time updates such as cart path only or upcoming green punches, surfaced to callers booking tee times",
+    "Conflict warnings for senior tournaments and leagues when a caller tries to book",
+    "Automated waitlist with a text notification and a ten-minute window to confirm, after which the system books the reservation automatically",
+    "Control panel for payment processing, player types and custom actions",
+    "Voice-command call forwarding to specific departments such as the Tap Room or the pro shop, and rerouting of groups over 16 to human staff",
+    "Tee sheet integration that reflects tee sheet changes in the system",
+    "Editable general knowledge base",
+    "Toggle to turn the AI voice system on or off for specific timeframes, with delayed call forwarding after a set number of rings",
+    "Capacity for up to 50 concurrent calls"
+  ],
+  "prospect_questions": null,
+  "unanswered_questions": [
+    "Golf Now integration capability for their course - Dave Scott left with an action item to contact his Golf Now representative for more information; the doc records only that the build needs a tee sheet identification number to start"
+  ],
+  "objections": [
+    {
+      "trigger_quote": "Dave Scott indicated that the decision to proceed involves consultation with their brother.",
+      "category": "approval_authority",
+      "quote_source": "summary_narration",
+      "rep_response_summary": "Jason agreed to follow up the next week to check on the status of the decision, and offered a trial period: if implemented by the end of August, no fees would be charged for the first few weeks, allowing testing before the first invoice in October. The notes record this as a decision that trial access would be granted for early adopters before formal billing begins.",
+      "response_tactic": "defer_to_followup",
+      "prospect_next_move": null,
+      "resolved_in_call": false
+    }
+  ],
+  "sentiment": {
+    "open": {
+      "score": 3,
+      "evidence": "Peer-level small talk and nothing about the product: the notes record only that the two discussed the previous weekend's weather, \"both experienced severe storms and rain that negatively impacted their respective golf courses\".",
+      "evidence_source": "summary_narration"
+    },
+    "post_demo": null,
+    "at_pricing": null,
+    "close": {
+      "score": 4,
+      "evidence": "Took the deal forward without committing: \"Dave Scott indicated that the decision to proceed involves consultation with their brother.\", accepted a follow-up - \"The parties agreed that Jason Doepke would follow up next week to check on the status of the decision.\" - and took an action item to contact Golf Now about integration capabilities.",
+      "evidence_source": "summary_narration"
+    },
+    "trajectory": "insufficient_data"
+  },
+  "call_path": [
+    "Opening small talk about storm damage at both parties' courses",
+    "Dashboard and automatic call transcription for dispute resolution",
+    "Notice board and conflicting-event warnings",
+    "Waitlist with text confirmation",
+    "Course customisation: payment processing, player types, custom actions, departmental call forwarding and large-group routing",
+    "Tee sheet integration and knowledge base",
+    "Fee structure: $2.50 per round booked and played, no charge for cancellations or no-shows",
+    "Call routing control: AI on/off toggle, delayed forwarding, 50 concurrent calls",
+    "Golf Now integration and onboarding: tee sheet identification number, standard agreement, onboarding form under 15 minutes",
+    "Decision-making and next steps: consultation with his brother, follow-up next week, trial offer to end of August"
+  ],
+  "pivot_points": [],
+  "next_step_secured": true,
+  "next_step_has_date": false,
+  "next_step_description": "Dave Scott to contact his Golf Now representative about integration capabilities and to discuss implementing the AI booking system with his brother; Jason Doepke to call him the following week to check the status of the decision. No specific date was recorded.",
+  "buying_signals": [
+    "Took an action item to contact Golf Now about integration capabilities",
+    "Agreed to discuss implementation with his brother in order to reach a decision",
+    "Agreed to a follow-up call the following week",
+    "Notes record the meeting concluding with a potential implementation agreement and trial access before formal billing"
+  ],
+  "stalls": [
+    "Decision deferred pending consultation with his brother",
+    "Golf Now integration information still to be gathered by the prospect before deciding",
+    "No signed agreement or onboarding form completed in the call; the trial offer is conditional on implementing by the end of August"
+  ],
+  "rep_commitments": [
+    "Call Dave the following week to check the status of his decision",
+    "Trial period with no fees for the first few weeks if implemented by the end of August, with the first invoice in October"
+  ],
+  "extraction_confidence": "low",
+  "confidence_notes": "Summary-only Gemini doc: no Transcript section and no dialogue anywhere, so every quote here is Gemini's third-person narration and quote_source / evidence_source are summary_narration throughout, and prospect_next_move is null (rule 2). No course is named in the title or the body - the title is just the meeting timestamp - so account_name is null and account_source unresolved; the prospect attendee is Dave Scott and the only other party named is his brother. current_solution is null: Golf Now is discussed as an integration target and the build is said to need a tee sheet identification number, which does not by itself establish what they run today. prospect_questions is null rather than an empty array because the notes narrate Jason addressing the Golf Now integration without recording who asked. One objection is recorded, the consultation-with-his-brother approval gate; the Golf Now dependency is held as a stall and an unanswered question rather than being coded as a second objection, since the notes describe it as an action item and never as a concern he raised. post_demo and at_pricing are null: the $2.50 fee structure and every feature are narrated from the rep's side with no prospect reaction recorded at either point. trajectory is insufficient_data on two checkpoints from narration alone. Cross-reference: file_id 1_0dAza6evR4hNMBY547jvGTEJl-Ti0lyJQsw_Zcm76Q is an earlier Jason call dated 2026-07-08 with the same prospect name, Dave Scott, also unresolved for account; if those are the same person this call is a second touch rather than a first demo, but nothing inside this document establishes that, so meeting_type is taken from this doc alone."
+}

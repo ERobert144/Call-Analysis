@@ -1,0 +1,116 @@
+{
+ "call_id": "1Xp_cxjF_LEgL00_troe40SERwVpEhRXDgLAkfwmnkTE",
+ "file_name": "Meeting started 2026/08/11 09:31 EDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/1Xp_cxjF_LEgL00_troe40SERwVpEhRXDgLAkfwmnkTE/edit",
+ "rep": "Jason",
+ "date": "2026-08-11",
+ "account_name": null,
+ "account_source": "unresolved",
+ "attendees": [
+  {
+   "name": "Jason Doepke",
+   "org": "courserev",
+   "role": null
+  },
+  {
+   "name": "Doug Temple",
+   "org": "prospect",
+   "role": null
+  }
+ ],
+ "prospect_seniority": "unknown",
+ "meeting_type": "demo",
+ "content_tier": "moderate",
+ "pain_points": [
+  "Severely short-staffed, with two-thirds of the team leaving soon to return to teaching or college, going into September, which the narration calls one of the busiest months of the year",
+  "High-volume weekend traffic regularly overwhelms the staff's ability to answer every incoming call",
+  "After-hours inquiries and missed booking opportunities create recurring operational gaps",
+  "Staff are occupied with cart maintenance or check-ins during busy weekend windows, so calls go unanswered",
+  "Manual transfers between the golf shop and the hotel, particularly for stay-and-play packages",
+  "No-shows from passholders who book multiple weekend tee times and do not tell staff when they only use one, losing revenue at peak times",
+  "Difficulty communicating seasonal specials such as unlimited golf through digital channels"
+ ],
+ "current_solution": "Standard phone lines with manual transfers between the golf shop and the hotel; the 'Four Up' system (ForeUp) holds player data and inventory. The facility runs leagues, corporate outings and a membership base of nearly 100 passholders.",
+ "demo_happened": true,
+ "features_demoed": [
+  "Booking requests for mixed player types, such as regular and senior golfers",
+  "Automated answers to questions about practice facility hours and restaurant details",
+  "Automatic text message confirmation to the player",
+  "Integration with third-party weather guarantee services",
+  "Dashboard: toggling the AI voice system on or off, call analytics, and real-time transcriptions of past conversations",
+  "Notice board for pushing updates to the AI, such as cart path only status or upcoming event notifications",
+  "Promo codes for tracking and managing seasonal offers",
+  "Integration with the 'Four Up' system (ForeUp) for player data and inventory"
+ ],
+ "prospect_questions": null,
+ "unanswered_questions": null,
+ "objections": [
+  {
+   "trigger_quote": "Doug Temple indicates a need to review the proposal and the technology with the facility's General Manager and COO",
+   "quote_source": "summary_narration",
+   "category": "approval_authority",
+   "rep_response_summary": "Jason agreed to provide an onboarding form, a standard agreement and references, noted that the $1,500 setup fee is currently waived due to the busy season, and the parties committed to a follow-up discussion in two weeks. Jason also committed to writing a meeting summary and an ownership briefing aimed at the operator stakeholders.",
+   "response_tactic": "defer_to_followup",
+   "prospect_next_move": null,
+   "resolved_in_call": false
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 3,
+   "evidence": "Gemini narrates Doug opening on his own operational problem rather than on CourseRev: \"Doug Temple explains that the facility is currently short-staffed, with two-thirds of the team departing soon to return to teaching or college\". No reaction to the vendor is recorded at this point.",
+   "evidence_source": "summary_narration"
+  },
+  "post_demo": {
+   "score": 3,
+   "evidence": "The narration records no stated reaction to the demonstration. What it does record is Doug continuing into his own commercial problem afterwards: \"Doug Temple discusses the difficulty of communicating seasonal specials, such as unlimited golf, through digital channels, and they explore how promo codes can be used within the system\".",
+   "evidence_source": "summary_narration"
+  },
+  "at_pricing": null,
+  "close": {
+   "score": 3,
+   "evidence": "Doug took the materials to a higher authority and accepted reference contacts - \"a request to which Doug Temple agrees\" - and \"the parties commit to a follow-up discussion in two weeks\". Neither enthusiasm nor resistance is narrated.",
+   "evidence_source": "summary_narration"
+  },
+  "trajectory": "insufficient_data"
+ },
+ "call_path": [
+  "Current staffing challenges at the facility going into September",
+  "CourseRev value proposition, citing National Golf Foundation data that 61% of public golf bookings still occur by phone",
+  "Operational workflow and phone management: lines, manual transfers to the hotel, leagues, outings and passholders",
+  "No-show problem with passholders holding multiple weekend tee times",
+  "After-hours and peak-volume coverage gaps",
+  "Pricing and implementation model: $2.50 per booked round, no charge for cancellations, no-shows or FAQ calls, delayed call forwarding",
+  "System demonstration: mixed player type bookings, FAQ answers, text confirmations, weather guarantee",
+  "Dashboard and administrative features, including the notice board",
+  "System integration with the 'Four Up' system and promo codes for seasonal specials",
+  "Implementation process of about a week, phone provider coordination, and references",
+  "Next steps and decision process: review with the General Manager and COO, setup fee waived, follow up in two weeks"
+ ],
+ "pivot_points": null,
+ "next_step_secured": true,
+ "next_step_has_date": false,
+ "next_step_description": "Jason to send the standard agreement, terms and references for review by the property management team, and to write a meeting summary and ownership briefing setting out the benefits for the operator stakeholders; he also agreed to provide an onboarding form. Doug to evaluate the materials with the General Manager and the Chief Operating Officer. Jason to reach out in two weeks to discuss next steps. The $1,500 setup fee is waived. No date was fixed.",
+ "buying_signals": [
+  "Doug agreed to take reference contacts for existing clients",
+  "Doug is taking the proposal and the technology to the General Manager and the COO rather than declining it",
+  "Both parties committed to a follow-up discussion in two weeks",
+  "Doug volunteered detailed operational information about phone handling, passholders, no-shows and seasonal specials"
+ ],
+ "stalls": [
+  "No decision can be made without review by the General Manager and the Chief Operating Officer",
+  "A reference check is still outstanding - the narration ties the waived setup fee to a successful reference check",
+  "A two-week gap before the next contact",
+  "The facility is losing two-thirds of its staff heading into its busiest month, which is the driver for the purchase but also a demand on the prospect's attention"
+ ],
+ "rep_commitments": [
+  "Send the standard agreement, terms and references for the property management team to review",
+  "Provide contact information for existing Michigan-based clients as references",
+  "Provide an onboarding form",
+  "Write a meeting summary and ownership briefing detailing the solution benefits for the operator stakeholders",
+  "Waive the $1,500 setup fee",
+  "Reach out in two weeks to discuss next steps"
+ ],
+ "extraction_confidence": "low",
+ "confidence_notes": "Summary-only document: 6,914 characters of Gemini Summary, Next steps and Details with screenshots and no Transcript section at all, so there is no dialogue anywhere in the source. Every provenance field is summary_narration and objections[0].prospect_next_move is null, because nothing in the document shows what Doug said after Jason responded. The account is unresolved: no golf course is named anywhere in the document, which refers only to 'the facility' and 'the hotel'; the title carries no account name either. The only weak locator is that Jason offered Michigan-based client references, which hints at but does not establish the region; the prospect contact is Doug Temple and the decision-makers above him are an unnamed General Manager and COO. prospect_questions, unanswered_questions and pivot_points are null rather than empty arrays: a selective third-person summary cannot establish that no questions were asked or that the call never changed direction. sentiment.at_pricing is null even though pricing was presented ($2.50 per booked round, $1,500 setup fee waived), because the narration records no prospect reaction to it; the three scored checkpoints rest on behaviour rather than on any stated attitude, which is also why trajectory is insufficient_data. The 'Four Up system' in the narration is ForeUp. extraction_confidence is low per rule 1 despite the moderate content tier."
+}

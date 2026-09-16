@@ -1,0 +1,151 @@
+{
+ "call_id": "1GpHTKRqngp4SuaiKw6ijK1cbmt02nEgCT2GgVF5qBfg",
+ "file_name": "Lida Greens onboarding w/ Courserev - 2026/07/06 11:56 EDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/1GpHTKRqngp4SuaiKw6ijK1cbmt02nEgCT2GgVF5qBfg/edit",
+ "rep": "Jason",
+ "date": "2026-07-06",
+ "account_name": "Lida Greens Golf Course",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Jason Doepke",
+   "org": "courserev",
+   "role": "Rep who sold the account and ran the earlier V1 demo"
+  },
+  {
+   "name": "Evan Denholm",
+   "org": "courserev",
+   "role": "Runs the onboarding team; owns the account from here to go-live"
+  },
+  {
+   "name": "Bo Ferrando",
+   "org": "courserev",
+   "role": "Sat in to listen; does not speak anywhere in the transcript"
+  },
+  {
+   "name": "Dave",
+   "org": "prospect",
+   "role": null
+  }
+ ],
+ "prospect_seniority": "unknown",
+ "meeting_type": "other",
+ "content_tier": "rich",
+ "pain_points": [
+  "Pro shop staff cannot always get to the phone - busy weekends, after hours, or when Dave has to leave the shop for 45 minutes",
+  "The course has 14 holes, which does not fit the standard 9/18 setup; their tee sheet carries three booking options (9, 14 and 18) and CourseRev's onboarding form had no 14-hole option",
+  "Members call in with questions on various things and need to reach a person rather than be held by an automated system",
+  "The facility has a single main line from the local phone company with no phone tree and no second line for the pro shop, and an earlier second line was given up years ago",
+  "The course was flooded out for a couple of years and is only now fully running again"
+ ],
+ "current_solution": "Lightspeed as the POS and tee sheet, which is also where members are identified; a single main phone line from the local provider Arvig with no phone tree and no secondary line; calls answered by pro shop staff. A pre-Lightspeed tee-sheet vendor and a second phone line were dropped over eight years ago.",
+ "demo_happened": true,
+ "features_demoed": [
+  "Version 2 dashboard, shown on screen, replacing the V1 dashboard Jason had demoed during the sale",
+  "AI voice line entry with the course's designated number and the on/off toggle that routes calls to the pro shop when off",
+  "Notice board with date selection for day-to-day messages such as cart path only, pro shop discounts or restaurant specials, live within two or three seconds",
+  "Call log showing what the AI and the caller said, for resolving disputes over quoted prices or booking details",
+  "Priority waitlist and confirmation feature - call, text or email to waitlisted golfers with a ten-minute window before the slot passes to the next person and then back to the tee sheet",
+  "Knowledge base in the settings section for the course to change rates, memberships and tournament information itself"
+ ],
+ "prospect_questions": [
+  "On the onboarding form, which service is the one we have been talking about - voice concierge, chatbot, website, online booking, waitlist, or reminders and notifications?",
+  "Is the shortest notice board timeframe one day, or can you do a half day, say for the morning?",
+  "If I want to turn it on for a busy day, am I just going in and flipping the switch on?",
+  "What about the second phone line - is that something you set up or something I have to do?",
+  "How hard is it for members calling with questions to get through and speak directly to the pro shop?",
+  "Will your remaining onboarding questions come by email or by phone?"
+ ],
+ "unanswered_questions": [
+  "The minimum notice board duration - Evan said 'at the moment I think it's one day' and that a three-hour window would be 'a quick fix for sure', but nothing was confirmed and no date was given",
+  "A question Dave raised and then lost - 'Can't remember what the hell it was.' - which was never recovered in the call",
+  "Whether the Arvig contact who set up the nearby Forest Hills course is the same person who would handle this second line - Evan hoped so but did not confirm"
+ ],
+ "objections": [
+  {
+   "trigger_quote": "how how hard is it for them to actually to get to us to speak direct the pro",
+   "quote_source": "verbatim_speech",
+   "category": "ai_quality_doubt",
+   "rep_response_summary": "Evan volunteered that his own prior experience of AI phone systems with credit card companies and airlines 'never ever goes well', said CourseRev is far from that, and gave two mechanisms: saying 'speak to Pro Shop' or 'speak to a person' transfers immediately, and members identified in Lightspeed can be routed straight to the pro shop. He added that after about two weeks the system learns keywords and detects a caller growing frustrated and hands off, so callers are not stuck in an endless loop. Jason added that it is not a phone tree and that AI is good at recognising when something is not repeatable and needs a human.",
+   "response_tactic": "feature_explanation",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": true
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 4,
+   "evidence": "Dave joined relaxed after a good holiday weekend - \"Good. Got through the weekend.\" - and had already completed the onboarding form unprompted: \"Yeah, I did that last week.\"",
+   "evidence_source": "verbatim_speech"
+  },
+  "post_demo": {
+   "score": 4,
+   "evidence": "After the V2 dashboard walkthrough Dave went straight to implementation detail rather than evaluation, confirming the toggle behaviour and asking \"And then what about the second phone line? Is that something you guys set up or is that something I got to do\".",
+   "evidence_source": "verbatim_speech"
+  },
+  "at_pricing": null,
+  "close": {
+   "score": 4,
+   "evidence": "Dave supplied the remaining configuration data (sales tax, cancellation policy, per-seat cart charges including non-golfing riders), re-sent the onboarding form by email during the call, and closed with \"I just sit tight until I hear back from you.\" and \"Email's fine.\"",
+   "evidence_source": "verbatim_speech"
+  },
+  "trajectory": "flat"
+ },
+ "call_path": [
+  "Greeting and holiday weekend small talk",
+  "Handover: Jason introduces Evan, who runs onboarding, and Bo as a silent observer",
+  "Onboarding timeline: roughly two weeks to a basic system, then client testing and changes before go-live",
+  "Phone setup discovery: single line, no phone tree, second line needed for the pro shop",
+  "Deployment mode: Jason steers Dave from manual after-hours/weekend toggling to a delayed call forward at three rings",
+  "Onboarding form clarifications: scope is voice concierge only for tee time booking",
+  "Course configuration: 14 holes, three booking options on the tee sheet, form to be updated for future clients",
+  "V2 dashboard walkthrough: AI voice toggle, notice board, call log",
+  "Second phone line: local provider Arvig, Evan to work with them directly as he did for a nearby course",
+  "Priority waitlist and confirmation feature introduced as an option not yet needed",
+  "Member accessibility and escalation: keywords, member identification in Lightspeed, frustration detection",
+  "Knowledge base self-service for rate and tournament changes, with help for the first few changes",
+  "Missing onboarding form discovered; final data collected live (sales tax, cancellation policy, cart and rider charges)",
+  "Reciprocal-course referral ask from Jason",
+  "Next steps: development builds, prototype in about two weeks with Jason on the review call"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "Phone setup (~00:05:08)",
+   "what_changed": "The deployment mode changed from Dave manually flipping the AI on for after hours and busy weekends to an always-configured delayed call forward at three rings, which became the call's one recorded decision.",
+   "caused_by": "Jason interrupting Evan's discovery to raise the delayed call forward he and Dave had discussed earlier, 'That way it's less uh less things for him and his staff to manage.'"
+  },
+  {
+   "at_stage": "Onboarding form review (~00:08:16)",
+   "what_changed": "Dave's disclosure that the course has 14 holes turned a form clarification into a product change: Evan committed to add 14-hole options to CourseRev's onboarding form for future clients, and the tee sheet has to carry 9, 14 and 18 hole bookings.",
+   "caused_by": "Dave saying 'We have 14 holes.' and explaining the three booking options on their tee sheet"
+  },
+  {
+   "at_stage": "Wrap-up (~00:23:09)",
+   "what_changed": "The call turned back into live data collection when the onboarding team turned out not to have the form Dave had submitted; Dave re-sent it by email mid-call and Evan collected sales tax, cancellation policy and cart charges verbally.",
+   "caused_by": "Evan saying 'I just checked with our uh onboarding team. They don't have the form for some reason.'"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": false,
+ "next_step_description": "Development builds a basic system over roughly two weeks, then Evan sends Dave the details to call and test the line; Jason joins the prototype review call where they decide on adjustments or turn it on. Evan to contact Arvig about the second line, to tell the development team the course needs only the voice concierge for now, to add 14-hole options to the onboarding form, and to email Dave with any remaining onboarding questions. Dave re-sent the completed onboarding form by email during the call and otherwise waits. No date was set - the timeline is 'somewhere around two weeks or so'.",
+ "buying_signals": [],
+ "stalls": [
+  "The second phone line for the pro shop is not yet arranged and depends on the local provider Arvig",
+  "The onboarding form Dave had submitted had not reached the onboarding team and had to be re-sent mid-call",
+  "Go-live is gated on a roughly two-week development cycle plus a prototype review and whatever changes Dave asks for",
+  "The 14-hole configuration is non-standard and had no place in CourseRev's onboarding form",
+  "The notice board minimum duration of one day may not suit half-day conditions and would need a fix"
+ ],
+ "rep_commitments": [
+  "Evan to get in touch with the local phone provider Arvig and set up the second line, working with them directly",
+  "Evan to tell the development team the course needs only the voice concierge for tee time booking at this stage",
+  "Evan to add 14-hole course options to the onboarding form for future clients",
+  "Evan to email Dave with any further onboarding questions the team has",
+  "Evan to look at shortening the notice board window below one day if the course needs it",
+  "Evan and Jason to make knowledge base changes for the course the first few times until Dave is comfortable doing it",
+  "Development to deliver a prototype in about two weeks for Dave to call and test",
+  "Jason to be on the prototype review call"
+ ],
+ "extraction_confidence": "high",
+ "confidence_notes": "Full 28:23 verbatim transcript, 323 turns, no screenshots. This is a post-sale onboarding kickoff, not a sales call - Jason opens with 'we got the word from Lightseed that you guys are ready to go' - so meeting_type is 'other'. Consequences of that: no pricing was discussed at any point, so sentiment.at_pricing is null; and buying_signals is deliberately empty because there was no buying decision pending - Dave's cooperative acts (form completed in advance, configuration data supplied, agreement to the delayed call forward and to CourseRev dealing with Arvig) are recorded in call_path and sentiment evidence instead. stalls is populated because the items listed are real impediments to go-live, not sales stalls. The one objection recorded is a product concern about members being able to reach a human, which is the only doubt Dave raised. The prospect's Meet display name is the course, so every one of his turns is labelled 'Lida Greens Golf Course' and only his first name, Dave, appears in the document; no title or seniority is stated anywhere, hence prospect_seniority 'unknown'. Bo Ferrando attended but never speaks. A greeting to a 'Sarah' in the first turn matches nobody on the invite list and reads as a speech-to-text artefact. Other artefacts: Lightspeed appears as 'Lightseed' and 'light speeded', wait list as 'weight list', cart path as 'car path', tee sheet as 't- sheet', tee time as 'tea time', and the sales tax Dave reads as '07375%' is 0.7375%."
+}
