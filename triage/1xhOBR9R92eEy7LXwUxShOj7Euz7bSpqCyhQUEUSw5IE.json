@@ -1,0 +1,25 @@
+{
+  "file_id": "1xhOBR9R92eEy7LXwUxShOj7Euz7bSpqCyhQUEUSw5IE",
+  "rep": "Bo",
+  "char_count": 2616,
+  "has_transcript": false,
+  "transcript_chars": 0,
+  "transcript_turns": 1,
+  "transcript_duration": "00:15:31",
+  "has_screenshots": false,
+  "account_name": "Indian Canyons",
+  "account_source": "title",
+  "attendees": [
+    {
+      "name": "Bo Ferrando",
+      "org": "courserev"
+    },
+    {
+      "name": "ggriffin@indiancanyonsgolf.com",
+      "org": "prospect"
+    }
+  ],
+  "is_customer_call": true,
+  "call_type_note": "Scheduled quick chat with Indian Canyons; the only captured audio is the course's IVR phone menu, no two-way dialogue.",
+  "confidence": "medium"
+}

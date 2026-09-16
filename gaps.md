@@ -49,7 +49,7 @@ Drive shortcuts in Bo's folder. `read_file_content` returns `{}`; the target doc
 | Bo | 2026-09-14 | - | Monday Sales Sync - 2026/09/14 11:30 EDT - Notes by Gemini |
 | Bo | 2026-09-15 | - | Outbound Team Sync - 2026/09/15 13:59 EDT - Notes by Gemini |
 
-## Contentless stubs (20)
+## Contentless stubs (23)
 
 Gemini produced no summary and no dialogue - typically 'not enough conversation in a supported language'. A meeting happened; nothing was captured.
 
@@ -65,14 +65,17 @@ Gemini produced no summary and no dialogue - typically 'not enough conversation 
 | Jason | 2026-08-05 | - | ahg-tqfw-umm (2026-08-05 16:23 GMT-4) - Transcript |
 | Jason | 2026-08-11 | - | nky-drdb-bdg (2026-08-11 10:13 GMT-4) - Transcript |
 | Bo | 2026-05-21 | Presidio Golf Course | CourseRev + Presidio - Touchbase - 2026/05/21 13:31 PDT - Notes by Gemini |
+| Jason | 2026-08-10 | - | Meeting started 2026/08/10 11:30 EDT - Notes by Gemini |
 | Jason | 2026-09-02 | - | Meeting started 2026/09/02 11:29 EDT - Notes by Gemini |
 | Jason | 2026-07-21 | - | Meeting started 2026/07/21 10:00 EDT - Notes by Gemini |
 | Jason | 2026-07-24 | - | Meeting started 2026/07/24 08:00 EDT - Notes by Gemini |
 | Jason | 2026-08-04 | - | Meeting started 2026/08/04 14:01 EDT - Notes by Gemini |
 | Bo | 2026-08-12 | Laughlin Ranch | CourseRev + Laughlin Ranch - Chat - 2026/08/12 09:59 PDT - Notes by Gemini |
 | Jason | 2026-07-22 | - | Meeting started 2026/07/22 10:01 EDT - Notes by Gemini |
+| Bo | 2026-09-04 | Cedaredge Golf Course | Chat: CourseRev + Cedaredge Golf Course - 2026/09/04 12:01 PDT - Notes by Gemini |
 | Jason | 2026-07-07 | - | Meeting started 2026/07/07 13:01 EDT - Notes by Gemini |
 | Jason | 2026-07-09 | - | Courserev Live Demo - 2026/07/09 12:25 EDT - Notes by Gemini |
+| Jason | 2026-08-12 | - | Meeting started 2026/08/12 15:01 EDT - Notes by Gemini |
 | Jason | 2026-07-22 | - | Meeting started 2026/07/22 11:00 EDT - Notes by Gemini |
 | Jason | 2026-06-23 | Dacotah Ridge GC | Courserev & Dacotah Ridge GC exploratory call - 2026/06/23 10:58 EDT - Notes by Gemini |
 
@@ -93,7 +96,7 @@ A real prospect call, but nothing in the doc names the course - no title, no inv
 Extracted, but the source was too thin to support most fields.
 
 
-## Customer calls not extracted (33)
+## Customer calls not extracted (37)
 
 In scope but no extraction record present.
 
@@ -102,6 +105,7 @@ In scope but no extraction record present.
 | Bo | 2026-06-11 | Indian Canyons | CourseRev + Indian Canyons - Quick Chat - 2026/06/11 14:23 PDT - Notes by Gemini |
 | Jason | 2026-08-13 | - | Meeting started 2026/08/13 10:30 EDT - Notes by Gemini |
 | Jason | 2026-07-20 | Dacotah Ridge | Dacotah Ridge & Courserev Discussion - 2026/07/20 11:01 EDT - Notes by Gemini |
+| Jason | 2026-06-19 | Bristol Ridge | Bristol Ridge & Courserev exploratory discussion - 2026/06/19 12:30 EDT - Notes by Gemini |
 | Jason | 2026-07-02 | Deerhurst | Meeting Notes with Deerhurst |
 | Jason | 2026-07-13 | Dacotah Ridge | Dacotah Ridge & Courserev Discussion - 2026/07/13 10:59 EDT - Notes by Gemini |
 | Jason | 2026-06-22 | New Albany Links GC | New Albany Links GC & Courserev Exploratory Discussion - 2026/06/22 10:00 EDT - Notes by Gemini |
@@ -118,13 +122,16 @@ In scope but no extraction record present.
 | Bo | 2026-08-18 | The Links at Bodega Harbour | Chat: CourseRev + The Links at Bodega Harbour - 2026/08/18 14:30 PDT - Notes by Gemini |
 | Bo | 2026-09-01 | Cedaredge Golf Course | Chat: CourseRev + Cedaredge Golf Course - 2026/09/01 10:00 PDT - Notes by Gemini |
 | Bo | 2026-08-13 | TenFore | TenFore<>CourseRev info sesh - 2026/08/13 12:59 EDT - Notes by Gemini |
+| Bo | 2026-06-11 | Indian Canyons | CourseRev + Indian Canyons - Quick Chat - 2026/06/11 14:00 PDT - Notes by Gemini |
 | Bo | 2026-05-21 | Presidio Golf Course | CourseRev + Presidio - Touchbase - 2026/05/21 13:31 PDT - Notes by Gemini |
 | Jason | 2026-08-11 | - | Meeting started 2026/08/11 09:31 EDT - Notes by Gemini |
 | Jason | 2026-07-21 | - | Meeting started 2026/07/21 10:00 EDT - Notes by Gemini |
 | Jason | 2026-07-06 | Lida Greens Golf Course | Lida Greens onboarding w/ Courserev - 2026/07/06 11:56 EDT - Notes by Gemini |
+| Bo | 2026-08-12 | Pine Springs | CourseRev + Pine Springs - Chat - 2026/08/12 12:00 PDT - Notes by Gemini |
 | Bo | 2026-05-18 | Temecula Creek Inn | CourseRev + Temecula Creek Inn - Quick Chat - 2026/05/18 12:44 PDT - Notes by Gemini |
 | Bo | 2026-08-12 | Laughlin Ranch | CourseRev + Laughlin Ranch - Chat - 2026/08/12 09:59 PDT - Notes by Gemini |
 | Bo | 2026-08-18 | Old Greenwood | Chat: CourseRev + Old Greenwood  - 2026/08/18 10:00 PDT - Notes by Gemini |
+| Bo | 2026-09-04 | Cedaredge Golf Course | Chat: CourseRev + Cedaredge Golf Course - 2026/09/04 12:01 PDT - Notes by Gemini |
 | Jason | 2026-07-17 | Bristol Ridge | Meeting started 2026/07/17 13:00 EDT - Notes by Gemini |
 | Jason | 2026-08-06 | Stonebridge Meadows | Stonebridge Meadows Meeting Notes |
 | Bo | 2026-08-19 | The Links at Bodega Harbour | Chat: CourseRev + The Links at Bodega Harbour - 2026/08/19 14:29 PDT - Notes by Gemini |
