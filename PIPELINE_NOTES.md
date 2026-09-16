@@ -36,9 +36,7 @@ Target file `1BPJko8wI1WqBvBHy9SAXMRRCM-VGk8f7_D0MPgntmpc`
    | Laughlin Ranch | 129,972 | 29,125 | 4.5x |
    | Tilden Park | 443,209 | 66,296 | 6.7x |
 
-   Fine as an ordering proxy; misleading in absolute terms. The 10-40 KB
-   "moderate" band is only ~2-9 K chars (summary, no dialogue). Record true
-   `char_count` during extraction and re-tier before any analysis depends on it.
+   **SUPERSEDED - see finding 11. `fileSize` does not even order correctly.**
 
 2. **Subfolder name is not a reliable date.** Folder
    `145VkPFdFH5zme7v0MNibSjrlHcErX7DT` is named
@@ -118,3 +116,44 @@ shortcuts. Built from Drive metadata only; no documents were opened.
     "Meeting started ..." or "Live Demo ..." (112 KB - 285 KB). Named
     customer calls skew thin/moderate. Resolving the unknowns is where the
     transcript volume actually is.
+
+## Finding 11 - `fileSize` is not a content proxy at all (supersedes 1)
+
+Measured by opening the documents:
+
+| doc | bytes | tier by bytes | actual chars | transcript? |
+|---|---|---|---|---|
+| Old Greenwood | 31,843 | moderate | 55,382 | YES - 49:40, 322 turns |
+| Tilden Park | 443,209 | rich | 66,296 | YES - 53:31, 355 turns |
+| Laughlin Ranch | 129,972 | rich | 31,744 | YES - 20:42 |
+| Bristol Ridge | 20,285 | moderate | ~30,000 | YES - 22:21 |
+| Meeting started 2026/08/11 09:31 | 285,331 | rich | ~7,000 | NO |
+
+A 32 KB doc holds a 49-minute verbatim transcript - more text than the 443 KB
+file. A 285 KB doc holds no dialogue at all.
+
+Cause: Gemini embeds **screenshots** in the notes. Images dominate `fileSize`
+and contribute no text. Docs whose Details section contains the line "Did the
+screenshots in this section make your notes better or worse?" carry images;
+those without it do not.
+
+Consequences:
+- The `content_tier` column in `inventory.csv` is unreliable. Do not build on it.
+- Transcript presence can only be established by opening the document and
+  looking for a top-level "Transcript" heading. `build/probe.py` does this.
+- The transcript-bearing population is plausibly 15-25 calls rather than the 2
+  that the byte-based tiers implied.
+
+## Corpus-size ceiling on the Phase 4 objection analysis
+
+Best case ~20 transcript calls x ~3 objections = ~60 objections. The schema has
+10 objection categories x 9 response tactics = 90 cells; at n>=5 per cell that
+needs ~450 observations. Roughly 7x short, so the category x tactic x outcome
+cross-tab cannot be populated at any extraction quality. Transcribing the mp4s
+adds ~3-4 calls (every recording already has a same-day notes doc), which does
+not change the order of magnitude.
+
+Survives at this N: objection frequency (descriptive), call_path shapes,
+unanswered-question collation, and a collapsed
+top-3-categories x resolved-in-call table (~15 obs/category).
+Does not survive: tactic-to-outcome correlation, sentiment-trajectory patterns.
