@@ -132,16 +132,19 @@
  "sentiment": {
   "open": {
    "score": 2,
-   "evidence": "Opens on process friction over the onboarding paperwork: \"Taylor Johnson expressed that they expected a demo based on previous discussions\", and Jason Doepke acknowledged they had jumped the gun on the process."
+   "evidence": "Opens on process friction over the onboarding paperwork: \"Taylor Johnson expressed that they expected a demo based on previous discussions\", and Jason Doepke acknowledged they had jumped the gun on the process.",
+   "evidence_source": "summary_narration"
   },
   "post_demo": null,
   "at_pricing": {
    "score": 4,
-   "evidence": "On the billing model: \"Taylor Johnson agreed to this model, acknowledging that requiring prepayment helps protect the club\" - accepted billing on checked-in bookings, with only per-transaction vs monthly invoicing left open."
+   "evidence": "On the billing model: \"Taylor Johnson agreed to this model, acknowledging that requiring prepayment helps protect the club\" - accepted billing on checked-in bookings, with only per-transaction vs monthly invoicing left open.",
+   "evidence_source": "summary_narration"
   },
   "close": {
    "score": 4,
-   "evidence": "\"Taylor Johnson concluded that while there were concerns, the system serves as a cost-effective way to manage calls during peak times\"; \"The team agreed to move forward once the onboarding form is reviewed and the Lightseed agreement is executed\"."
+   "evidence": "\"Taylor Johnson concluded that while there were concerns, the system serves as a cost-effective way to manage calls during peak times\"; \"The team agreed to move forward once the onboarding form is reviewed and the Lightseed agreement is executed\".",
+   "evidence_source": "summary_narration"
   },
   "trajectory": "rising"
  },

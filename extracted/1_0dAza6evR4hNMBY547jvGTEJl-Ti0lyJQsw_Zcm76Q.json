@@ -1,93 +1,96 @@
 {
-  "call_id": "1_0dAza6evR4hNMBY547jvGTEJl-Ti0lyJQsw_Zcm76Q",
-  "file_name": "Meeting started 2026/07/08 13:00 EDT - Notes by Gemini",
-  "doc_url": "https://docs.google.com/document/d/1_0dAza6evR4hNMBY547jvGTEJl-Ti0lyJQsw_Zcm76Q/edit",
-  "rep": "Jason",
-  "date": "2026-07-08",
-  "account_name": null,
-  "account_source": "unresolved",
-  "attendees": [
-    {
-      "name": "Dave Scott",
-      "org": "prospect",
-      "role": "facility-side contact: confirms current phone handling and tee sheet, and is to complete the onboarding form; title not stated in the doc"
-    },
-    {
-      "name": "Jason Doepke",
-      "org": "courserev",
-      "role": "rep running discovery, demo and pricing"
-    }
-  ],
-  "prospect_seniority": "unknown",
-  "meeting_type": "demo",
-  "content_tier": "thin",
-  "pain_points": [
-    "Inbound calls are taken on a shop cell phone",
-    "Calls go unanswered when the facility is closed",
-    "Non-revenue calls about rates and availability divert staff from in-person service (rep-framed via a National Golf Foundation figure of 67%)"
-  ],
-  "current_solution": "Golf Now for the tee sheet; inbound calls taken on a shop cell phone, with no coverage when the facility is closed.",
-  "demo_happened": true,
-  "features_demoed": [
-    "tee time booking",
-    "total pricing quoted on the call",
-    "text confirmation",
-    "weather guarantee",
-    "practice facility inquiry",
-    "restaurant inquiry"
-  ],
-  "prospect_questions": null,
-  "unanswered_questions": null,
-  "objections": [],
-  "sentiment": {
-    "open": {
-      "score": 3,
-      "evidence": "Operational status only, no reaction recorded: \"the shop relies on a cell phone and does not answer calls when the facility is closed\"; \"They confirm the use of Golf Now for their tee sheet\"."
-    },
-    "post_demo": {
-      "score": 4,
-      "evidence": "\"Dave Scott acknowledges that the demonstration was clear and the process appeared frictionless\"."
-    },
-    "at_pricing": null,
-    "close": {
-      "score": 4,
-      "evidence": "\"both parties agree to a follow-up conversation the following Monday\", with the onboarding form and standard agreement to be sent."
-    },
-    "trajectory": "insufficient_data"
+ "call_id": "1_0dAza6evR4hNMBY547jvGTEJl-Ti0lyJQsw_Zcm76Q",
+ "file_name": "Meeting started 2026/07/08 13:00 EDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/1_0dAza6evR4hNMBY547jvGTEJl-Ti0lyJQsw_Zcm76Q/edit",
+ "rep": "Jason",
+ "date": "2026-07-08",
+ "account_name": null,
+ "account_source": "unresolved",
+ "attendees": [
+  {
+   "name": "Dave Scott",
+   "org": "prospect",
+   "role": "facility-side contact: confirms current phone handling and tee sheet, and is to complete the onboarding form; title not stated in the doc"
   },
-  "call_path": [
-    "current phone operations discovery",
-    "delayed call-forwarding and AI agent proposal",
-    "live demo of the voice concierge",
-    "pricing",
-    "onboarding and implementation steps",
-    "Golf Now integration status and follow-up"
-  ],
-  "pivot_points": [
-    {
-      "at_stage": "live demo",
-      "what_changed": "the prospect acknowledged the demo was clear and the process frictionless, and the call moved on to pricing, onboarding and a scheduled follow-up",
-      "caused_by": "the live demonstration handling a booking, total pricing, a text confirmation, a weather guarantee, and practice facility and restaurant questions"
-    }
-  ],
-  "next_step_secured": true,
-  "next_step_has_date": true,
-  "next_step_description": "Jason Doepke to email the onboarding form link and the standard agreement detailing contract and pricing, and to call the client the following Monday to follow up on the materials and integration progress.",
-  "buying_signals": [
-    "Acknowledged the demonstration was clear and the process appeared frictionless",
-    "Agreed to a follow-up conversation the following Monday"
-  ],
-  "stalls": [
-    "No pre-built Golf Now integration today; one is expected within 30 days, and only then can the concierge read the tee sheet directly",
-    "The onboarding Google form (10 to 15 minutes) is not yet completed, so no prototype exists for review or approval",
-    "Delayed call forwarding still has to be configured with the facility's phone provider"
-  ],
-  "rep_commitments": [
-    "Email the onboarding form link",
-    "Send the standard agreement detailing the contract and pricing",
-    "Call the client the following Monday to follow up",
-    "Golf Now integration expected to be available within 30 days"
-  ],
-  "extraction_confidence": "low",
-  "confidence_notes": "Thin, summary-only Gemini notes: no Transcript section and 0 dialogue turns (triage char_count 4,548 -> content_tier thin). Zero objections is the finding, not an omission - the summary records no prospect resistance anywhere; the only friction in the doc, \"while there is currently no pre-built integration, the company expects one to be available within 30 days\", is raised by the rep, so it is recorded under stalls. prospect_next_move is therefore not applicable anywhere. at_pricing sentiment is null rather than a middle score: pricing was presented as \"a fee of $2.50 per round of golf that is booked and played through the voice concierge\" but the doc records no prospect reaction to it. trajectory is insufficient_data - three checkpoints carry evidence but a summary with no dialogue cannot establish movement across the call. Account is unresolved: no account in the title, no attendee emails, and no golf course named in the body; Golf Now is the incumbent tee sheet vendor and no demo-target course is named. prospect_seniority is the enum's 'unknown' - Dave Scott's title is never given. next_step_has_date is a judgement call: the follow-up is agreed for \"both parties agree to a follow-up conversation the following Monday\" with no calendar date. prospect_questions and unanswered_questions are null rather than empty arrays - the summary does not record the prospect's questions either way. Sentiment quotes are verbatim spans of Gemini's summary prose, not spoken dialogue."
+  {
+   "name": "Jason Doepke",
+   "org": "courserev",
+   "role": "rep running discovery, demo and pricing"
+  }
+ ],
+ "prospect_seniority": "unknown",
+ "meeting_type": "demo",
+ "content_tier": "thin",
+ "pain_points": [
+  "Inbound calls are taken on a shop cell phone",
+  "Calls go unanswered when the facility is closed",
+  "Non-revenue calls about rates and availability divert staff from in-person service (rep-framed via a National Golf Foundation figure of 67%)"
+ ],
+ "current_solution": "Golf Now for the tee sheet; inbound calls taken on a shop cell phone, with no coverage when the facility is closed.",
+ "demo_happened": true,
+ "features_demoed": [
+  "tee time booking",
+  "total pricing quoted on the call",
+  "text confirmation",
+  "weather guarantee",
+  "practice facility inquiry",
+  "restaurant inquiry"
+ ],
+ "prospect_questions": null,
+ "unanswered_questions": null,
+ "objections": [],
+ "sentiment": {
+  "open": {
+   "score": 3,
+   "evidence": "Operational status only, no reaction recorded: \"the shop relies on a cell phone and does not answer calls when the facility is closed\"; \"They confirm the use of Golf Now for their tee sheet\".",
+   "evidence_source": "summary_narration"
+  },
+  "post_demo": {
+   "score": 4,
+   "evidence": "\"Dave Scott acknowledges that the demonstration was clear and the process appeared frictionless\".",
+   "evidence_source": "summary_narration"
+  },
+  "at_pricing": null,
+  "close": {
+   "score": 4,
+   "evidence": "\"both parties agree to a follow-up conversation the following Monday\", with the onboarding form and standard agreement to be sent.",
+   "evidence_source": "summary_narration"
+  },
+  "trajectory": "insufficient_data"
+ },
+ "call_path": [
+  "current phone operations discovery",
+  "delayed call-forwarding and AI agent proposal",
+  "live demo of the voice concierge",
+  "pricing",
+  "onboarding and implementation steps",
+  "Golf Now integration status and follow-up"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "live demo",
+   "what_changed": "the prospect acknowledged the demo was clear and the process frictionless, and the call moved on to pricing, onboarding and a scheduled follow-up",
+   "caused_by": "the live demonstration handling a booking, total pricing, a text confirmation, a weather guarantee, and practice facility and restaurant questions"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": true,
+ "next_step_description": "Jason Doepke to email the onboarding form link and the standard agreement detailing contract and pricing, and to call the client the following Monday to follow up on the materials and integration progress.",
+ "buying_signals": [
+  "Acknowledged the demonstration was clear and the process appeared frictionless",
+  "Agreed to a follow-up conversation the following Monday"
+ ],
+ "stalls": [
+  "No pre-built Golf Now integration today; one is expected within 30 days, and only then can the concierge read the tee sheet directly",
+  "The onboarding Google form (10 to 15 minutes) is not yet completed, so no prototype exists for review or approval",
+  "Delayed call forwarding still has to be configured with the facility's phone provider"
+ ],
+ "rep_commitments": [
+  "Email the onboarding form link",
+  "Send the standard agreement detailing the contract and pricing",
+  "Call the client the following Monday to follow up",
+  "Golf Now integration expected to be available within 30 days"
+ ],
+ "extraction_confidence": "low",
+ "confidence_notes": "Thin, summary-only Gemini notes: no Transcript section and 0 dialogue turns (triage char_count 4,548 -> content_tier thin). Zero objections is the finding, not an omission - the summary records no prospect resistance anywhere; the only friction in the doc, \"while there is currently no pre-built integration, the company expects one to be available within 30 days\", is raised by the rep, so it is recorded under stalls. prospect_next_move is therefore not applicable anywhere. at_pricing sentiment is null rather than a middle score: pricing was presented as \"a fee of $2.50 per round of golf that is booked and played through the voice concierge\" but the doc records no prospect reaction to it. trajectory is insufficient_data - three checkpoints carry evidence but a summary with no dialogue cannot establish movement across the call. Account is unresolved: no account in the title, no attendee emails, and no golf course named in the body; Golf Now is the incumbent tee sheet vendor and no demo-target course is named. prospect_seniority is the enum's 'unknown' - Dave Scott's title is never given. next_step_has_date is a judgement call: the follow-up is agreed for \"both parties agree to a follow-up conversation the following Monday\" with no calendar date. prospect_questions and unanswered_questions are null rather than empty arrays - the summary does not record the prospect's questions either way. Sentiment quotes are verbatim spans of Gemini's summary prose, not spoken dialogue."
 }

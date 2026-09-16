@@ -82,6 +82,13 @@ for p in files:
             E(f"sentiment.{cp} must be an object or null"); continue
         if v.get("score") is not None and not (v.get("evidence") or "").strip():
             E(f"sentiment.{cp} has score {v.get('score')} with no evidence")
+        es = v.get("evidence_source")
+        if v.get("evidence") and es not in ("verbatim_speech", "summary_narration"):
+            E(f"sentiment.{cp}.evidence_source must be set, got {es!r}")
+        if es == "verbatim_speech" and not has_dialogue_src:
+            E(f"sentiment.{cp}.evidence_source=verbatim_speech but source has no transcript")
+        if re.search(r"\[(verbatim_speech|summary_narration)\]", v.get("evidence") or ""):
+            E(f"sentiment.{cp}.evidence has a provenance tag inlined - use evidence_source")
         ev = v.get("evidence")
         if ev and src is not None:
             qs = re.findall(r'"([^"]{12,})"', ev)

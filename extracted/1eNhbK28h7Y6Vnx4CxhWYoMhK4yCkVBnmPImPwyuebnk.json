@@ -1,0 +1,39 @@
+{
+  "call_id": "1eNhbK28h7Y6Vnx4CxhWYoMhK4yCkVBnmPImPwyuebnk",
+  "file_name": "Chat: CourseRev + The Links at Bodega Harbour - 2026/08/18 14:30 PDT - Notes by Gemini",
+  "doc_url": "https://docs.google.com/document/d/1eNhbK28h7Y6Vnx4CxhWYoMhK4yCkVBnmPImPwyuebnk/edit",
+  "rep": "Bo",
+  "date": "2026-08-18",
+  "account_name": "The Links at Bodega Harbour",
+  "account_source": "title",
+  "attendees": [
+    {"name": "Bo Ferrando", "org": "courserev", "role": "rep"}
+  ],
+  "prospect_seniority": null,
+  "meeting_type": "other",
+  "content_tier": "moderate",
+  "pain_points": [],
+  "current_solution": null,
+  "demo_happened": false,
+  "features_demoed": [],
+  "prospect_questions": [],
+  "unanswered_questions": [],
+  "objections": [],
+  "sentiment": {
+    "open": null,
+    "post_demo": null,
+    "at_pricing": null,
+    "close": null,
+    "trajectory": "insufficient_data"
+  },
+  "call_path": [],
+  "pivot_points": [],
+  "next_step_secured": false,
+  "next_step_has_date": false,
+  "next_step_description": null,
+  "buying_signals": [],
+  "stalls": [],
+  "rep_commitments": [],
+  "extraction_confidence": "low",
+  "confidence_notes": "Scheduled prospect chat that is not a held sales call, handled under rule 10. The title names The Links at Bodega Harbour and jneri@kempersports.com (KemperSports) is on the invite, but the recording captures only Bo Ferrando: six transcript turns across a 00:10:09 recording, every one of them his, and none containing sales content. The captured audio is unrelated stray material - a run of 'I am a fireman / I'm a doctor' style phrase drills at 00:01:57 and 00:02:49, then a monologue from 00:04:04 to 00:05:10 about a 2021 virtuous-victim-signalling study and about public religious behaviour. The words 'golf' and 'tee time' appear nowhere in the document, and 'CourseRev' only in the title and links. Consequently: demo_happened false, zero objections, all four sentiment checkpoints null with trajectory insufficient_data, and no next step (the Gemini notes carry no Next steps section at all). Gemini's Summary and Details sections describe that stray audio, not a meeting, so they are not usable as meeting content. The invitee is not listed under attendees because no prospect speech appears anywhere in the source. account_name is kept from the title since no other course is named and no demo target is dialled. Cross-reference from the batch list: a separate rich 537-turn doc for the same account dated 2026-08-19 (file_id 1PLBFE2QjJLNFd_oBuEYgJnDGC57nEuNgcn-l1ZJKnnE) exists and is the more likely record of the held conversation."
+}

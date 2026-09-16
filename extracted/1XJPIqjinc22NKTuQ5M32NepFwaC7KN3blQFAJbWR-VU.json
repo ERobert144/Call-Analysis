@@ -1,0 +1,231 @@
+{
+ "call_id": "1XJPIqjinc22NKTuQ5M32NepFwaC7KN3blQFAJbWR-VU",
+ "file_name": "CourseRev + Ocean Course Hokuala - 2026/08/31 11:30 PDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/1XJPIqjinc22NKTuQ5M32NepFwaC7KN3blQFAJbWR-VU/edit",
+ "rep": "Bo",
+ "date": "2026-08-31",
+ "account_name": "Ocean Course Hokuala",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Bo Ferrando",
+   "org": "courserev",
+   "role": null
+  },
+  {
+   "name": "Elias Gross",
+   "org": "courserev",
+   "role": null
+  },
+  {
+   "name": "Tom Freestone",
+   "org": "prospect",
+   "role": "General Manager"
+  }
+ ],
+ "prospect_seniority": "GM",
+ "meeting_type": "demo",
+ "content_tier": "rich",
+ "pain_points": [
+  "Golf shop team cannot adapt to how phone calls need to be handled - Tom: 'we're struggling with our golf shop team right now'",
+  "The admin office was moved away from the golf shop during temporary relocations, so phone calls stopped being supported by the management team",
+  "Service quality varies by shift and by who picks up; Tom said of relying on human staff 'I can't rely on that right?'",
+  "Two people in the shop handle roughly 2,000-2,500 bookings a month with back-end support",
+  "Most inbound calls are rate-qualification calls (Hawaii resident rates are unpublished, industry rates, membership) that need research and rapport before a rate can be quoted",
+  "Phone accounts for 'at least 30 35% on a weekday' of bookings and about 60% at weekends, so call quality directly drives revenue",
+  "A hard cap of about 120 players a day means the shop has to sell value rather than fill the sheet, which makes every call a sales conversation",
+  "Tom said the operation has been 'put in a very bad spot by the convenience of answering a telephone' over the last two years"
+ ],
+ "current_solution": "Phones handled in-house by the golf shop: the Easy Links phone-call service was stripped away during COVID and the work moved into the shop. Two shop staff plus back-end support; the shop switches over to the call centre in the evening. Access tee sheet through Troon/Indigo Sports, with the Notify waitlist tool turned on. Fully prepaid online and through the call centre; phone bookings taken direct are paid at check-in. Tom and his assistant golf professional have built their own AI models over about three and a half years to encode the property's brand and sales flow.",
+ "demo_happened": true,
+ "features_demoed": [
+  "Live AI voice call to an existing client course (The Divide, North Carolina) played over speaker",
+  "Weather forecast lookup mid-call before booking",
+  "Recovery when the caller changed the requested day, and a knowledge-base miss on practice facilities handled by offering to connect to the pro shop",
+  "Tee time search with nearby alternative times offered, and a course-condition heads-up about top dressing",
+  "Double-confirmation flow: full read-back of date, time, player count, holes, per-player and total price before locking in, built for the Divide's retirement-community clientele (sister course Highland Creek runs without it)",
+  "Cart inclusion, pay-at-counter, and SMS confirmation containing the booking link, a cancel link and a weather-guarantee upsell link"
+ ],
+ "prospect_questions": [
+  "You mentioned Kapalua - do you know who you worked with over there?",
+  "Are you willing to work with us to become customizable to the point where we deliver the message that we want to deliver?",
+  "Is there a percentage model we could come up with that is more favourable for you on the higher end?",
+  "Is the fee per phone call or per booking?",
+  "Do we go ahead and turn it on and then see what happens?",
+  "Is the data access just for the phone calls coming in, or the tee sheet and everything else?",
+  "Have you run across the customer-data boundary question before?",
+  "Does that sound like a fair to-do list?"
+ ],
+ "unanswered_questions": [
+  "Whether a percentage or tiered pricing model is possible instead of a flat per-round fee - Elias clarified the flat fee is charged per round checked in but did not respond to the percentage proposal; Tom then proposed adding a booking fee to low and complimentary rates himself",
+  "Where exactly the customer-data boundaries sit - Elias said 'we would need to be a little bit more specific about where those boundaries are' and described the range of configurations without settling on one",
+  "Whether current ownership will allow a new contract to be signed ahead of the potential ownership change"
+ ],
+ "objections": [
+  {
+   "trigger_quote": "we're not as straightforward as as that booking, right?",
+   "quote_source": "verbatim_speech",
+   "category": "ai_quality_doubt",
+   "rep_response_summary": "Elias said that the demoed call was only what a public booking sounds like and that CourseRev has many different setups across its courses, allowed that it might not be the exact one Tom had in mind, and asked Tom to walk through what his team asks a new caller in order to place them on the right rate.",
+   "response_tactic": "reference_customer",
+   "prospect_next_move": "re_raised_later",
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "we might not be the best client right from the get-go",
+   "quote_source": "verbatim_speech",
+   "category": "other",
+   "rep_response_summary": "Elias said he was glad to hear it because CourseRev's big improvements come from iteration, and described the in-house tool that pushes all call logs through AI analysis to improve both the general system and specific properties.",
+   "response_tactic": "reframe",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": true
+  },
+  {
+   "trigger_quote": "the biggest thing here guys is are you willing to work with us to become customizable to the point where we deliver the message that we want to deliver?",
+   "quote_source": "verbatim_speech",
+   "category": "other",
+   "rep_response_summary": "Elias said CourseRev will build anything as long as it is tenable, named the real limits (tech not being there, an integration layer being needed), cited the range of existing customer journeys from live a week after signing to three months of fine-tuning, and said they never want to be the reason a course is slow to go live. Tom had paired the question with an explicit alternative: if it is not possible he would keep building his own tooling and check back later.",
+   "response_tactic": "reference_customer",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": true
+  },
+  {
+   "trigger_quote": "is there a percentage model that we could come up with to where maybe it's a little bit more favorable for you guys up on the higher end",
+   "quote_source": "verbatim_speech",
+   "category": "price",
+   "rep_response_summary": "Elias did not take up the percentage model. He clarified the charging basis instead: 'It's per round checked in.' - information calls, no-shows and cancellations are uncharged, and the fee only applies once a golfer checks in at the shop.",
+   "response_tactic": "feature_explanation",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": true
+  },
+  {
+   "trigger_quote": "why don't you send me the legal agreement because I do need to I'm obviously these days I got to run it up to true and legal all that sort of stuff",
+   "quote_source": "verbatim_speech",
+   "category": "approval_authority",
+   "rep_response_summary": "Bo committed to sending the agreement soon and offered to meet with any Troon department, legal included, if that would help move the approval along.",
+   "response_tactic": "defer_to_followup",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "Another thing that may hold us up just a little bit, guys, is I have a new ownership um potential.",
+   "quote_source": "verbatim_speech",
+   "category": "timing_seasonality",
+   "rep_response_summary": "Bo probed the timeline and established that the transition, if it happens, would land before the end of the year, then reframed it out of the immediate path: 'then we don't really need to loop in the new ownership yet because that's still roughly a couple months away'. Tom had flagged that some parties do not want contracts and legal agreements starting up now.",
+   "response_tactic": "reframe",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": false
+  },
+  {
+   "trigger_quote": "we got to have some boundaries in that too",
+   "quote_source": "verbatim_speech",
+   "category": "security_privacy",
+   "rep_response_summary": "Elias said the boundaries would need to be defined more specifically, then laid out the range: the system can be set so CourseRev only sees incoming bookings; it works best with access to customer data so callers are recognised, but every call can instead come in fresh with CourseRev gathering phone number, email and payment details itself - 'We can be as blind as you you want us to be.' He added that their data analysis only aggregates bookings in house.",
+   "response_tactic": "feature_explanation",
+   "prospect_next_move": "accepted",
+   "resolved_in_call": true
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 5,
+   "evidence": "Tom opened already sold on the category: \"myself and my assistant golf professional are locked in. We use AI all the time for everything that we're doing\". He had done homework for the meeting - \"I have actually prepped today by kind of putting together something.\" - and volunteered the pain unprompted: \"we're struggling with our golf shop team right now\".",
+   "evidence_source": "verbatim_speech"
+  },
+  "post_demo": {
+   "score": 4,
+   "evidence": "Engaged but with a clear caveat that the demoed flow was simpler than theirs: \"we're not as straightforward as as that booking, right?\" and \"We don't know who our guest is until they call us and until we get into some research.\" He immediately added \"I feel like I feel like the AI model can do it as long as it's trained to do it right.\" and took over the meeting to roleplay his own sales call for CourseRev to learn from.",
+   "evidence_source": "verbatim_speech"
+  },
+  "at_pricing": {
+   "score": 4,
+   "evidence": "Brief friction on the flat fee against low-value rounds - Tom asked \"is there a percentage model that we could come up with to where maybe it's a little bit more favorable for you guys up on the higher end\" and said \"I'm worried that\" about the lower end. Once Elias clarified the charge is per round checked in, Tom solved it himself: \"any any round that could be considered complimentary tea time or something now just needs to have a little bit of a booking fee or something on top of that\", then moved straight on to \"the goal is for it to handle 95% of the phone calls\".",
+   "evidence_source": "verbatim_speech"
+  },
+  "close": {
+   "score": 5,
+   "evidence": "Tom asked for the agreement unprompted and said \"I really appreciate what you guys are doing. I think you guys got a lot of value\" and \"if it were up to just simply saying yes and going for it,\" \"we would be already going for it\". The holdups he named were external process, not reluctance, and he volunteered that CourseRev's Kapalua relationship helps: \"It is good that you guys have something going with Capalooa\" because \"that'll make this a little easier\".",
+   "evidence_source": "verbatim_speech"
+  },
+  "trajectory": "v_shaped"
+ },
+ "call_path": [
+  "Pre-call between the two CourseRev attendees while waiting for the prospect",
+  "Introductions and course context (island green, lagoons, ocean holes)",
+  "Prospect-led framing: the team already uses AI daily and has prepped materials",
+  "Discovery: pro shop staffing problems, phone service pulled back from Easy Links during COVID, admin office relocated",
+  "Discovery: sales strategy of not leading with rack rate, rate-qualification calls, Hawaii resident and industry rates",
+  "Discovery metrics: 2,000-2,500 bookings a month, two staff, 30-35% weekday / 60% weekend phone share, 120-player daily cap",
+  "Platform and integration: Access tee sheet via Troon, Notify waitlist, CourseRev's recent Access integration",
+  "Customization philosophy stated by CourseRev before the demo",
+  "Prospect's screen share failed, so the order flipped and CourseRev demoed first",
+  "Live AI voice demo to The Divide plus the double-confirmation explanation",
+  "Prospect objection that his booking journey is not that simple",
+  "Prospect-led roleplay of his own live sales call (Malama program, scramble clinic, resort and dynamic rates, rental clubs, notes)",
+  "CourseRev response: prepay and card-hold options, PCI-compliant payment links, upsell at checkout",
+  "Consistency-of-delivery discussion: why Tom wants AI over shift-dependent humans",
+  "Iteration model and call-log analysis; Kapalua as a brand fine-tuning benchmark",
+  "Pricing: $2.50 per round checked in, uncharged for information calls, no-shows and cancellations",
+  "Customization commitment ultimatum and CourseRev's affirmative answer",
+  "Commercial adjustment: booking fee on low and complimentary rates; 95% call-handling goal",
+  "Onboarding mechanics: agreement, onboarding form, assigned AI line, knowledge base, invisible until call forwarding is switched",
+  "Blockers: Troon legal approval, potential ownership change, customer-data boundaries",
+  "Next steps and contact details"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "~00:14, prospect attempting to share his prepped AI materials",
+   "what_changed": "The planned order flipped. Tom's screen share glitched, so CourseRev demoed first instead of reacting to Tom's own AI build, and Tom's material was never shown on screen - it became a next-step deliverable to send over instead.",
+   "caused_by": "Tom: 'Sorry, it's glitching a little bit right now.' followed by his suggestion to switch gears and have CourseRev roll"
+  },
+  {
+   "at_stage": "Immediately after the CourseRev demo (~00:23)",
+   "what_changed": "Tom took control of the meeting and roleplayed a real inbound sales call end to end, which turned the rest of the session from a product pitch into a discovery of his sales script. Everything after this - upsell at checkout, rate-routing logic, knowledge base design - was framed against that script.",
+   "caused_by": "Elias asking Tom to walk through what his team asks a new caller, and Tom answering 'let's let's do a let's do a demo for you.'"
+  },
+  {
+   "at_stage": "Customization commitment (~00:43-00:45)",
+   "what_changed": "Tom put a direct yes-or-no to CourseRev with a stated walk-away, and Elias's affirmative moved the call out of evaluation: from that point the conversation was about the agreement, onboarding form, AI line and knowledge base rather than about whether to proceed.",
+   "caused_by": "Tom asking whether CourseRev is willing to customize to the point where the course delivers its own message, versus him continuing to build his own tooling and checking back later"
+  },
+  {
+   "at_stage": "Ownership discussion (~00:54-00:55)",
+   "what_changed": "The potential ownership change was moved off the critical path for now, and the parties agreed to proceed under the current management structure.",
+   "caused_by": "Bo probing whether the ownership change was certain and on what timeline, then concluding 'then we don't really need to loop in the new ownership yet because that's still roughly a couple months away'"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": false,
+ "next_step_description": "Bo to send the legal agreement; Tom to run it up to Troon legal and management for approval and to check that current ownership is comfortable signing ahead of a possible ownership change. Tom to send CourseRev the prep work and AI training material he built for the property. Elias to create the onboarding form covering player types and cancellation policy, follow up in the email thread with Tom and Bo, and include his personal cell in his signature. CourseRev then assigns an AI line and stands up a base model. No dates were set for any step.",
+ "buying_signals": [
+  "Tom and his assistant golf professional already use AI daily and have spent about three and a half years training their own model on the property's brand",
+  "Tom prepared materials specifically for this meeting and tried to share them",
+  "Tom volunteered a full roleplay of his live sales script so CourseRev could learn the flow",
+  "Tom asked for the legal agreement unprompted rather than being asked to take it",
+  "Tom said that if it were simply up to saying yes they would already be going for it",
+  "Tom proposed adding a booking fee to low and complimentary rates himself to make the per-round model work for both sides",
+  "Tom set a target of the AI handling about 95% of phone calls",
+  "Tom said he has really considered unplugging the telephone altogether",
+  "Tom volunteered that CourseRev's existing Kapalua relationship makes this easier for him internally",
+  "Cell numbers already exchanged with Bo; Elias offered text, call or email at any time"
+ ],
+ "stalls": [
+  "Troon legal review and approval required before signing",
+  "Potential ownership change before the end of the year; Tom noted some parties do not want contracts and legal agreements starting up now",
+  "Customer-data and tee-sheet access boundaries still to be defined",
+  "Juan Gonzalez, the second invited prospect stakeholder, did not join - he was sent out to play with a golf writer",
+  "Tom flagged that the training volume needed means they may not be an easy client at the start"
+ ],
+ "rep_commitments": [
+  "Bo to send the legal agreement soon",
+  "Bo and CourseRev available to meet any Troon department, legal included, about the approval",
+  "Elias to follow up in the email thread with Tom and Bo, with his personal cell in his signature and open to text, call or email at any time",
+  "Elias to send a brief onboarding form covering player types and cancellation policy",
+  "Assign an AI line and stand up a base model with standard booking options within a few days",
+  "Build a property knowledge base from Tom's input, the website and public-domain information, including the rate-routing rules for the Malama program, scramble clinic and public rates",
+  "Keep iterating on custom flows for as long as it takes, without slowing down go-live",
+  "Support prepaid or credit-card-hold payment via PCI-compliant payment links, and checkout upsells such as rental clubs, balls or meals"
+ ],
+ "extraction_confidence": "high",
+ "confidence_notes": "Full 56:27 verbatim transcript, 436 turns, no screenshots. Account name is unambiguous from the title and confirmed in Tom's roleplay greeting for 'the ocean course'. The Divide in North Carolina is the course dialled during the demo, not the prospect, and Highland Creek is named only as the Divide's sister course - neither is the account. Two judgement calls: (a) meeting_type is recorded as 'demo' but the call spans discovery, a live demo, a prospect-led roleplay, pricing and onboarding mechanics, and ends with an agreement being sent, so 'discovery' or 'negotiation' are also arguable; (b) the sentiment dip is one point wide and all four checkpoints sit in the positive band, so 'flat' is an arguable alternative to 'v_shaped'. Two CourseRev people attended and Elias Gross carried most of the substance, while the rep field records Bo per the source folder. Juan Gonzalez was on the invitee list but did not join - Bo described him as Tom's right-hand man and Tom said he had been sent out to play with a golf writer - so he is not listed as an attendee. Tom Freestone is referred to only as 'Tom' throughout the transcript; the surname comes from the invitee list and Bo's pre-call. Speech-to-text garbles proper nouns throughout: Hokuala as 'hook walls', Troon as 'Trune'/'true and', Kapalua as 'Copalua'/'Capalooa', Kauai as 'Kawaii', Easy Links, and prices such as '$1498' for the demo total. Pricing is stated as '$2.50 player booking' by Bo and 'per round checked in' by Elias."
+}

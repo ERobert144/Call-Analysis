@@ -1,0 +1,121 @@
+{
+ "call_id": "1jPjVlJ67PtF60dh-W4U4BNb4gRakrFEXmUbGG9ZhFvI",
+ "file_name": "CourseRev + Temecula Creek Inn - Quick Chat - 2026/05/18 12:44 PDT - Notes by Gemini",
+ "doc_url": "https://docs.google.com/document/d/1jPjVlJ67PtF60dh-W4U4BNb4gRakrFEXmUbGG9ZhFvI/edit",
+ "rep": "Bo",
+ "date": "2026-05-18",
+ "account_name": "Temecula Creek Inn",
+ "account_source": "title",
+ "attendees": [
+  {
+   "name": "Peter Wininger",
+   "org": "prospect",
+   "role": null
+  },
+  {
+   "name": "Bo Ferrando",
+   "org": "courserev",
+   "role": "rep"
+  }
+ ],
+ "prospect_seniority": "unknown",
+ "meeting_type": "demo",
+ "content_tier": "rich",
+ "pain_points": [
+  "Prospect does not know how the resort's existing answering service handles inbound golf calls; he names that unfamiliarity as what prompted him to take this call",
+  "Prospect describes the resort's current system as very general, with nothing fancy about it"
+ ],
+ "current_solution": "Club Profit tee-sheet software at the facility (confirmed by the prospect), with inbound calls going through a resort answering service whose workings the prospect says he is not familiar with",
+ "demo_happened": true,
+ "features_demoed": [
+  "Live inbound AI booking call placed by the rep to Highland Creek Golf Club (the demo target course, not the prospect)",
+  "Caller recognition from data held in the course's backend system",
+  "Player-type qualification (public vs senior rate)",
+  "Tee-sheet availability lookup, rate quote and tee-time confirmation",
+  "Pay-at-the-pro-shop handling, with no card taken during the call",
+  "Confirmation text containing booking link, reminders and a weather-guarantee add-on"
+ ],
+ "prospect_questions": [
+  "Whether any courses in SoCal are using the system right now, and specifically a contact he could call directly",
+  "Request to have pricing sent over",
+  "Whether the AI could cover the resort's hotel reservations and restaurant, which he said they would want to have the capability of doing"
+ ],
+ "unanswered_questions": [
+  "Which specific Southern California courses use CourseRev - no course was named during the call; the rep committed to source a comparable resort contact through CourseRev's head of operations afterwards"
+ ],
+ "objections": [
+  {
+   "trigger_quote": "we are a resort, so there's a bit larger component to that",
+   "category": "other",
+   "quote_source": "verbatim_speech",
+   "rep_response_summary": "Bo acknowledged the resort complexity, stated CourseRev would not be able to take the hotel reservations, and described IVR routing instead: if a caller selects the pro shop option, the call forwards to a CourseRev number and the AI answers tee-time booking inquiries. He then committed to send a comparable golf resort contact.",
+   "response_tactic": "feature_explanation",
+   "prospect_next_move": null,
+   "resolved_in_call": null
+  }
+ ],
+ "sentiment": {
+  "open": {
+   "score": 3,
+   "evidence": "Cordial but rushed and technically troubled start - microphone problems plus a stated hard stop: \"I got I got a heart out here in about 10 10\" (transcription of 'hard out'). No enthusiasm or resistance markers either way.",
+   "evidence_source": "verbatim_speech"
+  },
+  "post_demo": {
+   "score": 4,
+   "evidence": "Asked whether he had questions on capabilities right after the live booking call, the prospect answered \"No, that's pretty that's pretty straightforward.\" and immediately moved to asking for pricing and a reference contact.",
+   "evidence_source": "verbatim_speech"
+  },
+  "at_pricing": {
+   "score": 3,
+   "evidence": "The only recorded reaction to the $2.50-per-booking, paid-only-if-the-player-shows model was \"Okay.\", followed by assent to having the service agreement sent. No price pushback and no stated enthusiasm.",
+   "evidence_source": "verbatim_speech"
+  },
+  "close": {
+   "score": 3,
+   "evidence": "Declined further material - \"I think we hold off on that right now.\" and \"I think I have pretty much everything\" - while still accepting the agreement and naming a check-in window, \"probably by Friday afternoon\".",
+   "evidence_source": "verbatim_speech"
+  },
+  "trajectory": "flat"
+ },
+ "call_path": [
+  "intro_and_value_pitch",
+  "live_ai_booking_demo_call",
+  "tee_sheet_integration_check",
+  "reference_request",
+  "resort_scope_limits",
+  "pricing",
+  "next_step_scheduling"
+ ],
+ "pivot_points": [
+  {
+   "at_stage": "post_demo",
+   "what_changed": "Prospect moved from short acknowledgements to actively requesting pricing and the contact details of a SoCal course he could call",
+   "caused_by": "the live AI call to Highland Creek Golf Club completing a tee-time booking end to end"
+  },
+  {
+   "at_stage": "resort_scope_limits",
+   "what_changed": "Scope narrowed from whole-resort call handling to pro-shop tee-time calls routed in through an IVR menu option",
+   "caused_by": "Bo stating CourseRev would not be able to take hotel reservations or restaurant bookings"
+  }
+ ],
+ "next_step_secured": true,
+ "next_step_has_date": true,
+ "next_step_description": "Bo to send the service agreement plus a contact at a comparable golf resort, then check in by message or call at 1:00 p.m. on Friday; the prospect agreed to that slot.",
+ "buying_signals": [
+  "Asked for pricing to be sent over",
+  "Asked for a contact at a comparable SoCal course so he could call them himself",
+  "Agreed to have the service agreement sent for his review",
+  "Agreed to a specific follow-up slot of Friday at 1:00 p.m.",
+  "Confirmed the facility runs Club Profit, for which Bo said a native integration exists"
+ ],
+ "stalls": [
+  "Declined additional technical literature for now, saying he had pretty much everything and would reach out if he needed something"
+ ],
+ "rep_commitments": [
+  "Send contact information for a comparable golf resort reference, sourced via CourseRev's head of operations",
+  "Send the service agreement for review",
+  "Follow up by message or call at 1:00 p.m. on Friday"
+ ],
+ "extraction_confidence": "medium",
+ "confidence_notes": "Full verbatim transcript of an 11-minute call, so account, demo, pricing, next steps and the single objection are directly evidenced. Confidence is held at medium for one reason: the transcript interleaves the two speakers mid-sentence, so the prospect's short interjections ('Yeah.', 'Okay.') cannot be reliably attached to the rep utterance they follow. prospect_next_move and resolved_in_call on the resort-scope objection are therefore null rather than read off backchannel, which rule 2 forbids. Other notes: the demo AI's speech is transcribed under Bo Ferrando's speaker label, so lines in the 00:03:07-00:05:00 range alternate between rep and AI under one name. Highland Creek Golf Club is the course the rep dialled to demonstrate, not the prospect (rule 8). Two contradictory statements about prior awareness appear at a point where the prospect's audio cut out - 'I have heard of course rev before' and 'I haven't heard of your company before' - so neither is recorded as fact. During the demo the AI quoted '$55 per player on Mondays' for a $110 total and then stated 'The rate came through at $90 per player for a total of $180.'; the prospect made no recorded comment on the discrepancy. Bo raised the possibility that a resort decision goes up another layer; the prospect's only recorded response was a backchannel 'Yeah.', which is not enough to code approval authority."
+}

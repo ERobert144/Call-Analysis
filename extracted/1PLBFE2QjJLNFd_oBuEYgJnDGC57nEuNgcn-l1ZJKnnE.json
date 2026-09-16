@@ -77,75 +77,79 @@
  "objections": [
   {
    "trigger_quote": "Yeah, I guess the question is how much less?",
+   "quote_source": "verbatim_speech",
    "category": "price",
    "rep_response_summary": "Bo framed the saving as recovered revenue from missed and after-hours calls plus pro shop labour redeployed elsewhere, sized it at 'tens of thousands, you know, if not more', then gave the rate: a standard per-successful-booking price against a $2 per booking preferred rate for Kemper Sports properties, charged only on completed bookings.",
    "response_tactic": "roi_math",
    "prospect_next_move": "partially_accepted",
-   "resolved_in_call": true,
-   "quote_source": "verbatim_speech"
+   "resolved_in_call": true
   },
   {
    "trigger_quote": "out of a 100 callers, how many would you say are um not continuing the call because of AI?",
+   "quote_source": "verbatim_speech",
    "category": "ai_quality_doubt",
    "rep_response_summary": "Bo did not give an abandonment figure. He answered the second half, explaining the flow is configurable so callers reach a human by pressing a number for the pro shop, and that the AI is prompted to watch for keywords such as asking for a human, the pro shop, staff or customer service.",
    "response_tactic": "feature_explanation",
    "prospect_next_move": "accepted",
-   "resolved_in_call": true,
-   "quote_source": "verbatim_speech"
+   "resolved_in_call": true
   },
   {
    "trigger_quote": "There was just like a huge kind of awkward pause in between while we were waiting",
+   "quote_source": "verbatim_speech",
    "category": "ai_quality_doubt",
    "rep_response_summary": "Bo answered 'Yeah.' and did not address the latency; John added that he thought the call had dropped. Jetan closed the point himself and moved straight to asking for other client courses he could call and test independently, which Bo agreed to send.",
    "response_tactic": "acknowledge_only",
    "prospect_next_move": "went_quiet",
-   "resolved_in_call": false,
-   "quote_source": "verbatim_speech"
+   "resolved_in_call": false
   },
   {
    "trigger_quote": "Because we don't want to surprise anyone walking in",
+   "quote_source": "verbatim_speech",
    "category": "integration",
    "rep_response_summary": "Bo said he did not have an answer, believed CourseRev did support it, and messaged the head of operations during the call. He said he did not foresee it being an issue and offered dashboard call transcriptions as a way for managers to verify what rate the AI quoted. No answer from operations arrived before the call ended.",
    "response_tactic": "defer_to_followup",
    "prospect_next_move": "re_raised_later",
-   "resolved_in_call": false,
-   "quote_source": "verbatim_speech"
+   "resolved_in_call": false
   },
   {
    "trigger_quote": "we have to run everything by the board once we kind of talk to our management teams",
+   "quote_source": "verbatim_speech",
    "category": "approval_authority",
    "rep_response_summary": "Bo accepted the constraint and reframed the ask to a smaller step: send the agreement for review with no signature expected, plus reference course numbers and the going-live documentation, offer a further call with other HOA or Kemper Sports people, and only then start the 30-day trial. Earlier in the call John had also flagged regional manager Ralph as a person he still needed to brief.",
    "response_tactic": "reframe",
    "prospect_next_move": "accepted",
-   "resolved_in_call": false,
-   "quote_source": "verbatim_speech"
+   "resolved_in_call": false
   },
   {
    "trigger_quote": "There's no obligation. I mean, we're probably on a monthto month, that kind of thing.",
+   "quote_source": "verbatim_speech",
    "category": "contract_terms",
    "rep_response_summary": "Bo confirmed '100%' and pointed to dashboard access where the course can toggle the AI voice and chatbot on or off at any time, with settings under the course's own control and an account manager available for anything unclear.",
    "response_tactic": "feature_explanation",
    "prospect_next_move": "accepted",
-   "resolved_in_call": true,
-   "quote_source": "verbatim_speech"
+   "resolved_in_call": true
   }
  ],
  "sentiment": {
   "open": {
    "score": 4,
-   "evidence": "John was warm and had already tried calling a CourseRev client number unprompted before the meeting. He said there is \"a little bit of a need for the AI\" at the facility, while flagging the reservation \"I just don't want to lose that personal touch\"."
+   "evidence": "John was warm and had already tried calling a CourseRev client number unprompted before the meeting. He said there is \"a little bit of a need for the AI\" at the facility, while flagging the reservation \"I just don't want to lose that personal touch\".",
+   "evidence_source": "verbatim_speech"
   },
   "post_demo": {
    "score": 3,
-   "evidence": "Jetan's first reaction was a criticism: \"There was just like a huge kind of awkward pause in between while we were waiting\", and John added \"I thought it might have dropped.\" Both then kept engaging, asking detailed questions on rate handling, guests, payments and integration."
+   "evidence": "Jetan's first reaction was a criticism: \"There was just like a huge kind of awkward pause in between while we were waiting\", and John added \"I thought it might have dropped.\" Both then kept engaging, asking detailed questions on rate handling, guests, payments and integration.",
+   "evidence_source": "verbatim_speech"
   },
   "at_pricing": {
    "score": 4,
-   "evidence": "John called it \"Preferred savings that you mentioned.\" and later recapped the terms to his GM unprompted and favourably: \"they charge uh $250 per successful booking, but we get a preferred rate of $2 per booking if if it's completed\". He did challenge whether the preferred rate was real by asking if any Kemper property was actually active."
+   "evidence": "John called it \"Preferred savings that you mentioned.\" and later recapped the terms to his GM unprompted and favourably: \"they charge uh $250 per successful booking, but we get a preferred rate of $2 per booking if if it's completed\". He did challenge whether the preferred rate was real by asking if any Kemper property was actually active.",
+   "evidence_source": "verbatim_speech"
   },
   "close": {
    "score": 4,
-   "evidence": "John said \"Okay, cool. Right on.\" after the toggle and month-to-month confirmation, and both John and Jetan gave Bo their mobile numbers when he asked at the end. Against that, John pushed the follow-up out - \"I think maybe two to four weeks is more reasonable\" - citing \"we're just high season right now and lots of meetings and so this is such a new concept\"."
+   "evidence": "John said \"Okay, cool. Right on.\" after the toggle and month-to-month confirmation, and both John and Jetan gave Bo their mobile numbers when he asked at the end. Against that, John pushed the follow-up out - \"I think maybe two to four weeks is more reasonable\" - citing \"we're just high season right now and lots of meetings and so this is such a new concept\".",
+   "evidence_source": "verbatim_speech"
   },
   "trajectory": "v_shaped"
  },

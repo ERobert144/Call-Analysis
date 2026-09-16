@@ -30,8 +30,10 @@ reconstructing from memory.
     "resolved_in_call": true
   }],
   "sentiment": {
-    "open": {"score": 3, "evidence": ""}, "post_demo": {"score": 3, "evidence": ""},
-    "at_pricing": {"score": 3, "evidence": ""}, "close": {"score": 3, "evidence": ""},
+    "open":       {"score": 3, "evidence": "", "evidence_source": "verbatim_speech | summary_narration"},
+    "post_demo":  {"score": 3, "evidence": "", "evidence_source": "verbatim_speech | summary_narration"},
+    "at_pricing": {"score": 3, "evidence": "", "evidence_source": "verbatim_speech | summary_narration"},
+    "close":      {"score": 3, "evidence": "", "evidence_source": "verbatim_speech | summary_narration"},
     "trajectory": "rising | flat | declining | v_shaped | insufficient_data"
   },
   "call_path": [], "pivot_points": [{"at_stage": "", "what_changed": "", "caused_by": ""}],
@@ -62,7 +64,9 @@ reconstructing from memory.
      concern ("Taylor Johnson raised concerns about..."). Real evidence, but it
      is the notetaker's paraphrase, not speech.
    A doc with no Transcript section can only ever yield `summary_narration`.
-   The same applies to sentiment evidence. Treating narration as speech would
+   Sentiment checkpoints carry the same distinction in `evidence_source`.
+   Put it in that field - never inline a tag into the evidence text itself,
+   which corrupts the quote. Treating narration as speech would
    let Phase 4 quote a prospect saying something they never said.
 5. **Zero objections is a real finding.** Do not manufacture one to fill the array.
 6. **Do not editorialise about rep performance.** No "the rep should have...".
