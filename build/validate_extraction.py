@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Enforce the extraction rules mechanically. Exit 1 on any hard failure."""
 import json, glob, os, sys, re
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from cacheio import load_text
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CATS = {"price","integration","staff_adoption","call_volume_doubt","ai_quality_doubt",
@@ -24,8 +26,8 @@ for p in files:
     except Exception as e:
         E(f"unparseable JSON: {e}"); continue
 
-    src_path = os.path.join(BASE, "cache", f"{cid}.txt")
-    src = norm(open(src_path, encoding="utf-8", errors="replace").read()) if os.path.exists(src_path) else None
+    raw_src = load_text(BASE, cid)
+    src = norm(raw_src) if raw_src else None
     if src is None:
         W("no cached source text - quotes unverifiable")
 
